@@ -1,0 +1,305 @@
+{
+  "trained_at": "2026-11-07T13:45:21+00:00",
+  "data": "synthetic UK households, spending calibrated to ONS LCF FYE2025 (see calibration.py)",
+  "n_households": 3000,
+  "n_snapshots": 9000,
+  "features": [
+    "balance_now",
+    "buffer_days",
+    "min_balance_90d",
+    "days_overdrawn_90d",
+    "spend_to_income_90d",
+    "essentials_share",
+    "income_volatility",
+    "income_change_30d",
+    "spending_trend_30d",
+    "housing_increase",
+    "bnpl_share",
+    "payday_loans_90d",
+    "gambling_share",
+    "unexpected_bills_share",
+    "savings_rate",
+    "days_to_next_income"
+  ],
+  "horizons": {
+    "30d": {
+      "base_rate_train": 0.2657,
+      "test_auc": 0.9794,
+      "test_auc_not_recently_overdrawn": 0.9157,
+      "base_rate_not_recently_overdrawn": 0.0288,
+      "test_brier": 0.0453,
+      "best_iteration": 189,
+      "fairness_by_income_band": [
+        {
+          "group": "<\u00a31.2k",
+          "n": 450,
+          "observed_rate": 0.311,
+          "mean_predicted": 0.301,
+          "auc": 0.973,
+          "flag_rate_high": 0.324,
+          "precision_high": 0.87
+        },
+        {
+          "group": "\u00a31.2k-2k",
+          "n": 618,
+          "observed_rate": 0.265,
+          "mean_predicted": 0.276,
+          "auc": 0.984,
+          "flag_rate_high": 0.288,
+          "precision_high": 0.871
+        },
+        {
+          "group": "\u00a32k-3k",
+          "n": 465,
+          "observed_rate": 0.237,
+          "mean_predicted": 0.237,
+          "auc": 0.977,
+          "flag_rate_high": 0.254,
+          "precision_high": 0.822
+        },
+        {
+          "group": "\u00a33k+",
+          "n": 267,
+          "observed_rate": 0.154,
+          "mean_predicted": 0.17,
+          "auc": 0.982,
+          "flag_rate_high": 0.18,
+          "precision_high": 0.792
+        }
+      ],
+      "fairness_by_income_type": [
+        {
+          "group": "apprentice",
+          "n": 159,
+          "observed_rate": 0.239,
+          "mean_predicted": 0.27,
+          "auc": 0.996,
+          "flag_rate_high": 0.27,
+          "precision_high": 0.86
+        },
+        {
+          "group": "benefits",
+          "n": 210,
+          "observed_rate": 0.386,
+          "mean_predicted": 0.364,
+          "auc": 0.955,
+          "flag_rate_high": 0.405,
+          "precision_high": 0.871
+        },
+        {
+          "group": "gig",
+          "n": 276,
+          "observed_rate": 0.293,
+          "mean_predicted": 0.291,
+          "auc": 0.971,
+          "flag_rate_high": 0.315,
+          "precision_high": 0.828
+        },
+        {
+          "group": "pension",
+          "n": 309,
+          "observed_rate": 0.194,
+          "mean_predicted": 0.194,
+          "auc": 0.969,
+          "flag_rate_high": 0.207,
+          "precision_high": 0.797
+        },
+        {
+          "group": "salary",
+          "n": 846,
+          "observed_rate": 0.23,
+          "mean_predicted": 0.239,
+          "auc": 0.987,
+          "flag_rate_high": 0.249,
+          "precision_high": 0.867
+        }
+      ]
+    },
+    "60d": {
+      "base_rate_train": 0.3033,
+      "test_auc": 0.9726,
+      "test_auc_not_recently_overdrawn": 0.9178,
+      "base_rate_not_recently_overdrawn": 0.0535,
+      "test_brier": 0.0569,
+      "best_iteration": 160,
+      "fairness_by_income_band": [
+        {
+          "group": "<\u00a31.2k",
+          "n": 450,
+          "observed_rate": 0.34,
+          "mean_predicted": 0.331,
+          "auc": 0.965,
+          "flag_rate_high": 0.353,
+          "precision_high": 0.868
+        },
+        {
+          "group": "\u00a31.2k-2k",
+          "n": 618,
+          "observed_rate": 0.319,
+          "mean_predicted": 0.316,
+          "auc": 0.972,
+          "flag_rate_high": 0.346,
+          "precision_high": 0.827
+        },
+        {
+          "group": "\u00a32k-3k",
+          "n": 465,
+          "observed_rate": 0.273,
+          "mean_predicted": 0.282,
+          "auc": 0.974,
+          "flag_rate_high": 0.312,
+          "precision_high": 0.8
+        },
+        {
+          "group": "\u00a33k+",
+          "n": 267,
+          "observed_rate": 0.165,
+          "mean_predicted": 0.203,
+          "auc": 0.984,
+          "flag_rate_high": 0.217,
+          "precision_high": 0.707
+        }
+      ],
+      "fairness_by_income_type": [
+        {
+          "group": "apprentice",
+          "n": 159,
+          "observed_rate": 0.277,
+          "mean_predicted": 0.29,
+          "auc": 0.986,
+          "flag_rate_high": 0.308,
+          "precision_high": 0.816
+        },
+        {
+          "group": "benefits",
+          "n": 210,
+          "observed_rate": 0.438,
+          "mean_predicted": 0.403,
+          "auc": 0.936,
+          "flag_rate_high": 0.448,
+          "precision_high": 0.883
+        },
+        {
+          "group": "gig",
+          "n": 276,
+          "observed_rate": 0.337,
+          "mean_predicted": 0.344,
+          "auc": 0.966,
+          "flag_rate_high": 0.377,
+          "precision_high": 0.808
+        },
+        {
+          "group": "pension",
+          "n": 309,
+          "observed_rate": 0.239,
+          "mean_predicted": 0.229,
+          "auc": 0.964,
+          "flag_rate_high": 0.259,
+          "precision_high": 0.787
+        },
+        {
+          "group": "salary",
+          "n": 846,
+          "observed_rate": 0.258,
+          "mean_predicted": 0.276,
+          "auc": 0.983,
+          "flag_rate_high": 0.294,
+          "precision_high": 0.811
+        }
+      ]
+    },
+    "90d": {
+      "base_rate_train": 0.3296,
+      "test_auc": 0.9664,
+      "test_auc_not_recently_overdrawn": 0.9024,
+      "base_rate_not_recently_overdrawn": 0.0741,
+      "test_brier": 0.0634,
+      "best_iteration": 153,
+      "fairness_by_income_band": [
+        {
+          "group": "<\u00a31.2k",
+          "n": 450,
+          "observed_rate": 0.362,
+          "mean_predicted": 0.352,
+          "auc": 0.959,
+          "flag_rate_high": 0.367,
+          "precision_high": 0.873
+        },
+        {
+          "group": "\u00a31.2k-2k",
+          "n": 618,
+          "observed_rate": 0.353,
+          "mean_predicted": 0.345,
+          "auc": 0.964,
+          "flag_rate_high": 0.369,
+          "precision_high": 0.838
+        },
+        {
+          "group": "\u00a32k-3k",
+          "n": 465,
+          "observed_rate": 0.29,
+          "mean_predicted": 0.309,
+          "auc": 0.968,
+          "flag_rate_high": 0.342,
+          "precision_high": 0.786
+        },
+        {
+          "group": "\u00a33k+",
+          "n": 267,
+          "observed_rate": 0.184,
+          "mean_predicted": 0.227,
+          "auc": 0.983,
+          "flag_rate_high": 0.236,
+          "precision_high": 0.746
+        }
+      ],
+      "fairness_by_income_type": [
+        {
+          "group": "apprentice",
+          "n": 159,
+          "observed_rate": 0.277,
+          "mean_predicted": 0.307,
+          "auc": 0.982,
+          "flag_rate_high": 0.314,
+          "precision_high": 0.8
+        },
+        {
+          "group": "benefits",
+          "n": 210,
+          "observed_rate": 0.49,
+          "mean_predicted": 0.428,
+          "auc": 0.931,
+          "flag_rate_high": 0.457,
+          "precision_high": 0.906
+        },
+        {
+          "group": "gig",
+          "n": 276,
+          "observed_rate": 0.362,
+          "mean_predicted": 0.379,
+          "auc": 0.964,
+          "flag_rate_high": 0.417,
+          "precision_high": 0.791
+        },
+        {
+          "group": "pension",
+          "n": 309,
+          "observed_rate": 0.269,
+          "mean_predicted": 0.254,
+          "auc": 0.961,
+          "flag_rate_high": 0.282,
+          "precision_high": 0.828
+        },
+        {
+          "group": "salary",
+          "n": 846,
+          "observed_rate": 0.278,
+          "mean_predicted": 0.3,
+          "auc": 0.976,
+          "flag_rate_high": 0.316,
+          "precision_high": 0.813
+        }
+      ]
+    }
+  }
+}

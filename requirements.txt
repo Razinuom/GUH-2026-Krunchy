@@ -1,5 +1,12 @@
 requests
 pandas
-openyxl
-beautifulsoup4 
+openpyxl
+beautifulsoup4
 yfinance
+numpy
+scikit-learn
+lightgbm
+fastapi
+uvicorn
+pytest
+httpx

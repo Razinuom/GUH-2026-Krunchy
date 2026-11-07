@@ -1,0 +1,4398 @@
+date,member_id,amount,category,merchant
+2025-11-07,ada,-8.06,shopping,B&M
+2025-11-07,ada,-11.02,groceries,Asda
+2025-11-07,ada,-21.7,shopping,B&M
+2025-11-07,daniel,713.36,income,Courier platform payout
+2025-11-07,daniel,-15.31,recreation,Spotify
+2025-11-07,grace,-8.85,groceries,Lidl
+2025-11-07,grace,-1.73,recreation,Odeon
+2025-11-07,grace,-40.0,cash_withdrawal,ATM
+2025-11-07,halina,-3.91,transport,Shell
+2025-11-07,halina,-18.56,eating_out,Greggs
+2025-11-07,tomasz,-13.91,shopping,B&M
+2025-11-07,tomasz,-19.01,groceries,Asda
+2025-11-07,tomasz,-37.45,shopping,B&M
+2025-11-07,zofia,-6.05,eating_out,Greggs
+2025-11-08,ada,-31.9,shopping,Argos
+2025-11-08,ada,-8.86,groceries,Tesco
+2025-11-08,daniel,-6.45,shopping,Boots
+2025-11-08,grace,-16.41,personal,Post Office
+2025-11-08,halina,-20.6,groceries,Tesco
+2025-11-08,halina,-10.57,shopping,Primark
+2025-11-08,tomasz,-21.74,groceries,Aldi
+2025-11-08,tomasz,-24.42,groceries,Tesco
+2025-11-08,zofia,-11.44,recreation,Netflix
+2025-11-08,zofia,-4.21,groceries,Sainsbury's
+2025-11-08,zofia,-1.69,recreation,Spotify
+2025-11-09,daniel,-25.28,eating_out,Deliveroo
+2025-11-09,grace,-3.21,groceries,Lidl
+2025-11-09,grace,-2.83,groceries,Co-op
+2025-11-09,grace,-1.08,recreation,PureGym
+2025-11-09,grace,-3.12,groceries,Tesco
+2025-11-09,halina,-15.72,shopping,B&M
+2025-11-09,halina,-12.15,personal,Post Office
+2025-11-09,halina,-4.85,groceries,Co-op
+2025-11-09,tomasz,-18.13,shopping,Next
+2025-11-09,tomasz,-6.69,transport,Stagecoach
+2025-11-09,tomasz,-14.54,shopping,B&M
+2025-11-09,tomasz,-33.7,shopping,Argos
+2025-11-09,zofia,-23.47,groceries,Tesco
+2025-11-10,ada,-19.52,transport,Shell
+2025-11-10,ada,-30.63,shopping,Argos
+2025-11-10,ada,-26.58,shopping,Next
+2025-11-10,ada,-3.94,shopping,Boots
+2025-11-10,daniel,-3.32,shopping,B&M
+2025-11-10,daniel,-3.74,eating_out,Costa
+2025-11-10,grace,-4.78,shopping,Next
+2025-11-10,halina,-5.78,groceries,Aldi
+2025-11-10,halina,-14.4,recreation,Netflix
+2025-11-10,tomasz,-27.96,groceries,Co-op
+2025-11-11,ada,-16.2,groceries,Co-op
+2025-11-11,daniel,-15.02,shopping,Next
+2025-11-11,daniel,-30.54,eating_out,Just Eat
+2025-11-11,daniel,-23.15,eating_out,Deliveroo
+2025-11-11,grace,-10.41,recreation,PureGym
+2025-11-11,grace,-12.11,shopping,Boots
+2025-11-11,halina,-24.72,recreation,Steam
+2025-11-11,tomasz,-20.09,personal,Pets at Home
+2025-11-11,tomasz,-11.85,groceries,Co-op
+2025-11-11,tomasz,-24.65,groceries,Tesco
+2025-11-11,zofia,-6.32,groceries,Lidl
+2025-11-11,zofia,-17.19,groceries,Co-op
+2025-11-11,zofia,-26.01,recreation,Odeon
+2025-11-12,ada,-11.64,groceries,Co-op
+2025-11-12,ada,-6.86,personal,Barber
+2025-11-12,ada,-14.28,shopping,Argos
+2025-11-12,ada,-7.28,eating_out,Deliveroo
+2025-11-12,grace,-1.14,recreation,Odeon
+2025-11-12,grace,-6.97,groceries,Co-op
+2025-11-12,halina,-16.41,recreation,Odeon
+2025-11-12,tomasz,-42.05,eating_out,Just Eat
+2025-11-12,zofia,-8.4,recreation,Vue Cinema
+2025-11-12,zofia,-6.76,recreation,Vue Cinema
+2025-11-13,ada,-1.03,shopping,Primark
+2025-11-13,daniel,-3.52,shopping,Boots
+2025-11-13,daniel,-17.24,personal,Superdrug
+2025-11-13,grace,-1.95,shopping,Argos
+2025-11-13,grace,-6.32,groceries,Lidl
+2025-11-13,grace,-8.86,recreation,Steam
+2025-11-13,halina,-30.51,groceries,Lidl
+2025-11-13,halina,-6.61,shopping,Argos
+2025-11-13,tomasz,-15.56,transport,Shell
+2025-11-13,tomasz,-11.12,groceries,Sainsbury's
+2025-11-13,zofia,-18.48,eating_out,Wetherspoons
+2025-11-14,ada,-14.87,utilities,Octopus Energy
+2025-11-14,daniel,702.38,income,Courier platform payout
+2025-11-14,daniel,-108.94,utilities,Octopus Energy
+2025-11-14,daniel,-24.15,shopping,Argos
+2025-11-14,daniel,-0.9,groceries,Tesco
+2025-11-14,daniel,-0.3,recreation,Netflix
+2025-11-14,daniel,-22.36,groceries,Lidl
+2025-11-14,grace,1070.77,income,DWP State Pension
+2025-11-14,grace,-76.62,utilities,Octopus Energy
+2025-11-14,halina,886.15,income,DWP State Pension
+2025-11-14,halina,-92.29,utilities,Octopus Energy
+2025-11-14,halina,-2.6,groceries,Co-op
+2025-11-14,tomasz,-123.55,utilities,Octopus Energy
+2025-11-14,zofia,-53.65,utilities,Octopus Energy
+2025-11-14,zofia,-7.83,groceries,Asda
+2025-11-15,ada,-5.88,eating_out,Just Eat
+2025-11-15,daniel,-19.0,transport,Stagecoach
+2025-11-15,daniel,-28.54,groceries,Sainsbury's
+2025-11-15,grace,-1.32,recreation,Steam
+2025-11-15,halina,-18.85,transport,National Rail
+2025-11-15,tomasz,-11.25,groceries,Asda
+2025-11-15,zofia,-2.73,recreation,Steam
+2025-11-16,daniel,-16.45,shopping,Boots
+2025-11-16,daniel,-4.63,recreation,Vue Cinema
+2025-11-16,grace,-4.06,shopping,Argos
+2025-11-16,grace,-5.49,recreation,Netflix
+2025-11-16,tomasz,-9.69,groceries,Aldi
+2025-11-16,zofia,-8.05,eating_out,Greggs
+2025-11-16,zofia,-15.84,groceries,Tesco
+2025-11-17,daniel,-4.53,shopping,B&M
+2025-11-17,grace,-8.48,groceries,Tesco
+2025-11-17,grace,-5.05,personal,Barber
+2025-11-17,halina,-12.12,groceries,Tesco
+2025-11-17,halina,-30.41,groceries,Lidl
+2025-11-17,halina,-41.03,recreation,Steam
+2025-11-17,zofia,-9.29,eating_out,Just Eat
+2025-11-17,zofia,-3.95,personal,Superdrug
+2025-11-18,ada,-4.34,utilities,Thames Water
+2025-11-18,ada,-16.26,eating_out,Nando's
+2025-11-18,ada,-3.6,groceries,Asda
+2025-11-18,daniel,-33.18,utilities,Thames Water
+2025-11-18,grace,-21.88,utilities,Thames Water
+2025-11-18,halina,-27.13,utilities,Thames Water
+2025-11-18,halina,-36.21,transport,Shell
+2025-11-18,halina,-0.64,groceries,Lidl
+2025-11-18,tomasz,-40.95,utilities,Thames Water
+2025-11-18,zofia,-17.18,utilities,Thames Water
+2025-11-18,zofia,-6.37,recreation,Spotify
+2025-11-19,ada,-9.72,recreation,Spotify
+2025-11-19,ada,-6.61,groceries,Tesco
+2025-11-19,ada,-9.7,groceries,Aldi
+2025-11-19,daniel,-9.34,eating_out,Costa
+2025-11-19,daniel,-5.84,groceries,Co-op
+2025-11-19,daniel,-20.98,groceries,Lidl
+2025-11-19,grace,-0.98,recreation,Netflix
+2025-11-19,halina,-19.69,recreation,Steam
+2025-11-19,zofia,-4.99,groceries,Co-op
+2025-11-19,zofia,-3.85,eating_out,Just Eat
+2025-11-19,zofia,-20.0,transport,BP
+2025-11-19,zofia,-15.76,groceries,Lidl
+2025-11-19,zofia,-14.23,groceries,Aldi
+2025-11-20,ada,1202.08,income,Employer payroll (apprentice)
+2025-11-20,ada,-1.26,groceries,Sainsbury's
+2025-11-20,daniel,-8.25,transport,TfL
+2025-11-20,daniel,-10.34,groceries,Sainsbury's
+2025-11-20,daniel,-15.82,transport,BP
+2025-11-20,halina,-4.95,recreation,Steam
+2025-11-20,halina,-12.84,transport,Esso
+2025-11-20,tomasz,-20.38,groceries,Tesco
+2025-11-20,tomasz,-18.84,groceries,Aldi
+2025-11-20,zofia,-100.36,bnpl,Klarna
+2025-11-21,ada,-80.0,savings_transfer,Transfer to savings
+2025-11-21,ada,-17.23,eating_out,Greggs
+2025-11-21,daniel,432.03,income,Courier platform payout
+2025-11-21,daniel,-31.11,groceries,Asda
+2025-11-21,halina,-5.15,transport,Stagecoach
+2025-11-21,halina,-49.99,groceries,Tesco
+2025-11-21,tomasz,-33.64,groceries,Asda
+2025-11-21,zofia,-9.29,eating_out,Costa
+2025-11-21,zofia,-2.9,recreation,PureGym
+2025-11-22,ada,-6.58,communication,BT Broadband & Mobile
+2025-11-22,ada,-12.53,transport,TfL
+2025-11-22,daniel,-53.15,communication,BT Broadband & Mobile
+2025-11-22,daniel,-2.89,transport,Esso
+2025-11-22,daniel,-15.51,transport,TfL
+2025-11-22,daniel,-8.31,recreation,Netflix
+2025-11-22,daniel,-7.54,shopping,Argos
+2025-11-22,daniel,-5.98,groceries,Sainsbury's
+2025-11-22,grace,-34.02,communication,BT Broadband & Mobile
+2025-11-22,grace,-4.14,recreation,Spotify
+2025-11-22,grace,-1.81,transport,National Rail
+2025-11-22,grace,-10.9,eating_out,Wetherspoons
+2025-11-22,halina,-41.77,communication,BT Broadband & Mobile
+2025-11-22,halina,-15.93,recreation,Odeon
+2025-11-22,halina,-21.51,transport,Esso
+2025-11-22,tomasz,-58.16,communication,BT Broadband & Mobile
+2025-11-22,tomasz,-2.68,shopping,Argos
+2025-11-22,tomasz,-56.91,recreation,PureGym
+2025-11-22,zofia,-23.94,communication,BT Broadband & Mobile
+2025-11-22,zofia,-6.7,transport,Shell
+2025-11-22,zofia,-13.49,groceries,Co-op
+2025-11-22,zofia,-11.33,groceries,Aldi
+2025-11-23,daniel,-16.19,shopping,B&M
+2025-11-23,halina,-8.27,eating_out,Deliveroo
+2025-11-23,tomasz,-17.2,recreation,Vue Cinema
+2025-11-23,tomasz,-8.25,personal,Superdrug
+2025-11-23,tomasz,-16.6,shopping,Primark
+2025-11-23,zofia,-0.83,groceries,Aldi
+2025-11-24,ada,-8.65,shopping,Primark
+2025-11-24,ada,-6.04,eating_out,Just Eat
+2025-11-24,daniel,-8.25,shopping,Primark
+2025-11-24,daniel,-4.61,groceries,Tesco
+2025-11-24,grace,-6.69,recreation,Netflix
+2025-11-24,grace,-100.0,cash_withdrawal,ATM
+2025-11-24,tomasz,-4.22,recreation,Spotify
+2025-11-24,zofia,-1.83,eating_out,Just Eat
+2025-11-24,zofia,-4.52,groceries,Aldi
+2025-11-24,zofia,-14.18,recreation,Netflix
+2025-11-25,daniel,-9.93,groceries,Co-op
+2025-11-25,grace,-11.18,transport,National Rail
+2025-11-25,halina,-6.82,groceries,Aldi
+2025-11-25,halina,-2.87,eating_out,Nando's
+2025-11-25,zofia,1963.56,income,Employer payroll
+2025-11-25,zofia,-9.58,shopping,B&M
+2025-11-26,ada,-12.69,groceries,Sainsbury's
+2025-11-26,ada,-23.74,transport,Stagecoach
+2025-11-26,ada,-4.56,recreation,Spotify
+2025-11-26,ada,-2.45,groceries,Aldi
+2025-11-26,ada,-22.28,personal,Pets at Home
+2025-11-26,daniel,-5.11,recreation,Steam
+2025-11-26,daniel,-17.75,groceries,Aldi
+2025-11-26,grace,-1.91,transport,Esso
+2025-11-26,grace,-3.24,groceries,Lidl
+2025-11-26,grace,-100.0,cash_withdrawal,ATM
+2025-11-26,halina,-15.2,shopping,Primark
+2025-11-26,tomasz,-18.92,shopping,Amazon
+2025-11-26,tomasz,-1.99,recreation,PureGym
+2025-11-26,tomasz,-23.54,groceries,Co-op
+2025-11-27,ada,-1.15,shopping,Boots
+2025-11-27,ada,-13.64,recreation,Spotify
+2025-11-27,daniel,-2.32,shopping,Boots
+2025-11-27,daniel,-25.12,groceries,Co-op
+2025-11-27,daniel,-13.52,eating_out,Wetherspoons
+2025-11-27,grace,-8.37,groceries,Lidl
+2025-11-27,grace,-6.48,personal,Post Office
+2025-11-27,grace,-3.0,eating_out,Nando's
+2025-11-27,halina,-4.08,eating_out,Wetherspoons
+2025-11-27,halina,-5.64,shopping,Boots
+2025-11-27,tomasz,-12.97,shopping,Argos
+2025-11-27,tomasz,-23.17,eating_out,Deliveroo
+2025-11-27,zofia,-10.44,transport,Shell
+2025-11-28,ada,-15.85,groceries,Tesco
+2025-11-28,ada,-7.52,eating_out,Nando's
+2025-11-28,daniel,339.93,income,Courier platform payout
+2025-11-28,grace,-7.68,recreation,Vue Cinema
+2025-11-28,halina,-100.0,savings_transfer,Transfer to savings
+2025-11-28,halina,-11.35,eating_out,Greggs
+2025-11-28,tomasz,2887.83,income,Employer payroll
+2025-11-28,tomasz,-28.16,groceries,Tesco
+2025-11-28,tomasz,-50.26,groceries,Asda
+2025-11-28,zofia,-25.83,groceries,Lidl
+2025-11-29,daniel,-4.8,groceries,Asda
+2025-11-29,halina,-7.61,groceries,Sainsbury's
+2025-11-29,tomasz,-77.39,shopping,Next
+2025-11-29,tomasz,-28.99,recreation,Netflix
+2025-11-29,tomasz,-43.59,eating_out,Costa
+2025-11-30,daniel,-25.41,eating_out,Deliveroo
+2025-11-30,daniel,-8.93,transport,BP
+2025-11-30,grace,-2.8,recreation,Odeon
+2025-11-30,halina,-3.43,shopping,Boots
+2025-11-30,halina,-7.35,groceries,Lidl
+2025-11-30,halina,-14.4,eating_out,Nando's
+2025-11-30,halina,-15.59,shopping,Amazon
+2025-11-30,halina,-42.33,groceries,Tesco
+2025-11-30,tomasz,-30.98,shopping,Boots
+2025-11-30,tomasz,-36.52,transport,Stagecoach
+2025-11-30,zofia,-26.8,personal,Pets at Home
+2025-12-01,ada,-200.0,housing,Board to Mum
+2025-12-01,ada,-14.12,council_tax,Council Tax
+2025-12-01,ada,-29.13,groceries,Asda
+2025-12-01,daniel,-950.0,housing,Rent (private landlord)
+2025-12-01,daniel,-104.51,council_tax,Council Tax
+2025-12-01,grace,-430.0,housing,Rent (housing association)
+2025-12-01,grace,-72.48,council_tax,Council Tax
+2025-12-01,halina,520.0,income,Workplace pension
+2025-12-01,halina,-81.32,council_tax,Council Tax
+2025-12-01,halina,-11.15,personal,Pets at Home
+2025-12-01,halina,-20.89,shopping,Argos
+2025-12-01,tomasz,-125.06,council_tax,Council Tax
+2025-12-01,tomasz,-44.0,recreation,Spotify
+2025-12-01,tomasz,-30.77,groceries,Tesco
+2025-12-01,zofia,-760.0,housing,Rent (Foxtons)
+2025-12-01,zofia,-48.34,council_tax,Council Tax
+2025-12-01,zofia,-7.58,groceries,Tesco
+2025-12-02,ada,-8.12,transport,TfL
+2025-12-02,ada,-13.53,transport,TfL
+2025-12-02,daniel,-10.64,transport,Stagecoach
+2025-12-02,daniel,-85.57,bnpl,Klarna
+2025-12-02,grace,-3.28,transport,BP
+2025-12-02,grace,-1.5,personal,Barber
+2025-12-02,grace,-100.0,cash_withdrawal,ATM
+2025-12-02,halina,-7.89,groceries,Co-op
+2025-12-02,halina,-0.65,eating_out,Greggs
+2025-12-02,tomasz,-1080.0,housing,Mortgage (Nationwide)
+2025-12-03,ada,-14.34,eating_out,Nando's
+2025-12-03,ada,-16.02,eating_out,Nando's
+2025-12-03,ada,-17.59,groceries,Sainsbury's
+2025-12-03,daniel,-3.31,recreation,Odeon
+2025-12-03,daniel,-26.37,recreation,Vue Cinema
+2025-12-03,tomasz,-53.99,personal,Superdrug
+2025-12-03,tomasz,-3.78,groceries,Aldi
+2025-12-03,tomasz,-56.7,eating_out,Nando's
+2025-12-03,tomasz,-24.61,shopping,Boots
+2025-12-03,tomasz,-2.68,groceries,Lidl
+2025-12-04,ada,-7.06,personal,Post Office
+2025-12-04,daniel,-24.1,groceries,Tesco
+2025-12-04,grace,-2.76,shopping,Primark
+2025-12-04,grace,-13.33,shopping,B&M
+2025-12-04,halina,-15.56,recreation,Odeon
+2025-12-04,halina,-3.52,groceries,Lidl
+2025-12-04,halina,-6.2,groceries,Aldi
+2025-12-04,tomasz,-43.45,transport,TfL
+2025-12-04,tomasz,-3.38,personal,Superdrug
+2025-12-04,tomasz,-8.08,transport,BP
+2025-12-04,zofia,-3.74,shopping,Boots
+2025-12-04,zofia,-6.71,shopping,Boots
+2025-12-04,zofia,-12.75,shopping,Boots
+2025-12-05,ada,-5.74,insurance,Aviva
+2025-12-05,ada,-17.83,recreation,Vue Cinema
+2025-12-05,daniel,650.15,income,Courier platform payout
+2025-12-05,daniel,-38.11,insurance,Aviva
+2025-12-05,daniel,-13.08,eating_out,Just Eat
+2025-12-05,grace,-27.25,insurance,Aviva
+2025-12-05,grace,-2.49,recreation,Vue Cinema
+2025-12-05,grace,-1.48,recreation,Odeon
+2025-12-05,halina,-32.57,insurance,Aviva
+2025-12-05,halina,-14.87,groceries,Sainsbury's
+2025-12-05,halina,-34.53,groceries,Asda
+2025-12-05,halina,-17.03,groceries,Co-op
+2025-12-05,halina,-10.5,groceries,Tesco
+2025-12-05,tomasz,-45.27,insurance,Aviva
+2025-12-05,zofia,-19.98,insurance,Aviva
+2025-12-05,zofia,-21.49,shopping,Next
+2025-12-06,ada,-32.37,shopping,Amazon
+2025-12-06,ada,-14.66,shopping,Argos
+2025-12-06,daniel,-12.06,shopping,B&M
+2025-12-06,daniel,-10.48,shopping,Amazon
+2025-12-06,grace,-2.71,shopping,B&M
+2025-12-06,grace,-2.37,eating_out,Nando's
+2025-12-06,halina,-6.0,transport,Shell
+2025-12-06,zofia,-8.12,shopping,Next
+2025-12-07,ada,-32.86,personal,Pets at Home
+2025-12-07,ada,-14.26,groceries,Asda
+2025-12-07,ada,-1.55,eating_out,Deliveroo
+2025-12-07,daniel,-3.68,recreation,Netflix
+2025-12-07,grace,-9.85,shopping,Primark
+2025-12-07,grace,-6.43,groceries,Aldi
+2025-12-07,halina,-25.67,groceries,Asda
+2025-12-07,tomasz,-17.09,recreation,Netflix
+2025-12-07,zofia,-8.98,transport,Shell
+2025-12-08,daniel,-3.24,groceries,Sainsbury's
+2025-12-08,halina,-37.77,eating_out,Just Eat
+2025-12-08,tomasz,-14.39,groceries,Aldi
+2025-12-08,tomasz,-67.18,recreation,Spotify
+2025-12-08,tomasz,-26.52,personal,Post Office
+2025-12-08,tomasz,-14.6,groceries,Aldi
+2025-12-08,zofia,-30.43,recreation,Netflix
+2025-12-08,zofia,-142.74,bnpl,Klarna
+2025-12-09,ada,-13.68,personal,Superdrug
+2025-12-09,ada,-10.5,transport,TfL
+2025-12-09,ada,-10.18,personal,Barber
+2025-12-09,ada,-20.0,cash_withdrawal,ATM
+2025-12-09,grace,-11.28,personal,Superdrug
+2025-12-09,grace,-5.64,personal,Barber
+2025-12-09,grace,-3.66,groceries,Aldi
+2025-12-09,halina,-15.6,eating_out,Just Eat
+2025-12-09,tomasz,-43.54,personal,Pets at Home
+2025-12-09,tomasz,-5.71,shopping,Primark
+2025-12-09,zofia,-16.51,eating_out,Greggs
+2025-12-09,zofia,-94.36,bnpl,Klarna
+2025-12-10,ada,-12.51,groceries,Sainsbury's
+2025-12-10,grace,-6.04,transport,BP
+2025-12-10,grace,-9.32,eating_out,Nando's
+2025-12-10,grace,-5.85,eating_out,Deliveroo
+2025-12-10,halina,-18.18,recreation,Spotify
+2025-12-10,halina,-10.19,personal,Superdrug
+2025-12-10,tomasz,-72.12,recreation,PureGym
+2025-12-10,tomasz,-17.56,eating_out,Just Eat
+2025-12-10,zofia,-26.07,shopping,Next
+2025-12-10,zofia,-1.47,transport,National Rail
+2025-12-10,zofia,-4.78,eating_out,Wetherspoons
+2025-12-11,ada,-37.39,recreation,Netflix
+2025-12-11,ada,-9.9,eating_out,Deliveroo
+2025-12-11,daniel,-12.48,recreation,Vue Cinema
+2025-12-11,daniel,-5.13,eating_out,Greggs
+2025-12-11,grace,-9.66,groceries,Co-op
+2025-12-11,grace,-3.03,shopping,Amazon
+2025-12-11,halina,-29.89,eating_out,Deliveroo
+2025-12-11,halina,-4.3,groceries,Lidl
+2025-12-11,tomasz,-12.9,shopping,Next
+2025-12-11,zofia,-6.71,shopping,Argos
+2025-12-11,zofia,-24.15,groceries,Aldi
+2025-12-11,zofia,-14.39,shopping,Next
+2025-12-12,ada,-8.34,eating_out,Deliveroo
+2025-12-12,ada,-38.93,eating_out,Deliveroo
+2025-12-12,ada,-15.37,groceries,Co-op
+2025-12-12,daniel,788.22,income,Courier platform payout
+2025-12-12,daniel,-8.66,recreation,Odeon
+2025-12-12,daniel,-4.9,transport,BP
+2025-12-12,grace,1070.77,income,DWP State Pension
+2025-12-12,halina,886.15,income,DWP State Pension
+2025-12-12,halina,-19.8,personal,Pets at Home
+2025-12-12,halina,-36.11,transport,TfL
+2025-12-12,halina,-26.5,transport,TfL
+2025-12-12,halina,-11.56,recreation,Vue Cinema
+2025-12-12,zofia,-15.72,recreation,PureGym
+2025-12-12,zofia,-30.75,recreation,Netflix
+2025-12-13,ada,-19.09,eating_out,Just Eat
+2025-12-13,daniel,-8.75,eating_out,Wetherspoons
+2025-12-13,daniel,-7.39,groceries,Asda
+2025-12-13,grace,-5.26,transport,National Rail
+2025-12-13,grace,-4.17,groceries,Tesco
+2025-12-13,halina,-6.27,transport,BP
+2025-12-13,halina,-3.6,transport,National Rail
+2025-12-13,tomasz,-29.46,transport,TfL
+2025-12-13,tomasz,-13.45,eating_out,Wetherspoons
+2025-12-13,zofia,-5.76,recreation,Netflix
+2025-12-13,zofia,-100.0,cash_withdrawal,ATM
+2025-12-13,zofia,-459.43,one_off,Boiler repair
+2025-12-14,ada,-14.79,utilities,Octopus Energy
+2025-12-14,ada,-7.76,groceries,Aldi
+2025-12-14,ada,-7.63,recreation,Spotify
+2025-12-14,daniel,-117.33,utilities,Octopus Energy
+2025-12-14,daniel,-17.11,recreation,Steam
+2025-12-14,grace,-74.68,utilities,Octopus Energy
+2025-12-14,grace,-6.13,groceries,Co-op
+2025-12-14,grace,-0.16,eating_out,Nando's
+2025-12-14,grace,-2.1,shopping,B&M
+2025-12-14,halina,-85.09,utilities,Octopus Energy
+2025-12-14,tomasz,-126.91,utilities,Octopus Energy
+2025-12-14,tomasz,-0.33,shopping,Primark
+2025-12-14,tomasz,-20.28,groceries,Asda
+2025-12-14,zofia,-53.72,utilities,Octopus Energy
+2025-12-15,ada,-10.17,recreation,Steam
+2025-12-15,daniel,-7.37,personal,Pets at Home
+2025-12-15,daniel,-9.93,shopping,Primark
+2025-12-15,daniel,-6.85,personal,Superdrug
+2025-12-15,grace,-9.25,shopping,Argos
+2025-12-15,grace,-1.43,groceries,Aldi
+2025-12-15,halina,-4.5,transport,Esso
+2025-12-15,halina,-24.5,eating_out,Nando's
+2025-12-15,tomasz,-19.54,shopping,Primark
+2025-12-15,tomasz,-11.59,transport,National Rail
+2025-12-15,zofia,-4.24,transport,Stagecoach
+2025-12-15,zofia,-6.58,transport,Shell
+2025-12-15,zofia,-31.69,shopping,Amazon
+2025-12-15,zofia,-8.81,groceries,Lidl
+2025-12-16,ada,-11.46,eating_out,Deliveroo
+2025-12-16,grace,-3.18,shopping,B&M
+2025-12-16,tomasz,-52.44,groceries,Co-op
+2025-12-16,tomasz,-2.23,groceries,Sainsbury's
+2025-12-16,zofia,-3.37,recreation,Vue Cinema
+2025-12-16,zofia,-17.89,transport,TfL
+2025-12-17,ada,-15.01,groceries,Tesco
+2025-12-17,grace,-17.08,transport,National Rail
+2025-12-17,grace,-6.86,transport,National Rail
+2025-12-17,grace,-10.58,transport,BP
+2025-12-17,grace,-7.36,personal,Superdrug
+2025-12-17,grace,-20.0,cash_withdrawal,ATM
+2025-12-17,halina,-35.31,eating_out,Costa
+2025-12-17,halina,-40.8,groceries,Lidl
+2025-12-17,halina,-11.47,shopping,Boots
+2025-12-17,zofia,-10.26,recreation,Netflix
+2025-12-18,ada,-4.41,utilities,Thames Water
+2025-12-18,ada,-17.07,transport,Esso
+2025-12-18,ada,-7.8,eating_out,Costa
+2025-12-18,daniel,-34.57,utilities,Thames Water
+2025-12-18,daniel,-8.56,eating_out,Costa
+2025-12-18,daniel,-15.88,groceries,Aldi
+2025-12-18,grace,-22.65,utilities,Thames Water
+2025-12-18,grace,-5.02,groceries,Asda
+2025-12-18,grace,-7.21,shopping,Primark
+2025-12-18,halina,-28.65,utilities,Thames Water
+2025-12-18,halina,-17.45,recreation,Vue Cinema
+2025-12-18,tomasz,-37.2,utilities,Thames Water
+2025-12-18,tomasz,-11.64,recreation,Netflix
+2025-12-18,zofia,-15.38,utilities,Thames Water
+2025-12-18,zofia,-9.99,groceries,Aldi
+2025-12-18,zofia,-5.09,shopping,Amazon
+2025-12-18,zofia,-3.3,personal,Barber
+2025-12-18,zofia,-17.69,bnpl,Klarna
+2025-12-19,ada,1225.18,income,Employer payroll (apprentice)
+2025-12-19,ada,-12.79,shopping,Primark
+2025-12-19,daniel,313.36,income,Courier platform payout
+2025-12-19,daniel,-2.79,shopping,B&M
+2025-12-19,daniel,-14.47,eating_out,Costa
+2025-12-19,grace,-10.86,groceries,Lidl
+2025-12-19,grace,-8.31,eating_out,Nando's
+2025-12-19,grace,-2.87,recreation,Netflix
+2025-12-19,halina,-8.98,transport,BP
+2025-12-19,tomasz,-17.93,transport,National Rail
+2025-12-19,tomasz,-21.36,recreation,Netflix
+2025-12-19,zofia,-7.43,shopping,Amazon
+2025-12-19,zofia,-6.32,personal,Pets at Home
+2025-12-20,ada,-3.34,groceries,Tesco
+2025-12-20,daniel,-37.55,groceries,Aldi
+2025-12-20,daniel,-8.31,shopping,Amazon
+2025-12-20,daniel,-4.87,shopping,Boots
+2025-12-20,daniel,-15.36,transport,Stagecoach
+2025-12-20,halina,-41.34,shopping,Boots
+2025-12-20,zofia,-16.29,shopping,B&M
+2025-12-20,zofia,-100.36,bnpl,Klarna
+2025-12-21,ada,-80.0,savings_transfer,Transfer to savings
+2025-12-21,ada,-11.32,groceries,Sainsbury's
+2025-12-21,daniel,-13.43,groceries,Aldi
+2025-12-21,daniel,-34.56,eating_out,Greggs
+2025-12-21,daniel,-22.55,eating_out,Just Eat
+2025-12-21,daniel,-10.72,transport,TfL
+2025-12-21,grace,-1.95,recreation,Vue Cinema
+2025-12-21,halina,-13.29,transport,Stagecoach
+2025-12-21,halina,-16.27,eating_out,Greggs
+2025-12-21,halina,-15.15,transport,National Rail
+2025-12-21,halina,-20.48,recreation,Steam
+2025-12-21,halina,-11.05,groceries,Asda
+2025-12-21,tomasz,-23.78,transport,Stagecoach
+2025-12-21,zofia,-3.08,groceries,Tesco
+2025-12-22,ada,-7.26,communication,BT Broadband & Mobile
+2025-12-22,daniel,-48.79,communication,BT Broadband & Mobile
+2025-12-22,grace,-33.5,communication,BT Broadband & Mobile
+2025-12-22,grace,-4.74,recreation,Odeon
+2025-12-22,grace,-2.3,groceries,Sainsbury's
+2025-12-22,grace,-8.32,transport,Shell
+2025-12-22,grace,-4.93,shopping,Amazon
+2025-12-22,halina,-39.19,communication,BT Broadband & Mobile
+2025-12-22,halina,-20.08,transport,Esso
+2025-12-22,halina,-9.29,groceries,Lidl
+2025-12-22,halina,-13.68,transport,BP
+2025-12-22,tomasz,-59.27,communication,BT Broadband & Mobile
+2025-12-22,tomasz,-40.42,groceries,Asda
+2025-12-22,tomasz,-13.52,transport,Stagecoach
+2025-12-22,tomasz,-75.74,personal,Superdrug
+2025-12-22,zofia,-22.88,communication,BT Broadband & Mobile
+2025-12-22,zofia,-12.44,eating_out,Nando's
+2025-12-22,zofia,-1.47,shopping,B&M
+2025-12-22,zofia,-3.52,groceries,Lidl
+2025-12-23,ada,-30.39,groceries,Co-op
+2025-12-23,ada,-1.29,groceries,Sainsbury's
+2025-12-23,daniel,-10.71,shopping,Next
+2025-12-23,daniel,-1.66,groceries,Lidl
+2025-12-23,daniel,-2.29,transport,Esso
+2025-12-23,grace,-4.23,groceries,Tesco
+2025-12-23,halina,-39.3,eating_out,Just Eat
+2025-12-23,halina,-6.48,shopping,Primark
+2025-12-23,halina,-23.64,eating_out,Nando's
+2025-12-23,tomasz,-54.76,groceries,Aldi
+2025-12-23,tomasz,-4.07,recreation,Vue Cinema
+2025-12-23,tomasz,-19.85,shopping,Boots
+2025-12-23,tomasz,-15.26,groceries,Co-op
+2025-12-23,zofia,-5.98,transport,Shell
+2025-12-24,ada,-14.0,groceries,Tesco
+2025-12-24,ada,-20.0,cash_withdrawal,ATM
+2025-12-24,daniel,-11.06,groceries,Co-op
+2025-12-24,daniel,-12.06,eating_out,Greggs
+2025-12-24,grace,-5.16,groceries,Tesco
+2025-12-24,grace,-4.54,eating_out,Wetherspoons
+2025-12-24,grace,-4.7,shopping,Next
+2025-12-24,grace,-6.37,recreation,Vue Cinema
+2025-12-24,grace,-13.18,groceries,Lidl
+2025-12-24,halina,-33.72,personal,Superdrug
+2025-12-24,halina,-8.32,recreation,Steam
+2025-12-24,tomasz,-50.37,eating_out,Nando's
+2025-12-24,tomasz,-58.79,transport,Esso
+2025-12-24,tomasz,-2.4,shopping,Primark
+2025-12-25,ada,-2.61,groceries,Aldi
+2025-12-25,daniel,-2.99,groceries,Sainsbury's
+2025-12-25,daniel,-8.13,recreation,Steam
+2025-12-25,daniel,-21.83,groceries,Tesco
+2025-12-25,daniel,-4.81,eating_out,Just Eat
+2025-12-25,halina,-5.66,shopping,Argos
+2025-12-25,halina,-12.5,transport,BP
+2025-12-25,halina,-18.82,groceries,Lidl
+2025-12-25,zofia,1940.65,income,Employer payroll
+2025-12-25,zofia,-17.19,groceries,Lidl
+2025-12-25,zofia,-7.29,transport,National Rail
+2025-12-25,zofia,-7.87,personal,Barber
+2025-12-26,ada,-9.19,recreation,PureGym
+2025-12-26,ada,-34.06,groceries,Lidl
+2025-12-26,daniel,626.44,income,Courier platform payout
+2025-12-26,daniel,-16.17,recreation,Vue Cinema
+2025-12-26,daniel,-1.91,eating_out,Greggs
+2025-12-26,daniel,-9.32,eating_out,Just Eat
+2025-12-26,tomasz,2933.36,income,Employer payroll
+2025-12-26,tomasz,-32.94,eating_out,Deliveroo
+2025-12-26,tomasz,-0.98,groceries,Aldi
+2025-12-26,tomasz,-12.6,personal,Post Office
+2025-12-26,zofia,-9.03,groceries,Co-op
+2025-12-27,daniel,-8.34,eating_out,Just Eat
+2025-12-27,daniel,-7.51,eating_out,Nando's
+2025-12-27,grace,-19.89,personal,Pets at Home
+2025-12-27,tomasz,-13.04,groceries,Co-op
+2025-12-27,tomasz,-9.73,shopping,Next
+2025-12-27,zofia,-13.49,recreation,Netflix
+2025-12-27,zofia,-5.05,eating_out,Nando's
+2025-12-27,zofia,-10.78,groceries,Lidl
+2025-12-28,ada,-13.78,transport,Stagecoach
+2025-12-28,ada,-19.66,recreation,Spotify
+2025-12-28,daniel,-8.92,eating_out,Deliveroo
+2025-12-28,daniel,-17.3,recreation,Steam
+2025-12-28,halina,-100.0,savings_transfer,Transfer to savings
+2025-12-28,halina,-25.56,transport,Shell
+2025-12-29,ada,-23.42,shopping,Amazon
+2025-12-29,ada,-7.83,shopping,Amazon
+2025-12-29,grace,-14.23,transport,Stagecoach
+2025-12-29,halina,-41.8,transport,National Rail
+2025-12-29,tomasz,-9.09,eating_out,Deliveroo
+2025-12-29,tomasz,-17.59,shopping,Amazon
+2025-12-29,zofia,-14.85,eating_out,Wetherspoons
+2025-12-29,zofia,-21.06,groceries,Co-op
+2025-12-30,daniel,-8.65,personal,Superdrug
+2025-12-30,daniel,-16.97,transport,Shell
+2025-12-30,daniel,-19.85,groceries,Tesco
+2025-12-30,daniel,-3.06,groceries,Asda
+2025-12-30,daniel,-1.49,groceries,Co-op
+2025-12-30,grace,-18.02,personal,Post Office
+2025-12-30,halina,-21.88,recreation,PureGym
+2025-12-30,halina,-25.95,personal,Post Office
+2025-12-30,halina,-7.33,groceries,Sainsbury's
+2025-12-30,halina,-5.97,groceries,Asda
+2025-12-30,halina,-5.13,transport,TfL
+2025-12-30,halina,-0.11,groceries,Lidl
+2025-12-30,tomasz,-2.68,recreation,Netflix
+2025-12-30,tomasz,-19.57,recreation,Vue Cinema
+2025-12-30,tomasz,-17.66,eating_out,Nando's
+2025-12-30,zofia,-2.82,recreation,PureGym
+2025-12-31,ada,-17.16,groceries,Tesco
+2025-12-31,ada,-16.22,groceries,Tesco
+2025-12-31,ada,-10.44,recreation,Vue Cinema
+2025-12-31,ada,-23.08,shopping,Argos
+2025-12-31,daniel,-2.16,groceries,Lidl
+2025-12-31,grace,-5.84,groceries,Aldi
+2025-12-31,grace,-5.58,recreation,Netflix
+2025-12-31,grace,-2.51,shopping,Boots
+2025-12-31,halina,-3.43,groceries,Sainsbury's
+2025-12-31,halina,-51.05,transport,Shell
+2025-12-31,halina,-13.5,shopping,Primark
+2025-12-31,halina,-14.76,recreation,Odeon
+2025-12-31,tomasz,-25.91,shopping,B&M
+2025-12-31,tomasz,-22.27,recreation,Netflix
+2025-12-31,zofia,-4.3,transport,Stagecoach
+2026-01-01,ada,-200.0,housing,Board to Mum
+2026-01-01,ada,-13.45,council_tax,Council Tax
+2026-01-01,ada,-29.19,shopping,Next
+2026-01-01,ada,-34.07,personal,Superdrug
+2026-01-01,ada,-1.39,shopping,B&M
+2026-01-01,ada,-3.84,groceries,Aldi
+2026-01-01,ada,-40.0,cash_withdrawal,ATM
+2026-01-01,daniel,-950.0,housing,Rent (private landlord)
+2026-01-01,daniel,-102.14,council_tax,Council Tax
+2026-01-01,daniel,-4.77,groceries,Tesco
+2026-01-01,daniel,-85.57,bnpl,Klarna
+2026-01-01,grace,-430.0,housing,Rent (housing association)
+2026-01-01,grace,-74.18,council_tax,Council Tax
+2026-01-01,halina,520.0,income,Workplace pension
+2026-01-01,halina,-83.06,council_tax,Council Tax
+2026-01-01,halina,-66.29,eating_out,Deliveroo
+2026-01-01,tomasz,-121.54,council_tax,Council Tax
+2026-01-01,tomasz,-27.51,eating_out,Deliveroo
+2026-01-01,tomasz,-19.53,shopping,Argos
+2026-01-01,tomasz,-17.89,groceries,Tesco
+2026-01-01,tomasz,-39.57,shopping,Amazon
+2026-01-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-01-01,zofia,-49.3,council_tax,Council Tax
+2026-01-01,zofia,-17.53,groceries,Sainsbury's
+2026-01-01,zofia,-2.19,shopping,Boots
+2026-01-01,zofia,-12.9,groceries,Tesco
+2026-01-01,zofia,-25.44,personal,Barber
+2026-01-01,zofia,-12.57,groceries,Sainsbury's
+2026-01-01,zofia,-0.63,bank_fee,Arranged overdraft interest
+2026-01-02,ada,-21.95,personal,Pets at Home
+2026-01-02,daniel,405.81,income,Courier platform payout
+2026-01-02,grace,-2.4,groceries,Tesco
+2026-01-02,grace,-3.28,groceries,Sainsbury's
+2026-01-02,halina,-25.86,groceries,Asda
+2026-01-02,tomasz,-1080.0,housing,Mortgage (Nationwide)
+2026-01-02,tomasz,-14.4,transport,BP
+2026-01-02,tomasz,-45.83,shopping,Amazon
+2026-01-02,zofia,-28.92,recreation,Spotify
+2026-01-03,daniel,-11.55,shopping,Next
+2026-01-03,halina,-28.51,recreation,PureGym
+2026-01-03,halina,-3.33,shopping,Boots
+2026-01-03,tomasz,-10.53,recreation,Steam
+2026-01-03,tomasz,-7.76,recreation,Spotify
+2026-01-03,zofia,-9.6,shopping,Amazon
+2026-01-04,grace,-2.05,groceries,Sainsbury's
+2026-01-04,grace,-4.76,transport,Shell
+2026-01-04,halina,-9.62,groceries,Lidl
+2026-01-04,tomasz,-41.45,personal,Post Office
+2026-01-04,zofia,-3.09,shopping,Next
+2026-01-04,zofia,-12.23,recreation,Odeon
+2026-01-04,zofia,-22.8,transport,BP
+2026-01-05,ada,-5.26,insurance,Aviva
+2026-01-05,ada,-1.34,groceries,Lidl
+2026-01-05,ada,-7.56,eating_out,Costa
+2026-01-05,ada,-5.64,groceries,Aldi
+2026-01-05,ada,-4.49,recreation,Odeon
+2026-01-05,ada,-2.17,recreation,Steam
+2026-01-05,daniel,-40.13,insurance,Aviva
+2026-01-05,grace,-29.42,insurance,Aviva
+2026-01-05,grace,-7.85,eating_out,Greggs
+2026-01-05,grace,-3.49,recreation,Vue Cinema
+2026-01-05,halina,-32.3,insurance,Aviva
+2026-01-05,halina,-7.03,shopping,Argos
+2026-01-05,halina,-14.45,eating_out,Wetherspoons
+2026-01-05,tomasz,-49.11,insurance,Aviva
+2026-01-05,tomasz,-49.29,groceries,Lidl
+2026-01-05,tomasz,-26.4,groceries,Asda
+2026-01-05,zofia,-20.34,insurance,Aviva
+2026-01-05,zofia,-11.77,shopping,B&M
+2026-01-05,zofia,-18.69,shopping,Primark
+2026-01-05,zofia,-8.63,recreation,PureGym
+2026-01-06,daniel,-4.34,personal,Post Office
+2026-01-06,grace,-6.36,transport,National Rail
+2026-01-06,grace,-2.24,shopping,Amazon
+2026-01-06,grace,-18.45,eating_out,Wetherspoons
+2026-01-06,grace,-8.8,eating_out,Wetherspoons
+2026-01-06,grace,-5.58,groceries,Aldi
+2026-01-06,halina,-16.58,transport,Esso
+2026-01-06,halina,-24.55,groceries,Asda
+2026-01-06,tomasz,-15.65,transport,Esso
+2026-01-06,tomasz,-17.44,recreation,Netflix
+2026-01-06,zofia,-100.0,cash_withdrawal,ATM
+2026-01-07,ada,-18.34,personal,Post Office
+2026-01-07,ada,-21.77,transport,TfL
+2026-01-07,daniel,-1.53,personal,Post Office
+2026-01-07,daniel,-1.64,recreation,Spotify
+2026-01-07,daniel,-4.52,recreation,Spotify
+2026-01-07,grace,-6.65,recreation,Odeon
+2026-01-07,grace,-3.48,groceries,Asda
+2026-01-07,tomasz,-9.29,groceries,Tesco
+2026-01-07,tomasz,-15.05,eating_out,Wetherspoons
+2026-01-07,tomasz,-7.6,eating_out,Greggs
+2026-01-07,zofia,-142.74,bnpl,Klarna
+2026-01-07,zofia,-45.51,bnpl,Klarna
+2026-01-08,daniel,-8.44,transport,Stagecoach
+2026-01-08,grace,-4.23,shopping,Next
+2026-01-08,grace,-1.73,shopping,B&M
+2026-01-08,grace,-6.58,groceries,Tesco
+2026-01-08,grace,-15.58,shopping,Amazon
+2026-01-08,halina,-27.2,shopping,Next
+2026-01-08,halina,-20.0,cash_withdrawal,ATM
+2026-01-08,tomasz,-4.6,groceries,Co-op
+2026-01-08,tomasz,-59.32,groceries,Asda
+2026-01-08,tomasz,-35.65,groceries,Tesco
+2026-01-08,zofia,-21.77,personal,Pets at Home
+2026-01-08,zofia,-20.92,shopping,Boots
+2026-01-08,zofia,-94.36,bnpl,Klarna
+2026-01-09,ada,-17.65,recreation,Netflix
+2026-01-09,ada,-14.9,groceries,Sainsbury's
+2026-01-09,ada,-8.68,eating_out,Nando's
+2026-01-09,daniel,243.52,income,Courier platform payout
+2026-01-09,daniel,-1.11,personal,Post Office
+2026-01-09,grace,1070.77,income,DWP State Pension
+2026-01-09,grace,-1.23,groceries,Asda
+2026-01-09,halina,886.15,income,DWP State Pension
+2026-01-09,halina,-8.46,groceries,Co-op
+2026-01-09,halina,-8.59,groceries,Co-op
+2026-01-09,zofia,-15.38,personal,Barber
+2026-01-10,ada,-10.43,recreation,Vue Cinema
+2026-01-10,ada,-6.57,shopping,Next
+2026-01-10,ada,-11.97,shopping,Argos
+2026-01-10,daniel,-5.13,groceries,Sainsbury's
+2026-01-10,daniel,-17.37,transport,Shell
+2026-01-10,grace,-1.04,eating_out,Just Eat
+2026-01-10,grace,-4.75,transport,BP
+2026-01-10,grace,-3.91,transport,Esso
+2026-01-10,halina,-14.8,recreation,PureGym
+2026-01-10,halina,-16.27,recreation,Vue Cinema
+2026-01-10,halina,-19.69,transport,BP
+2026-01-10,tomasz,-17.89,eating_out,Costa
+2026-01-10,tomasz,-56.6,recreation,Steam
+2026-01-10,tomasz,-16.16,groceries,Co-op
+2026-01-10,tomasz,-15.12,shopping,B&M
+2026-01-10,zofia,-14.93,groceries,Lidl
+2026-01-10,zofia,-15.09,recreation,Vue Cinema
+2026-01-10,zofia,-2.74,eating_out,Costa
+2026-01-11,ada,-34.41,recreation,Odeon
+2026-01-11,ada,-8.13,eating_out,Greggs
+2026-01-11,ada,-5.51,transport,Stagecoach
+2026-01-11,ada,-6.46,transport,BP
+2026-01-11,ada,-10.53,shopping,Argos
+2026-01-11,daniel,-9.86,groceries,Asda
+2026-01-11,daniel,-3.12,eating_out,Greggs
+2026-01-11,daniel,-14.37,recreation,Vue Cinema
+2026-01-11,daniel,-7.46,recreation,Netflix
+2026-01-11,grace,-2.96,recreation,Spotify
+2026-01-11,grace,-11.98,recreation,Steam
+2026-01-11,grace,-8.42,transport,TfL
+2026-01-11,halina,-25.42,shopping,Amazon
+2026-01-11,halina,-13.12,recreation,PureGym
+2026-01-11,tomasz,-10.5,recreation,Odeon
+2026-01-11,zofia,-2.53,recreation,Steam
+2026-01-11,zofia,-4.03,recreation,Netflix
+2026-01-11,zofia,-4.51,personal,Barber
+2026-01-11,zofia,-20.99,personal,Pets at Home
+2026-01-12,ada,-6.1,recreation,Spotify
+2026-01-12,ada,-4.5,recreation,PureGym
+2026-01-12,daniel,-8.71,eating_out,Nando's
+2026-01-12,daniel,-5.49,groceries,Lidl
+2026-01-12,grace,-3.65,eating_out,Just Eat
+2026-01-12,halina,-7.85,groceries,Lidl
+2026-01-12,halina,-5.0,recreation,Steam
+2026-01-12,tomasz,-2.82,shopping,Amazon
+2026-01-12,tomasz,-5.19,personal,Superdrug
+2026-01-12,zofia,-4.72,groceries,Aldi
+2026-01-13,ada,-24.02,recreation,Odeon
+2026-01-13,ada,-3.17,transport,Stagecoach
+2026-01-13,daniel,-8.77,groceries,Co-op
+2026-01-13,daniel,-21.48,eating_out,Greggs
+2026-01-13,daniel,-54.07,bnpl,Klarna
+2026-01-13,grace,-1.64,eating_out,Costa
+2026-01-13,grace,-5.23,groceries,Sainsbury's
+2026-01-13,grace,-3.31,groceries,Sainsbury's
+2026-01-13,halina,-16.93,personal,Post Office
+2026-01-13,halina,-9.79,transport,Shell
+2026-01-13,tomasz,-48.01,groceries,Asda
+2026-01-13,zofia,-9.19,groceries,Tesco
+2026-01-13,zofia,-19.29,transport,Stagecoach
+2026-01-14,ada,-14.19,utilities,Octopus Energy
+2026-01-14,ada,-10.89,recreation,Steam
+2026-01-14,ada,-7.32,shopping,Primark
+2026-01-14,daniel,-113.86,utilities,Octopus Energy
+2026-01-14,daniel,-1.98,shopping,Argos
+2026-01-14,daniel,-1.69,groceries,Sainsbury's
+2026-01-14,grace,-79.98,utilities,Octopus Energy
+2026-01-14,grace,-3.13,transport,Shell
+2026-01-14,grace,-3.93,eating_out,Greggs
+2026-01-14,halina,-84.76,utilities,Octopus Energy
+2026-01-14,halina,-38.99,eating_out,Wetherspoons
+2026-01-14,halina,-2.05,transport,TfL
+2026-01-14,halina,-25.59,personal,Barber
+2026-01-14,tomasz,-138.93,utilities,Octopus Energy
+2026-01-14,tomasz,-11.34,recreation,Steam
+2026-01-14,tomasz,-348.29,one_off,Funeral costs
+2026-01-14,zofia,-55.6,utilities,Octopus Energy
+2026-01-14,zofia,-29.54,recreation,PureGym
+2026-01-14,zofia,-6.42,shopping,Primark
+2026-01-14,zofia,-3.03,groceries,Asda
+2026-01-15,ada,-13.64,groceries,Aldi
+2026-01-15,daniel,-19.34,shopping,Argos
+2026-01-15,halina,-10.5,personal,Post Office
+2026-01-15,halina,-7.52,recreation,Netflix
+2026-01-15,tomasz,-28.57,recreation,Vue Cinema
+2026-01-15,tomasz,-4.73,transport,TfL
+2026-01-15,zofia,-19.8,eating_out,Nando's
+2026-01-15,zofia,-48.0,shopping,B&M
+2026-01-16,ada,-9.11,groceries,Lidl
+2026-01-16,ada,-22.23,transport,Stagecoach
+2026-01-16,ada,-4.38,personal,Superdrug
+2026-01-16,daniel,470.94,income,Courier platform payout
+2026-01-16,daniel,-15.1,groceries,Co-op
+2026-01-16,grace,-4.52,groceries,Tesco
+2026-01-16,grace,-2.43,eating_out,Deliveroo
+2026-01-16,grace,-100.0,cash_withdrawal,ATM
+2026-01-16,halina,-41.55,personal,Barber
+2026-01-16,halina,-4.5,groceries,Aldi
+2026-01-16,tomasz,-31.27,shopping,Argos
+2026-01-16,tomasz,-22.36,shopping,Next
+2026-01-16,zofia,-11.03,eating_out,Just Eat
+2026-01-17,ada,-27.07,shopping,Amazon
+2026-01-17,ada,-8.98,shopping,Amazon
+2026-01-17,ada,-2.67,groceries,Asda
+2026-01-17,ada,-34.38,groceries,Tesco
+2026-01-17,daniel,-13.72,recreation,PureGym
+2026-01-17,grace,-8.95,shopping,Next
+2026-01-17,halina,-14.43,shopping,Boots
+2026-01-17,halina,-19.73,groceries,Asda
+2026-01-17,tomasz,-5.43,recreation,PureGym
+2026-01-17,zofia,-17.69,bnpl,Klarna
+2026-01-18,ada,-4.77,utilities,Thames Water
+2026-01-18,daniel,-34.64,utilities,Thames Water
+2026-01-18,daniel,-40.0,cash_withdrawal,ATM
+2026-01-18,grace,-22.64,utilities,Thames Water
+2026-01-18,halina,-27.45,utilities,Thames Water
+2026-01-18,halina,-9.84,shopping,Primark
+2026-01-18,halina,-10.75,recreation,Spotify
+2026-01-18,halina,-23.66,groceries,Co-op
+2026-01-18,halina,-13.77,groceries,Aldi
+2026-01-18,halina,-3.96,shopping,Next
+2026-01-18,halina,-31.41,transport,Shell
+2026-01-18,tomasz,-40.74,utilities,Thames Water
+2026-01-18,zofia,-15.96,utilities,Thames Water
+2026-01-18,zofia,-4.16,eating_out,Just Eat
+2026-01-18,zofia,-16.23,recreation,Spotify
+2026-01-18,zofia,-13.19,groceries,Lidl
+2026-01-18,zofia,-5.14,groceries,Asda
+2026-01-19,ada,-7.32,personal,Barber
+2026-01-19,daniel,-3.97,groceries,Aldi
+2026-01-19,daniel,-8.55,shopping,Amazon
+2026-01-19,daniel,-22.81,shopping,Amazon
+2026-01-19,grace,-17.43,transport,TfL
+2026-01-19,grace,-1.15,recreation,Odeon
+2026-01-19,grace,-2.49,eating_out,Wetherspoons
+2026-01-19,grace,-1.57,shopping,Boots
+2026-01-19,halina,-3.03,eating_out,Nando's
+2026-01-19,tomasz,-19.66,personal,Pets at Home
+2026-01-19,zofia,-5.21,personal,Superdrug
+2026-01-19,zofia,-100.36,bnpl,Klarna
+2026-01-19,zofia,-18.74,bnpl,Klarna
+2026-01-20,ada,1241.8,income,Employer payroll (apprentice)
+2026-01-20,ada,-25.59,groceries,Tesco
+2026-01-20,daniel,-4.49,personal,Pets at Home
+2026-01-20,grace,-8.98,groceries,Co-op
+2026-01-20,grace,-6.08,eating_out,Costa
+2026-01-20,halina,-14.05,personal,Post Office
+2026-01-20,halina,-36.85,transport,Esso
+2026-01-20,tomasz,-8.69,transport,BP
+2026-01-20,zofia,-15.88,groceries,Tesco
+2026-01-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-01-21,daniel,-13.24,eating_out,Wetherspoons
+2026-01-21,daniel,-8.04,recreation,PureGym
+2026-01-21,grace,-2.45,shopping,Primark
+2026-01-21,grace,-50.0,cash_withdrawal,ATM
+2026-01-21,halina,-19.47,groceries,Aldi
+2026-01-21,tomasz,-34.46,transport,Stagecoach
+2026-01-21,tomasz,-22.98,shopping,Next
+2026-01-22,ada,-7.11,communication,BT Broadband & Mobile
+2026-01-22,ada,-7.72,groceries,Aldi
+2026-01-22,daniel,-48.25,communication,BT Broadband & Mobile
+2026-01-22,daniel,-15.64,personal,Barber
+2026-01-22,daniel,-60.71,groceries,Asda
+2026-01-22,daniel,-1.85,recreation,Netflix
+2026-01-22,grace,-36.59,communication,BT Broadband & Mobile
+2026-01-22,grace,-6.83,groceries,Co-op
+2026-01-22,grace,-8.06,transport,TfL
+2026-01-22,grace,-2.29,transport,Shell
+2026-01-22,grace,-3.6,groceries,Tesco
+2026-01-22,grace,-5.48,transport,Shell
+2026-01-22,halina,-42.8,communication,BT Broadband & Mobile
+2026-01-22,halina,-6.47,groceries,Co-op
+2026-01-22,halina,-33.49,transport,Stagecoach
+2026-01-22,halina,-11.29,personal,Pets at Home
+2026-01-22,halina,-11.92,eating_out,Greggs
+2026-01-22,halina,-41.0,personal,Barber
+2026-01-22,tomasz,-58.02,communication,BT Broadband & Mobile
+2026-01-22,tomasz,-14.49,groceries,Aldi
+2026-01-22,tomasz,-29.65,groceries,Tesco
+2026-01-22,zofia,-23.46,communication,BT Broadband & Mobile
+2026-01-22,zofia,-4.66,groceries,Asda
+2026-01-22,zofia,-4.9,groceries,Lidl
+2026-01-22,zofia,-6.25,transport,National Rail
+2026-01-23,daniel,341.93,income,Courier platform payout
+2026-01-23,daniel,-6.73,transport,National Rail
+2026-01-23,daniel,-10.17,shopping,B&M
+2026-01-23,daniel,-20.7,recreation,PureGym
+2026-01-23,grace,-3.0,groceries,Tesco
+2026-01-23,halina,-5.06,recreation,Spotify
+2026-01-23,zofia,2020.38,income,Employer payroll
+2026-01-24,ada,-2.51,transport,Stagecoach
+2026-01-24,daniel,-14.08,groceries,Aldi
+2026-01-24,daniel,-19.91,eating_out,Greggs
+2026-01-24,daniel,-0.58,recreation,Odeon
+2026-01-24,grace,-0.36,groceries,Sainsbury's
+2026-01-24,halina,-12.62,recreation,Vue Cinema
+2026-01-24,halina,-3.58,personal,Post Office
+2026-01-24,halina,-10.29,personal,Pets at Home
+2026-01-25,ada,-12.34,shopping,Boots
+2026-01-25,ada,-5.0,groceries,Sainsbury's
+2026-01-25,ada,-7.86,groceries,Co-op
+2026-01-25,grace,-6.7,groceries,Sainsbury's
+2026-01-25,halina,-9.3,eating_out,Costa
+2026-01-25,tomasz,-14.23,groceries,Asda
+2026-01-25,tomasz,-29.91,recreation,PureGym
+2026-01-25,tomasz,-24.75,transport,TfL
+2026-01-25,zofia,-8.06,eating_out,Costa
+2026-01-25,zofia,-4.08,recreation,Spotify
+2026-01-25,zofia,-12.28,shopping,Primark
+2026-01-26,ada,-11.09,eating_out,Greggs
+2026-01-26,daniel,-6.68,groceries,Lidl
+2026-01-26,grace,-16.34,transport,TfL
+2026-01-26,grace,-12.71,shopping,Primark
+2026-01-26,grace,-14.16,shopping,Boots
+2026-01-26,grace,-40.0,cash_withdrawal,ATM
+2026-01-26,halina,-7.22,recreation,PureGym
+2026-01-26,halina,-13.98,transport,BP
+2026-01-26,tomasz,-30.67,groceries,Lidl
+2026-01-26,zofia,-2.45,recreation,PureGym
+2026-01-26,zofia,-3.9,eating_out,Costa
+2026-01-26,zofia,-13.46,groceries,Co-op
+2026-01-27,ada,-8.35,groceries,Asda
+2026-01-27,ada,-13.19,recreation,Vue Cinema
+2026-01-27,daniel,-8.35,recreation,Steam
+2026-01-27,grace,-4.82,shopping,B&M
+2026-01-27,grace,-7.51,eating_out,Just Eat
+2026-01-27,halina,-23.26,transport,Shell
+2026-01-27,tomasz,-2.72,recreation,Odeon
+2026-01-27,tomasz,-29.95,groceries,Aldi
+2026-01-27,zofia,-16.38,transport,Shell
+2026-01-28,ada,-3.18,groceries,Lidl
+2026-01-28,daniel,-5.5,personal,Superdrug
+2026-01-28,grace,-2.86,recreation,Spotify
+2026-01-28,grace,-3.77,groceries,Aldi
+2026-01-28,grace,-3.65,recreation,Vue Cinema
+2026-01-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-01-28,halina,-24.64,groceries,Asda
+2026-01-28,tomasz,2940.69,income,Employer payroll
+2026-01-28,tomasz,-10.45,personal,Barber
+2026-01-28,zofia,-20.91,transport,National Rail
+2026-01-28,zofia,-7.82,transport,BP
+2026-01-28,zofia,-9.02,transport,Shell
+2026-01-29,daniel,-7.55,shopping,Amazon
+2026-01-29,daniel,-16.31,recreation,Vue Cinema
+2026-01-29,grace,-8.5,personal,Post Office
+2026-01-29,halina,-23.16,groceries,Asda
+2026-01-29,zofia,-14.2,groceries,Asda
+2026-01-29,zofia,-14.63,shopping,Argos
+2026-01-29,zofia,-11.74,transport,TfL
+2026-01-29,zofia,-35.2,groceries,Aldi
+2026-01-30,daniel,561.09,income,Courier platform payout
+2026-01-30,daniel,-35.55,groceries,Asda
+2026-01-30,daniel,-33.18,bnpl,Klarna
+2026-01-30,grace,-8.04,shopping,Argos
+2026-01-30,grace,-11.82,recreation,Odeon
+2026-01-30,tomasz,-24.44,shopping,Argos
+2026-01-31,ada,-16.82,shopping,Argos
+2026-01-31,ada,-3.15,shopping,Boots
+2026-01-31,ada,-10.28,groceries,Asda
+2026-01-31,daniel,-2.3,groceries,Asda
+2026-01-31,daniel,-85.57,bnpl,Klarna
+2026-01-31,grace,-12.43,groceries,Tesco
+2026-01-31,halina,-4.47,eating_out,Wetherspoons
+2026-01-31,tomasz,-22.83,eating_out,Deliveroo
+2026-01-31,zofia,-15.12,personal,Pets at Home
+2026-02-01,ada,-200.0,housing,Board to Mum
+2026-02-01,ada,-14.34,council_tax,Council Tax
+2026-02-01,ada,-40.0,cash_withdrawal,ATM
+2026-02-01,daniel,-950.0,housing,Rent (private landlord)
+2026-02-01,daniel,-102.26,council_tax,Council Tax
+2026-02-01,daniel,-9.04,recreation,Vue Cinema
+2026-02-01,daniel,-343.7,one_off,Funeral costs
+2026-02-01,grace,-430.0,housing,Rent (housing association)
+2026-02-01,grace,-70.15,council_tax,Council Tax
+2026-02-01,halina,520.0,income,Workplace pension
+2026-02-01,halina,-81.93,council_tax,Council Tax
+2026-02-01,halina,-24.62,recreation,PureGym
+2026-02-01,halina,-21.31,personal,Post Office
+2026-02-01,tomasz,-120.75,council_tax,Council Tax
+2026-02-01,tomasz,-44.02,eating_out,Costa
+2026-02-01,tomasz,-14.43,eating_out,Just Eat
+2026-02-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-02-01,zofia,-50.68,council_tax,Council Tax
+2026-02-01,zofia,-1.32,bank_fee,Arranged overdraft interest
+2026-02-02,daniel,-6.83,transport,Shell
+2026-02-02,halina,-11.03,shopping,Argos
+2026-02-02,halina,-5.41,personal,Superdrug
+2026-02-02,tomasz,-1080.0,housing,Mortgage (Nationwide)
+2026-02-02,tomasz,-9.38,groceries,Aldi
+2026-02-03,ada,-5.03,transport,National Rail
+2026-02-03,daniel,-14.01,shopping,Amazon
+2026-02-03,grace,-2.41,groceries,Asda
+2026-02-03,grace,-1.85,personal,Barber
+2026-02-03,grace,-8.14,groceries,Aldi
+2026-02-03,grace,-2.42,groceries,Sainsbury's
+2026-02-03,tomasz,-16.19,groceries,Lidl
+2026-02-03,zofia,-8.16,recreation,Vue Cinema
+2026-02-03,zofia,-17.32,shopping,Amazon
+2026-02-04,ada,-19.97,shopping,Next
+2026-02-04,ada,-13.31,shopping,Boots
+2026-02-04,ada,-21.72,transport,BP
+2026-02-04,ada,-12.7,eating_out,Costa
+2026-02-04,daniel,-6.26,groceries,Lidl
+2026-02-04,daniel,-16.2,groceries,Asda
+2026-02-04,daniel,-1.33,bnpl,Klarna
+2026-02-04,grace,-5.16,transport,Esso
+2026-02-04,halina,-24.1,groceries,Asda
+2026-02-04,halina,-23.24,recreation,Vue Cinema
+2026-02-04,halina,-4.83,transport,Shell
+2026-02-04,halina,-4.24,groceries,Aldi
+2026-02-04,tomasz,-19.22,groceries,Asda
+2026-02-04,tomasz,-27.39,recreation,Odeon
+2026-02-04,tomasz,-17.31,personal,Barber
+2026-02-04,tomasz,-1.23,recreation,Netflix
+2026-02-04,tomasz,-11.19,recreation,Netflix
+2026-02-04,zofia,-15.85,recreation,Vue Cinema
+2026-02-04,zofia,-60.81,transport,Shell
+2026-02-05,ada,-5.71,insurance,Aviva
+2026-02-05,ada,-7.54,shopping,Primark
+2026-02-05,daniel,-40.93,insurance,Aviva
+2026-02-05,daniel,-3.67,recreation,Netflix
+2026-02-05,grace,-27.05,insurance,Aviva
+2026-02-05,grace,-1.38,transport,Esso
+2026-02-05,grace,-4.59,groceries,Sainsbury's
+2026-02-05,grace,-9.17,shopping,Boots
+2026-02-05,grace,-5.13,groceries,Co-op
+2026-02-05,grace,-4.1,shopping,Next
+2026-02-05,halina,-32.72,insurance,Aviva
+2026-02-05,halina,-60.44,recreation,Spotify
+2026-02-05,tomasz,-46.85,insurance,Aviva
+2026-02-05,tomasz,-14.16,recreation,Spotify
+2026-02-05,tomasz,-15.75,transport,Shell
+2026-02-05,zofia,-20.09,insurance,Aviva
+2026-02-05,zofia,-10.33,transport,National Rail
+2026-02-05,zofia,-10.55,groceries,Tesco
+2026-02-05,zofia,-12.57,recreation,Vue Cinema
+2026-02-05,zofia,-6.01,groceries,Asda
+2026-02-06,ada,-16.14,groceries,Asda
+2026-02-06,ada,-14.93,transport,BP
+2026-02-06,ada,-25.38,eating_out,Deliveroo
+2026-02-06,daniel,344.41,income,Courier platform payout
+2026-02-06,grace,1070.77,income,DWP State Pension
+2026-02-06,grace,-5.26,transport,TfL
+2026-02-06,grace,-9.06,groceries,Sainsbury's
+2026-02-06,halina,886.15,income,DWP State Pension
+2026-02-06,halina,-25.12,recreation,PureGym
+2026-02-06,tomasz,-9.1,shopping,B&M
+2026-02-06,tomasz,-20.87,groceries,Co-op
+2026-02-06,tomasz,-8.35,groceries,Co-op
+2026-02-06,tomasz,-14.82,shopping,Next
+2026-02-06,tomasz,-4.98,eating_out,Costa
+2026-02-06,tomasz,-13.85,transport,BP
+2026-02-06,zofia,-14.8,groceries,Lidl
+2026-02-06,zofia,-15.75,personal,Pets at Home
+2026-02-06,zofia,-13.89,eating_out,Just Eat
+2026-02-06,zofia,-142.74,bnpl,Klarna
+2026-02-06,zofia,-45.51,bnpl,Klarna
+2026-02-07,ada,-14.71,eating_out,Costa
+2026-02-07,grace,-13.69,recreation,Odeon
+2026-02-07,grace,-363.22,one_off,Funeral costs
+2026-02-07,halina,-22.41,recreation,Odeon
+2026-02-07,halina,-3.64,shopping,Boots
+2026-02-07,tomasz,-14.37,groceries,Co-op
+2026-02-07,tomasz,-48.36,transport,Esso
+2026-02-07,tomasz,-13.24,personal,Superdrug
+2026-02-07,tomasz,-40.0,cash_withdrawal,ATM
+2026-02-07,zofia,-32.42,recreation,PureGym
+2026-02-07,zofia,-94.36,bnpl,Klarna
+2026-02-07,zofia,-39.27,bnpl,Klarna
+2026-02-08,ada,-17.77,groceries,Sainsbury's
+2026-02-08,daniel,-6.41,personal,Superdrug
+2026-02-08,grace,-10.07,groceries,Asda
+2026-02-08,tomasz,-43.31,recreation,PureGym
+2026-02-08,zofia,-20.73,groceries,Asda
+2026-02-08,zofia,-8.03,personal,Superdrug
+2026-02-09,ada,-27.32,transport,Shell
+2026-02-09,grace,-7.51,eating_out,Just Eat
+2026-02-09,grace,-9.45,groceries,Sainsbury's
+2026-02-09,grace,-4.71,shopping,B&M
+2026-02-09,grace,-5.68,eating_out,Deliveroo
+2026-02-09,grace,-15.56,groceries,Aldi
+2026-02-09,halina,-4.22,groceries,Tesco
+2026-02-09,halina,-6.32,eating_out,Costa
+2026-02-09,tomasz,-3.89,transport,BP
+2026-02-09,tomasz,-15.75,groceries,Sainsbury's
+2026-02-09,zofia,-17.95,transport,TfL
+2026-02-09,zofia,-12.64,recreation,PureGym
+2026-02-10,ada,-17.44,groceries,Asda
+2026-02-10,ada,-7.64,transport,TfL
+2026-02-10,grace,-4.07,shopping,Argos
+2026-02-10,halina,-33.03,groceries,Lidl
+2026-02-10,halina,-19.42,transport,Stagecoach
+2026-02-10,halina,-8.03,eating_out,Nando's
+2026-02-10,halina,-29.53,personal,Post Office
+2026-02-10,tomasz,-43.33,shopping,Amazon
+2026-02-10,tomasz,-23.65,groceries,Sainsbury's
+2026-02-10,zofia,-0.37,personal,Barber
+2026-02-11,ada,-12.87,eating_out,Costa
+2026-02-11,ada,-6.32,eating_out,Greggs
+2026-02-11,daniel,-27.18,groceries,Tesco
+2026-02-11,grace,-3.83,transport,Shell
+2026-02-11,grace,-10.34,shopping,Argos
+2026-02-11,halina,-10.61,recreation,Spotify
+2026-02-11,tomasz,-43.97,shopping,B&M
+2026-02-11,zofia,-10.78,groceries,Aldi
+2026-02-11,zofia,-5.61,personal,Pets at Home
+2026-02-12,ada,-10.24,transport,Shell
+2026-02-12,ada,-17.47,transport,Esso
+2026-02-12,daniel,-28.64,shopping,Boots
+2026-02-12,daniel,-54.07,bnpl,Klarna
+2026-02-12,halina,-12.06,personal,Post Office
+2026-02-12,halina,-2.31,groceries,Co-op
+2026-02-12,halina,-12.28,eating_out,Deliveroo
+2026-02-12,halina,-22.54,transport,BP
+2026-02-12,halina,-9.95,recreation,Vue Cinema
+2026-02-12,tomasz,-16.21,recreation,Netflix
+2026-02-12,zofia,-7.78,transport,BP
+2026-02-13,ada,-12.22,groceries,Aldi
+2026-02-13,daniel,403.73,income,Courier platform payout
+2026-02-13,daniel,-14.38,groceries,Co-op
+2026-02-13,grace,-2.97,transport,TfL
+2026-02-13,grace,-10.02,eating_out,Deliveroo
+2026-02-13,grace,-3.0,groceries,Tesco
+2026-02-13,grace,-1.67,groceries,Asda
+2026-02-13,halina,-31.87,shopping,Next
+2026-02-13,zofia,-8.43,recreation,Odeon
+2026-02-14,ada,-14.14,utilities,Octopus Energy
+2026-02-14,ada,-25.4,transport,Esso
+2026-02-14,ada,-11.56,transport,Shell
+2026-02-14,daniel,-108.3,utilities,Octopus Energy
+2026-02-14,daniel,-7.1,shopping,Boots
+2026-02-14,grace,-78.31,utilities,Octopus Energy
+2026-02-14,grace,-0.57,recreation,Vue Cinema
+2026-02-14,grace,-11.68,recreation,Steam
+2026-02-14,grace,-7.65,recreation,Steam
+2026-02-14,grace,-5.01,eating_out,Just Eat
+2026-02-14,grace,-6.81,groceries,Sainsbury's
+2026-02-14,halina,-90.92,utilities,Octopus Energy
+2026-02-14,halina,-13.08,transport,Shell
+2026-02-14,halina,-25.11,eating_out,Deliveroo
+2026-02-14,tomasz,-122.43,utilities,Octopus Energy
+2026-02-14,zofia,-53.84,utilities,Octopus Energy
+2026-02-14,zofia,-9.32,personal,Superdrug
+2026-02-14,zofia,-13.2,shopping,Amazon
+2026-02-15,daniel,-30.52,eating_out,Deliveroo
+2026-02-15,daniel,-16.78,groceries,Tesco
+2026-02-15,grace,-6.59,eating_out,Nando's
+2026-02-15,halina,-14.37,groceries,Aldi
+2026-02-16,ada,-9.38,shopping,Primark
+2026-02-16,ada,-3.59,transport,Stagecoach
+2026-02-16,daniel,-13.77,groceries,Aldi
+2026-02-16,grace,-11.84,groceries,Co-op
+2026-02-16,grace,-2.44,groceries,Sainsbury's
+2026-02-16,halina,-5.61,groceries,Lidl
+2026-02-16,halina,-16.31,groceries,Sainsbury's
+2026-02-16,tomasz,-27.97,recreation,Netflix
+2026-02-16,zofia,-6.7,groceries,Co-op
+2026-02-16,zofia,-8.82,shopping,Argos
+2026-02-16,zofia,-7.27,groceries,Co-op
+2026-02-16,zofia,-17.69,bnpl,Klarna
+2026-02-17,ada,-11.14,shopping,Amazon
+2026-02-17,ada,-15.87,eating_out,Deliveroo
+2026-02-17,daniel,-4.39,groceries,Aldi
+2026-02-17,grace,-5.82,eating_out,Costa
+2026-02-17,grace,-2.69,groceries,Co-op
+2026-02-17,grace,-2.84,shopping,Amazon
+2026-02-17,halina,-2.15,shopping,Amazon
+2026-02-17,halina,-6.37,transport,Esso
+2026-02-17,halina,-1.56,shopping,Amazon
+2026-02-17,halina,-23.27,eating_out,Wetherspoons
+2026-02-17,tomasz,-15.64,groceries,Co-op
+2026-02-17,zofia,-37.75,bnpl,Klarna
+2026-02-18,ada,-4.38,utilities,Thames Water
+2026-02-18,daniel,-35.56,utilities,Thames Water
+2026-02-18,daniel,-6.98,eating_out,Costa
+2026-02-18,grace,-24.41,utilities,Thames Water
+2026-02-18,grace,-4.86,transport,Stagecoach
+2026-02-18,grace,-4.08,eating_out,Wetherspoons
+2026-02-18,halina,-28.65,utilities,Thames Water
+2026-02-18,halina,-6.39,personal,Superdrug
+2026-02-18,halina,-33.49,groceries,Asda
+2026-02-18,halina,-29.75,eating_out,Costa
+2026-02-18,tomasz,-39.56,utilities,Thames Water
+2026-02-18,zofia,-15.46,utilities,Thames Water
+2026-02-18,zofia,-5.62,groceries,Tesco
+2026-02-18,zofia,-1.02,groceries,Asda
+2026-02-18,zofia,-18.74,bnpl,Klarna
+2026-02-19,ada,-15.72,recreation,Odeon
+2026-02-19,ada,-8.75,transport,TfL
+2026-02-19,ada,-11.91,transport,Shell
+2026-02-19,daniel,-16.14,transport,National Rail
+2026-02-19,grace,-17.15,groceries,Aldi
+2026-02-19,halina,-15.43,groceries,Lidl
+2026-02-19,halina,-21.4,eating_out,Wetherspoons
+2026-02-19,tomasz,-35.91,eating_out,Wetherspoons
+2026-02-19,zofia,-7.44,shopping,B&M
+2026-02-19,zofia,-15.66,recreation,Odeon
+2026-02-20,ada,1186.93,income,Employer payroll (apprentice)
+2026-02-20,ada,-15.91,recreation,Odeon
+2026-02-20,ada,-10.82,personal,Barber
+2026-02-20,daniel,956.7,income,Courier platform payout
+2026-02-20,daniel,-19.96,transport,BP
+2026-02-20,halina,-10.48,shopping,Argos
+2026-02-20,halina,-16.95,recreation,Odeon
+2026-02-20,halina,-7.45,groceries,Tesco
+2026-02-20,halina,-20.65,eating_out,Just Eat
+2026-02-20,halina,-4.43,groceries,Tesco
+2026-02-20,tomasz,-14.14,transport,Shell
+2026-02-20,tomasz,-39.16,transport,National Rail
+2026-02-20,tomasz,-14.45,eating_out,Wetherspoons
+2026-02-20,tomasz,-6.67,groceries,Lidl
+2026-02-20,tomasz,-53.31,shopping,Next
+2026-02-20,tomasz,-17.09,transport,BP
+2026-02-20,zofia,-5.13,groceries,Asda
+2026-02-20,zofia,-11.92,personal,Barber
+2026-02-20,zofia,-4.37,eating_out,Greggs
+2026-02-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-02-21,daniel,-8.83,shopping,Amazon
+2026-02-21,grace,-7.36,recreation,Spotify
+2026-02-21,grace,-1.54,shopping,B&M
+2026-02-21,halina,-39.37,eating_out,Deliveroo
+2026-02-21,halina,-17.35,groceries,Tesco
+2026-02-21,halina,-2.51,recreation,Vue Cinema
+2026-02-21,halina,-19.96,transport,BP
+2026-02-21,zofia,-12.2,groceries,Lidl
+2026-02-21,zofia,-2.98,groceries,Aldi
+2026-02-21,zofia,-8.24,transport,National Rail
+2026-02-22,ada,-6.92,communication,BT Broadband & Mobile
+2026-02-22,ada,-8.03,recreation,Steam
+2026-02-22,ada,-4.44,groceries,Aldi
+2026-02-22,ada,-19.39,recreation,Odeon
+2026-02-22,ada,-8.71,recreation,Odeon
+2026-02-22,daniel,-51.22,communication,BT Broadband & Mobile
+2026-02-22,daniel,-13.71,groceries,Aldi
+2026-02-22,grace,-36.81,communication,BT Broadband & Mobile
+2026-02-22,grace,-3.35,shopping,Next
+2026-02-22,grace,-2.41,groceries,Asda
+2026-02-22,grace,-3.72,groceries,Co-op
+2026-02-22,grace,-7.59,eating_out,Costa
+2026-02-22,halina,-39.21,communication,BT Broadband & Mobile
+2026-02-22,halina,-3.73,transport,Shell
+2026-02-22,tomasz,-59.26,communication,BT Broadband & Mobile
+2026-02-22,tomasz,-12.93,shopping,Boots
+2026-02-22,tomasz,-25.18,recreation,Steam
+2026-02-22,tomasz,-23.13,eating_out,Deliveroo
+2026-02-22,zofia,-23.72,communication,BT Broadband & Mobile
+2026-02-22,zofia,-19.0,groceries,Asda
+2026-02-22,zofia,-40.0,cash_withdrawal,ATM
+2026-02-23,ada,-8.33,eating_out,Wetherspoons
+2026-02-23,daniel,-10.13,shopping,Amazon
+2026-02-23,daniel,-26.89,recreation,Odeon
+2026-02-23,daniel,-41.61,recreation,Spotify
+2026-02-23,halina,-16.54,transport,TfL
+2026-02-23,tomasz,-30.51,eating_out,Nando's
+2026-02-23,tomasz,-4.53,personal,Superdrug
+2026-02-23,zofia,-6.42,eating_out,Greggs
+2026-02-23,zofia,-3.06,groceries,Co-op
+2026-02-23,zofia,-6.63,groceries,Asda
+2026-02-24,daniel,-6.6,groceries,Co-op
+2026-02-24,daniel,-15.62,transport,Shell
+2026-02-24,daniel,-36.19,transport,Esso
+2026-02-24,grace,-4.41,eating_out,Nando's
+2026-02-24,halina,-11.65,transport,Shell
+2026-02-24,halina,-8.04,groceries,Tesco
+2026-02-24,halina,-13.8,groceries,Lidl
+2026-02-24,halina,-13.38,transport,Stagecoach
+2026-02-24,halina,-15.3,groceries,Aldi
+2026-02-24,tomasz,-608.49,one_off,Dentist
+2026-02-24,zofia,-7.74,transport,National Rail
+2026-02-25,ada,-12.39,shopping,B&M
+2026-02-25,daniel,-15.05,recreation,Vue Cinema
+2026-02-25,daniel,-19.16,eating_out,Wetherspoons
+2026-02-25,daniel,-8.64,shopping,B&M
+2026-02-25,grace,-8.17,recreation,PureGym
+2026-02-25,grace,-3.25,personal,Pets at Home
+2026-02-25,grace,-4.33,transport,Esso
+2026-02-25,halina,-40.61,shopping,Next
+2026-02-25,halina,-22.65,transport,National Rail
+2026-02-25,halina,-23.62,groceries,Lidl
+2026-02-25,zofia,1894.46,income,Employer payroll
+2026-02-25,zofia,-9.81,recreation,Spotify
+2026-02-26,ada,-27.66,groceries,Tesco
+2026-02-26,ada,-3.61,transport,Stagecoach
+2026-02-26,ada,-14.96,groceries,Aldi
+2026-02-26,daniel,-33.93,shopping,Amazon
+2026-02-26,daniel,-22.5,personal,Post Office
+2026-02-26,grace,-2.42,personal,Superdrug
+2026-02-26,halina,-4.56,recreation,Vue Cinema
+2026-02-26,halina,-8.22,recreation,Spotify
+2026-02-26,tomasz,-51.6,transport,Shell
+2026-02-26,tomasz,-100.0,cash_withdrawal,ATM
+2026-02-26,zofia,-9.09,transport,Stagecoach
+2026-02-26,zofia,-6.9,transport,National Rail
+2026-02-26,zofia,-8.37,shopping,B&M
+2026-02-26,zofia,-5.22,transport,Esso
+2026-02-27,daniel,564.92,income,Courier platform payout
+2026-02-27,daniel,-9.94,recreation,Vue Cinema
+2026-02-27,tomasz,2869.48,income,Employer payroll
+2026-02-27,tomasz,-21.11,transport,Shell
+2026-02-27,zofia,-5.19,eating_out,Wetherspoons
+2026-02-27,zofia,-13.21,recreation,PureGym
+2026-02-27,zofia,-33.03,groceries,Asda
+2026-02-28,ada,-25.11,shopping,Amazon
+2026-02-28,ada,-13.7,groceries,Sainsbury's
+2026-02-28,daniel,-8.41,groceries,Sainsbury's
+2026-02-28,daniel,-13.51,transport,National Rail
+2026-02-28,grace,-6.76,groceries,Tesco
+2026-02-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-02-28,halina,-9.99,shopping,Next
+2026-02-28,halina,-13.02,groceries,Tesco
+2026-02-28,halina,-19.61,eating_out,Costa
+2026-02-28,halina,-18.65,transport,BP
+2026-02-28,tomasz,-22.31,transport,Shell
+2026-02-28,zofia,-5.8,groceries,Co-op
+2026-03-01,ada,-200.0,housing,Board to Mum
+2026-03-01,ada,-13.15,council_tax,Council Tax
+2026-03-01,ada,-25.48,shopping,B&M
+2026-03-01,daniel,-950.0,housing,Rent (private landlord)
+2026-03-01,daniel,-95.19,council_tax,Council Tax
+2026-03-01,daniel,-12.53,transport,Stagecoach
+2026-03-01,daniel,-33.18,bnpl,Klarna
+2026-03-01,grace,-430.0,housing,Rent (housing association)
+2026-03-01,grace,-66.09,council_tax,Council Tax
+2026-03-01,grace,-3.84,groceries,Lidl
+2026-03-01,grace,-5.28,recreation,PureGym
+2026-03-01,grace,-5.68,eating_out,Just Eat
+2026-03-01,grace,-5.74,groceries,Asda
+2026-03-01,halina,520.0,income,Workplace pension
+2026-03-01,halina,-79.44,council_tax,Council Tax
+2026-03-01,halina,-16.02,recreation,Vue Cinema
+2026-03-01,tomasz,-121.55,council_tax,Council Tax
+2026-03-01,tomasz,-6.82,shopping,Argos
+2026-03-01,tomasz,-29.32,transport,TfL
+2026-03-01,tomasz,-13.39,personal,Post Office
+2026-03-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-03-01,zofia,-50.47,council_tax,Council Tax
+2026-03-01,zofia,-1.67,bank_fee,Arranged overdraft interest
+2026-03-02,ada,-9.4,shopping,Amazon
+2026-03-02,ada,-42.48,groceries,Co-op
+2026-03-02,daniel,-9.86,eating_out,Costa
+2026-03-02,halina,-2.92,shopping,Amazon
+2026-03-02,halina,-14.21,groceries,Lidl
+2026-03-02,tomasz,-1080.0,housing,Mortgage (Nationwide)
+2026-03-02,tomasz,-45.73,recreation,PureGym
+2026-03-02,zofia,-5.31,shopping,Next
+2026-03-02,zofia,-12.43,personal,Pets at Home
+2026-03-02,zofia,-0.26,groceries,Tesco
+2026-03-02,zofia,-11.35,eating_out,Wetherspoons
+2026-03-02,zofia,-20.0,cash_withdrawal,ATM
+2026-03-03,daniel,-6.19,shopping,Amazon
+2026-03-03,daniel,-4.37,transport,TfL
+2026-03-03,daniel,-2.02,transport,Stagecoach
+2026-03-03,halina,-23.03,recreation,Netflix
+2026-03-03,halina,-9.44,shopping,Amazon
+2026-03-03,tomasz,-51.43,transport,Shell
+2026-03-03,tomasz,-5.87,transport,BP
+2026-03-03,tomasz,-18.9,groceries,Co-op
+2026-03-03,zofia,-19.26,recreation,Spotify
+2026-03-03,zofia,-2.19,personal,Post Office
+2026-03-03,zofia,-2.35,personal,Barber
+2026-03-04,ada,-9.02,groceries,Asda
+2026-03-04,grace,-6.97,transport,National Rail
+2026-03-04,grace,-4.51,recreation,Spotify
+2026-03-04,grace,-2.45,groceries,Tesco
+2026-03-04,grace,-12.3,recreation,Spotify
+2026-03-04,grace,-2.89,shopping,Boots
+2026-03-04,halina,-23.2,transport,BP
+2026-03-04,halina,-13.94,eating_out,Just Eat
+2026-03-04,tomasz,-16.2,groceries,Lidl
+2026-03-04,zofia,-15.44,recreation,PureGym
+2026-03-04,zofia,-10.49,shopping,Argos
+2026-03-04,zofia,-11.75,eating_out,Nando's
+2026-03-05,ada,-5.29,insurance,Aviva
+2026-03-05,ada,-34.12,groceries,Tesco
+2026-03-05,ada,-8.16,transport,Shell
+2026-03-05,ada,-13.23,shopping,Argos
+2026-03-05,ada,-14.95,groceries,Tesco
+2026-03-05,ada,-11.04,recreation,Odeon
+2026-03-05,daniel,-40.03,insurance,Aviva
+2026-03-05,grace,-26.86,insurance,Aviva
+2026-03-05,grace,-6.6,shopping,Primark
+2026-03-05,halina,-33.51,insurance,Aviva
+2026-03-05,halina,-32.23,transport,Esso
+2026-03-05,tomasz,-47.6,insurance,Aviva
+2026-03-05,tomasz,-19.08,eating_out,Greggs
+2026-03-05,zofia,-19.31,insurance,Aviva
+2026-03-05,zofia,-15.62,eating_out,Deliveroo
+2026-03-05,zofia,-8.0,groceries,Asda
+2026-03-05,zofia,-8.78,personal,Post Office
+2026-03-06,ada,-12.49,shopping,B&M
+2026-03-06,ada,-1.93,groceries,Tesco
+2026-03-06,daniel,586.73,income,Courier platform payout
+2026-03-06,daniel,-7.11,eating_out,Just Eat
+2026-03-06,daniel,-1.33,bnpl,Klarna
+2026-03-06,grace,1070.77,income,DWP State Pension
+2026-03-06,grace,-0.79,eating_out,Wetherspoons
+2026-03-06,halina,886.15,income,DWP State Pension
+2026-03-06,halina,-5.66,eating_out,Deliveroo
+2026-03-06,tomasz,-13.32,recreation,PureGym
+2026-03-06,tomasz,-11.83,recreation,PureGym
+2026-03-06,zofia,-27.03,transport,BP
+2026-03-07,ada,-13.81,transport,Shell
+2026-03-07,ada,-16.6,transport,Esso
+2026-03-07,grace,-5.94,eating_out,Nando's
+2026-03-07,grace,-4.02,personal,Superdrug
+2026-03-07,tomasz,-23.02,eating_out,Wetherspoons
+2026-03-07,tomasz,-100.0,cash_withdrawal,ATM
+2026-03-07,zofia,-37.86,groceries,Lidl
+2026-03-08,ada,-6.67,shopping,Argos
+2026-03-08,ada,-5.9,shopping,Boots
+2026-03-08,ada,-6.52,shopping,B&M
+2026-03-08,ada,-2.38,groceries,Aldi
+2026-03-08,daniel,-19.94,personal,Superdrug
+2026-03-08,daniel,-37.64,groceries,Sainsbury's
+2026-03-08,grace,-8.14,transport,Esso
+2026-03-08,grace,-16.08,groceries,Asda
+2026-03-08,halina,-28.25,groceries,Lidl
+2026-03-08,tomasz,-4.8,eating_out,Deliveroo
+2026-03-08,tomasz,-31.51,personal,Superdrug
+2026-03-08,zofia,-15.31,shopping,B&M
+2026-03-08,zofia,-11.2,groceries,Sainsbury's
+2026-03-08,zofia,-22.37,eating_out,Wetherspoons
+2026-03-08,zofia,-19.55,groceries,Lidl
+2026-03-08,zofia,-45.51,bnpl,Klarna
+2026-03-09,ada,-11.23,groceries,Aldi
+2026-03-09,ada,-6.8,groceries,Lidl
+2026-03-09,ada,-16.74,eating_out,Wetherspoons
+2026-03-09,ada,-5.76,eating_out,Nando's
+2026-03-09,grace,-4.81,recreation,Steam
+2026-03-09,grace,-4.91,groceries,Sainsbury's
+2026-03-09,tomasz,-4.43,personal,Pets at Home
+2026-03-09,zofia,-2.36,recreation,Odeon
+2026-03-09,zofia,-26.51,groceries,Aldi
+2026-03-09,zofia,-39.27,bnpl,Klarna
+2026-03-10,ada,-4.39,groceries,Tesco
+2026-03-10,daniel,-29.72,groceries,Sainsbury's
+2026-03-10,daniel,-9.12,personal,Post Office
+2026-03-10,daniel,-30.6,groceries,Tesco
+2026-03-10,daniel,-18.18,eating_out,Deliveroo
+2026-03-10,grace,-2.99,groceries,Co-op
+2026-03-10,grace,-4.16,eating_out,Wetherspoons
+2026-03-10,grace,-6.67,recreation,Spotify
+2026-03-10,halina,-11.02,groceries,Tesco
+2026-03-10,tomasz,-6.64,recreation,Spotify
+2026-03-10,tomasz,-99.45,groceries,Tesco
+2026-03-10,tomasz,-23.59,recreation,Spotify
+2026-03-10,zofia,-9.71,groceries,Co-op
+2026-03-10,zofia,-17.31,eating_out,Greggs
+2026-03-11,daniel,-17.58,transport,Stagecoach
+2026-03-11,daniel,-26.32,groceries,Lidl
+2026-03-11,daniel,-4.92,eating_out,Deliveroo
+2026-03-11,halina,-5.11,groceries,Tesco
+2026-03-11,halina,-12.91,groceries,Aldi
+2026-03-11,zofia,-10.89,groceries,Tesco
+2026-03-11,zofia,-24.9,transport,Esso
+2026-03-12,ada,-9.77,eating_out,Wetherspoons
+2026-03-12,ada,-40.0,cash_withdrawal,ATM
+2026-03-12,daniel,-20.12,recreation,PureGym
+2026-03-12,grace,-1.17,transport,Esso
+2026-03-12,grace,-4.89,shopping,Argos
+2026-03-12,halina,-3.77,personal,Post Office
+2026-03-12,halina,-0.65,groceries,Lidl
+2026-03-12,halina,-10.17,eating_out,Just Eat
+2026-03-12,tomasz,-39.67,eating_out,Nando's
+2026-03-13,ada,-4.81,groceries,Asda
+2026-03-13,daniel,268.19,income,Courier platform payout
+2026-03-13,daniel,-22.46,eating_out,Nando's
+2026-03-13,daniel,-8.18,shopping,Primark
+2026-03-13,daniel,-1.71,eating_out,Nando's
+2026-03-13,grace,-12.65,personal,Superdrug
+2026-03-13,grace,-6.18,groceries,Sainsbury's
+2026-03-13,grace,-5.77,groceries,Co-op
+2026-03-13,halina,-34.58,eating_out,Greggs
+2026-03-13,tomasz,-10.69,shopping,Primark
+2026-03-13,tomasz,-16.08,eating_out,Costa
+2026-03-13,zofia,-13.0,recreation,Odeon
+2026-03-14,ada,-15.04,utilities,Octopus Energy
+2026-03-14,ada,-18.06,transport,Esso
+2026-03-14,daniel,-103.66,utilities,Octopus Energy
+2026-03-14,daniel,-14.88,groceries,Co-op
+2026-03-14,daniel,-39.23,eating_out,Nando's
+2026-03-14,daniel,-54.07,bnpl,Klarna
+2026-03-14,grace,-79.72,utilities,Octopus Energy
+2026-03-14,grace,-15.68,groceries,Aldi
+2026-03-14,grace,-6.94,groceries,Lidl
+2026-03-14,grace,-3.09,personal,Barber
+2026-03-14,halina,-86.22,utilities,Octopus Energy
+2026-03-14,halina,-27.68,groceries,Asda
+2026-03-14,halina,-6.39,eating_out,Deliveroo
+2026-03-14,halina,-7.46,shopping,Next
+2026-03-14,tomasz,-123.98,utilities,Octopus Energy
+2026-03-14,tomasz,-48.69,groceries,Asda
+2026-03-14,tomasz,-42.8,shopping,Amazon
+2026-03-14,zofia,-53.77,utilities,Octopus Energy
+2026-03-14,zofia,-20.85,transport,TfL
+2026-03-14,zofia,-13.38,groceries,Lidl
+2026-03-15,ada,-20.5,eating_out,Greggs
+2026-03-15,ada,-19.81,groceries,Co-op
+2026-03-15,ada,-23.95,personal,Barber
+2026-03-15,daniel,-50.0,cash_withdrawal,ATM
+2026-03-15,grace,-9.38,shopping,Amazon
+2026-03-15,grace,-9.23,transport,TfL
+2026-03-15,halina,-4.94,groceries,Co-op
+2026-03-15,tomasz,-31.64,shopping,Argos
+2026-03-16,ada,-6.86,recreation,Vue Cinema
+2026-03-16,ada,-17.55,transport,Shell
+2026-03-16,ada,-100.0,cash_withdrawal,ATM
+2026-03-16,daniel,-6.93,groceries,Lidl
+2026-03-16,daniel,-7.67,recreation,Odeon
+2026-03-16,daniel,-5.61,transport,Stagecoach
+2026-03-16,daniel,-20.36,groceries,Lidl
+2026-03-16,grace,-9.98,groceries,Lidl
+2026-03-16,grace,-20.0,cash_withdrawal,ATM
+2026-03-16,halina,-11.16,personal,Barber
+2026-03-16,halina,-12.55,groceries,Sainsbury's
+2026-03-16,zofia,-18.53,groceries,Lidl
+2026-03-16,zofia,-23.63,transport,Shell
+2026-03-16,zofia,-5.42,eating_out,Just Eat
+2026-03-17,grace,-17.59,transport,BP
+2026-03-17,halina,-17.1,shopping,Boots
+2026-03-17,halina,-19.73,personal,Superdrug
+2026-03-17,halina,-31.28,transport,Stagecoach
+2026-03-17,halina,-69.96,transport,Shell
+2026-03-17,tomasz,-34.86,shopping,Amazon
+2026-03-17,tomasz,-29.37,groceries,Sainsbury's
+2026-03-17,tomasz,-16.53,shopping,Primark
+2026-03-17,zofia,-9.97,recreation,Odeon
+2026-03-18,ada,-4.68,utilities,Thames Water
+2026-03-18,ada,-3.4,groceries,Sainsbury's
+2026-03-18,ada,-10.95,personal,Superdrug
+2026-03-18,ada,-14.62,shopping,Primark
+2026-03-18,daniel,-32.65,utilities,Thames Water
+2026-03-18,daniel,-11.59,groceries,Tesco
+2026-03-18,daniel,-10.4,groceries,Lidl
+2026-03-18,grace,-22.88,utilities,Thames Water
+2026-03-18,grace,-5.45,eating_out,Just Eat
+2026-03-18,halina,-27.84,utilities,Thames Water
+2026-03-18,halina,-27.83,groceries,Lidl
+2026-03-18,halina,-26.95,transport,Stagecoach
+2026-03-18,tomasz,-40.63,utilities,Thames Water
+2026-03-18,tomasz,-9.53,groceries,Sainsbury's
+2026-03-18,tomasz,-25.14,transport,National Rail
+2026-03-18,zofia,-15.81,utilities,Thames Water
+2026-03-18,zofia,-14.28,groceries,Tesco
+2026-03-18,zofia,-6.62,groceries,Lidl
+2026-03-18,zofia,-8.53,shopping,Argos
+2026-03-19,ada,-6.86,recreation,Steam
+2026-03-19,daniel,-25.8,shopping,Argos
+2026-03-19,daniel,-4.41,groceries,Aldi
+2026-03-19,halina,-6.86,recreation,Spotify
+2026-03-19,halina,-5.83,transport,BP
+2026-03-19,tomasz,-12.17,groceries,Aldi
+2026-03-19,tomasz,-19.69,transport,TfL
+2026-03-19,zofia,-8.19,groceries,Tesco
+2026-03-19,zofia,-29.0,groceries,Asda
+2026-03-19,zofia,-21.28,recreation,Spotify
+2026-03-19,zofia,-37.75,bnpl,Klarna
+2026-03-20,ada,1168.94,income,Employer payroll (apprentice)
+2026-03-20,ada,-11.06,eating_out,Deliveroo
+2026-03-20,daniel,519.97,income,Courier platform payout
+2026-03-20,daniel,-18.19,groceries,Lidl
+2026-03-20,tomasz,-7.95,shopping,B&M
+2026-03-20,tomasz,-22.49,recreation,PureGym
+2026-03-20,tomasz,-20.26,personal,Post Office
+2026-03-20,zofia,-3.2,groceries,Asda
+2026-03-20,zofia,-1.71,shopping,Next
+2026-03-20,zofia,-8.54,transport,TfL
+2026-03-20,zofia,-2.75,transport,National Rail
+2026-03-20,zofia,-18.74,bnpl,Klarna
+2026-03-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-03-21,ada,-7.72,recreation,Vue Cinema
+2026-03-21,ada,-6.86,recreation,PureGym
+2026-03-21,daniel,-5.17,recreation,Odeon
+2026-03-21,grace,-1.7,groceries,Aldi
+2026-03-21,grace,-9.89,groceries,Aldi
+2026-03-21,grace,-4.01,eating_out,Just Eat
+2026-03-21,halina,-33.48,shopping,Next
+2026-03-21,tomasz,-12.01,groceries,Asda
+2026-03-21,zofia,-8.2,groceries,Tesco
+2026-03-21,zofia,-17.34,transport,BP
+2026-03-22,ada,-6.99,communication,BT Broadband & Mobile
+2026-03-22,ada,-13.34,eating_out,Deliveroo
+2026-03-22,daniel,-51.1,communication,BT Broadband & Mobile
+2026-03-22,grace,-33.65,communication,BT Broadband & Mobile
+2026-03-22,halina,-41.23,communication,BT Broadband & Mobile
+2026-03-22,halina,-12.63,shopping,Primark
+2026-03-22,tomasz,-57.72,communication,BT Broadband & Mobile
+2026-03-22,tomasz,-28.95,shopping,Argos
+2026-03-22,zofia,-25.17,communication,BT Broadband & Mobile
+2026-03-22,zofia,-4.12,groceries,Lidl
+2026-03-22,zofia,-3.34,transport,National Rail
+2026-03-22,zofia,-5.12,groceries,Sainsbury's
+2026-03-23,ada,-10.93,personal,Post Office
+2026-03-23,ada,-14.89,groceries,Sainsbury's
+2026-03-23,ada,-11.1,personal,Pets at Home
+2026-03-23,daniel,-39.43,transport,BP
+2026-03-23,daniel,-17.02,groceries,Co-op
+2026-03-23,grace,-8.38,groceries,Aldi
+2026-03-23,halina,-8.59,groceries,Sainsbury's
+2026-03-23,halina,-35.1,groceries,Tesco
+2026-03-24,ada,-11.1,transport,Stagecoach
+2026-03-24,ada,-16.04,recreation,Spotify
+2026-03-24,ada,-6.77,personal,Superdrug
+2026-03-24,daniel,-15.71,shopping,Primark
+2026-03-24,daniel,-6.24,eating_out,Nando's
+2026-03-24,daniel,-59.83,recreation,PureGym
+2026-03-24,grace,-7.27,eating_out,Deliveroo
+2026-03-24,grace,-1.36,recreation,Steam
+2026-03-24,grace,-4.19,groceries,Co-op
+2026-03-24,halina,-9.66,recreation,PureGym
+2026-03-24,tomasz,-12.1,transport,Esso
+2026-03-24,zofia,-8.44,transport,Esso
+2026-03-24,zofia,-6.64,eating_out,Wetherspoons
+2026-03-24,zofia,-1.38,shopping,Argos
+2026-03-25,ada,-8.08,shopping,Amazon
+2026-03-25,ada,-11.63,groceries,Tesco
+2026-03-25,grace,-9.91,eating_out,Greggs
+2026-03-25,grace,-1.22,personal,Post Office
+2026-03-25,tomasz,-47.69,shopping,Boots
+2026-03-25,tomasz,-5.05,groceries,Tesco
+2026-03-25,zofia,1879.95,income,Employer payroll
+2026-03-25,zofia,-1.34,eating_out,Costa
+2026-03-26,ada,-22.99,eating_out,Nando's
+2026-03-26,grace,-8.01,eating_out,Wetherspoons
+2026-03-26,grace,-6.36,transport,Shell
+2026-03-26,grace,-2.39,recreation,Steam
+2026-03-26,grace,-7.22,groceries,Co-op
+2026-03-26,grace,-7.38,shopping,Argos
+2026-03-26,halina,-3.52,groceries,Co-op
+2026-03-26,tomasz,-5.03,shopping,Boots
+2026-03-26,tomasz,-4.09,shopping,Next
+2026-03-26,zofia,-15.04,recreation,Vue Cinema
+2026-03-26,zofia,-17.39,transport,BP
+2026-03-27,ada,-6.19,shopping,Primark
+2026-03-27,ada,-9.32,recreation,Netflix
+2026-03-27,ada,-15.11,groceries,Tesco
+2026-03-27,daniel,211.4,income,Courier platform payout
+2026-03-27,daniel,-13.18,eating_out,Wetherspoons
+2026-03-27,daniel,-8.33,groceries,Asda
+2026-03-27,grace,-8.38,eating_out,Nando's
+2026-03-27,halina,-10.79,eating_out,Costa
+2026-03-27,tomasz,2887.33,income,Employer payroll
+2026-03-27,tomasz,-30.8,recreation,Odeon
+2026-03-27,zofia,-15.86,groceries,Lidl
+2026-03-28,ada,-28.22,shopping,Argos
+2026-03-28,daniel,-21.64,shopping,Argos
+2026-03-28,daniel,-6.3,eating_out,Wetherspoons
+2026-03-28,daniel,-6.71,eating_out,Wetherspoons
+2026-03-28,daniel,-9.32,personal,Pets at Home
+2026-03-28,grace,-0.14,personal,Barber
+2026-03-28,grace,-6.05,recreation,Spotify
+2026-03-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-03-28,halina,-25.78,transport,TfL
+2026-03-28,halina,-12.78,groceries,Lidl
+2026-03-28,halina,-10.13,eating_out,Just Eat
+2026-03-28,zofia,-32.71,transport,TfL
+2026-03-29,ada,-10.82,recreation,PureGym
+2026-03-29,ada,-16.45,eating_out,Wetherspoons
+2026-03-29,ada,-15.96,groceries,Co-op
+2026-03-29,ada,-15.46,recreation,PureGym
+2026-03-29,daniel,-19.18,groceries,Asda
+2026-03-29,grace,-2.59,personal,Barber
+2026-03-29,grace,-2.9,shopping,Argos
+2026-03-29,halina,-2.15,personal,Superdrug
+2026-03-29,halina,-18.95,groceries,Tesco
+2026-03-29,halina,-26.69,recreation,Odeon
+2026-03-29,tomasz,-38.51,transport,TfL
+2026-03-29,tomasz,-23.23,groceries,Asda
+2026-03-29,zofia,-18.14,groceries,Tesco
+2026-03-30,ada,-9.58,shopping,B&M
+2026-03-30,ada,-3.49,eating_out,Costa
+2026-03-30,grace,-6.02,groceries,Lidl
+2026-03-30,halina,-24.38,transport,Esso
+2026-03-30,halina,-48.85,transport,National Rail
+2026-03-30,halina,-17.59,shopping,Argos
+2026-03-30,zofia,-9.43,groceries,Aldi
+2026-03-31,ada,-21.33,transport,National Rail
+2026-03-31,ada,-18.98,eating_out,Wetherspoons
+2026-03-31,ada,-16.65,transport,BP
+2026-03-31,daniel,-22.4,groceries,Asda
+2026-03-31,daniel,-33.18,bnpl,Klarna
+2026-03-31,grace,-8.79,groceries,Asda
+2026-03-31,grace,-3.74,recreation,Steam
+2026-03-31,tomasz,-16.31,groceries,Sainsbury's
+2026-03-31,tomasz,-2.64,groceries,Co-op
+2026-03-31,zofia,-6.54,shopping,Primark
+2026-04-01,ada,-200.0,housing,Board to Mum
+2026-04-01,ada,-13.45,council_tax,Council Tax
+2026-04-01,ada,-6.96,personal,Post Office
+2026-04-01,ada,-10.99,recreation,Steam
+2026-04-01,ada,-16.4,eating_out,Costa
+2026-04-01,ada,-14.92,transport,Esso
+2026-04-01,ada,-13.26,groceries,Lidl
+2026-04-01,daniel,-950.0,housing,Rent (private landlord)
+2026-04-01,daniel,-94.24,council_tax,Council Tax
+2026-04-01,daniel,-14.44,personal,Pets at Home
+2026-04-01,daniel,-10.6,shopping,B&M
+2026-04-01,grace,-430.0,housing,Rent (housing association)
+2026-04-01,grace,-68.65,council_tax,Council Tax
+2026-04-01,grace,-13.88,transport,Shell
+2026-04-01,halina,520.0,income,Workplace pension
+2026-04-01,halina,-80.48,council_tax,Council Tax
+2026-04-01,halina,-60.41,groceries,Sainsbury's
+2026-04-01,halina,-39.32,transport,Esso
+2026-04-01,tomasz,-116.72,council_tax,Council Tax
+2026-04-01,tomasz,-24.17,groceries,Asda
+2026-04-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-04-01,zofia,-50.9,council_tax,Council Tax
+2026-04-01,zofia,-8.67,recreation,Spotify
+2026-04-01,zofia,-3.42,groceries,Tesco
+2026-04-01,zofia,-0.94,bank_fee,Arranged overdraft interest
+2026-04-02,ada,-7.72,transport,Esso
+2026-04-02,ada,-10.34,transport,Shell
+2026-04-02,daniel,-15.76,transport,National Rail
+2026-04-02,daniel,-9.06,eating_out,Wetherspoons
+2026-04-02,daniel,-21.39,groceries,Asda
+2026-04-02,halina,-18.79,groceries,Aldi
+2026-04-02,tomasz,-1080.0,housing,Mortgage (Nationwide)
+2026-04-02,tomasz,-86.31,recreation,Netflix
+2026-04-02,tomasz,-10.74,eating_out,Costa
+2026-04-02,tomasz,-26.74,transport,BP
+2026-04-02,zofia,-7.86,recreation,Netflix
+2026-04-03,ada,-16.78,shopping,Primark
+2026-04-03,daniel,692.13,income,Courier platform payout
+2026-04-03,daniel,-11.55,eating_out,Deliveroo
+2026-04-03,daniel,-4.01,transport,Stagecoach
+2026-04-03,daniel,-12.1,transport,BP
+2026-04-03,daniel,-5.16,eating_out,Deliveroo
+2026-04-03,daniel,-22.47,personal,Superdrug
+2026-04-03,grace,1070.77,income,DWP State Pension
+2026-04-03,grace,-11.25,transport,Stagecoach
+2026-04-03,grace,-1.16,personal,Superdrug
+2026-04-03,grace,-2.5,recreation,Netflix
+2026-04-03,grace,-7.69,eating_out,Just Eat
+2026-04-03,grace,-8.59,recreation,Odeon
+2026-04-03,grace,-15.61,recreation,PureGym
+2026-04-03,grace,-10.31,eating_out,Deliveroo
+2026-04-03,halina,886.15,income,DWP State Pension
+2026-04-03,halina,-12.2,personal,Pets at Home
+2026-04-03,tomasz,-28.93,shopping,Argos
+2026-04-03,tomasz,-47.75,eating_out,Nando's
+2026-04-03,tomasz,-6.86,recreation,Vue Cinema
+2026-04-03,tomasz,-5.4,shopping,Argos
+2026-04-03,tomasz,-12.0,eating_out,Greggs
+2026-04-03,tomasz,-21.98,shopping,Amazon
+2026-04-03,zofia,-8.3,shopping,B&M
+2026-04-03,zofia,-6.81,transport,TfL
+2026-04-03,zofia,-7.85,eating_out,Just Eat
+2026-04-04,grace,-8.62,groceries,Lidl
+2026-04-04,tomasz,-9.33,groceries,Tesco
+2026-04-04,zofia,-5.84,transport,National Rail
+2026-04-04,zofia,-9.13,shopping,Boots
+2026-04-04,zofia,-29.47,transport,National Rail
+2026-04-04,zofia,-40.6,bnpl,Klarna
+2026-04-05,ada,-5.23,insurance,Aviva
+2026-04-05,daniel,-40.41,insurance,Aviva
+2026-04-05,daniel,-9.17,shopping,Primark
+2026-04-05,daniel,-11.88,groceries,Tesco
+2026-04-05,daniel,-1.33,bnpl,Klarna
+2026-04-05,grace,-28.69,insurance,Aviva
+2026-04-05,halina,-33.8,insurance,Aviva
+2026-04-05,halina,-16.82,eating_out,Costa
+2026-04-05,tomasz,-48.12,insurance,Aviva
+2026-04-05,tomasz,-2.05,personal,Barber
+2026-04-05,zofia,-20.38,insurance,Aviva
+2026-04-06,ada,-7.62,recreation,Spotify
+2026-04-06,ada,-12.06,recreation,Netflix
+2026-04-06,daniel,-3.84,groceries,Aldi
+2026-04-06,daniel,-12.24,transport,National Rail
+2026-04-06,grace,-5.07,transport,Stagecoach
+2026-04-06,grace,-3.32,recreation,Netflix
+2026-04-06,grace,-3.42,groceries,Lidl
+2026-04-06,tomasz,-15.8,groceries,Lidl
+2026-04-06,tomasz,-26.06,transport,BP
+2026-04-06,tomasz,-14.42,groceries,Asda
+2026-04-06,zofia,-38.56,groceries,Co-op
+2026-04-06,zofia,-12.02,recreation,Odeon
+2026-04-06,zofia,-17.84,eating_out,Greggs
+2026-04-07,ada,-7.42,eating_out,Deliveroo
+2026-04-07,ada,-31.66,transport,TfL
+2026-04-07,ada,-2.83,transport,BP
+2026-04-07,grace,-0.99,shopping,Next
+2026-04-07,grace,-20.24,shopping,B&M
+2026-04-07,tomasz,-8.02,recreation,Odeon
+2026-04-07,tomasz,-12.88,transport,National Rail
+2026-04-07,zofia,-7.98,eating_out,Greggs
+2026-04-08,ada,-10.1,groceries,Tesco
+2026-04-08,ada,-17.85,transport,National Rail
+2026-04-08,ada,-4.43,personal,Pets at Home
+2026-04-08,ada,-0.81,groceries,Sainsbury's
+2026-04-08,daniel,-30.87,eating_out,Deliveroo
+2026-04-08,daniel,-5.81,eating_out,Nando's
+2026-04-08,grace,-3.2,transport,TfL
+2026-04-08,halina,-11.34,shopping,Next
+2026-04-08,tomasz,-20.31,transport,Stagecoach
+2026-04-08,tomasz,-77.12,personal,Post Office
+2026-04-08,zofia,-8.35,shopping,B&M
+2026-04-08,zofia,-1.38,groceries,Sainsbury's
+2026-04-08,zofia,-39.27,bnpl,Klarna
+2026-04-09,ada,-11.35,shopping,B&M
+2026-04-09,daniel,-11.36,recreation,Steam
+2026-04-09,daniel,-23.06,eating_out,Costa
+2026-04-09,daniel,-15.01,bnpl,Klarna
+2026-04-09,grace,-1.31,transport,BP
+2026-04-09,grace,-2.55,groceries,Tesco
+2026-04-09,grace,-12.15,shopping,Primark
+2026-04-09,halina,-8.14,transport,Shell
+2026-04-09,halina,-25.74,personal,Barber
+2026-04-09,halina,-31.6,transport,Stagecoach
+2026-04-09,tomasz,-17.63,shopping,Amazon
+2026-04-09,tomasz,-4.41,recreation,Odeon
+2026-04-09,tomasz,-32.41,recreation,Steam
+2026-04-09,zofia,-25.95,eating_out,Nando's
+2026-04-10,ada,-24.85,groceries,Co-op
+2026-04-10,daniel,357.38,income,Courier platform payout
+2026-04-10,daniel,-21.4,shopping,Primark
+2026-04-10,daniel,-50.0,cash_withdrawal,ATM
+2026-04-10,grace,-0.6,groceries,Tesco
+2026-04-10,grace,-3.99,transport,TfL
+2026-04-10,grace,-1.54,shopping,Argos
+2026-04-10,grace,-6.82,eating_out,Just Eat
+2026-04-10,halina,-30.96,shopping,Argos
+2026-04-11,ada,-20.43,eating_out,Nando's
+2026-04-11,ada,-2.72,groceries,Tesco
+2026-04-11,daniel,-13.03,shopping,Argos
+2026-04-11,daniel,-60.4,bnpl,Klarna
+2026-04-11,grace,-2.96,shopping,Amazon
+2026-04-11,grace,-2.04,transport,National Rail
+2026-04-11,grace,-8.32,recreation,Netflix
+2026-04-11,halina,-36.96,eating_out,Nando's
+2026-04-11,tomasz,-40.58,eating_out,Costa
+2026-04-11,tomasz,-26.83,personal,Superdrug
+2026-04-11,zofia,-11.89,groceries,Lidl
+2026-04-11,zofia,-7.3,groceries,Aldi
+2026-04-11,zofia,-11.73,groceries,Asda
+2026-04-12,ada,-5.32,shopping,Argos
+2026-04-12,ada,-53.29,transport,Stagecoach
+2026-04-12,ada,-5.52,eating_out,Greggs
+2026-04-12,daniel,-17.15,shopping,Next
+2026-04-12,daniel,-23.99,recreation,Spotify
+2026-04-12,tomasz,-38.81,recreation,Spotify
+2026-04-12,tomasz,-20.17,personal,Superdrug
+2026-04-12,zofia,-10.37,eating_out,Just Eat
+2026-04-12,zofia,-22.25,groceries,Co-op
+2026-04-12,zofia,-100.0,cash_withdrawal,ATM
+2026-04-13,ada,-26.52,recreation,Netflix
+2026-04-13,ada,-6.68,recreation,Vue Cinema
+2026-04-13,ada,-23.57,eating_out,Deliveroo
+2026-04-13,ada,-7.23,transport,National Rail
+2026-04-13,daniel,-38.29,groceries,Lidl
+2026-04-13,daniel,-4.85,transport,Esso
+2026-04-13,daniel,-20.32,groceries,Lidl
+2026-04-13,halina,-8.81,shopping,Primark
+2026-04-13,halina,-4.39,shopping,Primark
+2026-04-13,zofia,-6.28,transport,Esso
+2026-04-13,zofia,-22.12,shopping,B&M
+2026-04-14,ada,-14.57,utilities,Octopus Energy
+2026-04-14,ada,-16.79,transport,National Rail
+2026-04-14,ada,-29.01,groceries,Co-op
+2026-04-14,ada,-12.52,eating_out,Wetherspoons
+2026-04-14,ada,-10.5,transport,TfL
+2026-04-14,daniel,-110.51,utilities,Octopus Energy
+2026-04-14,daniel,-19.74,personal,Barber
+2026-04-14,grace,-81.56,utilities,Octopus Energy
+2026-04-14,halina,-94.01,utilities,Octopus Energy
+2026-04-14,tomasz,-128.21,utilities,Octopus Energy
+2026-04-14,tomasz,-28.76,groceries,Aldi
+2026-04-14,zofia,-51.55,utilities,Octopus Energy
+2026-04-14,zofia,-7.89,groceries,Lidl
+2026-04-14,zofia,-34.52,recreation,PureGym
+2026-04-15,daniel,-11.96,personal,Pets at Home
+2026-04-15,grace,-4.29,transport,TfL
+2026-04-15,halina,-9.51,eating_out,Nando's
+2026-04-15,halina,-22.05,personal,Post Office
+2026-04-15,zofia,-15.4,groceries,Sainsbury's
+2026-04-15,zofia,-9.39,eating_out,Greggs
+2026-04-16,ada,-9.63,groceries,Aldi
+2026-04-16,ada,-13.15,groceries,Co-op
+2026-04-16,daniel,-21.36,personal,Pets at Home
+2026-04-16,daniel,-15.44,eating_out,Just Eat
+2026-04-16,grace,-4.53,groceries,Asda
+2026-04-16,halina,-40.01,recreation,Odeon
+2026-04-16,tomasz,-12.79,groceries,Lidl
+2026-04-16,tomasz,-32.55,groceries,Aldi
+2026-04-16,zofia,-19.34,transport,Shell
+2026-04-16,zofia,-13.45,transport,National Rail
+2026-04-17,ada,-1.15,transport,TfL
+2026-04-17,ada,-5.97,groceries,Aldi
+2026-04-17,daniel,548.71,income,Courier platform payout
+2026-04-17,daniel,-4.8,shopping,Primark
+2026-04-17,grace,-1.08,transport,National Rail
+2026-04-17,grace,-13.91,personal,Superdrug
+2026-04-17,halina,-36.05,groceries,Aldi
+2026-04-17,halina,-9.15,personal,Superdrug
+2026-04-17,halina,-35.52,personal,Pets at Home
+2026-04-17,zofia,-3.44,recreation,Netflix
+2026-04-18,ada,-4.83,utilities,Thames Water
+2026-04-18,ada,-8.28,recreation,Steam
+2026-04-18,ada,-15.43,shopping,Argos
+2026-04-18,daniel,-35.09,utilities,Thames Water
+2026-04-18,daniel,-6.57,shopping,Argos
+2026-04-18,daniel,-8.69,groceries,Sainsbury's
+2026-04-18,daniel,-0.97,groceries,Tesco
+2026-04-18,daniel,-100.0,cash_withdrawal,ATM
+2026-04-18,grace,-24.49,utilities,Thames Water
+2026-04-18,grace,-9.48,shopping,Next
+2026-04-18,grace,-7.42,transport,BP
+2026-04-18,halina,-26.02,utilities,Thames Water
+2026-04-18,halina,-11.92,personal,Barber
+2026-04-18,halina,-8.83,transport,Esso
+2026-04-18,halina,-5.4,eating_out,Wetherspoons
+2026-04-18,tomasz,-40.84,utilities,Thames Water
+2026-04-18,tomasz,-28.46,groceries,Aldi
+2026-04-18,zofia,-15.5,utilities,Thames Water
+2026-04-18,zofia,-37.75,bnpl,Klarna
+2026-04-19,ada,-15.46,groceries,Asda
+2026-04-19,ada,-4.89,personal,Barber
+2026-04-19,ada,-50.0,cash_withdrawal,ATM
+2026-04-19,daniel,-16.34,groceries,Asda
+2026-04-19,daniel,-6.04,groceries,Tesco
+2026-04-19,daniel,-4.08,recreation,PureGym
+2026-04-19,daniel,-9.83,groceries,Aldi
+2026-04-19,daniel,-11.71,eating_out,Greggs
+2026-04-19,daniel,-21.99,groceries,Sainsbury's
+2026-04-19,tomasz,-7.85,recreation,Spotify
+2026-04-19,tomasz,-27.74,recreation,PureGym
+2026-04-19,tomasz,-25.52,recreation,Steam
+2026-04-20,ada,1129.21,income,Employer payroll (apprentice)
+2026-04-20,ada,-17.88,shopping,Primark
+2026-04-20,ada,-10.21,recreation,Spotify
+2026-04-20,ada,-2.56,recreation,PureGym
+2026-04-20,ada,-18.78,recreation,Odeon
+2026-04-20,daniel,-7.25,shopping,B&M
+2026-04-20,daniel,-8.73,transport,TfL
+2026-04-20,grace,-1.39,recreation,Steam
+2026-04-20,halina,-28.08,eating_out,Just Eat
+2026-04-20,halina,-26.45,transport,National Rail
+2026-04-20,halina,-32.81,shopping,Next
+2026-04-20,tomasz,-41.1,groceries,Asda
+2026-04-20,zofia,-11.73,transport,BP
+2026-04-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-04-21,ada,-20.58,shopping,Argos
+2026-04-21,grace,-1.69,transport,TfL
+2026-04-21,grace,-10.06,groceries,Co-op
+2026-04-21,grace,-5.9,eating_out,Nando's
+2026-04-21,grace,-14.2,groceries,Co-op
+2026-04-21,tomasz,-38.04,eating_out,Wetherspoons
+2026-04-21,zofia,-12.03,groceries,Aldi
+2026-04-22,ada,-6.98,communication,BT Broadband & Mobile
+2026-04-22,ada,-16.6,eating_out,Costa
+2026-04-22,ada,-3.42,eating_out,Greggs
+2026-04-22,ada,-8.56,recreation,Steam
+2026-04-22,ada,-22.49,personal,Post Office
+2026-04-22,daniel,-50.58,communication,BT Broadband & Mobile
+2026-04-22,daniel,-2.82,eating_out,Costa
+2026-04-22,daniel,-11.77,transport,TfL
+2026-04-22,grace,-34.01,communication,BT Broadband & Mobile
+2026-04-22,grace,-11.14,eating_out,Just Eat
+2026-04-22,grace,-15.09,shopping,Boots
+2026-04-22,grace,-0.47,eating_out,Greggs
+2026-04-22,grace,-1.06,personal,Post Office
+2026-04-22,halina,-41.96,communication,BT Broadband & Mobile
+2026-04-22,halina,-25.67,eating_out,Nando's
+2026-04-22,tomasz,-62.12,communication,BT Broadband & Mobile
+2026-04-22,zofia,-23.06,communication,BT Broadband & Mobile
+2026-04-22,zofia,-33.82,transport,BP
+2026-04-23,grace,-4.16,shopping,Argos
+2026-04-23,grace,-7.51,groceries,Tesco
+2026-04-23,grace,-0.94,eating_out,Nando's
+2026-04-23,tomasz,-3.54,recreation,Odeon
+2026-04-23,tomasz,-18.22,shopping,Primark
+2026-04-23,tomasz,-9.86,transport,Stagecoach
+2026-04-23,tomasz,-19.03,transport,Shell
+2026-04-23,zofia,-6.12,personal,Pets at Home
+2026-04-23,zofia,-11.31,transport,Shell
+2026-04-23,zofia,-0.95,shopping,Primark
+2026-04-23,zofia,-10.11,groceries,Co-op
+2026-04-24,ada,-15.75,transport,Stagecoach
+2026-04-24,ada,-22.2,groceries,Aldi
+2026-04-24,daniel,376.02,income,Courier platform payout
+2026-04-24,daniel,-5.85,eating_out,Just Eat
+2026-04-24,daniel,-5.81,recreation,Steam
+2026-04-24,daniel,-33.84,groceries,Sainsbury's
+2026-04-24,grace,-6.33,eating_out,Greggs
+2026-04-24,halina,-21.33,eating_out,Deliveroo
+2026-04-24,tomasz,-13.66,recreation,Spotify
+2026-04-24,tomasz,-19.78,groceries,Lidl
+2026-04-24,zofia,1887.45,income,Employer payroll
+2026-04-24,zofia,-2.14,eating_out,Deliveroo
+2026-04-24,zofia,-3.26,eating_out,Nando's
+2026-04-24,zofia,-24.4,personal,Superdrug
+2026-04-25,ada,-15.68,groceries,Sainsbury's
+2026-04-25,ada,-7.41,groceries,Lidl
+2026-04-25,ada,-18.86,eating_out,Nando's
+2026-04-25,daniel,-4.03,groceries,Asda
+2026-04-25,daniel,-27.28,shopping,Primark
+2026-04-25,daniel,-4.43,shopping,Boots
+2026-04-25,grace,-18.57,groceries,Tesco
+2026-04-25,grace,-0.81,recreation,Odeon
+2026-04-25,grace,-13.57,personal,Post Office
+2026-04-25,halina,-5.65,recreation,Netflix
+2026-04-25,tomasz,-19.61,groceries,Lidl
+2026-04-25,zofia,-13.05,groceries,Aldi
+2026-04-26,ada,-28.77,groceries,Co-op
+2026-04-26,halina,-19.96,shopping,B&M
+2026-04-26,halina,-16.58,transport,Shell
+2026-04-26,tomasz,-3.66,eating_out,Greggs
+2026-04-26,zofia,-29.49,groceries,Lidl
+2026-04-26,zofia,-8.35,eating_out,Nando's
+2026-04-27,ada,-6.35,recreation,Netflix
+2026-04-27,daniel,-3.72,groceries,Asda
+2026-04-27,daniel,-32.97,recreation,Netflix
+2026-04-27,daniel,-4.08,groceries,Asda
+2026-04-27,daniel,-11.19,groceries,Asda
+2026-04-27,daniel,-33.56,shopping,Boots
+2026-04-27,daniel,-35.11,transport,BP
+2026-04-27,grace,-10.56,shopping,Next
+2026-04-27,halina,-13.66,groceries,Tesco
+2026-04-27,zofia,-26.19,transport,National Rail
+2026-04-27,zofia,-22.32,transport,Shell
+2026-04-28,ada,-1.83,transport,Esso
+2026-04-28,daniel,-8.11,shopping,Boots
+2026-04-28,daniel,-30.46,eating_out,Greggs
+2026-04-28,daniel,-14.9,eating_out,Nando's
+2026-04-28,grace,-3.71,groceries,Asda
+2026-04-28,grace,-1.68,shopping,Boots
+2026-04-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-04-28,tomasz,3008.69,income,Employer payroll
+2026-04-28,tomasz,-16.06,groceries,Co-op
+2026-04-28,zofia,-13.14,shopping,Next
+2026-04-28,zofia,-16.11,groceries,Aldi
+2026-04-29,ada,-6.78,groceries,Lidl
+2026-04-29,ada,-13.12,eating_out,Costa
+2026-04-29,ada,-1.44,eating_out,Costa
+2026-04-29,daniel,-24.91,transport,National Rail
+2026-04-29,grace,-2.3,transport,TfL
+2026-04-29,grace,-13.85,shopping,Argos
+2026-04-29,grace,-2.61,groceries,Co-op
+2026-04-29,grace,-20.0,cash_withdrawal,ATM
+2026-04-29,halina,-13.68,shopping,Argos
+2026-04-29,tomasz,-6.76,recreation,Spotify
+2026-04-29,tomasz,-8.87,groceries,Asda
+2026-04-29,tomasz,-7.18,groceries,Lidl
+2026-04-29,zofia,-11.34,transport,Stagecoach
+2026-04-29,zofia,-9.48,transport,TfL
+2026-04-29,zofia,-23.82,groceries,Lidl
+2026-04-29,zofia,-40.29,bnpl,Klarna
+2026-04-30,ada,-22.04,eating_out,Costa
+2026-04-30,grace,-5.06,shopping,Argos
+2026-04-30,grace,-40.0,cash_withdrawal,ATM
+2026-04-30,halina,-10.02,shopping,Next
+2026-04-30,tomasz,-19.73,groceries,Sainsbury's
+2026-04-30,zofia,-5.52,groceries,Co-op
+2026-04-30,zofia,-13.57,groceries,Lidl
+2026-05-01,ada,-200.0,housing,Board to Mum
+2026-05-01,ada,-13.29,council_tax,Council Tax
+2026-05-01,ada,-3.84,shopping,Next
+2026-05-01,ada,-7.28,recreation,PureGym
+2026-05-01,daniel,161.25,income,Courier platform payout
+2026-05-01,daniel,-950.0,housing,Rent (private landlord)
+2026-05-01,daniel,-99.04,council_tax,Council Tax
+2026-05-01,daniel,-16.9,groceries,Tesco
+2026-05-01,daniel,-9.97,shopping,Boots
+2026-05-01,daniel,-100.0,cash_withdrawal,ATM
+2026-05-01,grace,1070.77,income,DWP State Pension
+2026-05-01,grace,-430.0,housing,Rent (housing association)
+2026-05-01,grace,-72.17,council_tax,Council Tax
+2026-05-01,grace,-0.28,recreation,Netflix
+2026-05-01,grace,-19.73,eating_out,Costa
+2026-05-01,halina,886.15,income,DWP State Pension
+2026-05-01,halina,520.0,income,Workplace pension
+2026-05-01,halina,-85.34,council_tax,Council Tax
+2026-05-01,halina,-7.38,shopping,B&M
+2026-05-01,halina,-5.28,shopping,B&M
+2026-05-01,tomasz,-124.2,council_tax,Council Tax
+2026-05-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-05-01,zofia,-46.5,council_tax,Council Tax
+2026-05-01,zofia,-11.17,groceries,Tesco
+2026-05-01,zofia,-5.39,recreation,Netflix
+2026-05-02,ada,-26.95,shopping,Boots
+2026-05-02,daniel,-12.82,shopping,Boots
+2026-05-02,daniel,-100.0,cash_withdrawal,ATM
+2026-05-02,grace,-4.57,transport,Esso
+2026-05-02,grace,-20.0,cash_withdrawal,ATM
+2026-05-02,tomasz,-1080.0,housing,Mortgage (Nationwide)
+2026-05-02,tomasz,-9.06,shopping,B&M
+2026-05-02,tomasz,-48.46,recreation,PureGym
+2026-05-02,zofia,-3.36,transport,Shell
+2026-05-03,ada,-3.79,transport,BP
+2026-05-03,ada,-53.56,eating_out,Nando's
+2026-05-03,daniel,-13.41,shopping,B&M
+2026-05-03,daniel,-14.17,groceries,Tesco
+2026-05-03,daniel,-16.52,recreation,Netflix
+2026-05-03,grace,-5.38,shopping,Primark
+2026-05-03,grace,-9.73,eating_out,Greggs
+2026-05-03,halina,-7.46,groceries,Lidl
+2026-05-03,tomasz,-8.0,eating_out,Wetherspoons
+2026-05-03,tomasz,-26.48,groceries,Asda
+2026-05-03,zofia,-3.66,groceries,Aldi
+2026-05-03,zofia,-5.88,transport,National Rail
+2026-05-04,ada,-15.18,groceries,Asda
+2026-05-04,daniel,-9.75,recreation,Spotify
+2026-05-04,daniel,-26.14,personal,Barber
+2026-05-04,daniel,-6.83,groceries,Lidl
+2026-05-04,grace,-3.11,recreation,PureGym
+2026-05-04,grace,-9.22,eating_out,Nando's
+2026-05-04,grace,-16.17,transport,BP
+2026-05-04,grace,-3.4,shopping,Boots
+2026-05-04,grace,-7.31,groceries,Lidl
+2026-05-04,grace,-3.32,shopping,Primark
+2026-05-04,grace,-3.87,personal,Superdrug
+2026-05-04,halina,-0.37,eating_out,Wetherspoons
+2026-05-04,zofia,-9.07,personal,Post Office
+2026-05-04,zofia,-39.41,recreation,Spotify
+2026-05-04,zofia,-40.6,bnpl,Klarna
+2026-05-05,ada,-5.7,insurance,Aviva
+2026-05-05,ada,-11.37,groceries,Tesco
+2026-05-05,ada,-5.81,recreation,Steam
+2026-05-05,daniel,-42.66,insurance,Aviva
+2026-05-05,daniel,-23.8,transport,Shell
+2026-05-05,daniel,-9.98,groceries,Tesco
+2026-05-05,grace,-28.64,insurance,Aviva
+2026-05-05,grace,-3.91,eating_out,Costa
+2026-05-05,grace,-4.31,transport,National Rail
+2026-05-05,halina,-34.87,insurance,Aviva
+2026-05-05,halina,-32.63,eating_out,Wetherspoons
+2026-05-05,halina,-10.97,shopping,Primark
+2026-05-05,halina,-3.6,shopping,Primark
+2026-05-05,tomasz,-44.65,insurance,Aviva
+2026-05-05,tomasz,-4.14,groceries,Lidl
+2026-05-05,tomasz,-11.86,transport,Esso
+2026-05-05,tomasz,-4.03,groceries,Co-op
+2026-05-05,zofia,-20.38,insurance,Aviva
+2026-05-05,zofia,-7.11,recreation,Odeon
+2026-05-05,zofia,-16.62,recreation,PureGym
+2026-05-06,ada,-7.48,groceries,Sainsbury's
+2026-05-06,ada,-8.29,shopping,B&M
+2026-05-06,ada,-17.26,shopping,Amazon
+2026-05-06,ada,-6.31,recreation,PureGym
+2026-05-06,ada,-6.32,eating_out,Nando's
+2026-05-06,grace,-0.78,groceries,Tesco
+2026-05-06,grace,-10.1,personal,Barber
+2026-05-06,grace,-0.52,shopping,Amazon
+2026-05-06,tomasz,-9.4,eating_out,Wetherspoons
+2026-05-06,tomasz,-27.58,eating_out,Costa
+2026-05-06,tomasz,-6.05,groceries,Tesco
+2026-05-06,tomasz,-72.12,groceries,Co-op
+2026-05-06,tomasz,-20.28,transport,TfL
+2026-05-06,zofia,-2.61,shopping,Next
+2026-05-06,zofia,-6.29,eating_out,Deliveroo
+2026-05-07,ada,-15.65,transport,Stagecoach
+2026-05-07,ada,-8.1,transport,Shell
+2026-05-07,ada,-9.97,groceries,Lidl
+2026-05-07,ada,-4.19,groceries,Sainsbury's
+2026-05-07,daniel,-21.47,eating_out,Greggs
+2026-05-07,grace,-2.61,transport,Esso
+2026-05-07,grace,-5.99,transport,BP
+2026-05-07,halina,-12.67,transport,TfL
+2026-05-07,halina,-8.62,transport,TfL
+2026-05-07,halina,-74.76,recreation,Steam
+2026-05-07,tomasz,-18.9,groceries,Aldi
+2026-05-07,zofia,-4.43,recreation,Steam
+2026-05-07,zofia,-13.0,groceries,Asda
+2026-05-07,zofia,-20.0,cash_withdrawal,ATM
+2026-05-07,zofia,-29.78,bnpl,Klarna
+2026-05-08,ada,-8.04,personal,Superdrug
+2026-05-08,daniel,722.33,income,Courier platform payout
+2026-05-08,daniel,-9.74,personal,Pets at Home
+2026-05-08,grace,-2.85,eating_out,Wetherspoons
+2026-05-08,grace,-3.31,transport,National Rail
+2026-05-08,halina,-15.68,transport,BP
+2026-05-08,tomasz,-39.85,groceries,Co-op
+2026-05-08,tomasz,-15.16,shopping,Argos
+2026-05-08,tomasz,-25.11,eating_out,Greggs
+2026-05-08,zofia,-10.22,transport,National Rail
+2026-05-09,daniel,-14.9,personal,Post Office
+2026-05-09,daniel,-50.0,cash_withdrawal,ATM
+2026-05-09,daniel,-15.01,bnpl,Klarna
+2026-05-09,halina,-11.25,transport,Shell
+2026-05-09,halina,-46.88,recreation,Steam
+2026-05-09,tomasz,-24.44,eating_out,Deliveroo
+2026-05-09,tomasz,-19.41,recreation,Steam
+2026-05-09,tomasz,-26.39,shopping,Boots
+2026-05-09,tomasz,-4.11,groceries,Lidl
+2026-05-10,ada,-25.14,eating_out,Deliveroo
+2026-05-10,ada,-1.72,groceries,Lidl
+2026-05-10,ada,-4.64,shopping,Argos
+2026-05-10,ada,-15.34,groceries,Sainsbury's
+2026-05-10,daniel,-15.07,recreation,Vue Cinema
+2026-05-10,grace,-11.82,eating_out,Just Eat
+2026-05-10,halina,-3.32,personal,Pets at Home
+2026-05-10,halina,-40.0,cash_withdrawal,ATM
+2026-05-10,tomasz,-4.27,transport,Shell
+2026-05-10,zofia,-8.41,groceries,Tesco
+2026-05-11,ada,-13.53,groceries,Co-op
+2026-05-11,ada,-11.77,eating_out,Deliveroo
+2026-05-11,daniel,-11.59,groceries,Aldi
+2026-05-11,daniel,-6.95,personal,Pets at Home
+2026-05-11,daniel,-60.4,bnpl,Klarna
+2026-05-11,halina,-10.18,transport,Shell
+2026-05-11,halina,-14.86,shopping,Amazon
+2026-05-11,tomasz,-32.72,groceries,Tesco
+2026-05-11,zofia,-31.18,groceries,Lidl
+2026-05-12,ada,-26.68,personal,Pets at Home
+2026-05-12,daniel,-11.68,shopping,Primark
+2026-05-12,grace,-4.59,transport,Esso
+2026-05-12,halina,-6.11,recreation,PureGym
+2026-05-12,tomasz,-50.5,personal,Barber
+2026-05-12,zofia,-30.0,shopping,Primark
+2026-05-12,zofia,-29.43,bnpl,Klarna
+2026-05-13,daniel,-4.43,eating_out,Costa
+2026-05-13,daniel,-6.6,shopping,B&M
+2026-05-13,daniel,-9.53,recreation,PureGym
+2026-05-13,halina,-6.27,recreation,Vue Cinema
+2026-05-13,zofia,-5.33,groceries,Asda
+2026-05-13,zofia,-17.09,eating_out,Wetherspoons
+2026-05-14,ada,-15.85,utilities,Octopus Energy
+2026-05-14,ada,-5.45,eating_out,Wetherspoons
+2026-05-14,ada,-15.99,shopping,Amazon
+2026-05-14,daniel,-107.21,utilities,Octopus Energy
+2026-05-14,daniel,-6.74,groceries,Asda
+2026-05-14,daniel,-21.82,shopping,Argos
+2026-05-14,daniel,-23.1,bnpl,Klarna
+2026-05-14,grace,-72.81,utilities,Octopus Energy
+2026-05-14,grace,-9.12,groceries,Asda
+2026-05-14,halina,-85.64,utilities,Octopus Energy
+2026-05-14,halina,-12.29,recreation,Vue Cinema
+2026-05-14,tomasz,-131.01,utilities,Octopus Energy
+2026-05-14,tomasz,-9.81,recreation,Steam
+2026-05-14,tomasz,-5.39,groceries,Sainsbury's
+2026-05-14,zofia,-56.72,utilities,Octopus Energy
+2026-05-14,zofia,-6.21,transport,Shell
+2026-05-14,zofia,-17.16,personal,Barber
+2026-05-15,ada,-15.86,groceries,Co-op
+2026-05-15,daniel,291.51,income,Courier platform payout
+2026-05-15,grace,-7.37,recreation,Vue Cinema
+2026-05-15,grace,-4.73,shopping,Primark
+2026-05-15,halina,-13.35,eating_out,Costa
+2026-05-16,ada,-19.83,eating_out,Nando's
+2026-05-16,ada,-31.94,groceries,Co-op
+2026-05-16,daniel,-1.99,shopping,Primark
+2026-05-16,halina,-16.04,shopping,Primark
+2026-05-16,halina,-22.82,shopping,Argos
+2026-05-16,tomasz,-28.99,shopping,Primark
+2026-05-16,zofia,-13.57,shopping,Argos
+2026-05-16,zofia,-27.34,recreation,Netflix
+2026-05-16,zofia,-11.2,groceries,Aldi
+2026-05-17,ada,-23.09,eating_out,Just Eat
+2026-05-17,ada,-8.79,groceries,Co-op
+2026-05-17,ada,-14.55,groceries,Asda
+2026-05-17,ada,-7.49,groceries,Asda
+2026-05-17,daniel,-11.17,recreation,Odeon
+2026-05-17,grace,-8.27,groceries,Tesco
+2026-05-17,grace,-3.44,eating_out,Greggs
+2026-05-17,grace,-2.21,shopping,Boots
+2026-05-17,grace,-1.11,groceries,Tesco
+2026-05-17,grace,-12.99,recreation,Odeon
+2026-05-17,halina,-4.14,recreation,PureGym
+2026-05-17,halina,-10.67,groceries,Sainsbury's
+2026-05-17,tomasz,-26.72,shopping,Argos
+2026-05-17,zofia,-6.07,personal,Superdrug
+2026-05-18,ada,-4.74,utilities,Thames Water
+2026-05-18,ada,-5.32,groceries,Sainsbury's
+2026-05-18,ada,-38.45,transport,TfL
+2026-05-18,ada,-27.17,transport,National Rail
+2026-05-18,ada,-12.17,groceries,Aldi
+2026-05-18,ada,-30.84,recreation,Netflix
+2026-05-18,daniel,-32.71,utilities,Thames Water
+2026-05-18,grace,-24.73,utilities,Thames Water
+2026-05-18,grace,-2.47,eating_out,Nando's
+2026-05-18,halina,-26.44,utilities,Thames Water
+2026-05-18,halina,-16.04,personal,Post Office
+2026-05-18,halina,-14.41,groceries,Aldi
+2026-05-18,halina,-6.29,eating_out,Just Eat
+2026-05-18,halina,-26.62,shopping,Primark
+2026-05-18,halina,-20.0,cash_withdrawal,ATM
+2026-05-18,tomasz,-39.91,utilities,Thames Water
+2026-05-18,tomasz,-18.71,transport,Stagecoach
+2026-05-18,zofia,-15.54,utilities,Thames Water
+2026-05-18,zofia,-24.83,eating_out,Wetherspoons
+2026-05-18,zofia,-6.14,groceries,Co-op
+2026-05-19,ada,-18.96,personal,Superdrug
+2026-05-19,ada,-20.17,groceries,Co-op
+2026-05-19,daniel,-24.13,groceries,Co-op
+2026-05-19,daniel,-6.2,personal,Post Office
+2026-05-19,grace,-18.15,groceries,Tesco
+2026-05-19,grace,-8.15,recreation,Vue Cinema
+2026-05-19,grace,-1.62,groceries,Asda
+2026-05-19,halina,-3.59,groceries,Lidl
+2026-05-19,tomasz,-14.4,recreation,Steam
+2026-05-19,zofia,-5.98,recreation,Netflix
+2026-05-19,zofia,-16.65,shopping,Argos
+2026-05-19,zofia,-10.79,eating_out,Just Eat
+2026-05-19,zofia,-20.64,bnpl,Klarna
+2026-05-20,ada,1159.7,income,Employer payroll (apprentice)
+2026-05-20,ada,-13.81,personal,Barber
+2026-05-20,ada,-2.5,groceries,Sainsbury's
+2026-05-20,ada,-13.97,groceries,Sainsbury's
+2026-05-20,grace,-6.12,transport,National Rail
+2026-05-20,grace,-13.11,recreation,Steam
+2026-05-20,grace,-18.18,recreation,Steam
+2026-05-20,tomasz,-19.66,shopping,Amazon
+2026-05-20,tomasz,-10.16,groceries,Aldi
+2026-05-20,tomasz,-1.35,eating_out,Costa
+2026-05-20,tomasz,-50.0,cash_withdrawal,ATM
+2026-05-20,zofia,-7.6,shopping,Boots
+2026-05-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-05-21,ada,-17.04,groceries,Co-op
+2026-05-21,ada,-12.84,shopping,Amazon
+2026-05-21,daniel,-14.71,transport,Esso
+2026-05-21,grace,-2.01,transport,TfL
+2026-05-21,grace,-8.58,transport,National Rail
+2026-05-21,grace,-40.0,cash_withdrawal,ATM
+2026-05-21,halina,-8.35,groceries,Lidl
+2026-05-21,halina,-15.43,groceries,Lidl
+2026-05-21,halina,-9.8,groceries,Lidl
+2026-05-21,halina,-38.59,eating_out,Nando's
+2026-05-21,halina,-14.63,groceries,Tesco
+2026-05-21,halina,-31.18,transport,Shell
+2026-05-21,zofia,-9.91,eating_out,Nando's
+2026-05-21,zofia,-27.53,groceries,Co-op
+2026-05-21,zofia,-8.71,recreation,Netflix
+2026-05-21,zofia,-12.15,personal,Superdrug
+2026-05-22,ada,-6.59,communication,BT Broadband & Mobile
+2026-05-22,ada,-11.8,groceries,Aldi
+2026-05-22,daniel,175.12,income,Courier platform payout
+2026-05-22,daniel,-50.76,communication,BT Broadband & Mobile
+2026-05-22,daniel,-7.56,shopping,B&M
+2026-05-22,daniel,-5.95,groceries,Co-op
+2026-05-22,grace,-37.21,communication,BT Broadband & Mobile
+2026-05-22,grace,-5.46,eating_out,Just Eat
+2026-05-22,halina,-39.42,communication,BT Broadband & Mobile
+2026-05-22,tomasz,-59.0,communication,BT Broadband & Mobile
+2026-05-22,zofia,-24.3,communication,BT Broadband & Mobile
+2026-05-22,zofia,-28.8,groceries,Lidl
+2026-05-22,zofia,-22.31,groceries,Asda
+2026-05-23,grace,-4.36,groceries,Sainsbury's
+2026-05-23,grace,-8.26,shopping,B&M
+2026-05-23,halina,-14.82,groceries,Tesco
+2026-05-23,tomasz,-30.71,transport,Esso
+2026-05-23,tomasz,-27.86,eating_out,Greggs
+2026-05-23,tomasz,-7.73,recreation,PureGym
+2026-05-23,zofia,-7.32,transport,Esso
+2026-05-23,zofia,-22.58,shopping,Next
+2026-05-23,zofia,-1.53,groceries,Tesco
+2026-05-24,ada,-26.52,eating_out,Just Eat
+2026-05-24,ada,-10.41,eating_out,Wetherspoons
+2026-05-24,ada,-14.41,groceries,Aldi
+2026-05-24,daniel,-10.81,shopping,Boots
+2026-05-24,halina,-3.05,groceries,Lidl
+2026-05-24,halina,-9.82,recreation,PureGym
+2026-05-24,tomasz,-4.61,transport,Shell
+2026-05-24,tomasz,-6.8,transport,Stagecoach
+2026-05-24,zofia,-4.05,transport,Esso
+2026-05-24,zofia,-19.61,groceries,Aldi
+2026-05-25,ada,-11.57,shopping,Next
+2026-05-25,daniel,-49.19,groceries,Lidl
+2026-05-25,grace,-5.13,recreation,Netflix
+2026-05-25,halina,-3.78,recreation,Netflix
+2026-05-25,tomasz,-23.41,shopping,Argos
+2026-05-25,tomasz,-26.67,shopping,Argos
+2026-05-25,tomasz,-40.54,personal,Pets at Home
+2026-05-25,zofia,1846.46,income,Employer payroll
+2026-05-25,zofia,-5.33,groceries,Tesco
+2026-05-25,zofia,-3.41,eating_out,Deliveroo
+2026-05-26,ada,-11.39,shopping,Next
+2026-05-26,ada,-5.89,groceries,Aldi
+2026-05-26,ada,-0.78,eating_out,Costa
+2026-05-26,ada,-50.0,cash_withdrawal,ATM
+2026-05-26,daniel,-3.48,groceries,Sainsbury's
+2026-05-26,daniel,-12.65,shopping,Boots
+2026-05-26,grace,-8.01,personal,Pets at Home
+2026-05-26,grace,-3.27,eating_out,Wetherspoons
+2026-05-26,zofia,-14.66,eating_out,Just Eat
+2026-05-26,zofia,-81.96,eating_out,Costa
+2026-05-27,ada,-13.81,eating_out,Wetherspoons
+2026-05-27,daniel,-25.42,eating_out,Nando's
+2026-05-27,grace,-20.0,cash_withdrawal,ATM
+2026-05-27,zofia,-15.42,groceries,Asda
+2026-05-27,zofia,-10.05,transport,Esso
+2026-05-28,ada,-10.9,recreation,Netflix
+2026-05-28,daniel,-28.96,personal,Post Office
+2026-05-28,daniel,-25.05,groceries,Asda
+2026-05-28,grace,-5.24,shopping,Boots
+2026-05-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-05-28,halina,-18.49,eating_out,Deliveroo
+2026-05-28,halina,-47.33,groceries,Sainsbury's
+2026-05-28,halina,-8.76,shopping,Argos
+2026-05-28,halina,-5.95,shopping,Amazon
+2026-05-28,halina,-15.62,recreation,Netflix
+2026-05-28,halina,-16.83,groceries,Co-op
+2026-05-28,halina,-1.9,groceries,Lidl
+2026-05-28,halina,-50.0,cash_withdrawal,ATM
+2026-05-28,tomasz,3025.22,income,Employer payroll
+2026-05-28,zofia,-25.09,personal,Pets at Home
+2026-05-28,zofia,-2.9,groceries,Lidl
+2026-05-28,zofia,-9.79,groceries,Co-op
+2026-05-28,zofia,-7.73,recreation,Netflix
+2026-05-29,ada,-9.05,shopping,B&M
+2026-05-29,ada,-10.18,groceries,Co-op
+2026-05-29,ada,-8.74,personal,Post Office
+2026-05-29,daniel,196.81,income,Courier platform payout
+2026-05-29,daniel,-3.58,shopping,Primark
+2026-05-29,daniel,-13.36,personal,Superdrug
+2026-05-29,grace,1070.77,income,DWP State Pension
+2026-05-29,grace,-3.5,transport,Esso
+2026-05-29,grace,-4.15,groceries,Aldi
+2026-05-29,grace,-5.38,groceries,Co-op
+2026-05-29,halina,886.15,income,DWP State Pension
+2026-05-29,halina,-18.04,shopping,Argos
+2026-05-29,tomasz,-3.39,transport,National Rail
+2026-05-29,tomasz,-20.43,eating_out,Greggs
+2026-05-29,zofia,-40.29,bnpl,Klarna
+2026-05-30,daniel,-20.44,transport,Stagecoach
+2026-05-30,grace,-8.1,eating_out,Just Eat
+2026-05-30,halina,-4.7,personal,Pets at Home
+2026-05-30,halina,-15.36,shopping,Next
+2026-05-30,halina,-18.47,recreation,Spotify
+2026-05-30,halina,-23.59,groceries,Tesco
+2026-05-31,ada,-10.9,recreation,Vue Cinema
+2026-05-31,daniel,-10.47,groceries,Sainsbury's
+2026-05-31,daniel,-6.88,transport,Shell
+2026-05-31,grace,-6.32,transport,Stagecoach
+2026-05-31,halina,-9.24,eating_out,Deliveroo
+2026-05-31,halina,-38.09,groceries,Co-op
+2026-05-31,halina,-26.65,eating_out,Deliveroo
+2026-05-31,tomasz,-25.97,groceries,Lidl
+2026-05-31,tomasz,-21.41,groceries,Aldi
+2026-05-31,zofia,-18.58,shopping,Amazon
+2026-05-31,zofia,-9.82,transport,National Rail
+2026-06-01,ada,-200.0,housing,Board to Mum
+2026-06-01,ada,-14.17,council_tax,Council Tax
+2026-06-01,ada,-15.45,shopping,Primark
+2026-06-01,ada,-23.49,shopping,Primark
+2026-06-01,daniel,-950.0,housing,Rent (private landlord)
+2026-06-01,daniel,-102.74,council_tax,Council Tax
+2026-06-01,grace,-430.0,housing,Rent (housing association)
+2026-06-01,grace,-71.27,council_tax,Council Tax
+2026-06-01,grace,-3.36,shopping,B&M
+2026-06-01,grace,-9.87,shopping,Next
+2026-06-01,halina,520.0,income,Workplace pension
+2026-06-01,halina,-82.19,council_tax,Council Tax
+2026-06-01,halina,-1.87,groceries,Sainsbury's
+2026-06-01,halina,-9.96,groceries,Sainsbury's
+2026-06-01,tomasz,-117.14,council_tax,Council Tax
+2026-06-01,tomasz,-48.35,shopping,Argos
+2026-06-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-06-01,zofia,-49.34,council_tax,Council Tax
+2026-06-01,zofia,-9.53,transport,TfL
+2026-06-01,zofia,-10.32,recreation,Netflix
+2026-06-01,zofia,-10.37,groceries,Lidl
+2026-06-02,ada,-25.03,shopping,Next
+2026-06-02,daniel,-1.12,transport,BP
+2026-06-02,daniel,-1.89,shopping,Boots
+2026-06-02,grace,-13.17,groceries,Lidl
+2026-06-02,grace,-20.51,transport,National Rail
+2026-06-02,halina,-9.39,eating_out,Wetherspoons
+2026-06-02,halina,-5.89,shopping,Boots
+2026-06-02,tomasz,-1080.0,housing,Mortgage (Nationwide)
+2026-06-02,tomasz,-34.0,eating_out,Nando's
+2026-06-02,tomasz,-19.34,shopping,Argos
+2026-06-02,zofia,-15.23,personal,Pets at Home
+2026-06-03,grace,-0.24,shopping,Amazon
+2026-06-03,grace,-7.22,groceries,Asda
+2026-06-03,halina,-20.36,shopping,Boots
+2026-06-03,tomasz,-28.45,personal,Superdrug
+2026-06-03,tomasz,-45.46,groceries,Tesco
+2026-06-03,tomasz,-35.74,groceries,Tesco
+2026-06-03,tomasz,-21.39,groceries,Aldi
+2026-06-03,tomasz,-8.64,recreation,Spotify
+2026-06-03,tomasz,-25.53,shopping,B&M
+2026-06-03,zofia,-1.18,shopping,Amazon
+2026-06-03,zofia,-4.27,transport,Shell
+2026-06-03,zofia,-3.76,eating_out,Costa
+2026-06-03,zofia,-36.31,eating_out,Costa
+2026-06-03,zofia,-40.6,bnpl,Klarna
+2026-06-04,ada,-3.52,eating_out,Nando's
+2026-06-04,ada,-15.4,groceries,Aldi
+2026-06-04,daniel,-2.94,groceries,Sainsbury's
+2026-06-04,grace,-6.14,personal,Superdrug
+2026-06-04,grace,-3.64,recreation,PureGym
+2026-06-04,halina,-10.26,groceries,Tesco
+2026-06-04,halina,-22.78,transport,BP
+2026-06-04,halina,-36.87,transport,Stagecoach
+2026-06-04,tomasz,-13.86,eating_out,Greggs
+2026-06-04,tomasz,-28.26,transport,BP
+2026-06-04,tomasz,-39.47,transport,National Rail
+2026-06-04,zofia,-9.97,transport,Shell
+2026-06-04,zofia,-2.8,groceries,Tesco
+2026-06-05,ada,-5.42,insurance,Aviva
+2026-06-05,ada,-19.69,groceries,Tesco
+2026-06-05,daniel,639.37,income,Courier platform payout
+2026-06-05,daniel,-41.32,insurance,Aviva
+2026-06-05,daniel,-6.96,groceries,Aldi
+2026-06-05,daniel,-7.38,transport,TfL
+2026-06-05,daniel,-37.92,bnpl,Klarna
+2026-06-05,grace,-29.77,insurance,Aviva
+2026-06-05,grace,-14.16,eating_out,Greggs
+2026-06-05,halina,-34.47,insurance,Aviva
+2026-06-05,halina,-19.24,groceries,Aldi
+2026-06-05,halina,-6.67,eating_out,Deliveroo
+2026-06-05,halina,-39.88,eating_out,Costa
+2026-06-05,halina,-16.51,groceries,Asda
+2026-06-05,tomasz,-48.62,insurance,Aviva
+2026-06-05,tomasz,-9.97,groceries,Lidl
+2026-06-05,tomasz,-74.47,transport,TfL
+2026-06-05,zofia,-18.8,insurance,Aviva
+2026-06-06,ada,-3.06,groceries,Co-op
+2026-06-06,ada,-16.54,eating_out,Deliveroo
+2026-06-06,ada,-17.67,eating_out,Wetherspoons
+2026-06-06,grace,-13.03,personal,Superdrug
+2026-06-06,grace,-1.84,groceries,Co-op
+2026-06-06,halina,-2.39,shopping,Primark
+2026-06-06,halina,-18.52,transport,Shell
+2026-06-06,halina,-14.28,recreation,Netflix
+2026-06-06,tomasz,-24.07,groceries,Aldi
+2026-06-06,tomasz,-50.0,cash_withdrawal,ATM
+2026-06-06,zofia,-9.69,personal,Barber
+2026-06-06,zofia,-12.22,groceries,Tesco
+2026-06-06,zofia,-29.78,bnpl,Klarna
+2026-06-07,ada,-28.02,shopping,Primark
+2026-06-07,daniel,-5.32,transport,Esso
+2026-06-07,daniel,-7.42,personal,Barber
+2026-06-07,daniel,-19.01,groceries,Tesco
+2026-06-07,grace,-14.47,groceries,Asda
+2026-06-07,tomasz,-56.55,eating_out,Nando's
+2026-06-07,tomasz,-19.34,groceries,Sainsbury's
+2026-06-07,zofia,-0.66,transport,Stagecoach
+2026-06-07,zofia,-56.8,bnpl,Klarna
+2026-06-08,ada,-19.7,eating_out,Wetherspoons
+2026-06-08,ada,-11.21,shopping,Argos
+2026-06-08,daniel,-15.01,bnpl,Klarna
+2026-06-08,grace,-3.86,groceries,Lidl
+2026-06-08,grace,-2.66,eating_out,Nando's
+2026-06-08,grace,-2.92,eating_out,Nando's
+2026-06-08,tomasz,-22.47,recreation,Vue Cinema
+2026-06-08,zofia,-11.87,eating_out,Nando's
+2026-06-09,daniel,-5.45,groceries,Co-op
+2026-06-09,daniel,-13.19,transport,Stagecoach
+2026-06-09,daniel,-2.27,personal,Barber
+2026-06-09,grace,-3.86,groceries,Asda
+2026-06-09,grace,-2.76,transport,BP
+2026-06-09,tomasz,-5.04,groceries,Tesco
+2026-06-09,tomasz,-37.82,groceries,Tesco
+2026-06-10,ada,-16.49,shopping,Argos
+2026-06-10,ada,-26.34,personal,Pets at Home
+2026-06-10,ada,-20.71,recreation,Odeon
+2026-06-10,ada,-12.4,personal,Superdrug
+2026-06-10,daniel,-1.87,transport,TfL
+2026-06-10,daniel,-0.93,shopping,Next
+2026-06-10,daniel,-60.4,bnpl,Klarna
+2026-06-10,grace,-3.37,groceries,Tesco
+2026-06-10,grace,-0.4,transport,BP
+2026-06-10,halina,-26.45,eating_out,Costa
+2026-06-10,halina,-20.0,eating_out,Just Eat
+2026-06-10,halina,-100.0,cash_withdrawal,ATM
+2026-06-10,tomasz,-19.27,shopping,Next
+2026-06-10,tomasz,-53.63,personal,Pets at Home
+2026-06-10,tomasz,-20.0,cash_withdrawal,ATM
+2026-06-11,ada,-13.09,shopping,Primark
+2026-06-11,ada,-4.19,personal,Pets at Home
+2026-06-11,grace,-2.28,eating_out,Wetherspoons
+2026-06-11,halina,-5.72,transport,Esso
+2026-06-11,tomasz,-81.09,groceries,Aldi
+2026-06-11,tomasz,-11.37,transport,BP
+2026-06-11,tomasz,-5.37,groceries,Aldi
+2026-06-11,zofia,-7.43,transport,National Rail
+2026-06-11,zofia,-29.43,bnpl,Klarna
+2026-06-12,daniel,560.09,income,Courier platform payout
+2026-06-12,grace,-6.79,eating_out,Greggs
+2026-06-12,tomasz,-23.35,eating_out,Wetherspoons
+2026-06-12,tomasz,-4.25,recreation,Spotify
+2026-06-12,tomasz,-9.15,eating_out,Deliveroo
+2026-06-12,tomasz,-50.0,cash_withdrawal,ATM
+2026-06-12,zofia,-9.89,groceries,Co-op
+2026-06-13,ada,-14.48,transport,Esso
+2026-06-13,daniel,-23.1,bnpl,Klarna
+2026-06-13,halina,-7.66,eating_out,Costa
+2026-06-14,ada,-14.69,utilities,Octopus Energy
+2026-06-14,ada,-21.13,shopping,B&M
+2026-06-14,daniel,-107.71,utilities,Octopus Energy
+2026-06-14,daniel,-15.07,personal,Post Office
+2026-06-14,grace,-75.82,utilities,Octopus Energy
+2026-06-14,grace,-0.7,transport,Stagecoach
+2026-06-14,grace,-4.53,transport,Shell
+2026-06-14,grace,-5.65,shopping,Amazon
+2026-06-14,halina,-93.65,utilities,Octopus Energy
+2026-06-14,halina,-16.74,personal,Pets at Home
+2026-06-14,halina,-10.9,shopping,Argos
+2026-06-14,tomasz,-137.56,utilities,Octopus Energy
+2026-06-14,tomasz,-16.04,groceries,Aldi
+2026-06-14,tomasz,-12.91,eating_out,Just Eat
+2026-06-14,zofia,-51.55,utilities,Octopus Energy
+2026-06-14,zofia,-5.11,transport,TfL
+2026-06-15,ada,-24.08,groceries,Asda
+2026-06-15,ada,-4.78,shopping,Primark
+2026-06-15,ada,-14.07,eating_out,Costa
+2026-06-15,ada,-50.0,cash_withdrawal,ATM
+2026-06-15,daniel,-3.25,groceries,Asda
+2026-06-15,grace,-7.11,groceries,Lidl
+2026-06-15,grace,-6.27,groceries,Lidl
+2026-06-15,grace,-8.12,groceries,Tesco
+2026-06-15,grace,-6.4,shopping,B&M
+2026-06-15,halina,-4.35,shopping,Boots
+2026-06-15,tomasz,-20.57,personal,Pets at Home
+2026-06-15,tomasz,-3.07,groceries,Sainsbury's
+2026-06-15,zofia,-37.99,shopping,Argos
+2026-06-16,ada,-32.77,transport,TfL
+2026-06-16,ada,-11.2,recreation,Vue Cinema
+2026-06-16,ada,-19.8,groceries,Lidl
+2026-06-16,grace,-11.93,transport,Shell
+2026-06-16,grace,-4.46,groceries,Tesco
+2026-06-16,halina,-7.13,shopping,Boots
+2026-06-16,halina,-4.71,groceries,Co-op
+2026-06-16,halina,-2.59,shopping,B&M
+2026-06-16,tomasz,-25.76,personal,Pets at Home
+2026-06-16,tomasz,-6.2,transport,BP
+2026-06-16,tomasz,-57.55,transport,National Rail
+2026-06-16,tomasz,-36.35,transport,Stagecoach
+2026-06-17,ada,-17.95,recreation,Steam
+2026-06-17,ada,-23.7,transport,BP
+2026-06-17,ada,-2.48,groceries,Asda
+2026-06-17,ada,-20.0,cash_withdrawal,ATM
+2026-06-17,daniel,-6.77,recreation,Spotify
+2026-06-17,daniel,-6.67,transport,BP
+2026-06-17,grace,-3.23,groceries,Lidl
+2026-06-17,halina,-6.55,transport,BP
+2026-06-17,halina,-18.05,personal,Superdrug
+2026-06-17,halina,-0.45,recreation,Odeon
+2026-06-17,tomasz,-36.85,groceries,Asda
+2026-06-17,zofia,-16.91,eating_out,Greggs
+2026-06-18,ada,-4.4,utilities,Thames Water
+2026-06-18,ada,-20.84,shopping,B&M
+2026-06-18,ada,-13.34,shopping,Next
+2026-06-18,daniel,-33.69,utilities,Thames Water
+2026-06-18,daniel,-12.48,recreation,Odeon
+2026-06-18,daniel,-20.03,groceries,Tesco
+2026-06-18,grace,-23.37,utilities,Thames Water
+2026-06-18,halina,-27.2,utilities,Thames Water
+2026-06-18,halina,-14.37,recreation,Odeon
+2026-06-18,halina,-17.07,eating_out,Greggs
+2026-06-18,tomasz,-38.79,utilities,Thames Water
+2026-06-18,tomasz,-14.13,groceries,Lidl
+2026-06-18,tomasz,-24.88,shopping,Primark
+2026-06-18,zofia,-15.46,utilities,Thames Water
+2026-06-18,zofia,-17.26,transport,Stagecoach
+2026-06-18,zofia,-2.16,eating_out,Costa
+2026-06-18,zofia,-20.64,bnpl,Klarna
+2026-06-19,ada,1164.45,income,Employer payroll (apprentice)
+2026-06-19,ada,-46.99,transport,Esso
+2026-06-19,ada,-6.59,recreation,Vue Cinema
+2026-06-19,ada,-3.11,groceries,Sainsbury's
+2026-06-19,ada,-19.01,recreation,Vue Cinema
+2026-06-19,ada,-4.94,recreation,Netflix
+2026-06-19,daniel,529.56,income,Courier platform payout
+2026-06-19,daniel,-12.08,recreation,PureGym
+2026-06-19,daniel,-12.12,groceries,Lidl
+2026-06-19,daniel,-2.74,transport,Shell
+2026-06-19,daniel,-4.54,transport,Stagecoach
+2026-06-19,grace,-2.6,personal,Post Office
+2026-06-19,grace,-3.17,personal,Superdrug
+2026-06-19,grace,-8.73,groceries,Co-op
+2026-06-19,grace,-0.89,groceries,Asda
+2026-06-19,grace,-3.12,recreation,Vue Cinema
+2026-06-19,halina,-11.52,transport,TfL
+2026-06-19,halina,-7.63,recreation,Vue Cinema
+2026-06-19,tomasz,-57.02,groceries,Co-op
+2026-06-19,zofia,-10.13,eating_out,Just Eat
+2026-06-19,zofia,-25.42,shopping,Amazon
+2026-06-20,ada,-5.3,eating_out,Wetherspoons
+2026-06-20,ada,-14.79,groceries,Sainsbury's
+2026-06-20,ada,-1.6,eating_out,Deliveroo
+2026-06-20,daniel,-100.0,cash_withdrawal,ATM
+2026-06-20,grace,-1.11,shopping,Amazon
+2026-06-20,grace,-2.57,groceries,Sainsbury's
+2026-06-20,grace,-20.0,cash_withdrawal,ATM
+2026-06-20,halina,-23.3,transport,Stagecoach
+2026-06-20,tomasz,-24.69,transport,Stagecoach
+2026-06-20,tomasz,-10.72,transport,TfL
+2026-06-20,tomasz,-23.92,groceries,Lidl
+2026-06-20,zofia,-28.24,shopping,Primark
+2026-06-20,zofia,-9.64,recreation,Netflix
+2026-06-20,zofia,-6.02,recreation,PureGym
+2026-06-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-06-21,daniel,-1.98,groceries,Aldi
+2026-06-21,grace,-5.34,personal,Superdrug
+2026-06-21,halina,-31.82,transport,Shell
+2026-06-21,tomasz,-4.51,shopping,Argos
+2026-06-22,ada,-7.28,communication,BT Broadband & Mobile
+2026-06-22,ada,-9.3,groceries,Asda
+2026-06-22,daniel,-52.65,communication,BT Broadband & Mobile
+2026-06-22,daniel,-21.73,shopping,B&M
+2026-06-22,daniel,-9.83,transport,Esso
+2026-06-22,grace,-36.74,communication,BT Broadband & Mobile
+2026-06-22,grace,-9.26,shopping,Primark
+2026-06-22,halina,-39.29,communication,BT Broadband & Mobile
+2026-06-22,tomasz,-61.48,communication,BT Broadband & Mobile
+2026-06-22,tomasz,-22.04,shopping,Boots
+2026-06-22,tomasz,-4.68,recreation,Netflix
+2026-06-22,zofia,-24.78,communication,BT Broadband & Mobile
+2026-06-23,ada,-12.27,eating_out,Just Eat
+2026-06-23,ada,-11.92,eating_out,Deliveroo
+2026-06-23,ada,-1.78,eating_out,Wetherspoons
+2026-06-23,ada,-4.13,groceries,Sainsbury's
+2026-06-23,daniel,-26.22,transport,Esso
+2026-06-23,daniel,-1.99,recreation,Odeon
+2026-06-23,grace,-6.51,shopping,Primark
+2026-06-23,grace,-2.47,shopping,Boots
+2026-06-23,tomasz,-36.05,shopping,B&M
+2026-06-23,tomasz,-47.98,recreation,Odeon
+2026-06-23,zofia,-6.37,groceries,Asda
+2026-06-23,zofia,-1.89,personal,Post Office
+2026-06-24,daniel,-14.07,shopping,Primark
+2026-06-24,daniel,-41.01,groceries,Tesco
+2026-06-24,daniel,-2.34,recreation,Odeon
+2026-06-24,daniel,-8.49,shopping,B&M
+2026-06-24,grace,-10.34,shopping,Boots
+2026-06-24,grace,-6.9,shopping,Amazon
+2026-06-24,halina,-16.11,groceries,Asda
+2026-06-24,tomasz,-12.38,transport,Stagecoach
+2026-06-25,ada,-33.35,groceries,Asda
+2026-06-25,grace,-1.97,eating_out,Greggs
+2026-06-25,halina,-15.43,transport,Esso
+2026-06-25,halina,-29.92,shopping,Next
+2026-06-25,tomasz,-29.77,groceries,Lidl
+2026-06-25,tomasz,-27.55,groceries,Aldi
+2026-06-25,zofia,1916.74,income,Employer payroll
+2026-06-25,zofia,-17.04,transport,Stagecoach
+2026-06-25,zofia,-19.84,shopping,Amazon
+2026-06-25,zofia,-1.88,personal,Barber
+2026-06-25,zofia,-15.93,personal,Barber
+2026-06-26,ada,-13.33,recreation,PureGym
+2026-06-26,daniel,621.99,income,Courier platform payout
+2026-06-26,daniel,-5.82,shopping,Next
+2026-06-26,daniel,-8.13,shopping,Next
+2026-06-26,daniel,-100.0,cash_withdrawal,ATM
+2026-06-26,grace,1070.77,income,DWP State Pension
+2026-06-26,grace,-8.84,groceries,Tesco
+2026-06-26,halina,886.15,income,DWP State Pension
+2026-06-26,halina,-28.02,eating_out,Wetherspoons
+2026-06-26,tomasz,3027.19,income,Employer payroll
+2026-06-26,tomasz,-26.76,recreation,Netflix
+2026-06-26,zofia,-2.47,eating_out,Nando's
+2026-06-26,zofia,-30.78,transport,Stagecoach
+2026-06-27,ada,-21.36,groceries,Aldi
+2026-06-27,daniel,-15.94,shopping,Amazon
+2026-06-27,daniel,-27.53,recreation,Steam
+2026-06-27,grace,-4.8,eating_out,Greggs
+2026-06-27,halina,-22.97,personal,Pets at Home
+2026-06-27,halina,-20.0,cash_withdrawal,ATM
+2026-06-27,tomasz,-28.23,groceries,Lidl
+2026-06-27,tomasz,-15.7,transport,Stagecoach
+2026-06-27,tomasz,-2.01,recreation,Netflix
+2026-06-27,zofia,-3.05,recreation,Vue Cinema
+2026-06-27,zofia,-5.68,personal,Post Office
+2026-06-27,zofia,-12.25,groceries,Asda
+2026-06-28,ada,-4.27,transport,Shell
+2026-06-28,ada,-31.64,groceries,Lidl
+2026-06-28,grace,-4.22,shopping,Boots
+2026-06-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-06-28,halina,-3.26,recreation,Netflix
+2026-06-28,halina,-14.15,groceries,Lidl
+2026-06-28,tomasz,-19.08,transport,Stagecoach
+2026-06-28,tomasz,-15.2,shopping,Boots
+2026-06-28,tomasz,-6.47,shopping,Primark
+2026-06-28,zofia,-12.83,shopping,Amazon
+2026-06-28,zofia,-14.66,shopping,Next
+2026-06-28,zofia,-40.29,bnpl,Klarna
+2026-06-29,ada,-7.38,groceries,Sainsbury's
+2026-06-29,ada,-13.0,groceries,Co-op
+2026-06-29,daniel,-4.78,groceries,Aldi
+2026-06-29,grace,-7.82,recreation,Vue Cinema
+2026-06-29,halina,-16.81,shopping,Boots
+2026-06-29,halina,-28.84,groceries,Co-op
+2026-06-29,tomasz,-21.17,transport,Esso
+2026-06-29,tomasz,-29.66,groceries,Aldi
+2026-06-29,tomasz,-10.66,shopping,B&M
+2026-06-29,tomasz,-22.89,shopping,Primark
+2026-06-29,zofia,-38.78,transport,Esso
+2026-06-29,zofia,-13.92,transport,Esso
+2026-06-30,ada,-14.31,transport,Stagecoach
+2026-06-30,ada,-6.21,transport,TfL
+2026-06-30,ada,-13.86,groceries,Lidl
+2026-06-30,grace,-2.72,groceries,Lidl
+2026-06-30,halina,-26.81,groceries,Asda
+2026-06-30,halina,-27.43,groceries,Asda
+2026-06-30,tomasz,-20.58,recreation,Steam
+2026-06-30,zofia,-3.83,recreation,Odeon
+2026-06-30,zofia,-2.86,shopping,B&M
+2026-07-01,ada,-200.0,housing,Board to Mum
+2026-07-01,ada,-14.18,council_tax,Council Tax
+2026-07-01,ada,-2.62,shopping,Argos
+2026-07-01,daniel,-950.0,housing,Rent (private landlord)
+2026-07-01,daniel,-99.32,council_tax,Council Tax
+2026-07-01,daniel,-11.13,groceries,Tesco
+2026-07-01,daniel,-2.16,bank_fee,Arranged overdraft interest
+2026-07-01,grace,-430.0,housing,Rent (housing association)
+2026-07-01,grace,-71.78,council_tax,Council Tax
+2026-07-01,halina,520.0,income,Workplace pension
+2026-07-01,halina,-79.22,council_tax,Council Tax
+2026-07-01,halina,-45.12,shopping,Primark
+2026-07-01,tomasz,-124.12,council_tax,Council Tax
+2026-07-01,tomasz,-13.11,transport,BP
+2026-07-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-07-01,zofia,-48.16,council_tax,Council Tax
+2026-07-01,zofia,-13.22,transport,Esso
+2026-07-02,ada,-26.47,eating_out,Costa
+2026-07-02,ada,-12.77,recreation,Steam
+2026-07-02,daniel,-2.61,groceries,Sainsbury's
+2026-07-02,grace,-11.39,eating_out,Nando's
+2026-07-02,halina,-10.57,recreation,Steam
+2026-07-02,halina,-20.55,eating_out,Deliveroo
+2026-07-02,halina,-42.18,recreation,Odeon
+2026-07-02,tomasz,-1080.0,housing,Mortgage (Nationwide)
+2026-07-02,tomasz,-4.4,eating_out,Just Eat
+2026-07-02,tomasz,-2.71,recreation,Vue Cinema
+2026-07-02,tomasz,-8.01,recreation,Vue Cinema
+2026-07-02,zofia,-5.86,groceries,Aldi
+2026-07-02,zofia,-16.11,transport,Shell
+2026-07-03,daniel,214.24,income,Courier platform payout
+2026-07-03,daniel,-16.68,transport,Shell
+2026-07-03,grace,-6.57,groceries,Tesco
+2026-07-03,grace,-2.2,groceries,Asda
+2026-07-03,tomasz,-24.39,transport,National Rail
+2026-07-03,zofia,-5.92,personal,Barber
+2026-07-03,zofia,-4.08,transport,Stagecoach
+2026-07-03,zofia,-0.86,groceries,Aldi
+2026-07-04,ada,-20.89,shopping,B&M
+2026-07-04,ada,-27.8,recreation,Odeon
+2026-07-04,daniel,-15.98,recreation,Netflix
+2026-07-04,daniel,-8.39,eating_out,Nando's
+2026-07-04,daniel,-12.78,transport,Shell
+2026-07-04,grace,-40.0,cash_withdrawal,ATM
+2026-07-04,halina,-24.39,recreation,Steam
+2026-07-04,tomasz,-26.34,personal,Post Office
+2026-07-04,tomasz,-47.19,groceries,Aldi
+2026-07-04,zofia,-6.13,groceries,Lidl
+2026-07-05,ada,-5.26,insurance,Aviva
+2026-07-05,ada,-7.17,transport,Stagecoach
+2026-07-05,daniel,-38.4,insurance,Aviva
+2026-07-05,daniel,-1.78,personal,Post Office
+2026-07-05,daniel,-37.92,bnpl,Klarna
+2026-07-05,grace,-27.1,insurance,Aviva
+2026-07-05,grace,-10.25,eating_out,Deliveroo
+2026-07-05,grace,-0.59,eating_out,Just Eat
+2026-07-05,grace,-7.77,recreation,Netflix
+2026-07-05,halina,-31.14,insurance,Aviva
+2026-07-05,halina,-24.92,eating_out,Deliveroo
+2026-07-05,tomasz,-49.06,insurance,Aviva
+2026-07-05,tomasz,-25.45,eating_out,Just Eat
+2026-07-05,zofia,-20.12,insurance,Aviva
+2026-07-05,zofia,-4.44,eating_out,Wetherspoons
+2026-07-05,zofia,-32.14,eating_out,Just Eat
+2026-07-06,ada,-17.25,groceries,Lidl
+2026-07-06,ada,-15.97,groceries,Lidl
+2026-07-06,ada,-4.04,shopping,Next
+2026-07-06,daniel,-17.78,personal,Superdrug
+2026-07-06,grace,-1.36,groceries,Lidl
+2026-07-06,grace,-4.87,personal,Superdrug
+2026-07-06,grace,-5.6,personal,Post Office
+2026-07-06,grace,-2.71,personal,Pets at Home
+2026-07-06,halina,-22.18,groceries,Sainsbury's
+2026-07-06,zofia,-13.45,eating_out,Costa
+2026-07-06,zofia,-14.44,personal,Barber
+2026-07-06,zofia,-29.78,bnpl,Klarna
+2026-07-07,daniel,-7.27,groceries,Co-op
+2026-07-07,daniel,-4.59,transport,Shell
+2026-07-07,daniel,-14.26,shopping,B&M
+2026-07-07,halina,-8.68,eating_out,Costa
+2026-07-07,halina,-42.07,groceries,Lidl
+2026-07-07,tomasz,-20.4,eating_out,Nando's
+2026-07-07,tomasz,-10.42,recreation,Odeon
+2026-07-07,tomasz,-30.52,recreation,Spotify
+2026-07-07,tomasz,-11.94,eating_out,Costa
+2026-07-07,tomasz,-41.29,transport,BP
+2026-07-07,zofia,-14.57,groceries,Sainsbury's
+2026-07-07,zofia,-12.82,shopping,Primark
+2026-07-07,zofia,-56.8,bnpl,Klarna
+2026-07-08,ada,-1.93,eating_out,Greggs
+2026-07-08,ada,-10.24,recreation,Vue Cinema
+2026-07-08,ada,-16.36,shopping,B&M
+2026-07-08,daniel,-6.39,recreation,Spotify
+2026-07-08,daniel,-13.55,groceries,Tesco
+2026-07-08,halina,-20.34,groceries,Sainsbury's
+2026-07-08,tomasz,-8.9,shopping,B&M
+2026-07-09,ada,-8.76,eating_out,Costa
+2026-07-09,ada,-13.47,recreation,Netflix
+2026-07-09,ada,-4.63,groceries,Aldi
+2026-07-09,daniel,-22.44,groceries,Lidl
+2026-07-09,daniel,-16.1,eating_out,Nando's
+2026-07-09,daniel,-11.34,eating_out,Just Eat
+2026-07-09,grace,-3.21,groceries,Co-op
+2026-07-09,grace,-0.93,groceries,Lidl
+2026-07-09,halina,-20.0,cash_withdrawal,ATM
+2026-07-09,tomasz,-18.61,transport,Esso
+2026-07-09,tomasz,-10.4,groceries,Lidl
+2026-07-09,zofia,-16.26,recreation,Netflix
+2026-07-10,ada,-19.7,personal,Barber
+2026-07-10,ada,-6.26,eating_out,Just Eat
+2026-07-10,daniel,1168.73,income,Courier platform payout
+2026-07-10,grace,-23.84,eating_out,Greggs
+2026-07-10,grace,-7.09,recreation,Spotify
+2026-07-10,grace,-2.97,groceries,Asda
+2026-07-10,grace,-18.12,groceries,Sainsbury's
+2026-07-10,grace,-9.24,recreation,Spotify
+2026-07-10,halina,-11.43,groceries,Lidl
+2026-07-10,tomasz,-30.6,groceries,Sainsbury's
+2026-07-10,tomasz,-25.36,transport,Shell
+2026-07-10,tomasz,-37.91,transport,Esso
+2026-07-10,tomasz,-41.44,groceries,Asda
+2026-07-10,zofia,-5.22,personal,Barber
+2026-07-10,zofia,-2.38,shopping,Next
+2026-07-11,daniel,-16.78,shopping,B&M
+2026-07-11,daniel,-20.0,cash_withdrawal,ATM
+2026-07-11,grace,-13.58,recreation,Steam
+2026-07-11,tomasz,-17.63,recreation,Spotify
+2026-07-11,tomasz,-11.99,groceries,Sainsbury's
+2026-07-11,zofia,-11.92,personal,Post Office
+2026-07-11,zofia,-29.43,bnpl,Klarna
+2026-07-12,ada,-13.26,transport,National Rail
+2026-07-12,daniel,-12.38,personal,Post Office
+2026-07-12,grace,-4.28,transport,Stagecoach
+2026-07-12,grace,-15.89,recreation,PureGym
+2026-07-12,tomasz,-10.12,recreation,Odeon
+2026-07-12,tomasz,-32.76,shopping,B&M
+2026-07-12,zofia,-24.14,groceries,Co-op
+2026-07-13,ada,-10.56,shopping,Amazon
+2026-07-13,daniel,-38.47,groceries,Tesco
+2026-07-13,daniel,-16.32,eating_out,Just Eat
+2026-07-13,daniel,-16.52,eating_out,Costa
+2026-07-13,daniel,-23.1,bnpl,Klarna
+2026-07-13,grace,-3.48,recreation,Odeon
+2026-07-13,halina,-1.75,recreation,PureGym
+2026-07-13,halina,-25.92,groceries,Lidl
+2026-07-13,halina,-23.94,eating_out,Deliveroo
+2026-07-13,tomasz,-116.62,bnpl,Klarna
+2026-07-13,zofia,-10.07,groceries,Lidl
+2026-07-13,zofia,-24.15,transport,National Rail
+2026-07-13,zofia,-26.7,eating_out,Nando's
+2026-07-14,ada,-14.12,utilities,Octopus Energy
+2026-07-14,ada,-18.71,eating_out,Costa
+2026-07-14,ada,-4.15,transport,Stagecoach
+2026-07-14,daniel,-106.88,utilities,Octopus Energy
+2026-07-14,daniel,-5.41,eating_out,Costa
+2026-07-14,daniel,-3.11,groceries,Aldi
+2026-07-14,daniel,-4.75,groceries,Sainsbury's
+2026-07-14,daniel,-13.18,groceries,Co-op
+2026-07-14,daniel,-9.21,groceries,Asda
+2026-07-14,grace,-80.28,utilities,Octopus Energy
+2026-07-14,halina,-90.65,utilities,Octopus Energy
+2026-07-14,halina,-13.65,eating_out,Just Eat
+2026-07-14,halina,-20.8,shopping,Boots
+2026-07-14,tomasz,-128.4,utilities,Octopus Energy
+2026-07-14,tomasz,-6.26,transport,TfL
+2026-07-14,tomasz,-15.85,groceries,Asda
+2026-07-14,tomasz,-24.19,shopping,Argos
+2026-07-14,tomasz,-3.62,transport,Stagecoach
+2026-07-14,tomasz,-32.64,transport,Shell
+2026-07-14,zofia,-51.89,utilities,Octopus Energy
+2026-07-15,daniel,-20.43,personal,Barber
+2026-07-15,daniel,-1.23,groceries,Tesco
+2026-07-15,grace,-2.12,recreation,PureGym
+2026-07-15,halina,-16.51,personal,Barber
+2026-07-15,tomasz,-3.81,recreation,Spotify
+2026-07-15,zofia,-11.28,groceries,Co-op
+2026-07-15,zofia,-8.47,groceries,Lidl
+2026-07-16,ada,-2.55,eating_out,Just Eat
+2026-07-16,ada,-1.57,recreation,Vue Cinema
+2026-07-16,ada,-4.64,recreation,Vue Cinema
+2026-07-16,daniel,-10.2,recreation,Odeon
+2026-07-16,halina,-6.15,eating_out,Costa
+2026-07-16,halina,-10.47,eating_out,Greggs
+2026-07-16,halina,-17.59,eating_out,Wetherspoons
+2026-07-16,halina,-1.71,shopping,Amazon
+2026-07-16,tomasz,-43.55,shopping,B&M
+2026-07-16,tomasz,-11.89,personal,Pets at Home
+2026-07-16,zofia,-8.63,transport,BP
+2026-07-16,zofia,-7.53,shopping,Amazon
+2026-07-16,zofia,-1.94,recreation,Steam
+2026-07-16,zofia,-5.43,groceries,Sainsbury's
+2026-07-17,ada,-9.91,transport,National Rail
+2026-07-17,daniel,793.76,income,Courier platform payout
+2026-07-17,grace,-5.67,groceries,Co-op
+2026-07-17,grace,-2.38,transport,TfL
+2026-07-17,grace,-3.88,shopping,Primark
+2026-07-17,halina,-26.2,eating_out,Wetherspoons
+2026-07-17,halina,-10.09,groceries,Tesco
+2026-07-17,tomasz,-41.89,recreation,Steam
+2026-07-18,ada,-4.79,utilities,Thames Water
+2026-07-18,ada,-15.26,eating_out,Greggs
+2026-07-18,ada,-27.34,personal,Superdrug
+2026-07-18,ada,-3.45,shopping,Boots
+2026-07-18,daniel,-31.95,utilities,Thames Water
+2026-07-18,grace,-22.31,utilities,Thames Water
+2026-07-18,halina,-26.2,utilities,Thames Water
+2026-07-18,halina,-14.65,eating_out,Greggs
+2026-07-18,halina,-12.82,transport,BP
+2026-07-18,halina,-3.13,eating_out,Greggs
+2026-07-18,tomasz,-38.66,utilities,Thames Water
+2026-07-18,tomasz,-32.86,recreation,Odeon
+2026-07-18,tomasz,-27.26,shopping,Next
+2026-07-18,zofia,-16.51,utilities,Thames Water
+2026-07-18,zofia,-24.39,personal,Pets at Home
+2026-07-18,zofia,-20.64,bnpl,Klarna
+2026-07-19,daniel,-11.82,shopping,Next
+2026-07-19,daniel,-22.81,recreation,Steam
+2026-07-19,daniel,-6.6,recreation,Vue Cinema
+2026-07-19,halina,-10.92,recreation,Vue Cinema
+2026-07-19,halina,-10.74,groceries,Aldi
+2026-07-19,halina,-7.14,groceries,Tesco
+2026-07-19,halina,-6.38,personal,Barber
+2026-07-19,zofia,-1.38,recreation,PureGym
+2026-07-19,zofia,-137.82,one_off,Funeral costs
+2026-07-20,ada,1193.97,income,Employer payroll (apprentice)
+2026-07-20,daniel,-8.87,transport,Esso
+2026-07-20,daniel,-8.95,groceries,Sainsbury's
+2026-07-20,daniel,-12.3,transport,Esso
+2026-07-20,daniel,-6.98,transport,Esso
+2026-07-20,grace,-3.17,eating_out,Just Eat
+2026-07-20,grace,-3.29,groceries,Sainsbury's
+2026-07-20,grace,-8.41,recreation,Netflix
+2026-07-20,tomasz,-22.73,recreation,Vue Cinema
+2026-07-20,tomasz,-45.06,recreation,PureGym
+2026-07-20,tomasz,-50.0,cash_withdrawal,ATM
+2026-07-20,zofia,-7.68,groceries,Sainsbury's
+2026-07-20,zofia,-143.35,bnpl,Klarna
+2026-07-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-07-21,daniel,-5.05,groceries,Tesco
+2026-07-21,halina,-6.25,groceries,Asda
+2026-07-21,halina,-7.28,shopping,Boots
+2026-07-21,tomasz,-34.7,shopping,Boots
+2026-07-21,tomasz,-9.6,personal,Post Office
+2026-07-21,zofia,-11.02,transport,Esso
+2026-07-22,ada,-6.72,communication,BT Broadband & Mobile
+2026-07-22,ada,-11.82,eating_out,Just Eat
+2026-07-22,ada,-6.04,recreation,Odeon
+2026-07-22,ada,-17.69,recreation,Spotify
+2026-07-22,ada,-6.92,eating_out,Costa
+2026-07-22,ada,-23.92,transport,BP
+2026-07-22,daniel,-50.94,communication,BT Broadband & Mobile
+2026-07-22,daniel,-12.73,personal,Pets at Home
+2026-07-22,grace,-34.4,communication,BT Broadband & Mobile
+2026-07-22,grace,-11.46,transport,BP
+2026-07-22,grace,-4.87,transport,Stagecoach
+2026-07-22,grace,-50.0,cash_withdrawal,ATM
+2026-07-22,halina,-43.58,communication,BT Broadband & Mobile
+2026-07-22,tomasz,-59.17,communication,BT Broadband & Mobile
+2026-07-22,tomasz,-15.38,recreation,Odeon
+2026-07-22,tomasz,-1.58,eating_out,Deliveroo
+2026-07-22,tomasz,-31.96,groceries,Co-op
+2026-07-22,tomasz,-78.64,personal,Post Office
+2026-07-22,zofia,-24.28,communication,BT Broadband & Mobile
+2026-07-22,zofia,-12.07,shopping,Argos
+2026-07-22,zofia,-3.34,eating_out,Nando's
+2026-07-23,ada,-13.93,recreation,Vue Cinema
+2026-07-23,grace,-8.78,eating_out,Costa
+2026-07-23,grace,-3.18,personal,Pets at Home
+2026-07-23,grace,-100.0,cash_withdrawal,ATM
+2026-07-23,halina,-21.17,personal,Pets at Home
+2026-07-23,tomasz,-10.38,transport,Stagecoach
+2026-07-23,tomasz,-41.22,personal,Superdrug
+2026-07-23,tomasz,-51.89,transport,Esso
+2026-07-23,tomasz,-313.04,one_off,Funeral costs
+2026-07-23,zofia,-12.49,transport,Shell
+2026-07-23,zofia,-6.7,recreation,Vue Cinema
+2026-07-24,ada,-1.41,groceries,Asda
+2026-07-24,daniel,368.22,income,Courier platform payout
+2026-07-24,daniel,-27.09,transport,National Rail
+2026-07-24,daniel,-10.79,recreation,Vue Cinema
+2026-07-24,grace,1070.77,income,DWP State Pension
+2026-07-24,grace,-1.55,groceries,Asda
+2026-07-24,halina,886.15,income,DWP State Pension
+2026-07-24,halina,-28.89,personal,Barber
+2026-07-24,halina,-20.8,groceries,Lidl
+2026-07-24,halina,-3.18,eating_out,Wetherspoons
+2026-07-24,tomasz,-34.2,personal,Barber
+2026-07-24,zofia,2004.71,income,Employer payroll
+2026-07-24,zofia,-6.82,transport,BP
+2026-07-25,ada,-22.05,recreation,Steam
+2026-07-25,ada,-6.76,shopping,Next
+2026-07-25,grace,-12.04,groceries,Asda
+2026-07-25,grace,-7.59,recreation,Odeon
+2026-07-25,grace,-3.1,shopping,Argos
+2026-07-25,grace,-9.59,groceries,Asda
+2026-07-25,halina,-31.67,shopping,B&M
+2026-07-25,tomasz,-4.45,recreation,Steam
+2026-07-25,tomasz,-16.54,transport,Shell
+2026-07-25,tomasz,-40.0,cash_withdrawal,ATM
+2026-07-25,zofia,-13.73,recreation,Spotify
+2026-07-25,zofia,-11.4,groceries,Co-op
+2026-07-25,zofia,-9.05,transport,TfL
+2026-07-26,ada,-24.32,groceries,Tesco
+2026-07-26,daniel,-12.31,transport,National Rail
+2026-07-26,daniel,-9.12,groceries,Lidl
+2026-07-26,daniel,-12.16,shopping,Boots
+2026-07-26,daniel,-5.32,groceries,Sainsbury's
+2026-07-26,grace,-8.94,groceries,Sainsbury's
+2026-07-26,grace,-2.13,transport,Shell
+2026-07-26,grace,-9.67,groceries,Asda
+2026-07-26,halina,-34.32,groceries,Aldi
+2026-07-26,halina,-6.29,eating_out,Costa
+2026-07-26,halina,-18.76,shopping,Argos
+2026-07-26,tomasz,-13.19,recreation,Vue Cinema
+2026-07-26,zofia,-15.51,personal,Superdrug
+2026-07-27,ada,-18.32,recreation,Vue Cinema
+2026-07-27,daniel,-5.41,eating_out,Nando's
+2026-07-27,daniel,-1.42,shopping,Boots
+2026-07-27,grace,-16.77,transport,National Rail
+2026-07-27,grace,-8.14,groceries,Lidl
+2026-07-27,tomasz,-4.94,transport,National Rail
+2026-07-27,zofia,-28.4,transport,National Rail
+2026-07-28,ada,-10.22,shopping,Amazon
+2026-07-28,daniel,-16.63,transport,National Rail
+2026-07-28,daniel,-35.48,recreation,Netflix
+2026-07-28,grace,-3.24,shopping,Next
+2026-07-28,grace,-2.34,eating_out,Just Eat
+2026-07-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-07-28,halina,-10.12,eating_out,Costa
+2026-07-28,halina,-4.41,groceries,Sainsbury's
+2026-07-28,halina,-26.0,groceries,Sainsbury's
+2026-07-28,halina,-4.52,eating_out,Deliveroo
+2026-07-28,halina,-12.74,eating_out,Wetherspoons
+2026-07-28,tomasz,2882.82,income,Employer payroll
+2026-07-28,tomasz,-36.36,recreation,Steam
+2026-07-28,zofia,-11.34,groceries,Aldi
+2026-07-29,ada,-19.39,transport,Esso
+2026-07-29,halina,-22.23,shopping,B&M
+2026-07-29,tomasz,-43.47,transport,TfL
+2026-07-29,zofia,-31.57,groceries,Aldi
+2026-07-30,ada,-18.99,recreation,Vue Cinema
+2026-07-30,daniel,-40.0,cash_withdrawal,ATM
+2026-07-30,grace,-6.46,groceries,Co-op
+2026-07-30,grace,-4.73,shopping,Argos
+2026-07-30,grace,-6.12,recreation,Netflix
+2026-07-30,grace,-1.91,shopping,B&M
+2026-07-30,halina,-8.72,recreation,Spotify
+2026-07-30,halina,-15.04,shopping,Primark
+2026-07-30,tomasz,-6.86,groceries,Co-op
+2026-07-30,tomasz,-14.09,groceries,Asda
+2026-07-30,tomasz,-11.86,recreation,Spotify
+2026-07-31,ada,-18.27,groceries,Asda
+2026-07-31,daniel,686.17,income,Courier platform payout
+2026-07-31,daniel,-9.41,shopping,Boots
+2026-07-31,daniel,-9.48,eating_out,Deliveroo
+2026-07-31,grace,-6.43,groceries,Aldi
+2026-07-31,grace,-3.87,groceries,Tesco
+2026-07-31,grace,-7.4,eating_out,Just Eat
+2026-07-31,halina,-18.18,transport,BP
+2026-07-31,halina,-7.53,transport,Esso
+2026-07-31,halina,-26.59,recreation,PureGym
+2026-07-31,halina,-16.22,transport,National Rail
+2026-07-31,zofia,-6.53,personal,Pets at Home
+2026-08-01,ada,-200.0,housing,Board to Mum
+2026-08-01,ada,-13.02,council_tax,Council Tax
+2026-08-01,ada,-13.81,recreation,Odeon
+2026-08-01,ada,-3.63,recreation,Spotify
+2026-08-01,ada,-9.19,eating_out,Deliveroo
+2026-08-01,ada,-14.02,recreation,Netflix
+2026-08-01,daniel,-950.0,housing,Rent (private landlord)
+2026-08-01,daniel,-95.0,council_tax,Council Tax
+2026-08-01,daniel,-16.5,transport,National Rail
+2026-08-01,daniel,-0.7,bank_fee,Arranged overdraft interest
+2026-08-01,grace,-430.0,housing,Rent (housing association)
+2026-08-01,grace,-66.94,council_tax,Council Tax
+2026-08-01,grace,-10.22,groceries,Co-op
+2026-08-01,grace,-8.99,shopping,Amazon
+2026-08-01,halina,520.0,income,Workplace pension
+2026-08-01,halina,-84.42,council_tax,Council Tax
+2026-08-01,tomasz,-125.89,council_tax,Council Tax
+2026-08-01,tomasz,-15.7,shopping,Primark
+2026-08-01,tomasz,-7.69,groceries,Aldi
+2026-08-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-08-01,zofia,-50.74,council_tax,Council Tax
+2026-08-01,zofia,-20.28,groceries,Aldi
+2026-08-02,ada,-9.7,groceries,Co-op
+2026-08-02,daniel,-14.03,eating_out,Costa
+2026-08-02,daniel,-3.73,groceries,Asda
+2026-08-02,daniel,-17.73,groceries,Aldi
+2026-08-02,daniel,-100.0,cash_withdrawal,ATM
+2026-08-02,tomasz,-1290.0,housing,Mortgage (Nationwide)
+2026-08-02,zofia,-22.56,eating_out,Costa
+2026-08-02,zofia,-28.28,shopping,B&M
+2026-08-03,daniel,-18.69,groceries,Asda
+2026-08-03,daniel,-3.07,transport,TfL
+2026-08-03,daniel,-5.28,recreation,Steam
+2026-08-03,daniel,-10.84,eating_out,Wetherspoons
+2026-08-03,grace,-4.94,recreation,Steam
+2026-08-03,tomasz,-22.54,shopping,Argos
+2026-08-03,tomasz,-6.64,transport,Shell
+2026-08-03,tomasz,-1.92,groceries,Lidl
+2026-08-03,zofia,-8.09,groceries,Co-op
+2026-08-03,zofia,-7.6,recreation,Odeon
+2026-08-03,zofia,-31.38,recreation,Steam
+2026-08-03,zofia,-13.49,transport,Shell
+2026-08-04,ada,-1.8,shopping,Primark
+2026-08-04,ada,-5.28,eating_out,Nando's
+2026-08-04,ada,-36.9,groceries,Co-op
+2026-08-04,ada,-15.39,transport,National Rail
+2026-08-04,ada,-10.3,groceries,Aldi
+2026-08-04,daniel,-20.09,recreation,Vue Cinema
+2026-08-04,daniel,-37.92,bnpl,Klarna
+2026-08-04,grace,-9.23,eating_out,Greggs
+2026-08-04,tomasz,-40.04,transport,Esso
+2026-08-04,tomasz,-1.88,personal,Post Office
+2026-08-04,zofia,-4.63,transport,National Rail
+2026-08-05,ada,-5.35,insurance,Aviva
+2026-08-05,ada,-19.04,recreation,Odeon
+2026-08-05,ada,-15.8,shopping,Next
+2026-08-05,daniel,-37.63,insurance,Aviva
+2026-08-05,daniel,-9.01,shopping,Next
+2026-08-05,grace,-28.34,insurance,Aviva
+2026-08-05,grace,-10.17,transport,National Rail
+2026-08-05,grace,-7.92,shopping,Primark
+2026-08-05,grace,-4.25,groceries,Tesco
+2026-08-05,halina,-32.5,insurance,Aviva
+2026-08-05,halina,-5.61,shopping,B&M
+2026-08-05,tomasz,-45.53,insurance,Aviva
+2026-08-05,tomasz,-12.48,eating_out,Deliveroo
+2026-08-05,tomasz,-23.33,groceries,Co-op
+2026-08-05,zofia,-20.46,insurance,Aviva
+2026-08-05,zofia,-5.72,transport,Shell
+2026-08-06,ada,-7.51,shopping,Boots
+2026-08-06,daniel,-23.74,eating_out,Deliveroo
+2026-08-06,daniel,-14.68,personal,Superdrug
+2026-08-06,daniel,-1.51,recreation,Vue Cinema
+2026-08-06,halina,-24.03,recreation,Netflix
+2026-08-06,tomasz,-33.24,transport,BP
+2026-08-06,zofia,-14.36,groceries,Sainsbury's
+2026-08-06,zofia,-56.8,bnpl,Klarna
+2026-08-07,ada,-14.2,eating_out,Costa
+2026-08-07,ada,-8.48,transport,Stagecoach
+2026-08-07,ada,-9.46,recreation,Spotify
+2026-08-07,daniel,508.96,income,Courier platform payout
+2026-08-07,daniel,-3.34,personal,Pets at Home
+2026-08-07,daniel,-23.0,recreation,Netflix
+2026-08-07,daniel,-15.41,recreation,PureGym
+2026-08-07,daniel,-11.49,eating_out,Wetherspoons
+2026-08-07,grace,-4.43,eating_out,Greggs
+2026-08-07,tomasz,-8.07,groceries,Co-op
+2026-08-07,zofia,-8.95,shopping,Boots
+2026-08-07,zofia,-3.55,eating_out,Just Eat
+2026-08-07,zofia,-19.02,eating_out,Just Eat
+2026-08-07,zofia,-9.02,recreation,Spotify
+2026-08-08,ada,-4.45,personal,Superdrug
+2026-08-08,daniel,-5.45,recreation,Vue Cinema
+2026-08-08,daniel,-0.31,shopping,Amazon
+2026-08-08,grace,-6.3,shopping,Argos
+2026-08-08,grace,-4.32,eating_out,Wetherspoons
+2026-08-08,grace,-6.04,transport,National Rail
+2026-08-08,grace,-5.74,transport,BP
+2026-08-08,halina,-20.63,recreation,Steam
+2026-08-08,halina,-8.34,eating_out,Just Eat
+2026-08-08,tomasz,-6.17,eating_out,Just Eat
+2026-08-08,zofia,-8.22,transport,Shell
+2026-08-08,zofia,-12.97,groceries,Asda
+2026-08-09,ada,-41.22,recreation,Netflix
+2026-08-09,ada,-37.36,shopping,B&M
+2026-08-09,daniel,-7.02,eating_out,Wetherspoons
+2026-08-09,daniel,-1.91,groceries,Tesco
+2026-08-09,daniel,-4.1,eating_out,Just Eat
+2026-08-09,grace,-2.56,transport,Esso
+2026-08-09,grace,-2.93,recreation,Spotify
+2026-08-09,grace,-5.14,shopping,Amazon
+2026-08-09,grace,-6.56,eating_out,Wetherspoons
+2026-08-09,halina,-3.8,transport,Stagecoach
+2026-08-09,halina,-38.04,groceries,Aldi
+2026-08-09,zofia,-6.44,groceries,Co-op
+2026-08-09,zofia,-9.97,recreation,Odeon
+2026-08-09,zofia,-1.0,transport,Shell
+2026-08-09,zofia,-23.48,bnpl,Klarna
+2026-08-10,ada,-5.55,shopping,Amazon
+2026-08-10,ada,-1.5,eating_out,Just Eat
+2026-08-10,ada,-8.51,personal,Superdrug
+2026-08-10,ada,-2.27,groceries,Co-op
+2026-08-10,daniel,-6.24,shopping,Amazon
+2026-08-10,daniel,-17.44,groceries,Tesco
+2026-08-10,grace,-10.25,eating_out,Greggs
+2026-08-10,grace,-4.67,groceries,Sainsbury's
+2026-08-10,tomasz,-12.38,groceries,Sainsbury's
+2026-08-10,zofia,-9.31,shopping,Amazon
+2026-08-10,zofia,-12.48,recreation,Vue Cinema
+2026-08-10,zofia,-38.36,recreation,Steam
+2026-08-11,ada,-15.09,transport,Stagecoach
+2026-08-11,ada,-5.98,eating_out,Wetherspoons
+2026-08-11,daniel,-12.06,personal,Pets at Home
+2026-08-11,daniel,-23.44,transport,National Rail
+2026-08-11,grace,-3.94,recreation,Netflix
+2026-08-11,grace,-4.5,transport,National Rail
+2026-08-11,grace,-0.97,recreation,Odeon
+2026-08-11,grace,-21.22,eating_out,Just Eat
+2026-08-11,tomasz,-19.89,groceries,Lidl
+2026-08-11,tomasz,-10.44,eating_out,Greggs
+2026-08-11,tomasz,-50.0,cash_withdrawal,ATM
+2026-08-11,zofia,-10.09,recreation,PureGym
+2026-08-12,daniel,-9.92,groceries,Co-op
+2026-08-12,grace,-7.88,groceries,Aldi
+2026-08-12,halina,-22.63,shopping,Amazon
+2026-08-12,tomasz,-26.73,transport,Stagecoach
+2026-08-12,tomasz,-116.62,bnpl,Klarna
+2026-08-12,zofia,-10.73,eating_out,Greggs
+2026-08-13,daniel,-25.93,shopping,B&M
+2026-08-13,daniel,-13.43,shopping,Next
+2026-08-13,daniel,-18.14,eating_out,Nando's
+2026-08-13,daniel,-16.1,eating_out,Costa
+2026-08-13,daniel,-14.84,groceries,Aldi
+2026-08-13,grace,-1.55,shopping,Argos
+2026-08-13,grace,-4.93,eating_out,Greggs
+2026-08-13,grace,-11.05,groceries,Lidl
+2026-08-13,halina,-12.12,recreation,Odeon
+2026-08-13,halina,-17.49,shopping,Amazon
+2026-08-13,halina,-19.72,groceries,Aldi
+2026-08-13,halina,-50.0,cash_withdrawal,ATM
+2026-08-13,tomasz,-5.34,shopping,Boots
+2026-08-13,tomasz,-38.34,groceries,Sainsbury's
+2026-08-13,tomasz,-20.19,shopping,Boots
+2026-08-13,zofia,-7.34,recreation,Steam
+2026-08-14,ada,-15.17,utilities,Octopus Energy
+2026-08-14,ada,-9.59,groceries,Lidl
+2026-08-14,ada,-12.53,groceries,Aldi
+2026-08-14,daniel,753.01,income,Courier platform payout
+2026-08-14,daniel,-113.13,utilities,Octopus Energy
+2026-08-14,daniel,-14.49,shopping,Argos
+2026-08-14,grace,-75.63,utilities,Octopus Energy
+2026-08-14,grace,-21.75,transport,Esso
+2026-08-14,grace,-25.54,shopping,Boots
+2026-08-14,grace,-3.4,recreation,Vue Cinema
+2026-08-14,grace,-6.63,groceries,Sainsbury's
+2026-08-14,halina,-95.97,utilities,Octopus Energy
+2026-08-14,halina,-5.9,groceries,Asda
+2026-08-14,halina,-14.97,groceries,Co-op
+2026-08-14,tomasz,-134.66,utilities,Octopus Energy
+2026-08-14,tomasz,-29.32,eating_out,Deliveroo
+2026-08-14,zofia,-51.42,utilities,Octopus Energy
+2026-08-14,zofia,-9.5,personal,Superdrug
+2026-08-14,zofia,-28.21,transport,Esso
+2026-08-14,zofia,-15.24,groceries,Co-op
+2026-08-15,ada,-7.64,recreation,Vue Cinema
+2026-08-15,grace,-8.02,groceries,Asda
+2026-08-15,halina,-12.84,recreation,Steam
+2026-08-15,halina,-8.63,eating_out,Wetherspoons
+2026-08-15,halina,-23.32,transport,Stagecoach
+2026-08-15,halina,-10.1,groceries,Asda
+2026-08-15,tomasz,-4.76,shopping,B&M
+2026-08-15,zofia,-10.16,eating_out,Nando's
+2026-08-16,ada,-2.86,eating_out,Deliveroo
+2026-08-16,ada,-14.61,shopping,Amazon
+2026-08-16,daniel,-5.88,eating_out,Wetherspoons
+2026-08-16,daniel,-14.05,eating_out,Wetherspoons
+2026-08-16,daniel,-8.62,recreation,PureGym
+2026-08-16,daniel,-4.69,personal,Post Office
+2026-08-16,grace,-7.83,transport,TfL
+2026-08-16,halina,-14.04,eating_out,Nando's
+2026-08-16,tomasz,-25.81,eating_out,Costa
+2026-08-16,tomasz,-8.72,shopping,Primark
+2026-08-16,tomasz,-6.08,groceries,Sainsbury's
+2026-08-16,zofia,-10.85,personal,Barber
+2026-08-16,zofia,-16.34,eating_out,Greggs
+2026-08-17,daniel,-11.35,groceries,Lidl
+2026-08-17,daniel,-8.51,recreation,PureGym
+2026-08-17,halina,-12.82,transport,National Rail
+2026-08-17,halina,-37.15,personal,Pets at Home
+2026-08-17,tomasz,-8.4,groceries,Sainsbury's
+2026-08-17,tomasz,-44.73,shopping,Primark
+2026-08-18,ada,-4.77,utilities,Thames Water
+2026-08-18,ada,-21.96,groceries,Asda
+2026-08-18,daniel,-35.02,utilities,Thames Water
+2026-08-18,daniel,-7.85,groceries,Co-op
+2026-08-18,daniel,-22.67,recreation,Vue Cinema
+2026-08-18,daniel,-21.09,transport,Stagecoach
+2026-08-18,daniel,-17.07,groceries,Aldi
+2026-08-18,grace,-21.99,utilities,Thames Water
+2026-08-18,halina,-26.78,utilities,Thames Water
+2026-08-18,halina,-31.15,groceries,Co-op
+2026-08-18,halina,-7.76,recreation,Odeon
+2026-08-18,halina,-22.3,personal,Pets at Home
+2026-08-18,halina,-28.8,eating_out,Greggs
+2026-08-18,halina,-62.37,personal,Post Office
+2026-08-18,tomasz,-40.0,utilities,Thames Water
+2026-08-18,zofia,-16.86,utilities,Thames Water
+2026-08-18,zofia,-3.92,shopping,Argos
+2026-08-18,zofia,-7.37,eating_out,Wetherspoons
+2026-08-19,ada,-3.3,transport,National Rail
+2026-08-19,ada,-25.85,personal,Superdrug
+2026-08-19,daniel,-19.39,transport,Stagecoach
+2026-08-19,daniel,-12.14,recreation,Vue Cinema
+2026-08-19,daniel,-52.45,bnpl,Klarna
+2026-08-19,grace,-7.26,transport,BP
+2026-08-19,tomasz,-27.75,personal,Barber
+2026-08-19,tomasz,-39.91,groceries,Tesco
+2026-08-19,zofia,-8.61,eating_out,Just Eat
+2026-08-19,zofia,-143.35,bnpl,Klarna
+2026-08-20,ada,1161.05,income,Employer payroll (apprentice)
+2026-08-20,ada,-7.6,groceries,Asda
+2026-08-20,daniel,-8.91,recreation,Vue Cinema
+2026-08-20,grace,-12.36,recreation,PureGym
+2026-08-20,zofia,-11.45,groceries,Lidl
+2026-08-20,zofia,-6.54,recreation,Spotify
+2026-08-20,zofia,-15.1,personal,Barber
+2026-08-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-08-21,ada,-7.04,eating_out,Wetherspoons
+2026-08-21,daniel,280.71,income,Courier platform payout
+2026-08-21,grace,1070.77,income,DWP State Pension
+2026-08-21,grace,-8.26,eating_out,Just Eat
+2026-08-21,grace,-5.32,groceries,Aldi
+2026-08-21,halina,886.15,income,DWP State Pension
+2026-08-21,halina,-9.66,recreation,Spotify
+2026-08-21,halina,-5.04,transport,TfL
+2026-08-21,tomasz,-4.8,eating_out,Wetherspoons
+2026-08-22,ada,-6.5,communication,BT Broadband & Mobile
+2026-08-22,ada,-8.3,transport,Esso
+2026-08-22,ada,-18.4,shopping,Primark
+2026-08-22,daniel,-48.91,communication,BT Broadband & Mobile
+2026-08-22,grace,-33.46,communication,BT Broadband & Mobile
+2026-08-22,halina,-39.09,communication,BT Broadband & Mobile
+2026-08-22,halina,-19.48,eating_out,Just Eat
+2026-08-22,tomasz,-58.39,communication,BT Broadband & Mobile
+2026-08-22,tomasz,-30.14,recreation,Steam
+2026-08-22,zofia,-23.68,communication,BT Broadband & Mobile
+2026-08-22,zofia,-11.21,transport,National Rail
+2026-08-22,zofia,-20.75,eating_out,Wetherspoons
+2026-08-22,zofia,-2.08,groceries,Asda
+2026-08-23,ada,-13.06,personal,Barber
+2026-08-23,ada,-3.85,eating_out,Just Eat
+2026-08-23,ada,-1.11,groceries,Asda
+2026-08-23,ada,-5.61,groceries,Tesco
+2026-08-23,ada,-10.22,shopping,Primark
+2026-08-23,daniel,-14.13,transport,Esso
+2026-08-23,daniel,-11.8,transport,BP
+2026-08-23,grace,-3.3,personal,Barber
+2026-08-23,tomasz,-4.96,personal,Pets at Home
+2026-08-23,zofia,-2.2,groceries,Asda
+2026-08-23,zofia,-10.88,recreation,Odeon
+2026-08-24,ada,-14.45,shopping,B&M
+2026-08-24,ada,-36.81,groceries,Co-op
+2026-08-24,daniel,-22.37,groceries,Asda
+2026-08-24,grace,-11.12,groceries,Tesco
+2026-08-24,tomasz,-10.2,recreation,Steam
+2026-08-24,tomasz,-11.53,groceries,Asda
+2026-08-24,tomasz,-6.12,eating_out,Nando's
+2026-08-24,tomasz,-15.64,groceries,Co-op
+2026-08-24,zofia,-10.88,shopping,Primark
+2026-08-25,ada,-7.29,transport,Shell
+2026-08-25,ada,-15.49,groceries,Asda
+2026-08-25,grace,-5.46,groceries,Aldi
+2026-08-25,tomasz,-15.37,shopping,Amazon
+2026-08-25,zofia,1948.67,income,Employer payroll
+2026-08-25,zofia,-24.64,recreation,PureGym
+2026-08-26,ada,-23.23,groceries,Aldi
+2026-08-26,ada,-14.91,groceries,Sainsbury's
+2026-08-26,ada,-22.72,shopping,Boots
+2026-08-26,grace,-1.18,shopping,Argos
+2026-08-26,halina,-2.82,eating_out,Greggs
+2026-08-26,tomasz,-5.56,eating_out,Greggs
+2026-08-26,tomasz,-34.32,groceries,Aldi
+2026-08-26,tomasz,-29.04,eating_out,Nando's
+2026-08-26,zofia,-20.19,eating_out,Greggs
+2026-08-27,daniel,-1.86,transport,Esso
+2026-08-27,daniel,-19.33,shopping,Argos
+2026-08-27,grace,-8.68,groceries,Co-op
+2026-08-27,grace,-1.97,personal,Superdrug
+2026-08-27,halina,-9.66,recreation,Vue Cinema
+2026-08-27,halina,-19.15,groceries,Aldi
+2026-08-27,halina,-18.46,groceries,Aldi
+2026-08-27,tomasz,-48.06,recreation,PureGym
+2026-08-27,tomasz,-24.2,groceries,Aldi
+2026-08-27,tomasz,-43.26,shopping,B&M
+2026-08-27,tomasz,-50.0,cash_withdrawal,ATM
+2026-08-27,zofia,-14.65,recreation,Steam
+2026-08-27,zofia,-26.66,groceries,Co-op
+2026-08-28,ada,-18.18,transport,National Rail
+2026-08-28,ada,-20.16,personal,Superdrug
+2026-08-28,ada,-18.27,eating_out,Just Eat
+2026-08-28,ada,-5.19,recreation,Spotify
+2026-08-28,ada,-50.0,cash_withdrawal,ATM
+2026-08-28,daniel,335.64,income,Courier platform payout
+2026-08-28,daniel,-5.29,shopping,Amazon
+2026-08-28,daniel,-8.69,personal,Pets at Home
+2026-08-28,grace,-9.66,shopping,B&M
+2026-08-28,grace,-4.1,transport,BP
+2026-08-28,grace,-5.15,transport,TfL
+2026-08-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-08-28,tomasz,2971.47,income,Employer payroll
+2026-08-28,tomasz,-8.46,personal,Barber
+2026-08-28,zofia,-4.29,eating_out,Wetherspoons
+2026-08-29,ada,-6.73,shopping,Amazon
+2026-08-29,ada,-11.43,shopping,Primark
+2026-08-29,ada,-14.63,groceries,Tesco
+2026-08-29,daniel,-21.33,shopping,Boots
+2026-08-29,daniel,-8.73,groceries,Asda
+2026-08-29,daniel,-12.21,transport,National Rail
+2026-08-29,daniel,-6.42,transport,Shell
+2026-08-29,grace,-2.4,eating_out,Greggs
+2026-08-29,halina,-20.67,eating_out,Nando's
+2026-08-29,halina,-16.48,shopping,B&M
+2026-08-29,halina,-23.03,eating_out,Deliveroo
+2026-08-29,tomasz,-38.6,recreation,Steam
+2026-08-29,zofia,-14.78,eating_out,Nando's
+2026-08-29,zofia,-34.8,groceries,Lidl
+2026-08-29,zofia,-1.94,shopping,Argos
+2026-08-30,ada,-12.38,shopping,Amazon
+2026-08-30,daniel,-7.47,shopping,Amazon
+2026-08-30,daniel,-9.35,transport,TfL
+2026-08-30,grace,-4.92,recreation,Netflix
+2026-08-30,tomasz,-5.26,groceries,Tesco
+2026-08-30,tomasz,-17.48,recreation,Odeon
+2026-08-30,zofia,-8.5,groceries,Sainsbury's
+2026-08-31,ada,-22.22,transport,TfL
+2026-08-31,daniel,-11.39,transport,TfL
+2026-08-31,grace,-0.69,groceries,Co-op
+2026-08-31,tomasz,-4.69,shopping,Boots
+2026-08-31,tomasz,-20.03,transport,TfL
+2026-08-31,zofia,-9.44,shopping,Next
+2026-08-31,zofia,-6.71,recreation,Steam
+2026-08-31,zofia,-3.37,recreation,Vue Cinema
+2026-09-01,ada,-200.0,housing,Board to Mum
+2026-09-01,ada,-13.99,council_tax,Council Tax
+2026-09-01,ada,-31.44,shopping,Next
+2026-09-01,daniel,-950.0,housing,Rent (private landlord)
+2026-09-01,daniel,-101.52,council_tax,Council Tax
+2026-09-01,daniel,-10.85,eating_out,Deliveroo
+2026-09-01,daniel,-10.97,eating_out,Nando's
+2026-09-01,grace,-430.0,housing,Rent (housing association)
+2026-09-01,grace,-67.21,council_tax,Council Tax
+2026-09-01,grace,-10.3,transport,TfL
+2026-09-01,halina,520.0,income,Workplace pension
+2026-09-01,halina,-77.38,council_tax,Council Tax
+2026-09-01,halina,-8.44,groceries,Asda
+2026-09-01,halina,-294.93,one_off,Kwik Fit
+2026-09-01,tomasz,-116.66,council_tax,Council Tax
+2026-09-01,tomasz,-24.72,personal,Barber
+2026-09-01,tomasz,-15.98,transport,TfL
+2026-09-01,tomasz,-38.85,recreation,Spotify
+2026-09-01,tomasz,-25.67,shopping,Primark
+2026-09-01,tomasz,-13.42,shopping,Next
+2026-09-01,tomasz,-19.47,recreation,Odeon
+2026-09-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-09-01,zofia,-48.95,council_tax,Council Tax
+2026-09-01,zofia,-12.14,transport,TfL
+2026-09-01,zofia,-29.35,recreation,Netflix
+2026-09-02,ada,-4.68,groceries,Sainsbury's
+2026-09-02,ada,-10.56,shopping,Next
+2026-09-02,ada,-10.17,personal,Post Office
+2026-09-02,grace,-5.13,groceries,Sainsbury's
+2026-09-02,grace,-1.32,shopping,Argos
+2026-09-02,tomasz,-1290.0,housing,Mortgage (Nationwide)
+2026-09-02,tomasz,-6.97,groceries,Lidl
+2026-09-02,tomasz,-34.47,personal,Barber
+2026-09-02,tomasz,-12.65,transport,Stagecoach
+2026-09-02,tomasz,-100.0,cash_withdrawal,ATM
+2026-09-02,zofia,-2.86,recreation,Vue Cinema
+2026-09-03,ada,-14.96,shopping,B&M
+2026-09-03,daniel,-8.91,eating_out,Nando's
+2026-09-03,daniel,-11.53,recreation,Spotify
+2026-09-03,tomasz,-20.47,recreation,Odeon
+2026-09-03,zofia,-14.13,shopping,B&M
+2026-09-03,zofia,-11.34,transport,BP
+2026-09-04,daniel,210.43,income,Courier platform payout
+2026-09-04,daniel,-15.38,eating_out,Wetherspoons
+2026-09-04,grace,-13.99,shopping,Argos
+2026-09-04,grace,-4.1,groceries,Asda
+2026-09-04,tomasz,-20.01,personal,Pets at Home
+2026-09-04,tomasz,-7.29,personal,Post Office
+2026-09-05,ada,-5.31,insurance,Aviva
+2026-09-05,ada,-18.11,recreation,Netflix
+2026-09-05,daniel,-40.95,insurance,Aviva
+2026-09-05,grace,-28.47,insurance,Aviva
+2026-09-05,halina,-34.74,insurance,Aviva
+2026-09-05,halina,-7.46,eating_out,Deliveroo
+2026-09-05,tomasz,-47.79,insurance,Aviva
+2026-09-05,zofia,-19.3,insurance,Aviva
+2026-09-05,zofia,-11.73,transport,Stagecoach
+2026-09-06,daniel,-13.66,recreation,Netflix
+2026-09-06,daniel,-15.46,groceries,Sainsbury's
+2026-09-06,grace,-4.03,recreation,Netflix
+2026-09-06,grace,-10.52,recreation,Steam
+2026-09-06,tomasz,-8.62,eating_out,Greggs
+2026-09-06,tomasz,-17.26,transport,Stagecoach
+2026-09-06,zofia,-8.73,shopping,Boots
+2026-09-06,zofia,-20.53,groceries,Aldi
+2026-09-07,ada,-23.32,shopping,Next
+2026-09-07,daniel,-7.27,shopping,Argos
+2026-09-07,daniel,-6.66,groceries,Sainsbury's
+2026-09-07,grace,-7.58,transport,National Rail
+2026-09-07,grace,-2.64,shopping,Next
+2026-09-07,grace,-2.46,recreation,Odeon
+2026-09-07,halina,-14.84,personal,Barber
+2026-09-07,halina,-8.86,groceries,Aldi
+2026-09-07,halina,-8.81,recreation,Netflix
+2026-09-07,halina,-8.82,groceries,Sainsbury's
+2026-09-07,tomasz,-34.53,shopping,B&M
+2026-09-07,tomasz,-27.4,groceries,Sainsbury's
+2026-09-07,tomasz,-27.09,transport,TfL
+2026-09-07,tomasz,-3.96,personal,Post Office
+2026-09-07,zofia,-62.76,shopping,Primark
+2026-09-07,zofia,-3.32,groceries,Lidl
+2026-09-08,ada,-44.47,recreation,Odeon
+2026-09-08,daniel,-11.56,groceries,Aldi
+2026-09-08,daniel,-7.31,personal,Pets at Home
+2026-09-08,daniel,-100.0,cash_withdrawal,ATM
+2026-09-08,grace,-4.71,shopping,Argos
+2026-09-08,grace,-2.29,recreation,Spotify
+2026-09-08,halina,-25.91,transport,National Rail
+2026-09-08,halina,-14.74,eating_out,Costa
+2026-09-08,halina,-23.21,eating_out,Deliveroo
+2026-09-08,tomasz,-30.23,groceries,Tesco
+2026-09-08,zofia,-40.76,shopping,Boots
+2026-09-08,zofia,-23.48,bnpl,Klarna
+2026-09-09,ada,-15.97,groceries,Asda
+2026-09-09,ada,-7.09,groceries,Asda
+2026-09-09,ada,-20.53,shopping,Amazon
+2026-09-09,daniel,-9.97,groceries,Tesco
+2026-09-09,daniel,-9.87,shopping,Boots
+2026-09-09,daniel,-12.24,transport,Esso
+2026-09-09,grace,-2.0,recreation,PureGym
+2026-09-09,grace,-17.17,recreation,Netflix
+2026-09-09,halina,-20.0,cash_withdrawal,ATM
+2026-09-09,zofia,-27.45,shopping,B&M
+2026-09-10,ada,-5.44,eating_out,Deliveroo
+2026-09-10,ada,-6.62,transport,Shell
+2026-09-10,grace,-11.65,personal,Barber
+2026-09-10,grace,-4.32,shopping,Boots
+2026-09-10,halina,-34.38,groceries,Lidl
+2026-09-10,halina,-6.68,groceries,Aldi
+2026-09-10,tomasz,-5.03,shopping,Argos
+2026-09-10,tomasz,-11.57,shopping,Boots
+2026-09-10,tomasz,-15.0,transport,BP
+2026-09-11,ada,-16.2,personal,Barber
+2026-09-11,ada,-18.75,personal,Post Office
+2026-09-11,ada,-2.87,transport,Shell
+2026-09-11,daniel,174.25,income,Courier platform payout
+2026-09-11,daniel,-14.6,eating_out,Deliveroo
+2026-09-11,grace,-1.49,groceries,Aldi
+2026-09-11,grace,-8.3,transport,National Rail
+2026-09-11,grace,-5.19,recreation,Spotify
+2026-09-11,grace,-12.12,eating_out,Greggs
+2026-09-11,halina,-4.38,groceries,Asda
+2026-09-11,halina,-4.22,transport,Shell
+2026-09-11,tomasz,-32.49,shopping,Amazon
+2026-09-11,tomasz,-9.15,personal,Pets at Home
+2026-09-11,tomasz,-116.62,bnpl,Klarna
+2026-09-11,zofia,-15.95,personal,Pets at Home
+2026-09-12,ada,-33.17,personal,Pets at Home
+2026-09-12,ada,-14.68,groceries,Co-op
+2026-09-12,daniel,-28.29,recreation,Odeon
+2026-09-12,halina,-25.22,eating_out,Nando's
+2026-09-12,tomasz,-16.56,recreation,Netflix
+2026-09-12,tomasz,-15.75,groceries,Tesco
+2026-09-12,tomasz,-49.87,recreation,Spotify
+2026-09-12,zofia,-10.02,shopping,Primark
+2026-09-12,zofia,-8.64,transport,National Rail
+2026-09-12,zofia,-9.56,groceries,Tesco
+2026-09-12,zofia,-8.27,shopping,Primark
+2026-09-13,ada,-23.38,groceries,Sainsbury's
+2026-09-13,daniel,-9.02,groceries,Sainsbury's
+2026-09-13,daniel,-27.24,groceries,Tesco
+2026-09-13,daniel,-8.17,transport,National Rail
+2026-09-13,daniel,-3.36,groceries,Asda
+2026-09-13,grace,-10.26,shopping,Amazon
+2026-09-13,halina,-33.32,groceries,Tesco
+2026-09-13,tomasz,-29.16,transport,Esso
+2026-09-13,tomasz,-17.55,eating_out,Just Eat
+2026-09-13,tomasz,-57.66,groceries,Asda
+2026-09-13,zofia,-15.04,transport,Esso
+2026-09-13,zofia,-6.66,recreation,Netflix
+2026-09-14,ada,-14.84,utilities,Octopus Energy
+2026-09-14,daniel,-111.03,utilities,Octopus Energy
+2026-09-14,grace,-74.27,utilities,Octopus Energy
+2026-09-14,grace,-12.04,eating_out,Greggs
+2026-09-14,grace,-9.42,transport,Esso
+2026-09-14,grace,-5.84,shopping,B&M
+2026-09-14,halina,-85.43,utilities,Octopus Energy
+2026-09-14,halina,-12.84,eating_out,Deliveroo
+2026-09-14,tomasz,-137.72,utilities,Octopus Energy
+2026-09-14,tomasz,-13.7,recreation,PureGym
+2026-09-14,tomasz,-39.52,groceries,Asda
+2026-09-14,tomasz,-20.52,transport,National Rail
+2026-09-14,tomasz,-6.57,groceries,Co-op
+2026-09-14,zofia,-52.02,utilities,Octopus Energy
+2026-09-14,zofia,-13.43,transport,Stagecoach
+2026-09-14,zofia,-8.68,groceries,Aldi
+2026-09-14,zofia,-16.52,recreation,Vue Cinema
+2026-09-15,ada,-6.86,transport,BP
+2026-09-15,daniel,-13.26,groceries,Tesco
+2026-09-15,daniel,-4.9,groceries,Asda
+2026-09-15,daniel,-3.16,transport,National Rail
+2026-09-15,grace,-15.57,eating_out,Wetherspoons
+2026-09-15,halina,-42.22,shopping,B&M
+2026-09-15,zofia,-18.52,transport,BP
+2026-09-16,daniel,-11.71,groceries,Lidl
+2026-09-16,grace,-7.86,eating_out,Deliveroo
+2026-09-16,grace,-3.79,shopping,B&M
+2026-09-16,grace,-0.4,shopping,Argos
+2026-09-16,halina,-8.88,recreation,Odeon
+2026-09-16,halina,-11.86,eating_out,Costa
+2026-09-16,halina,-14.72,shopping,Argos
+2026-09-16,halina,-8.17,recreation,PureGym
+2026-09-16,tomasz,-19.09,groceries,Lidl
+2026-09-16,tomasz,-7.54,shopping,Amazon
+2026-09-16,tomasz,-78.6,groceries,Lidl
+2026-09-16,tomasz,-19.65,groceries,Aldi
+2026-09-16,tomasz,-40.0,cash_withdrawal,ATM
+2026-09-17,daniel,-2.54,shopping,Amazon
+2026-09-17,grace,-4.15,recreation,Spotify
+2026-09-17,grace,-3.06,shopping,Boots
+2026-09-17,halina,-22.43,groceries,Aldi
+2026-09-17,tomasz,-35.56,transport,Stagecoach
+2026-09-17,tomasz,-13.68,shopping,Next
+2026-09-17,zofia,-13.63,eating_out,Greggs
+2026-09-18,ada,1183.87,income,Employer payroll (apprentice)
+2026-09-18,ada,-4.59,utilities,Thames Water
+2026-09-18,daniel,479.96,income,Courier platform payout
+2026-09-18,daniel,-31.59,utilities,Thames Water
+2026-09-18,daniel,-3.77,personal,Post Office
+2026-09-18,daniel,-0.65,transport,Stagecoach
+2026-09-18,daniel,-52.45,bnpl,Klarna
+2026-09-18,grace,1070.77,income,DWP State Pension
+2026-09-18,grace,-24.31,utilities,Thames Water
+2026-09-18,grace,-9.15,transport,Shell
+2026-09-18,grace,-9.3,groceries,Tesco
+2026-09-18,halina,886.15,income,DWP State Pension
+2026-09-18,halina,-28.13,utilities,Thames Water
+2026-09-18,halina,-26.06,transport,National Rail
+2026-09-18,halina,-15.86,transport,Esso
+2026-09-18,halina,-9.4,eating_out,Wetherspoons
+2026-09-18,tomasz,-40.84,utilities,Thames Water
+2026-09-18,tomasz,-27.49,groceries,Tesco
+2026-09-18,tomasz,-41.87,shopping,B&M
+2026-09-18,tomasz,-5.97,eating_out,Wetherspoons
+2026-09-18,zofia,-16.17,utilities,Thames Water
+2026-09-18,zofia,-11.58,eating_out,Greggs
+2026-09-18,zofia,-9.23,shopping,Argos
+2026-09-18,zofia,-18.6,groceries,Co-op
+2026-09-18,zofia,-13.74,eating_out,Just Eat
+2026-09-18,zofia,-143.35,bnpl,Klarna
+2026-09-19,ada,-11.48,eating_out,Nando's
+2026-09-19,daniel,-7.54,personal,Post Office
+2026-09-19,grace,-4.7,shopping,Next
+2026-09-19,grace,-6.69,transport,TfL
+2026-09-19,grace,-5.61,eating_out,Just Eat
+2026-09-19,grace,-1.95,groceries,Co-op
+2026-09-19,halina,-44.09,shopping,Argos
+2026-09-19,tomasz,-78.52,eating_out,Deliveroo
+2026-09-19,tomasz,-46.49,groceries,Lidl
+2026-09-19,zofia,-10.61,personal,Post Office
+2026-09-19,zofia,-100.0,cash_withdrawal,ATM
+2026-09-20,ada,-14.02,shopping,Boots
+2026-09-20,daniel,-8.16,groceries,Lidl
+2026-09-20,daniel,-3.41,groceries,Lidl
+2026-09-20,daniel,-4.16,recreation,PureGym
+2026-09-20,grace,-5.31,personal,Superdrug
+2026-09-20,grace,-0.56,eating_out,Costa
+2026-09-20,halina,-10.89,recreation,Odeon
+2026-09-20,halina,-4.31,transport,Stagecoach
+2026-09-20,tomasz,-18.08,shopping,Argos
+2026-09-20,tomasz,-12.83,groceries,Asda
+2026-09-20,tomasz,-9.43,shopping,B&M
+2026-09-20,tomasz,-24.68,shopping,Boots
+2026-09-20,zofia,-4.6,groceries,Sainsbury's
+2026-09-20,zofia,-12.84,eating_out,Greggs
+2026-09-20,zofia,-9.23,shopping,Amazon
+2026-09-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-09-21,ada,-12.18,eating_out,Deliveroo
+2026-09-21,ada,-16.99,groceries,Sainsbury's
+2026-09-21,daniel,-6.68,shopping,B&M
+2026-09-21,daniel,-3.46,eating_out,Deliveroo
+2026-09-21,grace,-8.75,shopping,Primark
+2026-09-21,grace,-4.29,personal,Superdrug
+2026-09-21,grace,-5.29,transport,Shell
+2026-09-21,halina,-4.06,groceries,Tesco
+2026-09-21,tomasz,-38.52,shopping,Primark
+2026-09-21,zofia,-1.59,shopping,B&M
+2026-09-22,ada,-7.12,communication,BT Broadband & Mobile
+2026-09-22,daniel,-52.1,communication,BT Broadband & Mobile
+2026-09-22,grace,-36.19,communication,BT Broadband & Mobile
+2026-09-22,grace,-12.27,transport,BP
+2026-09-22,halina,-43.5,communication,BT Broadband & Mobile
+2026-09-22,halina,-7.38,personal,Pets at Home
+2026-09-22,tomasz,-59.37,communication,BT Broadband & Mobile
+2026-09-22,tomasz,-18.95,shopping,Amazon
+2026-09-22,zofia,-23.46,communication,BT Broadband & Mobile
+2026-09-22,zofia,-19.95,eating_out,Wetherspoons
+2026-09-23,ada,-22.37,recreation,Netflix
+2026-09-23,grace,-1.21,eating_out,Just Eat
+2026-09-23,grace,-6.65,transport,TfL
+2026-09-23,halina,-39.28,groceries,Co-op
+2026-09-23,zofia,-13.77,eating_out,Nando's
+2026-09-23,zofia,-39.98,personal,Barber
+2026-09-23,zofia,-5.11,groceries,Lidl
+2026-09-23,zofia,-15.46,shopping,Next
+2026-09-24,ada,-3.05,recreation,Spotify
+2026-09-24,ada,-10.13,eating_out,Wetherspoons
+2026-09-24,ada,-14.83,groceries,Sainsbury's
+2026-09-24,daniel,-3.9,transport,BP
+2026-09-24,grace,-6.69,personal,Barber
+2026-09-24,grace,-10.16,personal,Barber
+2026-09-24,halina,-13.66,recreation,Netflix
+2026-09-24,tomasz,-12.11,groceries,Lidl
+2026-09-24,tomasz,-23.43,transport,Stagecoach
+2026-09-24,tomasz,-13.68,groceries,Sainsbury's
+2026-09-24,tomasz,-47.63,recreation,Spotify
+2026-09-24,zofia,-20.11,groceries,Asda
+2026-09-24,zofia,-10.29,recreation,Steam
+2026-09-24,zofia,-20.89,shopping,Argos
+2026-09-24,zofia,-5.87,eating_out,Deliveroo
+2026-09-25,ada,-9.54,transport,Esso
+2026-09-25,ada,-15.09,recreation,Vue Cinema
+2026-09-25,daniel,233.31,income,Courier platform payout
+2026-09-25,grace,-2.0,shopping,Boots
+2026-09-25,grace,-9.84,personal,Barber
+2026-09-25,halina,-9.69,shopping,Primark
+2026-09-25,halina,-11.08,personal,Barber
+2026-09-25,halina,-17.46,personal,Barber
+2026-09-25,halina,-22.64,eating_out,Greggs
+2026-09-25,tomasz,-36.89,eating_out,Greggs
+2026-09-25,tomasz,-11.23,recreation,Netflix
+2026-09-25,zofia,1899.52,income,Employer payroll
+2026-09-25,zofia,-12.41,groceries,Tesco
+2026-09-25,zofia,-13.49,transport,TfL
+2026-09-25,zofia,-46.31,bnpl,Klarna
+2026-09-26,ada,-14.33,groceries,Asda
+2026-09-26,ada,-9.26,eating_out,Just Eat
+2026-09-26,ada,-22.51,personal,Post Office
+2026-09-26,ada,-14.88,transport,Esso
+2026-09-26,ada,-7.77,recreation,PureGym
+2026-09-26,daniel,-2.76,transport,Stagecoach
+2026-09-26,daniel,-1.65,groceries,Sainsbury's
+2026-09-26,daniel,-3.33,personal,Post Office
+2026-09-26,grace,-7.03,recreation,Netflix
+2026-09-26,grace,-6.3,eating_out,Costa
+2026-09-26,grace,-9.24,transport,Esso
+2026-09-26,grace,-147.12,one_off,Boiler repair
+2026-09-26,halina,-15.28,groceries,Sainsbury's
+2026-09-26,tomasz,-32.46,recreation,Netflix
+2026-09-26,tomasz,-31.2,transport,BP
+2026-09-26,tomasz,-13.84,recreation,PureGym
+2026-09-27,ada,-4.29,shopping,Boots
+2026-09-27,ada,-26.22,transport,Stagecoach
+2026-09-27,daniel,-3.48,eating_out,Deliveroo
+2026-09-27,daniel,-7.1,transport,Shell
+2026-09-27,grace,-7.74,shopping,B&M
+2026-09-27,grace,-2.52,eating_out,Costa
+2026-09-27,halina,-29.45,shopping,Primark
+2026-09-27,tomasz,-12.01,eating_out,Wetherspoons
+2026-09-27,zofia,-13.27,shopping,Boots
+2026-09-27,zofia,-16.53,transport,Shell
+2026-09-28,ada,-10.65,recreation,Vue Cinema
+2026-09-28,ada,-22.62,groceries,Sainsbury's
+2026-09-28,daniel,-3.76,groceries,Sainsbury's
+2026-09-28,daniel,-2.33,recreation,PureGym
+2026-09-28,daniel,-100.0,cash_withdrawal,ATM
+2026-09-28,grace,-4.26,eating_out,Deliveroo
+2026-09-28,grace,-13.87,transport,BP
+2026-09-28,grace,-50.0,cash_withdrawal,ATM
+2026-09-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-09-28,halina,-4.26,shopping,Next
+2026-09-28,halina,-19.06,recreation,Netflix
+2026-09-28,tomasz,2928.8,income,Employer payroll
+2026-09-28,tomasz,-35.35,eating_out,Costa
+2026-09-28,tomasz,-52.4,personal,Barber
+2026-09-28,tomasz,-10.92,transport,Stagecoach
+2026-09-28,zofia,-15.26,transport,BP
+2026-09-28,zofia,-7.42,transport,TfL
+2026-09-28,zofia,-40.0,cash_withdrawal,ATM
+2026-09-29,daniel,-10.46,personal,Pets at Home
+2026-09-29,daniel,-3.51,eating_out,Nando's
+2026-09-29,daniel,-4.62,eating_out,Nando's
+2026-09-29,daniel,-0.33,shopping,Next
+2026-09-29,halina,-20.0,cash_withdrawal,ATM
+2026-09-29,tomasz,-26.57,groceries,Aldi
+2026-09-29,tomasz,-36.86,groceries,Aldi
+2026-09-29,zofia,-7.98,groceries,Tesco
+2026-09-29,zofia,-9.04,groceries,Co-op
+2026-09-29,zofia,-9.97,transport,TfL
+2026-09-29,zofia,-8.0,shopping,B&M
+2026-09-30,ada,-10.04,eating_out,Just Eat
+2026-09-30,ada,-11.58,groceries,Sainsbury's
+2026-09-30,daniel,-3.37,recreation,Spotify
+2026-09-30,grace,-7.84,groceries,Tesco
+2026-09-30,grace,-6.31,groceries,Sainsbury's
+2026-09-30,grace,-0.69,personal,Pets at Home
+2026-09-30,grace,-4.34,groceries,Sainsbury's
+2026-09-30,halina,-18.48,groceries,Co-op
+2026-09-30,halina,-16.92,groceries,Aldi
+2026-09-30,halina,-12.69,transport,BP
+2026-09-30,halina,-28.91,transport,BP
+2026-09-30,tomasz,-63.36,transport,BP
+2026-09-30,tomasz,-10.73,groceries,Tesco
+2026-09-30,tomasz,-50.32,groceries,Aldi
+2026-09-30,tomasz,-36.07,groceries,Asda
+2026-09-30,zofia,-14.21,transport,National Rail
+2026-09-30,zofia,-5.09,transport,Esso
+2026-09-30,zofia,-6.26,groceries,Aldi
+2026-10-01,ada,-200.0,housing,Board to Mum
+2026-10-01,ada,-14.56,council_tax,Council Tax
+2026-10-01,ada,-17.24,groceries,Aldi
+2026-10-01,daniel,-950.0,housing,Rent (private landlord)
+2026-10-01,daniel,-96.33,council_tax,Council Tax
+2026-10-01,daniel,-14.44,recreation,Odeon
+2026-10-01,grace,-430.0,housing,Rent (housing association)
+2026-10-01,grace,-73.66,council_tax,Council Tax
+2026-10-01,grace,-3.91,recreation,Vue Cinema
+2026-10-01,halina,520.0,income,Workplace pension
+2026-10-01,halina,-87.47,council_tax,Council Tax
+2026-10-01,tomasz,-112.48,council_tax,Council Tax
+2026-10-01,tomasz,-15.55,eating_out,Wetherspoons
+2026-10-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-10-01,zofia,-47.36,council_tax,Council Tax
+2026-10-01,zofia,-27.16,eating_out,Just Eat
+2026-10-01,zofia,-24.35,groceries,Aldi
+2026-10-01,zofia,-3.35,eating_out,Costa
+2026-10-02,daniel,135.84,income,Courier platform payout
+2026-10-02,daniel,-6.2,recreation,Spotify
+2026-10-02,daniel,-5.23,groceries,Asda
+2026-10-02,daniel,-2.79,shopping,Primark
+2026-10-02,daniel,-2.57,groceries,Asda
+2026-10-02,halina,-6.42,recreation,Spotify
+2026-10-02,tomasz,-1290.0,housing,Mortgage (Nationwide)
+2026-10-02,tomasz,-5.6,shopping,Primark
+2026-10-02,tomasz,-9.59,transport,BP
+2026-10-02,tomasz,-19.68,groceries,Sainsbury's
+2026-10-02,tomasz,-18.99,recreation,Spotify
+2026-10-02,zofia,-24.4,recreation,Vue Cinema
+2026-10-03,ada,-6.84,transport,National Rail
+2026-10-03,ada,-24.18,recreation,Odeon
+2026-10-03,daniel,-2.44,shopping,Argos
+2026-10-03,daniel,-2.54,groceries,Co-op
+2026-10-03,daniel,-0.66,shopping,Argos
+2026-10-03,daniel,-100.0,cash_withdrawal,ATM
+2026-10-03,grace,-0.7,recreation,Steam
+2026-10-03,grace,-3.78,shopping,Argos
+2026-10-03,grace,-6.63,eating_out,Nando's
+2026-10-03,grace,-15.92,groceries,Asda
+2026-10-03,halina,-13.55,groceries,Co-op
+2026-10-03,zofia,-10.81,groceries,Lidl
+2026-10-03,zofia,-9.7,eating_out,Wetherspoons
+2026-10-03,zofia,-17.81,groceries,Sainsbury's
+2026-10-04,ada,-20.01,shopping,Boots
+2026-10-04,ada,-15.88,groceries,Sainsbury's
+2026-10-04,ada,-15.7,transport,TfL
+2026-10-04,ada,-2.3,personal,Post Office
+2026-10-04,daniel,-50.0,cash_withdrawal,ATM
+2026-10-04,grace,-6.25,shopping,Primark
+2026-10-04,halina,-18.93,shopping,B&M
+2026-10-04,halina,-4.33,recreation,Odeon
+2026-10-04,tomasz,-30.87,groceries,Asda
+2026-10-04,tomasz,-98.72,groceries,Asda
+2026-10-04,tomasz,-9.91,eating_out,Nando's
+2026-10-04,zofia,-17.4,transport,Stagecoach
+2026-10-04,zofia,-7.0,groceries,Asda
+2026-10-05,ada,-5.44,insurance,Aviva
+2026-10-05,ada,-17.52,groceries,Tesco
+2026-10-05,daniel,-41.12,insurance,Aviva
+2026-10-05,daniel,-9.72,personal,Superdrug
+2026-10-05,daniel,-0.53,transport,Stagecoach
+2026-10-05,grace,-26.99,insurance,Aviva
+2026-10-05,halina,-34.33,insurance,Aviva
+2026-10-05,halina,-23.09,eating_out,Wetherspoons
+2026-10-05,halina,-9.39,recreation,Netflix
+2026-10-05,tomasz,-44.58,insurance,Aviva
+2026-10-05,zofia,-20.56,insurance,Aviva
+2026-10-05,zofia,-4.11,groceries,Aldi
+2026-10-05,zofia,-27.0,groceries,Tesco
+2026-10-06,ada,-1.97,shopping,Amazon
+2026-10-06,daniel,-0.28,transport,Shell
+2026-10-06,daniel,-2.4,recreation,Spotify
+2026-10-06,grace,-6.52,transport,BP
+2026-10-06,grace,-4.77,transport,Stagecoach
+2026-10-06,grace,-2.21,shopping,Boots
+2026-10-06,grace,-14.11,eating_out,Wetherspoons
+2026-10-06,halina,-14.22,transport,BP
+2026-10-06,halina,-0.71,personal,Barber
+2026-10-06,halina,-17.06,eating_out,Greggs
+2026-10-06,halina,-5.18,transport,TfL
+2026-10-06,halina,-9.67,personal,Superdrug
+2026-10-06,halina,-64.99,groceries,Sainsbury's
+2026-10-06,halina,-10.06,personal,Post Office
+2026-10-06,tomasz,-7.97,recreation,Vue Cinema
+2026-10-06,tomasz,-37.46,eating_out,Deliveroo
+2026-10-06,zofia,-5.09,recreation,Odeon
+2026-10-06,zofia,-3.72,groceries,Co-op
+2026-10-07,daniel,-2.87,transport,Esso
+2026-10-07,daniel,-3.77,groceries,Co-op
+2026-10-07,grace,-3.89,recreation,Netflix
+2026-10-07,halina,-2.62,recreation,PureGym
+2026-10-07,tomasz,-14.29,transport,BP
+2026-10-07,zofia,-6.39,shopping,B&M
+2026-10-07,zofia,-20.59,eating_out,Costa
+2026-10-08,daniel,-5.37,groceries,Co-op
+2026-10-08,daniel,-0.54,shopping,Boots
+2026-10-08,grace,-8.2,groceries,Sainsbury's
+2026-10-08,grace,-8.02,groceries,Asda
+2026-10-08,grace,-10.91,groceries,Tesco
+2026-10-08,halina,-18.29,eating_out,Greggs
+2026-10-08,halina,-4.95,shopping,Boots
+2026-10-08,tomasz,-40.0,cash_withdrawal,ATM
+2026-10-08,zofia,-4.15,personal,Pets at Home
+2026-10-08,zofia,-23.48,bnpl,Klarna
+2026-10-09,ada,-37.15,recreation,Steam
+2026-10-09,ada,-8.01,personal,Post Office
+2026-10-09,daniel,386.94,income,Courier platform payout
+2026-10-09,daniel,-2.1,groceries,Co-op
+2026-10-09,halina,-8.02,personal,Pets at Home
+2026-10-09,halina,-16.49,recreation,Odeon
+2026-10-09,tomasz,-24.98,eating_out,Just Eat
+2026-10-09,tomasz,-42.02,eating_out,Wetherspoons
+2026-10-09,tomasz,-38.44,shopping,B&M
+2026-10-09,zofia,-13.42,recreation,Vue Cinema
+2026-10-09,zofia,-100.0,cash_withdrawal,ATM
+2026-10-10,ada,-6.93,eating_out,Wetherspoons
+2026-10-10,ada,-38.18,shopping,Amazon
+2026-10-10,ada,-13.2,shopping,Amazon
+2026-10-10,daniel,-3.26,groceries,Co-op
+2026-10-10,daniel,-1.66,eating_out,Nando's
+2026-10-10,grace,-15.9,transport,Esso
+2026-10-10,grace,-8.33,recreation,Netflix
+2026-10-11,ada,-7.64,groceries,Asda
+2026-10-11,ada,-15.35,eating_out,Just Eat
+2026-10-11,daniel,-1.97,groceries,Asda
+2026-10-11,daniel,-2.96,recreation,Odeon
+2026-10-11,grace,-15.88,shopping,Argos
+2026-10-11,grace,-0.1,eating_out,Just Eat
+2026-10-11,halina,-18.63,shopping,Amazon
+2026-10-11,halina,-6.13,shopping,Boots
+2026-10-11,zofia,-12.22,recreation,Netflix
+2026-10-11,zofia,-8.04,eating_out,Wetherspoons
+2026-10-11,zofia,-4.22,transport,Shell
+2026-10-12,ada,-16.9,groceries,Sainsbury's
+2026-10-12,ada,-10.17,transport,BP
+2026-10-12,grace,-3.29,recreation,PureGym
+2026-10-12,halina,-40.52,shopping,B&M
+2026-10-12,halina,-10.65,shopping,Next
+2026-10-12,tomasz,-46.84,shopping,Amazon
+2026-10-12,tomasz,-14.21,eating_out,Deliveroo
+2026-10-12,zofia,-40.96,shopping,Boots
+2026-10-13,ada,-16.89,shopping,Boots
+2026-10-13,ada,-6.63,eating_out,Nando's
+2026-10-13,ada,-15.6,eating_out,Wetherspoons
+2026-10-13,ada,-17.33,groceries,Asda
+2026-10-13,daniel,-5.11,transport,Esso
+2026-10-13,daniel,-7.3,shopping,Boots
+2026-10-13,tomasz,-28.91,personal,Superdrug
+2026-10-13,tomasz,-5.35,groceries,Sainsbury's
+2026-10-13,tomasz,-18.87,transport,BP
+2026-10-13,tomasz,-26.95,personal,Barber
+2026-10-13,zofia,-11.68,groceries,Tesco
+2026-10-13,zofia,-62.78,bnpl,Klarna
+2026-10-14,ada,-14.26,utilities,Octopus Energy
+2026-10-14,ada,-28.14,groceries,Asda
+2026-10-14,daniel,-104.95,utilities,Octopus Energy
+2026-10-14,daniel,-1.04,personal,Superdrug
+2026-10-14,grace,-75.27,utilities,Octopus Energy
+2026-10-14,grace,-14.12,recreation,Odeon
+2026-10-14,halina,-87.67,utilities,Octopus Energy
+2026-10-14,tomasz,-128.61,utilities,Octopus Energy
+2026-10-14,tomasz,-6.44,transport,TfL
+2026-10-14,tomasz,-31.72,transport,Shell
+2026-10-14,tomasz,-100.0,cash_withdrawal,ATM
+2026-10-14,zofia,-56.35,utilities,Octopus Energy
+2026-10-14,zofia,-25.18,recreation,Steam
+2026-10-15,ada,-20.55,personal,Superdrug
+2026-10-15,ada,-22.05,groceries,Co-op
+2026-10-15,ada,-16.3,shopping,Amazon
+2026-10-15,ada,-8.65,groceries,Tesco
+2026-10-15,grace,-12.66,eating_out,Deliveroo
+2026-10-15,grace,-3.83,groceries,Lidl
+2026-10-15,halina,-35.78,groceries,Co-op
+2026-10-15,halina,-19.87,transport,BP
+2026-10-15,tomasz,-13.23,shopping,B&M
+2026-10-15,tomasz,-50.07,transport,Stagecoach
+2026-10-15,tomasz,-27.48,shopping,Boots
+2026-10-15,tomasz,-7.08,eating_out,Costa
+2026-10-15,zofia,-13.51,shopping,Next
+2026-10-15,zofia,-40.65,recreation,Odeon
+2026-10-16,ada,-10.28,shopping,Primark
+2026-10-16,ada,-16.37,recreation,Vue Cinema
+2026-10-16,ada,-11.84,eating_out,Deliveroo
+2026-10-16,daniel,162.42,income,Courier platform payout
+2026-10-16,daniel,-0.21,groceries,Aldi
+2026-10-16,grace,1070.77,income,DWP State Pension
+2026-10-16,grace,-1.86,groceries,Sainsbury's
+2026-10-16,halina,886.15,income,DWP State Pension
+2026-10-16,halina,-5.74,transport,National Rail
+2026-10-16,halina,-6.2,eating_out,Nando's
+2026-10-16,tomasz,-52.54,groceries,Aldi
+2026-10-16,tomasz,-60.82,groceries,Asda
+2026-10-16,tomasz,-12.07,recreation,Odeon
+2026-10-16,zofia,-18.95,recreation,PureGym
+2026-10-16,zofia,-16.45,transport,BP
+2026-10-16,zofia,-10.2,recreation,Vue Cinema
+2026-10-17,ada,-15.93,groceries,Tesco
+2026-10-17,ada,-24.26,shopping,B&M
+2026-10-17,ada,-3.46,eating_out,Wetherspoons
+2026-10-17,daniel,-9.08,personal,Post Office
+2026-10-17,grace,-8.42,groceries,Lidl
+2026-10-17,halina,-16.77,recreation,Odeon
+2026-10-17,zofia,-4.4,shopping,Argos
+2026-10-18,ada,-4.8,utilities,Thames Water
+2026-10-18,ada,-45.5,eating_out,Deliveroo
+2026-10-18,ada,-26.94,groceries,Lidl
+2026-10-18,daniel,-33.17,utilities,Thames Water
+2026-10-18,daniel,-1.62,transport,TfL
+2026-10-18,daniel,-5.33,shopping,Next
+2026-10-18,daniel,-52.45,bnpl,Klarna
+2026-10-18,grace,-21.89,utilities,Thames Water
+2026-10-18,grace,-3.25,recreation,Odeon
+2026-10-18,grace,-2.13,eating_out,Deliveroo
+2026-10-18,halina,-27.6,utilities,Thames Water
+2026-10-18,halina,-2.15,shopping,B&M
+2026-10-18,halina,-10.38,personal,Superdrug
+2026-10-18,tomasz,-39.2,utilities,Thames Water
+2026-10-18,tomasz,-48.13,shopping,Argos
+2026-10-18,zofia,-16.05,utilities,Thames Water
+2026-10-19,ada,-3.96,shopping,Argos
+2026-10-19,ada,-10.59,personal,Barber
+2026-10-19,ada,-19.62,shopping,Amazon
+2026-10-19,ada,-9.21,shopping,B&M
+2026-10-19,daniel,-1.07,groceries,Asda
+2026-10-19,grace,-0.94,transport,Esso
+2026-10-19,grace,-100.0,cash_withdrawal,ATM
+2026-10-19,halina,-8.22,transport,National Rail
+2026-10-19,halina,-15.07,shopping,B&M
+2026-10-19,halina,-100.0,cash_withdrawal,ATM
+2026-10-19,tomasz,-11.84,recreation,Odeon
+2026-10-19,tomasz,-29.68,personal,Post Office
+2026-10-19,tomasz,-13.39,transport,Stagecoach
+2026-10-19,tomasz,-25.21,recreation,Netflix
+2026-10-19,tomasz,-36.91,transport,National Rail
+2026-10-20,ada,1162.27,income,Employer payroll (apprentice)
+2026-10-20,ada,-2.77,shopping,B&M
+2026-10-20,ada,-22.32,eating_out,Deliveroo
+2026-10-20,daniel,-1.15,transport,Stagecoach
+2026-10-20,daniel,-1.32,transport,BP
+2026-10-20,daniel,-3.27,transport,TfL
+2026-10-20,grace,-5.2,shopping,Amazon
+2026-10-20,grace,-9.24,recreation,Odeon
+2026-10-20,grace,-1.5,shopping,Argos
+2026-10-20,halina,-7.58,groceries,Lidl
+2026-10-20,halina,-10.21,shopping,Primark
+2026-10-20,halina,-34.16,groceries,Sainsbury's
+2026-10-20,halina,-140.39,one_off,Vets4Pets
+2026-10-20,tomasz,-13.26,groceries,Aldi
+2026-10-20,tomasz,-26.22,eating_out,Just Eat
+2026-10-21,ada,-80.0,savings_transfer,Transfer to savings
+2026-10-21,ada,-10.98,shopping,Argos
+2026-10-21,daniel,-5.97,groceries,Co-op
+2026-10-21,daniel,-3.7,recreation,Netflix
+2026-10-21,daniel,-1.41,groceries,Tesco
+2026-10-21,halina,-27.75,groceries,Lidl
+2026-10-21,tomasz,-22.13,shopping,B&M
+2026-10-21,tomasz,-21.04,shopping,Next
+2026-10-21,zofia,-21.98,recreation,Spotify
+2026-10-22,ada,-6.43,communication,BT Broadband & Mobile
+2026-10-22,ada,-17.38,transport,BP
+2026-10-22,daniel,-49.56,communication,BT Broadband & Mobile
+2026-10-22,daniel,-8.97,shopping,Next
+2026-10-22,daniel,-0.45,transport,Esso
+2026-10-22,grace,-34.89,communication,BT Broadband & Mobile
+2026-10-22,grace,-5.91,eating_out,Deliveroo
+2026-10-22,grace,-4.86,recreation,Netflix
+2026-10-22,halina,-39.9,communication,BT Broadband & Mobile
+2026-10-22,halina,-12.52,transport,Esso
+2026-10-22,halina,-12.63,transport,BP
+2026-10-22,halina,-3.73,groceries,Tesco
+2026-10-22,halina,-13.95,transport,Stagecoach
+2026-10-22,tomasz,-56.38,communication,BT Broadband & Mobile
+2026-10-22,tomasz,-18.17,personal,Pets at Home
+2026-10-22,tomasz,-4.33,groceries,Tesco
+2026-10-22,tomasz,-21.01,groceries,Asda
+2026-10-22,tomasz,-9.09,groceries,Tesco
+2026-10-22,zofia,-24.52,communication,BT Broadband & Mobile
+2026-10-22,zofia,-16.49,shopping,Primark
+2026-10-23,ada,-7.02,groceries,Sainsbury's
+2026-10-23,daniel,631.67,income,Courier platform payout
+2026-10-23,daniel,-3.7,groceries,Asda
+2026-10-23,grace,-2.92,recreation,Spotify
+2026-10-23,grace,-19.34,eating_out,Deliveroo
+2026-10-23,halina,-28.78,personal,Post Office
+2026-10-23,tomasz,-49.03,recreation,Odeon
+2026-10-23,tomasz,-30.23,groceries,Lidl
+2026-10-23,zofia,1938.24,income,Employer payroll
+2026-10-23,zofia,-19.32,transport,BP
+2026-10-24,ada,-25.64,eating_out,Just Eat
+2026-10-24,ada,-13.05,groceries,Co-op
+2026-10-24,daniel,-1.36,recreation,Netflix
+2026-10-24,halina,-17.69,eating_out,Just Eat
+2026-10-24,halina,-24.18,groceries,Sainsbury's
+2026-10-24,tomasz,-21.7,groceries,Lidl
+2026-10-24,tomasz,-14.21,shopping,Argos
+2026-10-24,zofia,-37.14,groceries,Sainsbury's
+2026-10-24,zofia,-5.19,transport,Esso
+2026-10-25,ada,-21.38,eating_out,Greggs
+2026-10-25,ada,-6.51,recreation,Netflix
+2026-10-25,daniel,-0.23,eating_out,Deliveroo
+2026-10-25,halina,-7.0,groceries,Lidl
+2026-10-25,halina,-18.95,eating_out,Greggs
+2026-10-25,tomasz,-3.09,personal,Barber
+2026-10-25,tomasz,-30.6,shopping,Primark
+2026-10-25,tomasz,-19.37,recreation,PureGym
+2026-10-25,tomasz,-57.36,groceries,Lidl
+2026-10-25,zofia,-46.31,bnpl,Klarna
+2026-10-26,ada,-31.49,transport,BP
+2026-10-26,ada,-10.14,recreation,Odeon
+2026-10-26,ada,-38.53,transport,BP
+2026-10-26,daniel,-1.74,groceries,Tesco
+2026-10-26,daniel,-5.08,groceries,Co-op
+2026-10-26,daniel,-9.58,groceries,Tesco
+2026-10-26,halina,-6.62,shopping,Argos
+2026-10-26,tomasz,-27.96,recreation,Spotify
+2026-10-26,zofia,-3.16,groceries,Asda
+2026-10-26,zofia,-16.43,eating_out,Nando's
+2026-10-26,zofia,-27.05,recreation,Odeon
+2026-10-26,zofia,-15.44,shopping,Boots
+2026-10-27,ada,-5.78,recreation,PureGym
+2026-10-27,daniel,-5.44,personal,Barber
+2026-10-27,grace,-13.14,groceries,Asda
+2026-10-27,grace,-6.98,shopping,Next
+2026-10-27,grace,-1.49,transport,BP
+2026-10-27,grace,-4.65,transport,National Rail
+2026-10-27,halina,-12.94,groceries,Co-op
+2026-10-27,halina,-5.85,personal,Barber
+2026-10-27,zofia,-16.24,shopping,Boots
+2026-10-27,zofia,-16.24,groceries,Tesco
+2026-10-27,zofia,-15.22,eating_out,Greggs
+2026-10-27,zofia,-10.52,transport,Shell
+2026-10-27,zofia,-0.93,shopping,Amazon
+2026-10-28,daniel,-1.71,shopping,Next
+2026-10-28,grace,-1.82,groceries,Asda
+2026-10-28,halina,-100.0,savings_transfer,Transfer to savings
+2026-10-28,halina,-54.58,groceries,Co-op
+2026-10-28,halina,-185.15,one_off,Currys
+2026-10-28,tomasz,3147.69,income,Employer payroll
+2026-10-28,tomasz,-5.79,personal,Post Office
+2026-10-28,tomasz,-7.48,transport,Shell
+2026-10-28,zofia,-11.57,shopping,Next
+2026-10-28,zofia,-7.77,groceries,Lidl
+2026-10-29,ada,-20.49,transport,Shell
+2026-10-29,ada,-30.36,shopping,Amazon
+2026-10-29,ada,-6.33,transport,Stagecoach
+2026-10-29,ada,-9.6,shopping,Next
+2026-10-29,daniel,-2.33,groceries,Lidl
+2026-10-29,daniel,-3.28,recreation,Spotify
+2026-10-29,grace,-3.82,eating_out,Just Eat
+2026-10-29,grace,-4.91,eating_out,Just Eat
+2026-10-29,grace,-0.91,groceries,Aldi
+2026-10-29,halina,-3.26,groceries,Tesco
+2026-10-29,halina,-20.69,eating_out,Just Eat
+2026-10-29,tomasz,-35.05,transport,Stagecoach
+2026-10-29,tomasz,-13.47,recreation,PureGym
+2026-10-29,zofia,-13.52,personal,Pets at Home
+2026-10-30,ada,-10.51,transport,BP
+2026-10-30,ada,-5.6,personal,Pets at Home
+2026-10-30,ada,-7.49,shopping,Primark
+2026-10-30,daniel,431.64,income,Courier platform payout
+2026-10-30,daniel,-7.9,personal,Post Office
+2026-10-30,grace,-3.38,shopping,Primark
+2026-10-30,grace,-3.0,shopping,Argos
+2026-10-30,grace,-11.73,groceries,Tesco
+2026-10-30,grace,-7.01,groceries,Lidl
+2026-10-30,halina,-9.17,groceries,Lidl
+2026-10-30,halina,-15.05,recreation,Vue Cinema
+2026-10-30,halina,-40.0,cash_withdrawal,ATM
+2026-10-30,tomasz,-9.24,eating_out,Greggs
+2026-10-30,tomasz,-38.64,recreation,Vue Cinema
+2026-10-30,zofia,-21.79,groceries,Aldi
+2026-10-30,zofia,-13.56,groceries,Aldi
+2026-10-30,zofia,-2.12,eating_out,Just Eat
+2026-10-30,zofia,-14.73,shopping,Amazon
+2026-10-31,zofia,-23.3,groceries,Sainsbury's
+2026-11-01,ada,-200.0,housing,Board to Mum
+2026-11-01,ada,-13.04,council_tax,Council Tax
+2026-11-01,ada,-41.48,groceries,Asda
+2026-11-01,daniel,-950.0,housing,Rent (private landlord)
+2026-11-01,daniel,-105.79,council_tax,Council Tax
+2026-11-01,daniel,-4.41,eating_out,Costa
+2026-11-01,daniel,-0.64,bank_fee,Arranged overdraft interest
+2026-11-01,grace,-430.0,housing,Rent (housing association)
+2026-11-01,grace,-71.87,council_tax,Council Tax
+2026-11-01,grace,-6.74,recreation,Odeon
+2026-11-01,grace,-1.83,groceries,Co-op
+2026-11-01,halina,520.0,income,Workplace pension
+2026-11-01,halina,-77.28,council_tax,Council Tax
+2026-11-01,tomasz,-119.97,council_tax,Council Tax
+2026-11-01,tomasz,-9.88,recreation,Spotify
+2026-11-01,zofia,-760.0,housing,Rent (Foxtons)
+2026-11-01,zofia,-51.77,council_tax,Council Tax
+2026-11-02,ada,-4.71,groceries,Sainsbury's
+2026-11-02,daniel,-1.95,eating_out,Greggs
+2026-11-02,grace,-0.93,recreation,PureGym
+2026-11-02,grace,-2.04,shopping,Next
+2026-11-02,grace,-3.51,recreation,Odeon
+2026-11-02,grace,-3.71,eating_out,Wetherspoons
+2026-11-02,halina,-9.0,shopping,Next
+2026-11-02,halina,-18.44,shopping,Argos
+2026-11-02,halina,-8.6,eating_out,Wetherspoons
+2026-11-02,tomasz,-1290.0,housing,Mortgage (Nationwide)
+2026-11-02,tomasz,-21.5,groceries,Sainsbury's
+2026-11-02,zofia,-15.4,eating_out,Costa
+2026-11-02,zofia,-7.25,shopping,Next
+2026-11-02,zofia,-12.11,transport,BP
+2026-11-03,ada,-11.97,shopping,B&M
+2026-11-03,grace,-1.63,recreation,Odeon
+2026-11-03,grace,-5.57,recreation,Spotify
+2026-11-03,grace,-3.48,recreation,Odeon
+2026-11-03,halina,-27.6,recreation,Steam
+2026-11-03,tomasz,-11.41,shopping,Primark
+2026-11-03,tomasz,-23.85,groceries,Co-op
+2026-11-03,zofia,-6.1,eating_out,Deliveroo
+2026-11-04,ada,-3.24,shopping,Primark
+2026-11-04,ada,-5.56,groceries,Aldi
+2026-11-04,ada,-11.41,shopping,Primark
+2026-11-04,daniel,-1.26,shopping,Next
+2026-11-04,daniel,-2.81,personal,Post Office
+2026-11-04,daniel,-4.28,groceries,Aldi
+2026-11-04,grace,-8.07,groceries,Aldi
+2026-11-04,grace,-5.81,shopping,Amazon
+2026-11-04,grace,-2.81,eating_out,Wetherspoons
+2026-11-04,grace,-4.87,personal,Barber
+2026-11-04,halina,-14.99,groceries,Aldi
+2026-11-04,halina,-13.1,transport,Shell
+2026-11-04,halina,-20.36,groceries,Asda
+2026-11-04,halina,-9.3,shopping,Argos
+2026-11-04,tomasz,-5.75,eating_out,Just Eat
+2026-11-04,tomasz,-18.19,groceries,Lidl
+2026-11-04,tomasz,-17.81,groceries,Asda
+2026-11-04,tomasz,-24.75,recreation,Spotify
+2026-11-04,zofia,-51.82,bnpl,Klarna
+2026-11-05,ada,-5.66,insurance,Aviva
+2026-11-05,ada,-14.62,groceries,Tesco
+2026-11-05,ada,-6.74,eating_out,Costa
+2026-11-05,ada,-14.01,recreation,Netflix
+2026-11-05,daniel,-40.72,insurance,Aviva
+2026-11-05,grace,-29.69,insurance,Aviva
+2026-11-05,halina,-33.94,insurance,Aviva
+2026-11-05,tomasz,-48.06,insurance,Aviva
+2026-11-05,tomasz,-17.58,transport,BP
+2026-11-05,tomasz,-34.0,personal,Barber
+2026-11-05,tomasz,-16.02,groceries,Co-op
+2026-11-05,zofia,-18.33,insurance,Aviva
+2026-11-05,zofia,-14.56,recreation,Spotify
+2026-11-05,zofia,-18.68,personal,Post Office
+2026-11-05,zofia,-5.34,shopping,Boots
+2026-11-06,daniel,261.09,income,Courier platform payout
+2026-11-06,grace,-0.9,personal,Superdrug
+2026-11-06,halina,-17.87,transport,Shell
+2026-11-06,halina,-26.44,shopping,Next
+2026-11-06,halina,-19.9,eating_out,Just Eat
+2026-11-06,halina,-5.22,groceries,Asda
+2026-11-06,tomasz,-16.28,recreation,Spotify
