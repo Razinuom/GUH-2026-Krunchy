@@ -1,6 +1,6 @@
 """Demo personas from the brief (Nowak and Okafor families).
 
-    python -m backend.hardship.personas      # writes data/synthetic/transactions.csv + members.json
+    python -m backend.hardship.personas      # writes data/synthetic/hardship_personas/ (reference only)
 
 Transactions follow the shared contract: date, member_id, amount, category, merchant.
 members.json carries each member's current balance and overdraft limit, which
@@ -17,7 +17,9 @@ import pandas as pd
 from .simulate import Profile, simulate
 
 REPO = Path(__file__).resolve().parents[2]
-OUT_DIR = REPO / "data" / "synthetic"
+# Kept separate from data/synthetic/transactions.csv, which is the shared Heirloom feed the app serves
+# (backend.heirloom.synth). These are the model's original standalone demo households, for reference only.
+OUT_DIR = REPO / "data" / "synthetic" / "hardship_personas"
 AS_OF = date(2026, 11, 6)
 HISTORY_DAYS = 365
 START = AS_OF - timedelta(days=HISTORY_DAYS - 1)

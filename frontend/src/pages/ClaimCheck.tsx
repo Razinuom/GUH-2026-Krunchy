@@ -2,8 +2,9 @@ import { useState } from "react";
 import { Search } from "lucide-react";
 import { Disclaimer, Page } from "@/components/layout/Page";
 import { PageHeader } from "@/components/layout/PageHeader";
+import { ErrorNote, SourceNote } from "@/components/DataState";
 import { checkClaim } from "@/lib/api";
-import type { ClaimRating, ClaimResult } from "@/lib/simulate";
+import type { ClaimRating, ClaimResult } from "@/lib/types";
 
 const EXAMPLES = [
   "This stock is guaranteed to 10x by Christmas. DM me to join before it's too late!",
@@ -20,14 +21,24 @@ const RATING: Record<ClaimRating, { bg: string; fg: string }> = {
 export default function ClaimCheck() {
   const [claim, setClaim] = useState("");
   const [result, setResult] = useState<ClaimResult | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
   async function run(text = claim) {
     if (!text.trim()) return;
     setClaim(text);
     setBusy(true);
-    setResult(await checkClaim(text));
-    setBusy(false);
+    setError(null);
+    try {
+      const r = await checkClaim(text);
+      setResult(r);
+      if (!r) setError("Claim Check needs the Heirloom backend, which is not reachable. The three example claims still work offline.");
+    } catch (e) {
+      setResult(null);
+      setError((e as Error).message);
+    } finally {
+      setBusy(false);
+    }
   }
 
   return (
@@ -36,7 +47,7 @@ export default function ClaimCheck() {
         page="claims"
         label="Claim Check"
         title="Seen It on Social Media?"
-        lead="Paste a money claim and we check it against GOV.UK, MoneyHelper and the FCA register."
+        lead="Paste a money claim. We check it for the FCA's scam warning signs, look up any firm it names in the FCA's published warnings, and check its figures against GOV.UK, MoneyHelper and the FCA."
       />
 
       <form
@@ -75,6 +86,8 @@ export default function ClaimCheck() {
       </div>
 
       <div aria-live="polite">
+        {busy && <p className="mt-8 text-muted">Searching GOV.UK, MoneyHelper and the FCA… a new claim can take up to 20 seconds.</p>}
+        {error && <ErrorNote className="mt-8" message={error} />}
         {result && (
           <div className="mt-8 rounded-[22px] p-[clamp(20px,3.5vw,32px)]" style={{ background: RATING[result.rating].bg }}>
             <span
@@ -95,6 +108,21 @@ export default function ClaimCheck() {
                 </ul>
               </>
             )}
+            {result.evidence.length > 0 && (
+              <>
+                <h2 className="mt-6 font-display text-[1.1rem] font-bold">What Official Sources Say</h2>
+                <ul className="mt-2 space-y-3">
+                  {result.evidence.map((e) => (
+                    <li key={e.url}>
+                      <blockquote className="border-l-2 border-ink/30 pl-3 text-[.95rem]">&ldquo;{e.quote}&rdquo;</blockquote>
+                      <a href={e.url} target="_blank" rel="noreferrer" className="mt-0.5 inline-block pl-3 text-[.82rem] font-medium">
+                        {e.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
             {result.sources.length > 0 && (
               <>
                 <h2 className="mt-6 font-display text-[1.1rem] font-bold">Sources</h2>
@@ -110,11 +138,19 @@ export default function ClaimCheck() {
               </>
             )}
             <p className="mt-6 text-[.76rem] text-muted">
-              {result.source === "api"
-                ? "Rated live by the Heirloom Researcher and Guardian agents."
-                : "Rated offline against our saved snapshot of official guidance."}{" "}
-              If you have already sent money, call your bank straight away and report it to Action Fraud.
+              If you have already sent money, call your bank straight away (or call 159) and report it to Action Fraud.
             </p>
+            <SourceNote
+              className="mt-1"
+              source={result.source}
+              live={
+                result.researcher === "firecrawl"
+                  ? "Checked against GOV.UK, MoneyHelper and FCA pages found with a Firecrawl search (searches are cached for up to a week)."
+                  : result.researcher === "saved"
+                    ? "Checked against saved GOV.UK, FCA and Citizens Advice pages (live search unavailable)."
+                    : "Rated on the FCA's scam warning signs."
+              }
+            />
           </div>
         )}
       </div>

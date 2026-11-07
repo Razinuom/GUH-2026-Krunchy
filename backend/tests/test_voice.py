@@ -44,11 +44,11 @@ def test_forecast_tool_returns_speakable_numbers_and_updates_dashboard(client):
                     json={"member_id": "tomasz", "language": "pl", "question": "Will I run out of money?"})
     assert r.status_code == 200
     body = r.json()
-    assert body["current_balance"] == 2450
+    assert body["current_balance"] == 2350
     assert body["risk_level"] == "watch"
     assert 5 <= body["chance_overdrawn_next_90_days_percent"] <= 30
     assert "1 in" in body["chance_overdrawn_in_words"]
-    assert any(x["reason"] == "Rent increase" for x in body["main_reasons"])
+    assert any(x["reason"] == "Car insurance renewal" for x in body["main_reasons"])
     assert "£" in body["summary_en"]
     ev = bus.recent[-1]
     assert ev["type"] == "forecast" and ev["family_id"] == "nowak"

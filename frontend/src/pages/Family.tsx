@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Disclaimer, Page } from "@/components/layout/Page";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { PersonCard } from "@/components/family/PersonCard";
+import { SourceNote } from "@/components/DataState";
 import { useForecasts } from "@/lib/hooks";
 import { useHeirloom } from "@/state/HeirloomContext";
 
@@ -38,9 +39,16 @@ export default function Family() {
       </div>
       <hr className="mb-5 mt-10 border-line" />
       <Disclaimer />
-      <p className="mt-1 text-[.76rem] text-muted">
-        Balances come from synthetic transactions calibrated to the ONS Living Costs and Food Survey, ready for the NatWest Account and Transaction API.
-      </p>
+      {(() => {
+        const first = Object.values(forecasts).find(Boolean);
+        return (
+          <SourceNote
+            className="mt-1"
+            source={first?.source ?? "live"}
+            live="Balances come from synthetic transactions calibrated to the ONS Living Costs and Food Survey, ready for the NatWest Account and Transaction API."
+          />
+        );
+      })()}
     </Page>
   );
 }

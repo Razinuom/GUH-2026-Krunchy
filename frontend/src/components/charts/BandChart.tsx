@@ -1,5 +1,5 @@
-import { useLayoutEffect, useMemo, useRef, useState } from "react";
-import type { Band } from "@/lib/simulate";
+import { useId, useLayoutEffect, useMemo, useRef, useState } from "react";
+import type { Band } from "@/lib/types";
 import { moneyShort } from "@/lib/format";
 
 type Props = {
@@ -31,22 +31,41 @@ function useWidth<T extends HTMLElement>() {
   return [ref, w] as const;
 }
 
-function niceTicks(min: number, max: number, count = 4) {
+/**
+ * Round gridline values that always span the whole data range: the first tick is at or below `min` and the last
+ * at or above `max`, so nothing is drawn outside the plot. Of the nice steps that give 3 to 6 intervals, it picks
+ * the one with the tightest range, so the chart isn't left mostly empty.
+ */
+function niceTicks(min: number, max: number) {
   const span = max - min || 1;
-  const step0 = span / count;
-  const mag = 10 ** Math.floor(Math.log10(step0));
-  const step = [1, 2, 2.5, 5, 10].map((m) => m * mag).find((s) => s >= step0) ?? step0;
-  const start = Math.floor(min / step) * step;
+  const mag0 = 10 ** Math.floor(Math.log10(span / 6));
+  let best: { step: number; start: number; end: number } | null = null;
+  for (const m of [1, 2, 2.5, 5, 10, 20, 25, 50]) {
+    const step = m * mag0;
+    const start = Math.floor(min / step + 1e-9) * step;
+    const end = Math.ceil(max / step - 1e-9) * step;
+    const n = Math.round((end - start) / step);
+    if (n < 3 || n > 6) continue;
+    if (!best || end - start < best.end - best.start - 1e-9) best = { step, start, end };
+  }
+  if (!best) {
+    const step = 10 ** Math.ceil(Math.log10(span / 3));
+    best = { step, start: Math.floor(min / step) * step, end: Math.ceil(max / step) * step };
+  }
   const ticks: number[] = [];
-  for (let v = start; v <= max + step * 0.01; v += step) ticks.push(Math.round(v * 100) / 100);
+  for (let v = best.start; v <= best.end + best.step * 0.01; v += best.step) ticks.push(Math.round(v * 100) / 100);
   return ticks;
 }
 
 export function BandChart({ data, color, ariaLabel, height = 300, xLabel, xTicks, inner, zeroLine, goal, floor, vLine, lowest }: Props) {
   const [ref, width] = useWidth<HTMLDivElement>();
   const pad = { top: 14, right: 16, bottom: 28, left: 48 };
+  // Data is drawn this far inside the gridlines, so the end dot (r=4.5) and the lowest-point ring (r=7)
+  // sit fully inside the plot instead of straddling its edge.
+  const inset = 10;
   const iw = width - pad.left - pad.right;
   const ih = height - pad.top - pad.bottom;
+  const clipId = `plot-${useId().replace(/:/g, "")}`;
 
   const { yTicks, y0, y1 } = useMemo(() => {
     let lo = Math.min(...data.map((d) => d.p10));
@@ -60,8 +79,8 @@ export function BandChart({ data, color, ariaLabel, height = 300, xLabel, xTicks
   }, [data, zeroLine, goal, floor]);
 
   const n = data.length - 1;
-  const x = (i: number) => pad.left + (i / n) * iw;
-  const y = (v: number) => pad.top + ih - ((v - y0) / (y1 - y0 || 1)) * ih;
+  const x = (i: number) => pad.left + inset + (i / n) * (iw - 2 * inset);
+  const y = (v: number) => pad.top + inset + (ih - 2 * inset) - ((v - y0) / (y1 - y0 || 1)) * (ih - 2 * inset);
 
   const area = (lo: (b: Band) => number, hi: (b: Band) => number) =>
     data.map((b, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(hi(b)).toFixed(1)}`).join("") +
@@ -90,8 +109,16 @@ export function BandChart({ data, color, ariaLabel, height = 300, xLabel, xTicks
           </text>
         ))}
 
-        <path d={area((b) => b.p10, (b) => b.p90)} fill={color} fillOpacity={0.2} />
-        {inner && <path d={area((b) => b.p25 ?? b.p50, (b) => b.p75 ?? b.p50)} fill={color} fillOpacity={0.22} />}
+        <defs>
+          <clipPath id={clipId}>
+            <rect x={pad.left} y={pad.top} width={iw} height={ih} />
+          </clipPath>
+        </defs>
+
+        <g clipPath={`url(#${clipId})`}>
+          <path d={area((b) => b.p10, (b) => b.p90)} fill={color} fillOpacity={0.2} />
+          {inner && <path d={area((b) => b.p25 ?? b.p50, (b) => b.p75 ?? b.p50)} fill={color} fillOpacity={0.22} />}
+        </g>
 
         {zeroLine && y0 <= 0 && <line x1={pad.left} x2={width - pad.right} y1={y(0)} y2={y(0)} stroke="var(--critical)" strokeWidth={1.4} />}
         {floor !== undefined && (
@@ -119,9 +146,11 @@ export function BandChart({ data, color, ariaLabel, height = 300, xLabel, xTicks
           </g>
         )}
 
-        <path d={line(data.map((b) => b.p50))} fill="none" stroke={color} strokeWidth={2.4} strokeLinejoin="round" strokeLinecap="round" />
-        <circle cx={x(n)} cy={y(data[n].p50)} r={4.5} fill={color} />
-        {lowest && <circle cx={x(lowest.x)} cy={y(lowest.y)} r={7} fill="none" stroke="var(--critical)" strokeWidth={2} />}
+        <g clipPath={`url(#${clipId})`}>
+          <path d={line(data.map((b) => b.p50))} fill="none" stroke={color} strokeWidth={2.4} strokeLinejoin="round" strokeLinecap="round" />
+          <circle cx={x(n)} cy={y(data[n].p50)} r={4.5} fill={color} />
+          {lowest && <circle cx={x(lowest.x)} cy={y(lowest.y)} r={7} fill="none" stroke="var(--critical)" strokeWidth={2} />}
+        </g>
       </svg>
     </div>
   );

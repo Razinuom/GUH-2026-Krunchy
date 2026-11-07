@@ -1,9 +1,10 @@
-/** Pinned demo date so "14%, Watch" stays the same on stage. Set VITE_DEMO_TODAY to override, or "live" for the real date. */
-const pinned = ((import.meta as unknown as { env?: Record<string, string> }).env?.VITE_DEMO_TODAY) ?? "2026-11-07";
-export const TODAY: Date = pinned === "live" ? startOfDay(new Date()) : new Date(`${pinned}T00:00:00`);
-
-function startOfDay(d: Date) {
-  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+/**
+ * Dates come from the backend (its demo date is pinned with HEIRLOOM_AS_OF on the server).
+ * Parse "YYYY-MM-DD" as a local calendar date, so it never shifts a day across time zones.
+ */
+export function parseDate(iso: string): Date {
+  const [y, m, d] = iso.slice(0, 10).split("-").map(Number);
+  return new Date(y, m - 1, d);
 }
 
 export function addDays(d: Date, n: number) {

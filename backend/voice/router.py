@@ -52,13 +52,16 @@ HELP = {
                      "url": "https://register.fca.org.uk", "what": "Check a firm or adviser is authorised"},
     "samaritans": {"name": "Samaritans", "phone": "116 123", "url": "https://www.samaritans.org",
                    "what": "Free, 24/7 emotional support"},
+    "citizens_advice": {"name": "Citizens Advice", "phone": "0800 144 8848",
+                        "url": "https://www.citizensadvice.org.uk",
+                        "what": "Help with benefits, bills, scams and consumer problems"},
 }
 HELP_BY_REASON = {
     "debt": ["stepchange", "national_debtline", "moneyhelper"],
     "scam": ["stop_scams", "action_fraud", "fca_register"],
     "advice": ["moneyhelper", "fca_register"],
     "distress": ["samaritans", "stepchange", "moneyhelper"],
-    "other": ["moneyhelper"],
+    "other": ["moneyhelper", "stepchange", "citizens_advice"],
 }
 
 

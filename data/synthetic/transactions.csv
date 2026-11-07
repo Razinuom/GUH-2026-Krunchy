@@ -620,666 +620,655 @@ date,member_id,amount,category,merchant,balance
 2026-11-05,halina,-8.17,groceries,TESCO,3205.33
 2026-11-05,halina,-38.0,utilities,YORKSHIRE WATER,3167.33
 2026-11-06,halina,-17.33,transport,NORTHERN RAIL,3150.0
-2025-11-07,tomasz,-17.34,transport,FIRST BUS,2229.91
-2025-11-08,tomasz,-10.21,groceries,TESCO,2219.7
-2025-11-08,tomasz,-16.18,health,SUPERDRUG,2203.52
-2025-11-08,tomasz,-32.22,leisure,STEAM,2171.3
-2025-11-09,tomasz,-2.62,groceries,ALDI,2168.68
-2025-11-09,tomasz,-20.64,shopping,ARGOS,2148.04
-2025-11-09,tomasz,-52.56,phone,VODAFONE,2095.48
-2025-11-11,tomasz,-12.31,health,SUPERDRUG,2083.17
-2025-11-12,tomasz,-7.33,health,BOOTS PHARMACY,2075.84
-2025-11-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1830.84
-2025-11-14,tomasz,-10.51,shopping,BOOTS,1820.33
-2025-11-14,tomasz,-16.07,transport,TFL,1804.26
-2025-11-15,tomasz,-4.76,groceries,ALDI,1799.5
-2025-11-15,tomasz,-16.6,shopping,PRIMARK,1782.9
-2025-11-15,tomasz,-151.2,utilities,OCTOPUS ENERGY,1631.7
-2025-11-16,tomasz,-2.94,groceries,LIDL,1628.76
-2025-11-16,tomasz,-22.72,eating_out,DELIVEROO,1606.04
-2025-11-16,tomasz,-34.25,leisure,CINEWORLD,1571.79
-2025-11-17,tomasz,-11.97,groceries,SAINSBURYS,1559.82
-2025-11-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1527.82
-2025-11-19,tomasz,-12.94,misc,CHARITY SHOP,1514.88
-2025-11-19,tomasz,-16.59,transport,UBER,1498.29
-2025-11-21,tomasz,-18.58,transport,BP,1479.71
-2025-11-22,tomasz,-2.45,groceries,LIDL,1477.26
-2025-11-22,tomasz,-12.99,subscriptions,NETFLIX,1464.27
-2025-11-24,tomasz,-10.83,leisure,CINEWORLD,1453.44
-2025-11-24,tomasz,-16.24,shopping,ARGOS,1437.2
-2025-11-25,tomasz,-9.45,leisure,WATERSTONES,1427.75
-2025-11-26,tomasz,-13.05,health,BOOTS PHARMACY,1414.7
-2025-11-26,tomasz,-13.57,groceries,SAINSBURYS,1401.13
-2025-11-27,tomasz,-6.45,misc,CHARITY SHOP,1394.68
-2025-11-27,tomasz,-7.17,shopping,BOOTS,1387.51
-2025-11-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4121.86
-2025-11-28,tomasz,-13.68,transport,BP,4108.18
-2025-11-30,tomasz,-13.04,shopping,B&M,4095.14
-2025-11-30,tomasz,-33.76,eating_out,NANDOS,4061.38
-2025-12-01,tomasz,-12.47,transport,BP,4048.91
-2025-12-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3883.91
-2025-12-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2588.91
-2025-12-02,tomasz,-34.47,transport,BP,2554.44
-2025-12-03,tomasz,-5.49,leisure,CINEWORLD,2548.95
-2025-12-03,tomasz,-9.19,groceries,ALDI,2539.76
-2025-12-03,tomasz,-17.27,transport,NORTHERN RAIL,2522.49
-2025-12-03,tomasz,-29.99,subscriptions,PUREGYM,2492.5
-2025-12-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2412.5
-2025-12-04,tomasz,-28.95,transport,NORTHERN RAIL,2383.55
-2025-12-05,tomasz,-3.34,groceries,CO-OP,2380.21
-2025-12-05,tomasz,-15.01,leisure,CINEWORLD,2365.2
-2025-12-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2323.2
-2025-12-06,tomasz,-12.16,transport,BP,2311.04
-2025-12-06,tomasz,-27.2,groceries,TESCO,2283.84
-2025-12-07,tomasz,-17.08,groceries,CO-OP,2266.76
-2025-12-07,tomasz,-39.21,misc,PAYPAL,2227.55
-2025-12-07,tomasz,-41.02,shopping,ARGOS,2186.53
-2025-12-09,tomasz,-6.97,misc,CHARITY SHOP,2179.56
-2025-12-09,tomasz,-52.56,phone,VODAFONE,2127.0
-2025-12-10,tomasz,-8.63,misc,PAYPAL,2118.37
-2025-12-11,tomasz,-13.23,groceries,LIDL,2105.14
-2025-12-12,tomasz,-36.75,transport,FIRST BUS,2068.39
-2025-12-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1823.39
-2025-12-13,tomasz,-30.75,shopping,AMAZON,1792.64
-2025-12-13,tomasz,-32.57,transport,SHELL,1760.07
-2025-12-14,tomasz,-3.33,groceries,TESCO,1756.74
-2025-12-14,tomasz,-7.59,eating_out,DELIVEROO,1749.15
-2025-12-14,tomasz,-29.83,transport,FIRST BUS,1719.32
-2025-12-15,tomasz,-10.17,groceries,LIDL,1709.15
-2025-12-15,tomasz,-179.2,utilities,OCTOPUS ENERGY,1529.95
-2025-12-16,tomasz,-32.68,transport,BP,1497.27
-2025-12-17,tomasz,-7.4,groceries,ALDI,1489.87
-2025-12-17,tomasz,-10.74,leisure,WATERSTONES,1479.13
-2025-12-18,tomasz,-17.49,transport,NORTHERN RAIL,1461.64
-2025-12-18,tomasz,-21.79,leisure,STEAM,1439.85
-2025-12-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1407.85
-2025-12-20,tomasz,-6.33,groceries,ALDI,1401.52
-2025-12-20,tomasz,-11.2,shopping,VINTED,1390.32
-2025-12-20,tomasz,-26.56,eating_out,PRET,1363.76
-2025-12-21,tomasz,-11.76,eating_out,DELIVEROO,1352.0
-2025-12-21,tomasz,-11.87,groceries,LIDL,1340.13
-2025-12-22,tomasz,-12.99,subscriptions,NETFLIX,1327.14
-2025-12-22,tomasz,-37.44,leisure,GARDEN CENTRE,1289.7
-2025-12-25,tomasz,-8.96,shopping,AMAZON,1280.74
-2025-12-25,tomasz,-9.24,leisure,BET365,1271.5
-2025-12-25,tomasz,-9.38,transport,BP,1262.12
-2025-12-25,tomasz,-13.11,groceries,CO-OP,1249.01
-2025-12-26,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,3983.36
-2025-12-26,tomasz,-24.29,transport,FIRST BUS,3959.07
-2025-12-27,tomasz,47.35,refund,AMAZON REFUND,4006.42
-2025-12-27,tomasz,-7.31,groceries,CO-OP,3999.11
-2025-12-28,tomasz,-3.02,groceries,SAINSBURYS,3996.09
-2025-12-28,tomasz,-11.86,misc,POST OFFICE,3984.23
-2025-12-28,tomasz,-18.09,eating_out,LOCAL PUB,3966.14
-2025-12-28,tomasz,-20.92,health,BOOTS PHARMACY,3945.22
-2025-12-29,tomasz,-43.38,groceries,LIDL,3901.84
-2025-12-30,tomasz,-28.22,transport,SHELL,3873.62
-2025-12-31,tomasz,-10.47,misc,TIMPSON,3863.15
-2025-12-31,tomasz,-37.47,shopping,B&M,3825.68
-2026-01-01,tomasz,-9.27,groceries,ALDI,3816.41
-2026-01-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3651.41
-2026-01-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2356.41
-2026-01-03,tomasz,-2.67,groceries,SAINSBURYS,2353.74
-2026-01-03,tomasz,-29.99,subscriptions,PUREGYM,2323.75
-2026-01-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2243.75
-2026-01-04,tomasz,-3.33,leisure,CINEWORLD,2240.42
-2026-01-04,tomasz,-8.64,groceries,ALDI,2231.78
-2026-01-05,tomasz,-5.53,eating_out,DELIVEROO,2226.25
-2026-01-05,tomasz,-9.21,groceries,ALDI,2217.04
-2026-01-05,tomasz,-17.85,shopping,AMAZON,2199.19
-2026-01-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2157.19
-2026-01-06,tomasz,-6.47,eating_out,PRET,2150.72
-2026-01-07,tomasz,-4.58,groceries,LIDL,2146.14
-2026-01-07,tomasz,-7.29,eating_out,DELIVEROO,2138.85
-2026-01-09,tomasz,-11.64,eating_out,LOCAL PUB,2127.21
-2026-01-09,tomasz,-52.56,phone,VODAFONE,2074.65
-2026-01-10,tomasz,-6.19,groceries,TESCO,2068.46
-2026-01-10,tomasz,-10.49,eating_out,DELIVEROO,2057.97
-2026-01-11,tomasz,-3.25,eating_out,NANDOS,2054.72
-2026-01-11,tomasz,-12.84,groceries,ALDI,2041.88
-2026-01-12,tomasz,-7.88,leisure,WATERSTONES,2034.0
-2026-01-12,tomasz,-52.14,transport,NORTHERN RAIL,1981.86
-2026-01-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1736.86
-2026-01-13,tomasz,-41.91,misc,CHARITY SHOP,1694.95
-2026-01-15,tomasz,-15.78,transport,FIRST BUS,1679.17
-2026-01-15,tomasz,-190.4,utilities,OCTOPUS ENERGY,1488.77
-2026-01-16,tomasz,-5.54,groceries,ALDI,1483.23
-2026-01-17,tomasz,-8.28,eating_out,GREGGS,1474.95
-2026-01-17,tomasz,-9.5,shopping,BOOTS,1465.45
-2026-01-17,tomasz,-15.38,groceries,ALDI,1450.07
-2026-01-18,tomasz,-5.14,groceries,LIDL,1444.93
-2026-01-18,tomasz,-10.75,eating_out,DELIVEROO,1434.18
-2026-01-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1402.18
-2026-01-19,tomasz,-32.26,transport,FIRST BUS,1369.92
-2026-01-20,tomasz,-6.23,groceries,ALDI,1363.69
-2026-01-22,tomasz,-12.99,subscriptions,NETFLIX,1350.7
-2026-01-22,tomasz,-18.19,eating_out,NANDOS,1332.51
-2026-01-22,tomasz,-30.74,leisure,WATERSTONES,1301.77
-2026-01-23,tomasz,-4.2,eating_out,DELIVEROO,1297.57
-2026-01-24,tomasz,-2.73,groceries,LIDL,1294.84
-2026-01-25,tomasz,-12.21,transport,FIRST BUS,1282.63
-2026-01-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4016.98
-2026-01-28,tomasz,-3.62,groceries,CO-OP,4013.36
-2026-01-28,tomasz,-5.28,shopping,VINTED,4008.08
-2026-01-28,tomasz,-25.71,transport,FIRST BUS,3982.37
-2026-01-29,tomasz,-4.78,groceries,LIDL,3977.59
-2026-01-29,tomasz,-26.13,misc,POST OFFICE,3951.46
-2026-01-30,tomasz,-9.37,eating_out,PRET,3942.09
-2026-01-30,tomasz,-14.73,leisure,CINEWORLD,3927.36
-2026-02-01,tomasz,-10.27,eating_out,NANDOS,3917.09
-2026-02-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2622.09
-2026-02-02,tomasz,-17.84,shopping,AMAZON,2604.25
-2026-02-02,tomasz,-28.66,transport,SHELL,2575.59
-2026-02-03,tomasz,-5.8,eating_out,DELIVEROO,2569.79
-2026-02-03,tomasz,-29.99,subscriptions,PUREGYM,2539.8
-2026-02-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2459.8
-2026-02-04,tomasz,-24.33,eating_out,DELIVEROO,2435.47
-2026-02-04,tomasz,-27.48,transport,BP,2407.99
-2026-02-05,tomasz,-9.39,transport,UBER,2398.6
-2026-02-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2356.6
-2026-02-06,tomasz,-6.81,groceries,LIDL,2349.79
-2026-02-07,tomasz,-6.47,groceries,LIDL,2343.32
-2026-02-07,tomasz,-12.4,misc,POST OFFICE,2330.92
-2026-02-07,tomasz,-15.45,shopping,B&M,2315.47
-2026-02-08,tomasz,-6.29,shopping,B&M,2309.18
-2026-02-08,tomasz,-10.55,transport,TFL,2298.63
-2026-02-08,tomasz,-10.73,groceries,SAINSBURYS,2287.9
-2026-02-08,tomasz,-13.52,leisure,GARDEN CENTRE,2274.38
-2026-02-09,tomasz,-14.17,health,BOOTS PHARMACY,2260.21
-2026-02-09,tomasz,-52.56,phone,VODAFONE,2207.65
-2026-02-10,tomasz,-6.07,eating_out,PRET,2201.58
-2026-02-11,tomasz,-8.24,groceries,ALDI,2193.34
-2026-02-11,tomasz,-56.48,transport,TFL,2136.86
-2026-02-12,tomasz,-16.15,transport,NORTHERN RAIL,2120.71
-2026-02-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1875.71
-2026-02-13,tomasz,-22.58,groceries,CO-OP,1853.13
-2026-02-14,tomasz,-2.95,groceries,LIDL,1850.18
-2026-02-14,tomasz,-17.89,eating_out,LOCAL PUB,1832.29
-2026-02-15,tomasz,-4.08,groceries,LIDL,1828.21
-2026-02-15,tomasz,-5.72,shopping,ARGOS,1822.49
-2026-02-15,tomasz,-8.64,leisure,STEAM,1813.85
-2026-02-15,tomasz,-19.2,transport,BP,1794.65
-2026-02-15,tomasz,-168.0,utilities,OCTOPUS ENERGY,1626.65
-2026-02-16,tomasz,-7.56,transport,NORTHERN RAIL,1619.09
-2026-02-16,tomasz,-16.23,groceries,TESCO,1602.86
-2026-02-17,tomasz,-9.49,misc,TIMPSON,1593.37
-2026-02-18,tomasz,-9.86,groceries,CO-OP,1583.51
-2026-02-18,tomasz,-20.58,transport,FIRST BUS,1562.93
-2026-02-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1530.93
-2026-02-19,tomasz,-8.94,shopping,BOOTS,1521.99
-2026-02-19,tomasz,-34.97,misc,CHARITY SHOP,1487.02
-2026-02-20,tomasz,-11.52,groceries,CO-OP,1475.5
-2026-02-20,tomasz,-114.07,leisure,GARDEN CENTRE,1361.43
-2026-02-21,tomasz,-54.11,transport,BP,1307.32
-2026-02-22,tomasz,-2.98,eating_out,DELIVEROO,1304.34
-2026-02-22,tomasz,-12.0,groceries,ALDI,1292.34
-2026-02-22,tomasz,-12.99,subscriptions,NETFLIX,1279.35
-2026-02-23,tomasz,-24.07,transport,FIRST BUS,1255.28
-2026-02-24,tomasz,-12.18,eating_out,DELIVEROO,1243.1
-2026-02-25,tomasz,-11.05,groceries,SAINSBURYS,1232.05
-2026-02-25,tomasz,-23.25,leisure,WATERSTONES,1208.8
-2026-02-27,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,3943.15
-2026-02-27,tomasz,-6.22,groceries,SAINSBURYS,3936.93
-2026-02-27,tomasz,-25.6,leisure,BET365,3911.33
-2026-02-28,tomasz,-10.15,leisure,STEAM,3901.18
-2026-02-28,tomasz,-16.73,eating_out,LOCAL PUB,3884.45
-2026-02-28,tomasz,-18.93,transport,TFL,3865.52
-2026-03-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2570.52
-2026-03-02,tomasz,-8.98,misc,CHARITY SHOP,2561.54
-2026-03-02,tomasz,-48.22,transport,UBER,2513.32
-2026-03-03,tomasz,-29.99,subscriptions,PUREGYM,2483.33
-2026-03-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2403.33
-2026-03-05,tomasz,-8.57,groceries,ALDI,2394.76
-2026-03-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2352.76
-2026-03-06,tomasz,-2.9,groceries,ALDI,2349.86
-2026-03-07,tomasz,-2.14,groceries,TESCO,2347.72
-2026-03-07,tomasz,-6.9,eating_out,NANDOS,2340.82
-2026-03-07,tomasz,-13.53,leisure,BET365,2327.29
-2026-03-08,tomasz,-10.07,groceries,TESCO,2317.22
-2026-03-08,tomasz,-24.16,transport,FIRST BUS,2293.06
-2026-03-09,tomasz,-8.56,eating_out,LOCAL PUB,2284.5
-2026-03-09,tomasz,-52.56,phone,VODAFONE,2231.94
-2026-03-10,tomasz,-4.41,shopping,AMAZON,2227.53
-2026-03-10,tomasz,-7.59,groceries,TESCO,2219.94
-2026-03-10,tomasz,-14.13,transport,BP,2205.81
-2026-03-11,tomasz,-5.03,misc,PAYPAL,2200.78
-2026-03-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1955.78
-2026-03-13,tomasz,-8.18,eating_out,JUST EAT,1947.6
-2026-03-13,tomasz,-10.38,health,BOOTS PHARMACY,1937.22
-2026-03-15,tomasz,-6.01,groceries,CO-OP,1931.21
-2026-03-15,tomasz,-23.7,shopping,PRIMARK,1907.51
-2026-03-15,tomasz,-31.79,misc,POST OFFICE,1875.72
-2026-03-15,tomasz,-140.0,utilities,OCTOPUS ENERGY,1735.72
-2026-03-16,tomasz,-6.33,eating_out,LOCAL PUB,1729.39
-2026-03-17,tomasz,-9.21,misc,PAYPAL,1720.18
-2026-03-18,tomasz,-26.35,misc,TIMPSON,1693.83
-2026-03-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1661.83
-2026-03-19,tomasz,-8.6,transport,NORTHERN RAIL,1653.23
-2026-03-21,tomasz,-7.37,groceries,ALDI,1645.86
-2026-03-21,tomasz,-40.53,eating_out,JUST EAT,1605.33
-2026-03-22,tomasz,-6.31,eating_out,DELIVEROO,1599.02
-2026-03-22,tomasz,-11.89,shopping,VINTED,1587.13
-2026-03-22,tomasz,-12.28,groceries,TESCO,1574.85
-2026-03-22,tomasz,-12.99,subscriptions,NETFLIX,1561.86
-2026-03-22,tomasz,-28.3,leisure,BET365,1533.56
-2026-03-23,tomasz,-17.72,shopping,BOOTS,1515.84
-2026-03-23,tomasz,-18.33,leisure,CINEWORLD,1497.51
-2026-03-23,tomasz,-28.79,transport,SHELL,1468.72
-2026-03-24,tomasz,-13.09,transport,BP,1455.63
-2026-03-24,tomasz,-14.13,groceries,LIDL,1441.5
-2026-03-25,tomasz,-26.62,transport,UBER,1414.88
-2026-03-25,tomasz,-60.12,shopping,BOOTS,1354.76
-2026-03-27,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4089.11
-2026-03-27,tomasz,-5.71,eating_out,DELIVEROO,4083.4
-2026-03-28,tomasz,-4.35,eating_out,GREGGS,4079.05
-2026-03-28,tomasz,-5.43,groceries,TESCO,4073.62
-2026-03-28,tomasz,-9.58,transport,TFL,4064.04
-2026-03-28,tomasz,-13.12,leisure,CINEWORLD,4050.92
-2026-03-29,tomasz,-5.06,eating_out,GREGGS,4045.86
-2026-03-30,tomasz,-5.27,transport,SHELL,4040.59
-2026-03-30,tomasz,-19.1,leisure,STEAM,4021.49
-2026-03-31,tomasz,-33.66,transport,FIRST BUS,3987.83
-2026-04-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3822.83
-2026-04-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2527.83
-2026-04-03,tomasz,-4.67,groceries,SAINSBURYS,2523.16
-2026-04-03,tomasz,-29.99,subscriptions,PUREGYM,2493.17
-2026-04-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2413.17
-2026-04-04,tomasz,-9.15,eating_out,LOCAL PUB,2404.02
-2026-04-04,tomasz,-14.14,leisure,CINEWORLD,2389.88
-2026-04-05,tomasz,-8.44,transport,FIRST BUS,2381.44
-2026-04-05,tomasz,-11.15,eating_out,PRET,2370.29
-2026-04-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2328.29
-2026-04-06,tomasz,-5.23,groceries,LIDL,2323.06
-2026-04-06,tomasz,-22.38,transport,TFL,2300.68
-2026-04-08,tomasz,-6.1,shopping,VINTED,2294.58
-2026-04-08,tomasz,-9.74,eating_out,PRET,2284.84
-2026-04-09,tomasz,-3.53,groceries,TESCO,2281.31
-2026-04-09,tomasz,-52.56,phone,VODAFONE,2228.75
-2026-04-10,tomasz,-8.01,health,BOOTS PHARMACY,2220.74
-2026-04-10,tomasz,-13.04,transport,BP,2207.7
-2026-04-10,tomasz,-20.25,groceries,SAINSBURYS,2187.45
-2026-04-11,tomasz,-4.72,groceries,TESCO,2182.73
-2026-04-11,tomasz,-33.44,misc,TIMPSON,2149.29
-2026-04-12,tomasz,-44.49,leisure,GARDEN CENTRE,2104.8
-2026-04-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1859.8
-2026-04-14,tomasz,14.45,refund,AMAZON REFUND,1874.25
-2026-04-14,tomasz,-6.9,eating_out,NANDOS,1867.35
-2026-04-14,tomasz,-8.4,groceries,TESCO,1858.95
-2026-04-15,tomasz,-7.6,groceries,CO-OP,1851.35
-2026-04-15,tomasz,-13.6,eating_out,NANDOS,1837.75
-2026-04-15,tomasz,-112.0,utilities,OCTOPUS ENERGY,1725.75
-2026-04-16,tomasz,-7.1,eating_out,NANDOS,1718.65
-2026-04-18,tomasz,-8.44,groceries,TESCO,1710.21
-2026-04-18,tomasz,-10.43,eating_out,LOCAL PUB,1699.78
-2026-04-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1667.78
-2026-04-19,tomasz,-23.56,shopping,AMAZON,1644.22
-2026-04-20,tomasz,-22.61,groceries,LIDL,1621.61
-2026-04-20,tomasz,-42.91,shopping,ARGOS,1578.7
-2026-04-21,tomasz,-5.65,groceries,ALDI,1573.05
-2026-04-21,tomasz,-29.45,transport,NORTHERN RAIL,1543.6
-2026-04-22,tomasz,-12.99,subscriptions,NETFLIX,1530.61
-2026-04-22,tomasz,-15.67,transport,FIRST BUS,1514.94
-2026-04-26,tomasz,-19.46,shopping,ARGOS,1495.48
-2026-04-27,tomasz,-4.48,groceries,ALDI,1491.0
-2026-04-27,tomasz,-20.69,misc,PAYPAL,1470.31
-2026-04-27,tomasz,-30.84,shopping,ARGOS,1439.47
-2026-04-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4173.82
-2026-04-28,tomasz,-3.51,groceries,TESCO,4170.31
-2026-04-28,tomasz,-19.54,shopping,B&M,4150.77
-2026-04-28,tomasz,-28.06,eating_out,PRET,4122.71
-2026-04-30,tomasz,-6.91,leisure,WATERSTONES,4115.8
-2026-04-30,tomasz,-18.0,eating_out,GREGGS,4097.8
-2026-04-30,tomasz,-24.89,shopping,B&M,4072.91
-2026-05-01,tomasz,-4.63,groceries,CO-OP,4068.28
-2026-05-01,tomasz,-15.46,eating_out,GREGGS,4052.82
-2026-05-01,tomasz,-23.99,misc,POST OFFICE,4028.83
-2026-05-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3863.83
-2026-05-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2568.83
-2026-05-02,tomasz,-17.61,groceries,SAINSBURYS,2551.22
-2026-05-02,tomasz,-18.49,transport,NORTHERN RAIL,2532.73
-2026-05-02,tomasz,-28.84,shopping,VINTED,2503.89
-2026-05-03,tomasz,-5.1,groceries,SAINSBURYS,2498.79
-2026-05-03,tomasz,-6.01,health,DENTAL CARE,2492.78
-2026-05-03,tomasz,-8.72,eating_out,JUST EAT,2484.06
-2026-05-03,tomasz,-29.99,subscriptions,PUREGYM,2454.07
-2026-05-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2374.07
-2026-05-05,tomasz,-4.45,groceries,TESCO,2369.62
-2026-05-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2327.62
-2026-05-06,tomasz,-3.44,groceries,LIDL,2324.18
-2026-05-09,tomasz,-5.28,groceries,ALDI,2318.9
-2026-05-09,tomasz,-10.08,shopping,AMAZON,2308.82
-2026-05-09,tomasz,-52.56,phone,VODAFONE,2256.26
-2026-05-10,tomasz,-3.49,eating_out,NANDOS,2252.77
-2026-05-10,tomasz,-6.92,shopping,ARGOS,2245.85
-2026-05-10,tomasz,-10.21,groceries,ALDI,2235.64
-2026-05-10,tomasz,-23.86,transport,FIRST BUS,2211.78
-2026-05-10,tomasz,-46.25,leisure,GARDEN CENTRE,2165.53
-2026-05-11,tomasz,-19.68,health,SUPERDRUG,2145.85
-2026-05-12,tomasz,-12.67,groceries,SAINSBURYS,2133.18
-2026-05-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1888.18
-2026-05-13,tomasz,-3.69,groceries,TESCO,1884.49
-2026-05-13,tomasz,-78.91,misc,CHARITY SHOP,1805.58
-2026-05-14,tomasz,-4.85,groceries,CO-OP,1800.73
-2026-05-15,tomasz,-12.7,transport,UBER,1788.03
-2026-05-15,tomasz,-84.0,utilities,OCTOPUS ENERGY,1704.03
-2026-05-16,tomasz,-4.56,groceries,LIDL,1699.47
-2026-05-17,tomasz,-9.17,groceries,SAINSBURYS,1690.3
-2026-05-17,tomasz,-10.98,eating_out,PRET,1679.32
-2026-05-18,tomasz,-6.15,eating_out,LOCAL PUB,1673.17
-2026-05-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1641.17
-2026-05-19,tomasz,-5.57,leisure,CINEWORLD,1635.6
-2026-05-20,tomasz,-8.11,misc,TIMPSON,1627.49
-2026-05-20,tomasz,-14.79,transport,NORTHERN RAIL,1612.7
-2026-05-21,tomasz,-3.33,eating_out,JUST EAT,1609.37
-2026-05-21,tomasz,-7.46,shopping,VINTED,1601.91
-2026-05-22,tomasz,-5.72,groceries,CO-OP,1596.19
-2026-05-22,tomasz,-12.36,transport,TFL,1583.83
-2026-05-22,tomasz,-12.99,subscriptions,NETFLIX,1570.84
-2026-05-24,tomasz,-5.05,groceries,TESCO,1565.79
-2026-05-24,tomasz,-54.34,transport,TFL,1511.45
-2026-05-25,tomasz,-10.74,groceries,SAINSBURYS,1500.71
-2026-05-25,tomasz,-13.22,misc,PAYPAL,1487.49
-2026-05-26,tomasz,-21.62,misc,PAYPAL,1465.87
-2026-05-27,tomasz,-27.07,leisure,STEAM,1438.8
-2026-05-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4173.15
-2026-05-29,tomasz,-28.75,groceries,CO-OP,4144.4
-2026-05-30,tomasz,-17.81,transport,SHELL,4126.59
-2026-05-31,tomasz,-4.4,groceries,LIDL,4122.19
-2026-05-31,tomasz,-6.15,shopping,ARGOS,4116.04
-2026-05-31,tomasz,-12.19,eating_out,PRET,4103.85
-2026-06-01,tomasz,45.79,refund,AMAZON REFUND,4149.64
-2026-06-01,tomasz,-20.8,transport,NORTHERN RAIL,4128.84
-2026-06-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3963.84
-2026-06-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2668.84
-2026-06-02,tomasz,9.13,refund,AMAZON REFUND,2677.97
-2026-06-03,tomasz,-14.54,transport,NORTHERN RAIL,2663.43
-2026-06-03,tomasz,-29.99,subscriptions,PUREGYM,2633.44
-2026-06-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2553.44
-2026-06-04,tomasz,-20.26,transport,TFL,2533.18
-2026-06-05,tomasz,-6.36,health,DENTAL CARE,2526.82
-2026-06-05,tomasz,-12.83,transport,SHELL,2513.99
-2026-06-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2471.99
-2026-06-06,tomasz,-18.49,shopping,PRIMARK,2453.5
-2026-06-07,tomasz,-8.1,eating_out,GREGGS,2445.4
-2026-06-07,tomasz,-19.97,leisure,CINEWORLD,2425.43
-2026-06-08,tomasz,-3.18,eating_out,DELIVEROO,2422.25
-2026-06-08,tomasz,-16.2,misc,POST OFFICE,2406.05
-2026-06-09,tomasz,-19.16,transport,FIRST BUS,2386.89
-2026-06-09,tomasz,-52.56,phone,VODAFONE,2334.33
-2026-06-10,tomasz,-10.35,leisure,CINEWORLD,2323.98
-2026-06-10,tomasz,-23.18,transport,NORTHERN RAIL,2300.8
-2026-06-12,tomasz,-8.16,groceries,LIDL,2292.64
-2026-06-12,tomasz,-9.76,health,BOOTS PHARMACY,2282.88
-2026-06-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2037.88
-2026-06-14,tomasz,-7.05,groceries,ALDI,2030.83
-2026-06-14,tomasz,-20.38,leisure,GARDEN CENTRE,2010.45
-2026-06-14,tomasz,-22.61,transport,UBER,1987.84
-2026-06-15,tomasz,-67.2,utilities,OCTOPUS ENERGY,1920.64
-2026-06-16,tomasz,-4.02,groceries,ALDI,1916.62
-2026-06-16,tomasz,-15.61,transport,SHELL,1901.01
-2026-06-16,tomasz,-40.8,misc,PAYPAL,1860.21
-2026-06-17,tomasz,-4.55,transport,BP,1855.66
-2026-06-18,tomasz,-3.77,groceries,CO-OP,1851.89
-2026-06-18,tomasz,-21.85,transport,BP,1830.04
-2026-06-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1798.04
-2026-06-20,tomasz,-59.46,leisure,BET365,1738.58
-2026-06-21,tomasz,-11.52,eating_out,NANDOS,1727.06
-2026-06-21,tomasz,-12.94,groceries,LIDL,1714.12
-2026-06-21,tomasz,-16.11,misc,POST OFFICE,1698.01
-2026-06-22,tomasz,-5.95,groceries,LIDL,1692.06
-2026-06-22,tomasz,-12.99,subscriptions,NETFLIX,1679.07
-2026-06-22,tomasz,-17.11,eating_out,NANDOS,1661.96
-2026-06-22,tomasz,-23.21,transport,UBER,1638.75
-2026-06-23,tomasz,-29.76,misc,PAYPAL,1608.99
-2026-06-23,tomasz,-39.67,transport,BP,1569.32
-2026-06-24,tomasz,-16.13,misc,CHARITY SHOP,1553.19
-2026-06-24,tomasz,-23.88,transport,UBER,1529.31
-2026-06-25,tomasz,-9.17,eating_out,NANDOS,1520.14
-2026-06-26,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4254.49
-2026-06-26,tomasz,-12.66,groceries,CO-OP,4241.83
-2026-06-27,tomasz,-11.26,shopping,B&M,4230.57
-2026-06-27,tomasz,-14.24,groceries,SAINSBURYS,4216.33
-2026-06-27,tomasz,-17.89,transport,FIRST BUS,4198.44
-2026-06-27,tomasz,-34.42,misc,POST OFFICE,4164.02
-2026-06-28,tomasz,-4.01,groceries,LIDL,4160.01
-2026-06-28,tomasz,-9.92,health,DENTAL CARE,4150.09
-2026-06-29,tomasz,-8.44,groceries,TESCO,4141.65
-2026-06-29,tomasz,-11.31,eating_out,LOCAL PUB,4130.34
-2026-06-29,tomasz,-24.86,shopping,VINTED,4105.48
-2026-06-30,tomasz,-6.65,groceries,TESCO,4098.83
-2026-06-30,tomasz,-18.52,transport,FIRST BUS,4080.31
-2026-06-30,tomasz,-53.74,eating_out,DELIVEROO,4026.57
-2026-07-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3861.57
-2026-07-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2566.57
-2026-07-02,tomasz,-12.94,groceries,TESCO,2553.63
-2026-07-02,tomasz,-57.11,transport,SHELL,2496.52
-2026-07-03,tomasz,-29.99,subscriptions,PUREGYM,2466.53
-2026-07-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2386.53
-2026-07-04,tomasz,-8.61,eating_out,DELIVEROO,2377.92
-2026-07-04,tomasz,-36.51,shopping,ARGOS,2341.41
-2026-07-05,tomasz,-3.92,eating_out,LOCAL PUB,2337.49
-2026-07-05,tomasz,-5.31,groceries,ALDI,2332.18
-2026-07-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2290.18
-2026-07-05,tomasz,-45.71,leisure,GARDEN CENTRE,2244.47
-2026-07-06,tomasz,-6.18,groceries,LIDL,2238.29
-2026-07-06,tomasz,-14.89,leisure,BET365,2223.4
-2026-07-07,tomasz,-19.95,transport,BP,2203.45
-2026-07-08,tomasz,-22.46,leisure,GARDEN CENTRE,2180.99
-2026-07-09,tomasz,-6.81,eating_out,PRET,2174.18
-2026-07-09,tomasz,-11.56,groceries,CO-OP,2162.62
-2026-07-09,tomasz,-52.56,phone,VODAFONE,2110.06
-2026-07-10,tomasz,-4.87,groceries,SAINSBURYS,2105.19
-2026-07-11,tomasz,-3.01,groceries,SAINSBURYS,2102.18
-2026-07-11,tomasz,-38.14,misc,POST OFFICE,2064.04
-2026-07-12,tomasz,-5.0,shopping,AMAZON,2059.04
-2026-07-12,tomasz,-12.48,groceries,SAINSBURYS,2046.56
-2026-07-12,tomasz,-15.31,eating_out,PRET,2031.25
-2026-07-12,tomasz,-18.99,leisure,WATERSTONES,2012.26
-2026-07-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1767.26
-2026-07-14,tomasz,-5.56,groceries,CO-OP,1761.7
-2026-07-14,tomasz,-13.66,shopping,PRIMARK,1748.04
-2026-07-15,tomasz,-10.84,groceries,SAINSBURYS,1737.2
-2026-07-15,tomasz,-18.04,transport,SHELL,1719.16
-2026-07-15,tomasz,-61.6,utilities,OCTOPUS ENERGY,1657.56
-2026-07-16,tomasz,-49.86,leisure,STEAM,1607.7
-2026-07-17,tomasz,-18.65,groceries,SAINSBURYS,1589.05
-2026-07-18,tomasz,-2.72,eating_out,NANDOS,1586.33
-2026-07-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1554.33
-2026-07-19,tomasz,-12.37,groceries,SAINSBURYS,1541.96
-2026-07-19,tomasz,-13.38,eating_out,PRET,1528.58
-2026-07-19,tomasz,-15.58,transport,SHELL,1513.0
-2026-07-21,tomasz,-9.56,shopping,AMAZON,1503.44
-2026-07-21,tomasz,-17.53,transport,UBER,1485.91
-2026-07-22,tomasz,-10.23,shopping,AMAZON,1475.68
-2026-07-22,tomasz,-12.99,subscriptions,NETFLIX,1462.69
-2026-07-22,tomasz,-24.78,transport,SHELL,1437.91
-2026-07-24,tomasz,-2.63,eating_out,LOCAL PUB,1435.28
-2026-07-25,tomasz,-7.65,eating_out,GREGGS,1427.63
-2026-07-26,tomasz,-6.55,groceries,CO-OP,1421.08
-2026-07-26,tomasz,-16.37,eating_out,GREGGS,1404.71
-2026-07-27,tomasz,-16.29,transport,TFL,1388.42
-2026-07-27,tomasz,-19.37,shopping,VINTED,1369.05
-2026-07-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4103.4
-2026-07-28,tomasz,-9.96,transport,TFL,4093.44
-2026-07-28,tomasz,-11.38,eating_out,JUST EAT,4082.06
-2026-07-28,tomasz,-49.96,leisure,BET365,4032.1
-2026-07-29,tomasz,-20.08,transport,UBER,4012.02
-2026-07-30,tomasz,-4.1,eating_out,LOCAL PUB,4007.92
-2026-07-30,tomasz,-26.23,transport,BP,3981.69
-2026-07-31,tomasz,-5.3,eating_out,JUST EAT,3976.39
-2026-07-31,tomasz,-17.85,transport,BP,3958.54
-2026-08-01,tomasz,-8.12,eating_out,LOCAL PUB,3950.42
-2026-08-01,tomasz,-27.41,misc,CHARITY SHOP,3923.01
-2026-08-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3758.01
-2026-08-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2463.01
-2026-08-02,tomasz,-6.18,shopping,PRIMARK,2456.83
-2026-08-02,tomasz,-8.67,groceries,SAINSBURYS,2448.16
-2026-08-02,tomasz,-17.88,leisure,STEAM,2430.28
-2026-08-03,tomasz,-20.38,transport,UBER,2409.9
-2026-08-03,tomasz,-29.99,subscriptions,PUREGYM,2379.91
-2026-08-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2299.91
-2026-08-04,tomasz,-13.27,leisure,BET365,2286.64
-2026-08-04,tomasz,-15.12,groceries,TESCO,2271.52
-2026-08-05,tomasz,-8.72,groceries,LIDL,2262.8
-2026-08-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2220.8
-2026-08-06,tomasz,-10.86,groceries,CO-OP,2209.94
-2026-08-06,tomasz,-33.39,eating_out,JUST EAT,2176.55
-2026-08-06,tomasz,-54.57,misc,PAYPAL,2121.98
-2026-08-07,tomasz,-8.82,leisure,CINEWORLD,2113.16
-2026-08-08,tomasz,-8.01,groceries,LIDL,2105.15
-2026-08-09,tomasz,-9.43,eating_out,DELIVEROO,2095.72
-2026-08-09,tomasz,-52.56,phone,VODAFONE,2043.16
-2026-08-10,tomasz,-12.66,health,DENTAL CARE,2030.5
-2026-08-10,tomasz,-18.23,transport,BP,2012.27
-2026-08-11,tomasz,-12.94,groceries,TESCO,1999.33
-2026-08-12,tomasz,-7.8,groceries,CO-OP,1991.53
-2026-08-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1746.53
-2026-08-13,tomasz,-22.42,misc,TIMPSON,1724.11
-2026-08-14,tomasz,-15.53,transport,SHELL,1708.58
-2026-08-15,tomasz,-38.91,transport,FIRST BUS,1669.67
-2026-08-15,tomasz,-61.6,utilities,OCTOPUS ENERGY,1608.07
-2026-08-16,tomasz,-8.02,health,DENTAL CARE,1600.05
-2026-08-16,tomasz,-13.29,groceries,ALDI,1586.76
-2026-08-16,tomasz,-17.68,shopping,ARGOS,1569.08
-2026-08-17,tomasz,-22.3,shopping,VINTED,1546.78
-2026-08-18,tomasz,-7.26,groceries,ALDI,1539.52
-2026-08-18,tomasz,-31.56,transport,FIRST BUS,1507.96
-2026-08-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1475.96
-2026-08-19,tomasz,-5.9,groceries,TESCO,1470.06
-2026-08-19,tomasz,-20.71,transport,UBER,1449.35
-2026-08-19,tomasz,-40.2,misc,TIMPSON,1409.15
-2026-08-20,tomasz,-6.62,health,BOOTS PHARMACY,1402.53
-2026-08-20,tomasz,-36.8,leisure,WATERSTONES,1365.73
-2026-08-21,tomasz,-6.32,eating_out,GREGGS,1359.41
-2026-08-21,tomasz,-8.32,groceries,SAINSBURYS,1351.09
-2026-08-22,tomasz,-9.35,eating_out,GREGGS,1341.74
-2026-08-22,tomasz,-12.99,subscriptions,NETFLIX,1328.75
-2026-08-23,tomasz,-8.55,groceries,ALDI,1320.2
-2026-08-23,tomasz,-10.5,shopping,PRIMARK,1309.7
-2026-08-23,tomasz,-21.94,health,BOOTS PHARMACY,1287.76
-2026-08-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4022.11
-2026-08-28,tomasz,-23.96,transport,NORTHERN RAIL,3998.15
-2026-08-29,tomasz,-6.75,shopping,PRIMARK,3991.4
-2026-08-30,tomasz,-8.93,eating_out,DELIVEROO,3982.47
-2026-08-30,tomasz,-10.21,transport,NORTHERN RAIL,3972.26
-2026-08-30,tomasz,-15.38,shopping,B&M,3956.88
-2026-08-31,tomasz,-8.47,groceries,LIDL,3948.41
-2026-08-31,tomasz,-8.58,shopping,VINTED,3939.83
-2026-09-01,tomasz,-18.58,transport,NORTHERN RAIL,3921.25
-2026-09-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3756.25
-2026-09-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2461.25
-2026-09-02,tomasz,-9.33,eating_out,LOCAL PUB,2451.92
-2026-09-02,tomasz,-15.45,leisure,BET365,2436.47
-2026-09-02,tomasz,-27.49,shopping,VINTED,2408.98
-2026-09-03,tomasz,-3.59,groceries,SAINSBURYS,2405.39
-2026-09-03,tomasz,-29.99,subscriptions,PUREGYM,2375.4
-2026-09-03,tomasz,-45.0,leisure,WATERSTONES,2330.4
-2026-09-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2250.4
-2026-09-04,tomasz,-6.25,groceries,SAINSBURYS,2244.15
-2026-09-04,tomasz,-24.85,transport,BP,2219.3
-2026-09-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2177.3
-2026-09-08,tomasz,-8.45,groceries,CO-OP,2168.85
-2026-09-08,tomasz,-11.56,transport,TFL,2157.29
-2026-09-09,tomasz,-52.56,phone,VODAFONE,2104.73
-2026-09-10,tomasz,-5.45,transport,UBER,2099.28
-2026-09-12,tomasz,-16.04,eating_out,GREGGS,2083.24
-2026-09-12,tomasz,-16.81,transport,FIRST BUS,2066.43
-2026-09-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1821.43
-2026-09-13,tomasz,-2.42,groceries,CO-OP,1819.01
-2026-09-15,tomasz,-11.43,eating_out,PRET,1807.58
-2026-09-15,tomasz,-78.4,utilities,OCTOPUS ENERGY,1729.18
-2026-09-16,tomasz,-33.03,misc,CHARITY SHOP,1696.15
-2026-09-17,tomasz,-19.13,transport,FIRST BUS,1677.02
-2026-09-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1645.02
-2026-09-19,tomasz,-7.98,groceries,CO-OP,1637.04
-2026-09-20,tomasz,-6.0,groceries,TESCO,1631.04
-2026-09-20,tomasz,-24.46,shopping,PRIMARK,1606.58
-2026-09-22,tomasz,-12.99,subscriptions,NETFLIX,1593.59
-2026-09-23,tomasz,-13.77,eating_out,NANDOS,1579.82
-2026-09-23,tomasz,-30.85,transport,UBER,1548.97
-2026-09-24,tomasz,-15.06,transport,BP,1533.91
-2026-09-24,tomasz,-15.7,groceries,TESCO,1518.21
-2026-09-24,tomasz,-17.43,health,SUPERDRUG,1500.78
-2026-09-25,tomasz,-7.6,groceries,SAINSBURYS,1493.18
-2026-09-26,tomasz,-8.35,groceries,ALDI,1484.83
-2026-09-26,tomasz,-14.09,eating_out,LOCAL PUB,1470.74
-2026-09-26,tomasz,-15.27,shopping,B&M,1455.47
-2026-09-27,tomasz,-11.03,groceries,TESCO,1444.44
-2026-09-27,tomasz,-12.94,shopping,ARGOS,1431.5
-2026-09-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4165.85
-2026-09-28,tomasz,-3.03,eating_out,JUST EAT,4162.82
-2026-09-29,tomasz,-7.35,groceries,LIDL,4155.47
-2026-10-01,tomasz,-8.49,groceries,TESCO,4146.98
-2026-10-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3981.98
-2026-10-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2686.98
-2026-10-03,tomasz,-7.31,groceries,CO-OP,2679.67
-2026-10-03,tomasz,-9.2,misc,POST OFFICE,2670.47
-2026-10-03,tomasz,-21.79,leisure,STEAM,2648.68
-2026-10-03,tomasz,-23.84,shopping,AMAZON,2624.84
-2026-10-03,tomasz,-29.99,subscriptions,PUREGYM,2594.85
-2026-10-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2514.85
-2026-10-04,tomasz,-12.69,groceries,TESCO,2502.16
-2026-10-05,tomasz,-11.26,transport,TFL,2490.9
-2026-10-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2448.9
-2026-10-07,tomasz,-10.06,groceries,LIDL,2438.84
-2026-10-08,tomasz,-15.02,transport,UBER,2423.82
-2026-10-09,tomasz,-3.5,groceries,LIDL,2420.32
-2026-10-09,tomasz,-51.43,shopping,AMAZON,2368.89
-2026-10-09,tomasz,-52.56,phone,VODAFONE,2316.33
-2026-10-10,tomasz,-10.32,shopping,ARGOS,2306.01
-2026-10-10,tomasz,-10.52,transport,TFL,2295.49
-2026-10-10,tomasz,-11.97,groceries,LIDL,2283.52
-2026-10-10,tomasz,-21.83,leisure,WATERSTONES,2261.69
-2026-10-11,tomasz,-4.0,groceries,SAINSBURYS,2257.69
-2026-10-11,tomasz,-7.32,eating_out,PRET,2250.37
-2026-10-12,tomasz,-27.39,misc,TIMPSON,2222.98
-2026-10-12,tomasz,-47.23,leisure,BET365,2175.75
-2026-10-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1930.75
-2026-10-13,tomasz,-6.17,groceries,CO-OP,1924.58
-2026-10-14,tomasz,-43.02,transport,BP,1881.56
-2026-10-15,tomasz,-8.23,groceries,SAINSBURYS,1873.33
-2026-10-15,tomasz,-9.45,health,SUPERDRUG,1863.88
-2026-10-15,tomasz,-112.0,utilities,OCTOPUS ENERGY,1751.88
-2026-10-16,tomasz,-14.01,groceries,SAINSBURYS,1737.87
-2026-10-17,tomasz,-5.16,groceries,TESCO,1732.71
-2026-10-18,tomasz,-7.63,eating_out,PRET,1725.08
-2026-10-18,tomasz,-14.0,health,DENTAL CARE,1711.08
-2026-10-18,tomasz,-18.64,leisure,STEAM,1692.44
-2026-10-18,tomasz,-19.89,transport,FIRST BUS,1672.55
-2026-10-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1640.55
-2026-10-19,tomasz,-19.09,transport,UBER,1621.46
-2026-10-20,tomasz,-4.07,groceries,ALDI,1617.39
-2026-10-22,tomasz,-12.99,subscriptions,NETFLIX,1604.4
-2026-10-23,tomasz,-5.36,eating_out,JUST EAT,1599.04
-2026-10-23,tomasz,-22.24,misc,PAYPAL,1576.8
-2026-10-24,tomasz,-11.83,transport,TFL,1564.97
-2026-10-24,tomasz,-17.41,shopping,ARGOS,1547.56
-2026-10-24,tomasz,-19.45,groceries,SAINSBURYS,1528.11
-2026-10-25,tomasz,-6.18,shopping,PRIMARK,1521.93
-2026-10-25,tomasz,-10.13,groceries,LIDL,1511.8
-2026-10-25,tomasz,-10.99,eating_out,LOCAL PUB,1500.81
-2026-10-26,tomasz,-4.61,eating_out,DELIVEROO,1496.2
-2026-10-26,tomasz,-15.66,groceries,CO-OP,1480.54
-2026-10-27,tomasz,-8.57,transport,FIRST BUS,1471.97
-2026-10-27,tomasz,-9.56,shopping,AMAZON,1462.41
-2026-10-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4196.76
-2026-10-28,tomasz,-14.86,transport,TFL,4181.9
-2026-10-29,tomasz,-12.95,groceries,LIDL,4168.95
-2026-11-01,tomasz,-6.36,groceries,ALDI,4162.59
-2026-11-01,tomasz,-7.32,shopping,B&M,4155.27
-2026-11-01,tomasz,-7.65,eating_out,GREGGS,4147.62
-2026-11-01,tomasz,-165.0,housing,CITY COUNCIL TAX,3982.62
-2026-11-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2687.62
-2026-11-02,tomasz,-9.84,groceries,TESCO,2677.78
-2026-11-02,tomasz,-13.6,transport,BP,2664.18
-2026-11-03,tomasz,-14.12,transport,TFL,2650.06
-2026-11-03,tomasz,-29.99,subscriptions,PUREGYM,2620.07
-2026-11-03,tomasz,-80.0,savings,TRANSFER TO SAVINGS,2540.07
-2026-11-04,tomasz,-8.75,health,BOOTS PHARMACY,2531.32
-2026-11-05,tomasz,-4.56,groceries,TESCO,2526.76
-2026-11-05,tomasz,-27.47,misc,PAYPAL,2499.29
-2026-11-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2457.29
-2026-11-06,tomasz,-7.29,groceries,LIDL,2450.0
+2025-11-07,tomasz,-17.34,transport,FIRST BUS,2539.91
+2025-11-08,tomasz,-10.21,groceries,TESCO,2529.7
+2025-11-08,tomasz,-16.18,health,SUPERDRUG,2513.52
+2025-11-08,tomasz,-32.22,leisure,STEAM,2481.3
+2025-11-09,tomasz,-2.62,groceries,ALDI,2478.68
+2025-11-09,tomasz,-20.64,shopping,ARGOS,2458.04
+2025-11-09,tomasz,-52.56,phone,VODAFONE,2405.48
+2025-11-11,tomasz,-12.31,health,SUPERDRUG,2393.17
+2025-11-12,tomasz,-7.33,health,BOOTS PHARMACY,2385.84
+2025-11-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2140.84
+2025-11-14,tomasz,-10.51,shopping,BOOTS,2130.33
+2025-11-14,tomasz,-16.07,transport,TFL,2114.26
+2025-11-15,tomasz,-4.76,groceries,ALDI,2109.5
+2025-11-15,tomasz,-16.6,shopping,PRIMARK,2092.9
+2025-11-15,tomasz,-151.2,utilities,OCTOPUS ENERGY,1941.7
+2025-11-16,tomasz,-2.94,groceries,LIDL,1938.76
+2025-11-16,tomasz,-22.72,eating_out,DELIVEROO,1916.04
+2025-11-16,tomasz,-34.25,leisure,CINEWORLD,1881.79
+2025-11-17,tomasz,-11.97,groceries,SAINSBURYS,1869.82
+2025-11-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1837.82
+2025-11-19,tomasz,-12.94,misc,CHARITY SHOP,1824.88
+2025-11-19,tomasz,-16.59,transport,UBER,1808.29
+2025-11-21,tomasz,-18.58,transport,BP,1789.71
+2025-11-22,tomasz,-2.45,groceries,LIDL,1787.26
+2025-11-22,tomasz,-12.99,subscriptions,NETFLIX,1774.27
+2025-11-24,tomasz,-10.83,leisure,CINEWORLD,1763.44
+2025-11-24,tomasz,-16.24,shopping,ARGOS,1747.2
+2025-11-25,tomasz,-9.45,leisure,WATERSTONES,1737.75
+2025-11-26,tomasz,-13.05,health,BOOTS PHARMACY,1724.7
+2025-11-26,tomasz,-13.57,groceries,SAINSBURYS,1711.13
+2025-11-27,tomasz,-6.45,misc,CHARITY SHOP,1704.68
+2025-11-27,tomasz,-7.17,shopping,BOOTS,1697.51
+2025-11-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4431.86
+2025-11-28,tomasz,-13.68,transport,BP,4418.18
+2025-11-30,tomasz,-13.04,shopping,B&M,4405.14
+2025-11-30,tomasz,-33.76,eating_out,NANDOS,4371.38
+2025-12-01,tomasz,-12.47,transport,BP,4358.91
+2025-12-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4193.91
+2025-12-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2898.91
+2025-12-02,tomasz,-34.47,transport,BP,2864.44
+2025-12-03,tomasz,-5.49,leisure,CINEWORLD,2858.95
+2025-12-03,tomasz,-9.19,groceries,ALDI,2849.76
+2025-12-03,tomasz,-17.27,transport,NORTHERN RAIL,2832.49
+2025-12-03,tomasz,-29.99,subscriptions,PUREGYM,2802.5
+2025-12-04,tomasz,-28.95,transport,NORTHERN RAIL,2773.55
+2025-12-05,tomasz,-3.34,groceries,CO-OP,2770.21
+2025-12-05,tomasz,-15.01,leisure,CINEWORLD,2755.2
+2025-12-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2713.2
+2025-12-06,tomasz,-12.16,transport,BP,2701.04
+2025-12-06,tomasz,-27.2,groceries,TESCO,2673.84
+2025-12-07,tomasz,-17.08,groceries,CO-OP,2656.76
+2025-12-07,tomasz,-39.21,misc,PAYPAL,2617.55
+2025-12-07,tomasz,-41.02,shopping,ARGOS,2576.53
+2025-12-09,tomasz,-6.97,misc,CHARITY SHOP,2569.56
+2025-12-09,tomasz,-52.56,phone,VODAFONE,2517.0
+2025-12-10,tomasz,-8.63,misc,PAYPAL,2508.37
+2025-12-11,tomasz,-13.23,groceries,LIDL,2495.14
+2025-12-12,tomasz,-36.75,transport,FIRST BUS,2458.39
+2025-12-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2213.39
+2025-12-13,tomasz,-30.75,shopping,AMAZON,2182.64
+2025-12-13,tomasz,-32.57,transport,SHELL,2150.07
+2025-12-14,tomasz,-3.33,groceries,TESCO,2146.74
+2025-12-14,tomasz,-7.59,eating_out,DELIVEROO,2139.15
+2025-12-14,tomasz,-29.83,transport,FIRST BUS,2109.32
+2025-12-15,tomasz,-10.17,groceries,LIDL,2099.15
+2025-12-15,tomasz,-179.2,utilities,OCTOPUS ENERGY,1919.95
+2025-12-16,tomasz,-32.68,transport,BP,1887.27
+2025-12-17,tomasz,-7.4,groceries,ALDI,1879.87
+2025-12-17,tomasz,-10.74,leisure,WATERSTONES,1869.13
+2025-12-18,tomasz,-17.49,transport,NORTHERN RAIL,1851.64
+2025-12-18,tomasz,-21.79,leisure,STEAM,1829.85
+2025-12-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1797.85
+2025-12-20,tomasz,-6.33,groceries,ALDI,1791.52
+2025-12-20,tomasz,-11.2,shopping,VINTED,1780.32
+2025-12-20,tomasz,-26.56,eating_out,PRET,1753.76
+2025-12-21,tomasz,-11.76,eating_out,DELIVEROO,1742.0
+2025-12-21,tomasz,-11.87,groceries,LIDL,1730.13
+2025-12-22,tomasz,-12.99,subscriptions,NETFLIX,1717.14
+2025-12-22,tomasz,-37.44,leisure,GARDEN CENTRE,1679.7
+2025-12-25,tomasz,-8.96,shopping,AMAZON,1670.74
+2025-12-25,tomasz,-9.24,leisure,BET365,1661.5
+2025-12-25,tomasz,-9.38,transport,BP,1652.12
+2025-12-25,tomasz,-13.11,groceries,CO-OP,1639.01
+2025-12-26,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4373.36
+2025-12-26,tomasz,-24.29,transport,FIRST BUS,4349.07
+2025-12-27,tomasz,47.35,refund,AMAZON REFUND,4396.42
+2025-12-27,tomasz,-7.31,groceries,CO-OP,4389.11
+2025-12-28,tomasz,-3.02,groceries,SAINSBURYS,4386.09
+2025-12-28,tomasz,-11.86,misc,POST OFFICE,4374.23
+2025-12-28,tomasz,-18.09,eating_out,LOCAL PUB,4356.14
+2025-12-28,tomasz,-20.92,health,BOOTS PHARMACY,4335.22
+2025-12-29,tomasz,-43.38,groceries,LIDL,4291.84
+2025-12-30,tomasz,-28.22,transport,SHELL,4263.62
+2025-12-31,tomasz,-10.47,misc,TIMPSON,4253.15
+2025-12-31,tomasz,-37.47,shopping,B&M,4215.68
+2026-01-01,tomasz,-9.27,groceries,ALDI,4206.41
+2026-01-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4041.41
+2026-01-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,2746.41
+2026-01-03,tomasz,-2.67,groceries,SAINSBURYS,2743.74
+2026-01-03,tomasz,-29.99,subscriptions,PUREGYM,2713.75
+2026-01-04,tomasz,-3.33,leisure,CINEWORLD,2710.42
+2026-01-04,tomasz,-8.64,groceries,ALDI,2701.78
+2026-01-05,tomasz,-5.53,eating_out,DELIVEROO,2696.25
+2026-01-05,tomasz,-9.21,groceries,ALDI,2687.04
+2026-01-05,tomasz,-17.85,shopping,AMAZON,2669.19
+2026-01-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2627.19
+2026-01-06,tomasz,-6.47,eating_out,PRET,2620.72
+2026-01-07,tomasz,-4.58,groceries,LIDL,2616.14
+2026-01-07,tomasz,-7.29,eating_out,DELIVEROO,2608.85
+2026-01-09,tomasz,-11.64,eating_out,LOCAL PUB,2597.21
+2026-01-09,tomasz,-52.56,phone,VODAFONE,2544.65
+2026-01-10,tomasz,-6.19,groceries,TESCO,2538.46
+2026-01-10,tomasz,-10.49,eating_out,DELIVEROO,2527.97
+2026-01-11,tomasz,-3.25,eating_out,NANDOS,2524.72
+2026-01-11,tomasz,-12.84,groceries,ALDI,2511.88
+2026-01-12,tomasz,-7.88,leisure,WATERSTONES,2504.0
+2026-01-12,tomasz,-52.14,transport,NORTHERN RAIL,2451.86
+2026-01-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2206.86
+2026-01-13,tomasz,-41.91,misc,CHARITY SHOP,2164.95
+2026-01-15,tomasz,-15.78,transport,FIRST BUS,2149.17
+2026-01-15,tomasz,-190.4,utilities,OCTOPUS ENERGY,1958.77
+2026-01-16,tomasz,-5.54,groceries,ALDI,1953.23
+2026-01-17,tomasz,-8.28,eating_out,GREGGS,1944.95
+2026-01-17,tomasz,-9.5,shopping,BOOTS,1935.45
+2026-01-17,tomasz,-15.38,groceries,ALDI,1920.07
+2026-01-18,tomasz,-5.14,groceries,LIDL,1914.93
+2026-01-18,tomasz,-10.75,eating_out,DELIVEROO,1904.18
+2026-01-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1872.18
+2026-01-19,tomasz,-32.26,transport,FIRST BUS,1839.92
+2026-01-20,tomasz,-6.23,groceries,ALDI,1833.69
+2026-01-22,tomasz,-12.99,subscriptions,NETFLIX,1820.7
+2026-01-22,tomasz,-18.19,eating_out,NANDOS,1802.51
+2026-01-22,tomasz,-30.74,leisure,WATERSTONES,1771.77
+2026-01-23,tomasz,-4.2,eating_out,DELIVEROO,1767.57
+2026-01-24,tomasz,-2.73,groceries,LIDL,1764.84
+2026-01-25,tomasz,-12.21,transport,FIRST BUS,1752.63
+2026-01-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4486.98
+2026-01-28,tomasz,-3.62,groceries,CO-OP,4483.36
+2026-01-28,tomasz,-5.28,shopping,VINTED,4478.08
+2026-01-28,tomasz,-25.71,transport,FIRST BUS,4452.37
+2026-01-29,tomasz,-4.78,groceries,LIDL,4447.59
+2026-01-29,tomasz,-26.13,misc,POST OFFICE,4421.46
+2026-01-30,tomasz,-9.37,eating_out,PRET,4412.09
+2026-01-30,tomasz,-14.73,leisure,CINEWORLD,4397.36
+2026-02-01,tomasz,-10.27,eating_out,NANDOS,4387.09
+2026-02-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,3092.09
+2026-02-02,tomasz,-17.84,shopping,AMAZON,3074.25
+2026-02-02,tomasz,-28.66,transport,SHELL,3045.59
+2026-02-03,tomasz,-5.8,eating_out,DELIVEROO,3039.79
+2026-02-03,tomasz,-29.99,subscriptions,PUREGYM,3009.8
+2026-02-04,tomasz,-24.33,eating_out,DELIVEROO,2985.47
+2026-02-04,tomasz,-27.48,transport,BP,2957.99
+2026-02-05,tomasz,-9.39,transport,UBER,2948.6
+2026-02-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2906.6
+2026-02-06,tomasz,-6.81,groceries,LIDL,2899.79
+2026-02-07,tomasz,-6.47,groceries,LIDL,2893.32
+2026-02-07,tomasz,-12.4,misc,POST OFFICE,2880.92
+2026-02-07,tomasz,-15.45,shopping,B&M,2865.47
+2026-02-08,tomasz,-6.29,shopping,B&M,2859.18
+2026-02-08,tomasz,-10.55,transport,TFL,2848.63
+2026-02-08,tomasz,-10.73,groceries,SAINSBURYS,2837.9
+2026-02-08,tomasz,-13.52,leisure,GARDEN CENTRE,2824.38
+2026-02-09,tomasz,-14.17,health,BOOTS PHARMACY,2810.21
+2026-02-09,tomasz,-52.56,phone,VODAFONE,2757.65
+2026-02-10,tomasz,-6.07,eating_out,PRET,2751.58
+2026-02-11,tomasz,-8.24,groceries,ALDI,2743.34
+2026-02-11,tomasz,-56.48,transport,TFL,2686.86
+2026-02-12,tomasz,-16.15,transport,NORTHERN RAIL,2670.71
+2026-02-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2425.71
+2026-02-13,tomasz,-22.58,groceries,CO-OP,2403.13
+2026-02-14,tomasz,-2.95,groceries,LIDL,2400.18
+2026-02-14,tomasz,-17.89,eating_out,LOCAL PUB,2382.29
+2026-02-15,tomasz,-4.08,groceries,LIDL,2378.21
+2026-02-15,tomasz,-5.72,shopping,ARGOS,2372.49
+2026-02-15,tomasz,-8.64,leisure,STEAM,2363.85
+2026-02-15,tomasz,-19.2,transport,BP,2344.65
+2026-02-15,tomasz,-168.0,utilities,OCTOPUS ENERGY,2176.65
+2026-02-16,tomasz,-7.56,transport,NORTHERN RAIL,2169.09
+2026-02-16,tomasz,-16.23,groceries,TESCO,2152.86
+2026-02-17,tomasz,-9.49,misc,TIMPSON,2143.37
+2026-02-18,tomasz,-9.86,groceries,CO-OP,2133.51
+2026-02-18,tomasz,-20.58,transport,FIRST BUS,2112.93
+2026-02-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,2080.93
+2026-02-19,tomasz,-8.94,shopping,BOOTS,2071.99
+2026-02-19,tomasz,-34.97,misc,CHARITY SHOP,2037.02
+2026-02-20,tomasz,-11.52,groceries,CO-OP,2025.5
+2026-02-20,tomasz,-114.07,leisure,GARDEN CENTRE,1911.43
+2026-02-21,tomasz,-54.11,transport,BP,1857.32
+2026-02-22,tomasz,-2.98,eating_out,DELIVEROO,1854.34
+2026-02-22,tomasz,-12.0,groceries,ALDI,1842.34
+2026-02-22,tomasz,-12.99,subscriptions,NETFLIX,1829.35
+2026-02-23,tomasz,-24.07,transport,FIRST BUS,1805.28
+2026-02-24,tomasz,-12.18,eating_out,DELIVEROO,1793.1
+2026-02-25,tomasz,-11.05,groceries,SAINSBURYS,1782.05
+2026-02-25,tomasz,-23.25,leisure,WATERSTONES,1758.8
+2026-02-27,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4493.15
+2026-02-27,tomasz,-6.22,groceries,SAINSBURYS,4486.93
+2026-02-27,tomasz,-25.6,leisure,BET365,4461.33
+2026-02-28,tomasz,-10.15,leisure,STEAM,4451.18
+2026-02-28,tomasz,-16.73,eating_out,LOCAL PUB,4434.45
+2026-02-28,tomasz,-18.93,transport,TFL,4415.52
+2026-03-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,3120.52
+2026-03-02,tomasz,-8.98,misc,CHARITY SHOP,3111.54
+2026-03-02,tomasz,-48.22,transport,UBER,3063.32
+2026-03-03,tomasz,-29.99,subscriptions,PUREGYM,3033.33
+2026-03-05,tomasz,-8.57,groceries,ALDI,3024.76
+2026-03-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2982.76
+2026-03-06,tomasz,-2.9,groceries,ALDI,2979.86
+2026-03-07,tomasz,-2.14,groceries,TESCO,2977.72
+2026-03-07,tomasz,-6.9,eating_out,NANDOS,2970.82
+2026-03-07,tomasz,-13.53,leisure,BET365,2957.29
+2026-03-08,tomasz,-10.07,groceries,TESCO,2947.22
+2026-03-08,tomasz,-24.16,transport,FIRST BUS,2923.06
+2026-03-09,tomasz,-8.56,eating_out,LOCAL PUB,2914.5
+2026-03-09,tomasz,-52.56,phone,VODAFONE,2861.94
+2026-03-10,tomasz,-4.41,shopping,AMAZON,2857.53
+2026-03-10,tomasz,-7.59,groceries,TESCO,2849.94
+2026-03-10,tomasz,-14.13,transport,BP,2835.81
+2026-03-11,tomasz,-5.03,misc,PAYPAL,2830.78
+2026-03-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2585.78
+2026-03-13,tomasz,-8.18,eating_out,JUST EAT,2577.6
+2026-03-13,tomasz,-10.38,health,BOOTS PHARMACY,2567.22
+2026-03-15,tomasz,-6.01,groceries,CO-OP,2561.21
+2026-03-15,tomasz,-23.7,shopping,PRIMARK,2537.51
+2026-03-15,tomasz,-31.79,misc,POST OFFICE,2505.72
+2026-03-15,tomasz,-140.0,utilities,OCTOPUS ENERGY,2365.72
+2026-03-16,tomasz,-6.33,eating_out,LOCAL PUB,2359.39
+2026-03-17,tomasz,-9.21,misc,PAYPAL,2350.18
+2026-03-18,tomasz,-26.35,misc,TIMPSON,2323.83
+2026-03-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,2291.83
+2026-03-19,tomasz,-8.6,transport,NORTHERN RAIL,2283.23
+2026-03-21,tomasz,-7.37,groceries,ALDI,2275.86
+2026-03-21,tomasz,-40.53,eating_out,JUST EAT,2235.33
+2026-03-22,tomasz,-6.31,eating_out,DELIVEROO,2229.02
+2026-03-22,tomasz,-11.89,shopping,VINTED,2217.13
+2026-03-22,tomasz,-12.28,groceries,TESCO,2204.85
+2026-03-22,tomasz,-12.99,subscriptions,NETFLIX,2191.86
+2026-03-22,tomasz,-28.3,leisure,BET365,2163.56
+2026-03-23,tomasz,-17.72,shopping,BOOTS,2145.84
+2026-03-23,tomasz,-18.33,leisure,CINEWORLD,2127.51
+2026-03-23,tomasz,-28.79,transport,SHELL,2098.72
+2026-03-24,tomasz,-13.09,transport,BP,2085.63
+2026-03-24,tomasz,-14.13,groceries,LIDL,2071.5
+2026-03-25,tomasz,-26.62,transport,UBER,2044.88
+2026-03-25,tomasz,-60.12,shopping,BOOTS,1984.76
+2026-03-27,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4719.11
+2026-03-27,tomasz,-5.71,eating_out,DELIVEROO,4713.4
+2026-03-28,tomasz,-4.35,eating_out,GREGGS,4709.05
+2026-03-28,tomasz,-5.43,groceries,TESCO,4703.62
+2026-03-28,tomasz,-9.58,transport,TFL,4694.04
+2026-03-28,tomasz,-13.12,leisure,CINEWORLD,4680.92
+2026-03-29,tomasz,-5.06,eating_out,GREGGS,4675.86
+2026-03-30,tomasz,-5.27,transport,SHELL,4670.59
+2026-03-30,tomasz,-19.1,leisure,STEAM,4651.49
+2026-03-31,tomasz,-33.66,transport,FIRST BUS,4617.83
+2026-04-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4452.83
+2026-04-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,3157.83
+2026-04-03,tomasz,-4.67,groceries,SAINSBURYS,3153.16
+2026-04-03,tomasz,-29.99,subscriptions,PUREGYM,3123.17
+2026-04-04,tomasz,-9.15,eating_out,LOCAL PUB,3114.02
+2026-04-04,tomasz,-14.14,leisure,CINEWORLD,3099.88
+2026-04-05,tomasz,-8.44,transport,FIRST BUS,3091.44
+2026-04-05,tomasz,-11.15,eating_out,PRET,3080.29
+2026-04-05,tomasz,-42.0,utilities,YORKSHIRE WATER,3038.29
+2026-04-06,tomasz,-5.23,groceries,LIDL,3033.06
+2026-04-06,tomasz,-22.38,transport,TFL,3010.68
+2026-04-08,tomasz,-6.1,shopping,VINTED,3004.58
+2026-04-08,tomasz,-9.74,eating_out,PRET,2994.84
+2026-04-09,tomasz,-3.53,groceries,TESCO,2991.31
+2026-04-09,tomasz,-52.56,phone,VODAFONE,2938.75
+2026-04-10,tomasz,-8.01,health,BOOTS PHARMACY,2930.74
+2026-04-10,tomasz,-13.04,transport,BP,2917.7
+2026-04-10,tomasz,-20.25,groceries,SAINSBURYS,2897.45
+2026-04-11,tomasz,-4.72,groceries,TESCO,2892.73
+2026-04-11,tomasz,-33.44,misc,TIMPSON,2859.29
+2026-04-12,tomasz,-44.49,leisure,GARDEN CENTRE,2814.8
+2026-04-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2569.8
+2026-04-14,tomasz,14.45,refund,AMAZON REFUND,2584.25
+2026-04-14,tomasz,-6.9,eating_out,NANDOS,2577.35
+2026-04-14,tomasz,-8.4,groceries,TESCO,2568.95
+2026-04-15,tomasz,-7.6,groceries,CO-OP,2561.35
+2026-04-15,tomasz,-13.6,eating_out,NANDOS,2547.75
+2026-04-15,tomasz,-112.0,utilities,OCTOPUS ENERGY,2435.75
+2026-04-16,tomasz,-7.1,eating_out,NANDOS,2428.65
+2026-04-18,tomasz,-8.44,groceries,TESCO,2420.21
+2026-04-18,tomasz,-10.43,eating_out,LOCAL PUB,2409.78
+2026-04-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,2377.78
+2026-04-19,tomasz,-23.56,shopping,AMAZON,2354.22
+2026-04-20,tomasz,-22.61,groceries,LIDL,2331.61
+2026-04-20,tomasz,-42.91,shopping,ARGOS,2288.7
+2026-04-21,tomasz,-5.65,groceries,ALDI,2283.05
+2026-04-21,tomasz,-29.45,transport,NORTHERN RAIL,2253.6
+2026-04-22,tomasz,-12.99,subscriptions,NETFLIX,2240.61
+2026-04-22,tomasz,-15.67,transport,FIRST BUS,2224.94
+2026-04-26,tomasz,-19.46,shopping,ARGOS,2205.48
+2026-04-27,tomasz,-4.48,groceries,ALDI,2201.0
+2026-04-27,tomasz,-20.69,misc,PAYPAL,2180.31
+2026-04-27,tomasz,-30.84,shopping,ARGOS,2149.47
+2026-04-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4883.82
+2026-04-28,tomasz,-3.51,groceries,TESCO,4880.31
+2026-04-28,tomasz,-19.54,shopping,B&M,4860.77
+2026-04-28,tomasz,-28.06,eating_out,PRET,4832.71
+2026-04-30,tomasz,-6.91,leisure,WATERSTONES,4825.8
+2026-04-30,tomasz,-18.0,eating_out,GREGGS,4807.8
+2026-04-30,tomasz,-24.89,shopping,B&M,4782.91
+2026-05-01,tomasz,-4.63,groceries,CO-OP,4778.28
+2026-05-01,tomasz,-15.46,eating_out,GREGGS,4762.82
+2026-05-01,tomasz,-23.99,misc,POST OFFICE,4738.83
+2026-05-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4573.83
+2026-05-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,3278.83
+2026-05-02,tomasz,-17.61,groceries,SAINSBURYS,3261.22
+2026-05-02,tomasz,-18.49,transport,NORTHERN RAIL,3242.73
+2026-05-02,tomasz,-28.84,shopping,VINTED,3213.89
+2026-05-03,tomasz,-5.1,groceries,SAINSBURYS,3208.79
+2026-05-03,tomasz,-6.01,health,DENTAL CARE,3202.78
+2026-05-03,tomasz,-8.72,eating_out,JUST EAT,3194.06
+2026-05-03,tomasz,-29.99,subscriptions,PUREGYM,3164.07
+2026-05-05,tomasz,-4.45,groceries,TESCO,3159.62
+2026-05-05,tomasz,-42.0,utilities,YORKSHIRE WATER,3117.62
+2026-05-06,tomasz,-3.44,groceries,LIDL,3114.18
+2026-05-09,tomasz,-5.28,groceries,ALDI,3108.9
+2026-05-09,tomasz,-10.08,shopping,AMAZON,3098.82
+2026-05-09,tomasz,-52.56,phone,VODAFONE,3046.26
+2026-05-10,tomasz,-3.49,eating_out,NANDOS,3042.77
+2026-05-10,tomasz,-6.92,shopping,ARGOS,3035.85
+2026-05-10,tomasz,-10.21,groceries,ALDI,3025.64
+2026-05-10,tomasz,-23.86,transport,FIRST BUS,3001.78
+2026-05-10,tomasz,-46.25,leisure,GARDEN CENTRE,2955.53
+2026-05-11,tomasz,-19.68,health,SUPERDRUG,2935.85
+2026-05-12,tomasz,-12.67,groceries,SAINSBURYS,2923.18
+2026-05-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2678.18
+2026-05-13,tomasz,-3.69,groceries,TESCO,2674.49
+2026-05-13,tomasz,-78.91,misc,CHARITY SHOP,2595.58
+2026-05-14,tomasz,-4.85,groceries,CO-OP,2590.73
+2026-05-15,tomasz,-12.7,transport,UBER,2578.03
+2026-05-15,tomasz,-84.0,utilities,OCTOPUS ENERGY,2494.03
+2026-05-16,tomasz,-4.56,groceries,LIDL,2489.47
+2026-05-17,tomasz,-9.17,groceries,SAINSBURYS,2480.3
+2026-05-17,tomasz,-10.98,eating_out,PRET,2469.32
+2026-05-18,tomasz,-6.15,eating_out,LOCAL PUB,2463.17
+2026-05-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,2431.17
+2026-05-19,tomasz,-5.57,leisure,CINEWORLD,2425.6
+2026-05-20,tomasz,-8.11,misc,TIMPSON,2417.49
+2026-05-20,tomasz,-14.79,transport,NORTHERN RAIL,2402.7
+2026-05-21,tomasz,-3.33,eating_out,JUST EAT,2399.37
+2026-05-21,tomasz,-7.46,shopping,VINTED,2391.91
+2026-05-22,tomasz,-5.72,groceries,CO-OP,2386.19
+2026-05-22,tomasz,-12.36,transport,TFL,2373.83
+2026-05-22,tomasz,-12.99,subscriptions,NETFLIX,2360.84
+2026-05-24,tomasz,-5.05,groceries,TESCO,2355.79
+2026-05-24,tomasz,-54.34,transport,TFL,2301.45
+2026-05-25,tomasz,-10.74,groceries,SAINSBURYS,2290.71
+2026-05-25,tomasz,-13.22,misc,PAYPAL,2277.49
+2026-05-26,tomasz,-21.62,misc,PAYPAL,2255.87
+2026-05-27,tomasz,-27.07,leisure,STEAM,2228.8
+2026-05-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4963.15
+2026-05-29,tomasz,-28.75,groceries,CO-OP,4934.4
+2026-05-30,tomasz,-17.81,transport,SHELL,4916.59
+2026-05-31,tomasz,-4.4,groceries,LIDL,4912.19
+2026-05-31,tomasz,-6.15,shopping,ARGOS,4906.04
+2026-05-31,tomasz,-12.19,eating_out,PRET,4893.85
+2026-06-01,tomasz,45.79,refund,AMAZON REFUND,4939.64
+2026-06-01,tomasz,-20.8,transport,NORTHERN RAIL,4918.84
+2026-06-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4753.84
+2026-06-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,3458.84
+2026-06-02,tomasz,9.13,refund,AMAZON REFUND,3467.97
+2026-06-03,tomasz,-14.54,transport,NORTHERN RAIL,3453.43
+2026-06-03,tomasz,-29.99,subscriptions,PUREGYM,3423.44
+2026-06-04,tomasz,-20.26,transport,TFL,3403.18
+2026-06-05,tomasz,-6.36,health,DENTAL CARE,3396.82
+2026-06-05,tomasz,-12.83,transport,SHELL,3383.99
+2026-06-05,tomasz,-42.0,utilities,YORKSHIRE WATER,3341.99
+2026-06-06,tomasz,-18.49,shopping,PRIMARK,3323.5
+2026-06-07,tomasz,-8.1,eating_out,GREGGS,3315.4
+2026-06-07,tomasz,-19.97,leisure,CINEWORLD,3295.43
+2026-06-08,tomasz,-3.18,eating_out,DELIVEROO,3292.25
+2026-06-08,tomasz,-16.2,misc,POST OFFICE,3276.05
+2026-06-09,tomasz,-19.16,transport,FIRST BUS,3256.89
+2026-06-09,tomasz,-52.56,phone,VODAFONE,3204.33
+2026-06-10,tomasz,-10.35,leisure,CINEWORLD,3193.98
+2026-06-10,tomasz,-23.18,transport,NORTHERN RAIL,3170.8
+2026-06-12,tomasz,-8.16,groceries,LIDL,3162.64
+2026-06-12,tomasz,-9.76,health,BOOTS PHARMACY,3152.88
+2026-06-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2907.88
+2026-06-14,tomasz,-7.05,groceries,ALDI,2900.83
+2026-06-14,tomasz,-20.38,leisure,GARDEN CENTRE,2880.45
+2026-06-14,tomasz,-22.61,transport,UBER,2857.84
+2026-06-15,tomasz,-67.2,utilities,OCTOPUS ENERGY,2790.64
+2026-06-16,tomasz,-4.02,groceries,ALDI,2786.62
+2026-06-16,tomasz,-15.61,transport,SHELL,2771.01
+2026-06-16,tomasz,-40.8,misc,PAYPAL,2730.21
+2026-06-17,tomasz,-4.55,transport,BP,2725.66
+2026-06-18,tomasz,-3.77,groceries,CO-OP,2721.89
+2026-06-18,tomasz,-21.85,transport,BP,2700.04
+2026-06-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,2668.04
+2026-06-20,tomasz,-59.46,leisure,BET365,2608.58
+2026-06-21,tomasz,-11.52,eating_out,NANDOS,2597.06
+2026-06-21,tomasz,-12.94,groceries,LIDL,2584.12
+2026-06-21,tomasz,-16.11,misc,POST OFFICE,2568.01
+2026-06-22,tomasz,-5.95,groceries,LIDL,2562.06
+2026-06-22,tomasz,-12.99,subscriptions,NETFLIX,2549.07
+2026-06-22,tomasz,-17.11,eating_out,NANDOS,2531.96
+2026-06-22,tomasz,-23.21,transport,UBER,2508.75
+2026-06-23,tomasz,-29.76,misc,PAYPAL,2478.99
+2026-06-23,tomasz,-39.67,transport,BP,2439.32
+2026-06-24,tomasz,-16.13,misc,CHARITY SHOP,2423.19
+2026-06-24,tomasz,-23.88,transport,UBER,2399.31
+2026-06-25,tomasz,-9.17,eating_out,NANDOS,2390.14
+2026-06-26,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,5124.49
+2026-06-26,tomasz,-12.66,groceries,CO-OP,5111.83
+2026-06-27,tomasz,-11.26,shopping,B&M,5100.57
+2026-06-27,tomasz,-14.24,groceries,SAINSBURYS,5086.33
+2026-06-27,tomasz,-17.89,transport,FIRST BUS,5068.44
+2026-06-27,tomasz,-34.42,misc,POST OFFICE,5034.02
+2026-06-28,tomasz,-4.01,groceries,LIDL,5030.01
+2026-06-28,tomasz,-9.92,health,DENTAL CARE,5020.09
+2026-06-29,tomasz,-8.44,groceries,TESCO,5011.65
+2026-06-29,tomasz,-11.31,eating_out,LOCAL PUB,5000.34
+2026-06-29,tomasz,-24.86,shopping,VINTED,4975.48
+2026-06-30,tomasz,-6.65,groceries,TESCO,4968.83
+2026-06-30,tomasz,-18.52,transport,FIRST BUS,4950.31
+2026-06-30,tomasz,-53.74,eating_out,DELIVEROO,4896.57
+2026-07-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4731.57
+2026-07-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,3436.57
+2026-07-02,tomasz,-12.94,groceries,TESCO,3423.63
+2026-07-02,tomasz,-57.11,transport,SHELL,3366.52
+2026-07-03,tomasz,-29.99,subscriptions,PUREGYM,3336.53
+2026-07-04,tomasz,-8.61,eating_out,DELIVEROO,3327.92
+2026-07-04,tomasz,-36.51,shopping,ARGOS,3291.41
+2026-07-05,tomasz,-3.92,eating_out,LOCAL PUB,3287.49
+2026-07-05,tomasz,-5.31,groceries,ALDI,3282.18
+2026-07-05,tomasz,-42.0,utilities,YORKSHIRE WATER,3240.18
+2026-07-05,tomasz,-45.71,leisure,GARDEN CENTRE,3194.47
+2026-07-06,tomasz,-6.18,groceries,LIDL,3188.29
+2026-07-06,tomasz,-14.89,leisure,BET365,3173.4
+2026-07-07,tomasz,-19.95,transport,BP,3153.45
+2026-07-08,tomasz,-22.46,leisure,GARDEN CENTRE,3130.99
+2026-07-09,tomasz,-6.81,eating_out,PRET,3124.18
+2026-07-09,tomasz,-11.56,groceries,CO-OP,3112.62
+2026-07-09,tomasz,-52.56,phone,VODAFONE,3060.06
+2026-07-10,tomasz,-4.87,groceries,SAINSBURYS,3055.19
+2026-07-11,tomasz,-3.01,groceries,SAINSBURYS,3052.18
+2026-07-11,tomasz,-38.14,misc,POST OFFICE,3014.04
+2026-07-12,tomasz,-5.0,shopping,AMAZON,3009.04
+2026-07-12,tomasz,-12.48,groceries,SAINSBURYS,2996.56
+2026-07-12,tomasz,-15.31,eating_out,PRET,2981.25
+2026-07-12,tomasz,-18.99,leisure,WATERSTONES,2962.26
+2026-07-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2717.26
+2026-07-14,tomasz,-5.56,groceries,CO-OP,2711.7
+2026-07-14,tomasz,-13.66,shopping,PRIMARK,2698.04
+2026-07-15,tomasz,-10.84,groceries,SAINSBURYS,2687.2
+2026-07-15,tomasz,-18.04,transport,SHELL,2669.16
+2026-07-15,tomasz,-61.6,utilities,OCTOPUS ENERGY,2607.56
+2026-07-16,tomasz,-49.86,leisure,STEAM,2557.7
+2026-07-17,tomasz,-18.65,groceries,SAINSBURYS,2539.05
+2026-07-18,tomasz,-2.72,eating_out,NANDOS,2536.33
+2026-07-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,2504.33
+2026-07-19,tomasz,-12.37,groceries,SAINSBURYS,2491.96
+2026-07-19,tomasz,-13.38,eating_out,PRET,2478.58
+2026-07-19,tomasz,-15.58,transport,SHELL,2463.0
+2026-07-21,tomasz,-9.56,shopping,AMAZON,2453.44
+2026-07-21,tomasz,-17.53,transport,UBER,2435.91
+2026-07-22,tomasz,-10.23,shopping,AMAZON,2425.68
+2026-07-22,tomasz,-12.99,subscriptions,NETFLIX,2412.69
+2026-07-22,tomasz,-24.78,transport,SHELL,2387.91
+2026-07-24,tomasz,-2.63,eating_out,LOCAL PUB,2385.28
+2026-07-25,tomasz,-7.65,eating_out,GREGGS,2377.63
+2026-07-26,tomasz,-6.55,groceries,CO-OP,2371.08
+2026-07-26,tomasz,-16.37,eating_out,GREGGS,2354.71
+2026-07-27,tomasz,-16.29,transport,TFL,2338.42
+2026-07-27,tomasz,-19.37,shopping,VINTED,2319.05
+2026-07-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,5053.4
+2026-07-28,tomasz,-9.96,transport,TFL,5043.44
+2026-07-28,tomasz,-11.38,eating_out,JUST EAT,5032.06
+2026-07-28,tomasz,-49.96,leisure,BET365,4982.1
+2026-07-29,tomasz,-20.08,transport,UBER,4962.02
+2026-07-30,tomasz,-4.1,eating_out,LOCAL PUB,4957.92
+2026-07-30,tomasz,-26.23,transport,BP,4931.69
+2026-07-31,tomasz,-5.3,eating_out,JUST EAT,4926.39
+2026-07-31,tomasz,-17.85,transport,BP,4908.54
+2026-08-01,tomasz,-8.12,eating_out,LOCAL PUB,4900.42
+2026-08-01,tomasz,-27.41,misc,CHARITY SHOP,4873.01
+2026-08-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4708.01
+2026-08-01,tomasz,-1295.0,housing,GREENWAY LETTINGS RENT,3413.01
+2026-08-02,tomasz,-6.18,shopping,PRIMARK,3406.83
+2026-08-02,tomasz,-8.67,groceries,SAINSBURYS,3398.16
+2026-08-02,tomasz,-17.88,leisure,STEAM,3380.28
+2026-08-03,tomasz,-20.38,transport,UBER,3359.9
+2026-08-03,tomasz,-29.99,subscriptions,PUREGYM,3329.91
+2026-08-04,tomasz,-13.27,leisure,BET365,3316.64
+2026-08-04,tomasz,-15.12,groceries,TESCO,3301.52
+2026-08-05,tomasz,-8.72,groceries,LIDL,3292.8
+2026-08-05,tomasz,-42.0,utilities,YORKSHIRE WATER,3250.8
+2026-08-06,tomasz,-10.86,groceries,CO-OP,3239.94
+2026-08-06,tomasz,-33.39,eating_out,JUST EAT,3206.55
+2026-08-06,tomasz,-54.57,misc,PAYPAL,3151.98
+2026-08-07,tomasz,-8.82,leisure,CINEWORLD,3143.16
+2026-08-08,tomasz,-8.01,groceries,LIDL,3135.15
+2026-08-09,tomasz,-9.43,eating_out,DELIVEROO,3125.72
+2026-08-09,tomasz,-52.56,phone,VODAFONE,3073.16
+2026-08-10,tomasz,-12.66,health,DENTAL CARE,3060.5
+2026-08-10,tomasz,-18.23,transport,BP,3042.27
+2026-08-11,tomasz,-12.94,groceries,TESCO,3029.33
+2026-08-12,tomasz,-7.8,groceries,CO-OP,3021.53
+2026-08-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2776.53
+2026-08-13,tomasz,-22.42,misc,TIMPSON,2754.11
+2026-08-14,tomasz,-15.53,transport,SHELL,2738.58
+2026-08-15,tomasz,-38.91,transport,FIRST BUS,2699.67
+2026-08-15,tomasz,-61.6,utilities,OCTOPUS ENERGY,2638.07
+2026-08-16,tomasz,-8.02,health,DENTAL CARE,2630.05
+2026-08-16,tomasz,-13.29,groceries,ALDI,2616.76
+2026-08-16,tomasz,-17.68,shopping,ARGOS,2599.08
+2026-08-17,tomasz,-22.3,shopping,VINTED,2576.78
+2026-08-18,tomasz,-7.26,groceries,ALDI,2569.52
+2026-08-18,tomasz,-31.56,transport,FIRST BUS,2537.96
+2026-08-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,2505.96
+2026-08-19,tomasz,-5.9,groceries,TESCO,2500.06
+2026-08-19,tomasz,-20.71,transport,UBER,2479.35
+2026-08-19,tomasz,-40.2,misc,TIMPSON,2439.15
+2026-08-20,tomasz,-6.62,health,BOOTS PHARMACY,2432.53
+2026-08-20,tomasz,-36.8,leisure,WATERSTONES,2395.73
+2026-08-21,tomasz,-6.32,eating_out,GREGGS,2389.41
+2026-08-21,tomasz,-8.32,groceries,SAINSBURYS,2381.09
+2026-08-22,tomasz,-9.35,eating_out,GREGGS,2371.74
+2026-08-22,tomasz,-12.99,subscriptions,NETFLIX,2358.75
+2026-08-23,tomasz,-8.55,groceries,ALDI,2350.2
+2026-08-23,tomasz,-10.5,shopping,PRIMARK,2339.7
+2026-08-23,tomasz,-21.94,health,BOOTS PHARMACY,2317.76
+2026-08-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,5052.11
+2026-08-28,tomasz,-23.96,transport,NORTHERN RAIL,5028.15
+2026-08-29,tomasz,-6.75,shopping,PRIMARK,5021.4
+2026-08-30,tomasz,-8.93,eating_out,DELIVEROO,5012.47
+2026-08-30,tomasz,-10.21,transport,NORTHERN RAIL,5002.26
+2026-08-30,tomasz,-15.38,shopping,B&M,4986.88
+2026-08-31,tomasz,-8.47,groceries,LIDL,4978.41
+2026-08-31,tomasz,-8.58,shopping,VINTED,4969.83
+2026-09-01,tomasz,-18.58,transport,NORTHERN RAIL,4951.25
+2026-09-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4786.25
+2026-09-01,tomasz,-1525.0,housing,GREENWAY LETTINGS RENT,3261.25
+2026-09-02,tomasz,-9.33,eating_out,LOCAL PUB,3251.92
+2026-09-02,tomasz,-15.45,leisure,BET365,3236.47
+2026-09-02,tomasz,-27.49,shopping,VINTED,3208.98
+2026-09-03,tomasz,-3.59,groceries,SAINSBURYS,3205.39
+2026-09-03,tomasz,-29.99,subscriptions,PUREGYM,3175.4
+2026-09-03,tomasz,-45.0,leisure,WATERSTONES,3130.4
+2026-09-04,tomasz,-6.25,groceries,SAINSBURYS,3124.15
+2026-09-04,tomasz,-24.85,transport,BP,3099.3
+2026-09-05,tomasz,-42.0,utilities,YORKSHIRE WATER,3057.3
+2026-09-08,tomasz,-8.45,groceries,CO-OP,3048.85
+2026-09-08,tomasz,-11.56,transport,TFL,3037.29
+2026-09-09,tomasz,-52.56,phone,VODAFONE,2984.73
+2026-09-10,tomasz,-5.45,transport,UBER,2979.28
+2026-09-12,tomasz,-16.04,eating_out,GREGGS,2963.24
+2026-09-12,tomasz,-16.81,transport,FIRST BUS,2946.43
+2026-09-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,2701.43
+2026-09-13,tomasz,-2.42,groceries,CO-OP,2699.01
+2026-09-15,tomasz,-11.43,eating_out,PRET,2687.58
+2026-09-15,tomasz,-78.4,utilities,OCTOPUS ENERGY,2609.18
+2026-09-16,tomasz,-33.03,misc,CHARITY SHOP,2576.15
+2026-09-17,tomasz,-19.13,transport,FIRST BUS,2557.02
+2026-09-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,2525.02
+2026-09-19,tomasz,-7.98,groceries,CO-OP,2517.04
+2026-09-20,tomasz,-6.0,groceries,TESCO,2511.04
+2026-09-20,tomasz,-24.46,shopping,PRIMARK,2486.58
+2026-09-22,tomasz,-12.99,subscriptions,NETFLIX,2473.59
+2026-09-23,tomasz,-13.77,eating_out,NANDOS,2459.82
+2026-09-23,tomasz,-30.85,transport,UBER,2428.97
+2026-09-24,tomasz,-15.06,transport,BP,2413.91
+2026-09-24,tomasz,-15.7,groceries,TESCO,2398.21
+2026-09-24,tomasz,-17.43,health,SUPERDRUG,2380.78
+2026-09-25,tomasz,-7.6,groceries,SAINSBURYS,2373.18
+2026-09-26,tomasz,-8.35,groceries,ALDI,2364.83
+2026-09-26,tomasz,-14.09,eating_out,LOCAL PUB,2350.74
+2026-09-26,tomasz,-15.27,shopping,B&M,2335.47
+2026-09-27,tomasz,-11.03,groceries,TESCO,2324.44
+2026-09-27,tomasz,-12.94,shopping,ARGOS,2311.5
+2026-09-27,tomasz,-680.0,one_off,AUTOFIX GARAGE CAR REPAIR,1631.5
+2026-09-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4365.85
+2026-09-28,tomasz,-3.03,eating_out,JUST EAT,4362.82
+2026-09-29,tomasz,-7.35,groceries,LIDL,4355.47
+2026-10-01,tomasz,-8.49,groceries,TESCO,4346.98
+2026-10-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4181.98
+2026-10-01,tomasz,-1525.0,housing,GREENWAY LETTINGS RENT,2656.98
+2026-10-03,tomasz,-7.31,groceries,CO-OP,2649.67
+2026-10-03,tomasz,-9.2,misc,POST OFFICE,2640.47
+2026-10-03,tomasz,-21.79,leisure,STEAM,2618.68
+2026-10-03,tomasz,-23.84,shopping,AMAZON,2594.84
+2026-10-03,tomasz,-29.99,subscriptions,PUREGYM,2564.85
+2026-10-04,tomasz,-12.69,groceries,TESCO,2552.16
+2026-10-05,tomasz,-11.26,transport,TFL,2540.9
+2026-10-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2498.9
+2026-10-07,tomasz,-10.06,groceries,LIDL,2488.84
+2026-10-08,tomasz,-15.02,transport,UBER,2473.82
+2026-10-09,tomasz,-3.5,groceries,LIDL,2470.32
+2026-10-09,tomasz,-51.43,shopping,AMAZON,2418.89
+2026-10-09,tomasz,-52.56,phone,VODAFONE,2366.33
+2026-10-10,tomasz,-10.32,shopping,ARGOS,2356.01
+2026-10-10,tomasz,-10.52,transport,TFL,2345.49
+2026-10-10,tomasz,-11.97,groceries,LIDL,2333.52
+2026-10-10,tomasz,-21.83,leisure,WATERSTONES,2311.69
+2026-10-11,tomasz,-4.0,groceries,SAINSBURYS,2307.69
+2026-10-11,tomasz,-7.32,eating_out,PRET,2300.37
+2026-10-12,tomasz,-27.39,misc,TIMPSON,2272.98
+2026-10-12,tomasz,-47.23,leisure,BET365,2225.75
+2026-10-12,tomasz,-245.0,debt,NORTHWAY CAR FINANCE,1980.75
+2026-10-13,tomasz,-6.17,groceries,CO-OP,1974.58
+2026-10-14,tomasz,-43.02,transport,BP,1931.56
+2026-10-15,tomasz,-8.23,groceries,SAINSBURYS,1923.33
+2026-10-15,tomasz,-9.45,health,SUPERDRUG,1913.88
+2026-10-15,tomasz,-112.0,utilities,OCTOPUS ENERGY,1801.88
+2026-10-16,tomasz,-14.01,groceries,SAINSBURYS,1787.87
+2026-10-17,tomasz,-5.16,groceries,TESCO,1782.71
+2026-10-18,tomasz,-7.63,eating_out,PRET,1775.08
+2026-10-18,tomasz,-14.0,health,DENTAL CARE,1761.08
+2026-10-18,tomasz,-18.64,leisure,STEAM,1742.44
+2026-10-18,tomasz,-19.89,transport,FIRST BUS,1722.55
+2026-10-18,tomasz,-32.0,subscriptions,VIRGIN MEDIA,1690.55
+2026-10-19,tomasz,-19.09,transport,UBER,1671.46
+2026-10-20,tomasz,-4.07,groceries,ALDI,1667.39
+2026-10-22,tomasz,-12.99,subscriptions,NETFLIX,1654.4
+2026-10-23,tomasz,-5.36,eating_out,JUST EAT,1649.04
+2026-10-23,tomasz,-22.24,misc,PAYPAL,1626.8
+2026-10-24,tomasz,-11.83,transport,TFL,1614.97
+2026-10-24,tomasz,-17.41,shopping,ARGOS,1597.56
+2026-10-24,tomasz,-19.45,groceries,SAINSBURYS,1578.11
+2026-10-25,tomasz,-6.18,shopping,PRIMARK,1571.93
+2026-10-25,tomasz,-10.13,groceries,LIDL,1561.8
+2026-10-25,tomasz,-10.99,eating_out,LOCAL PUB,1550.81
+2026-10-26,tomasz,-4.61,eating_out,DELIVEROO,1546.2
+2026-10-26,tomasz,-15.66,groceries,CO-OP,1530.54
+2026-10-27,tomasz,-8.57,transport,FIRST BUS,1521.97
+2026-10-27,tomasz,-9.56,shopping,AMAZON,1512.41
+2026-10-28,tomasz,2734.35,income,NORTHGATE LOGISTICS SALARY,4246.76
+2026-10-28,tomasz,-14.86,transport,TFL,4231.9
+2026-10-29,tomasz,-12.95,groceries,LIDL,4218.95
+2026-11-01,tomasz,-6.36,groceries,ALDI,4212.59
+2026-11-01,tomasz,-7.32,shopping,B&M,4205.27
+2026-11-01,tomasz,-7.65,eating_out,GREGGS,4197.62
+2026-11-01,tomasz,-165.0,housing,CITY COUNCIL TAX,4032.62
+2026-11-01,tomasz,-1525.0,housing,GREENWAY LETTINGS RENT,2507.62
+2026-11-02,tomasz,-9.84,groceries,TESCO,2497.78
+2026-11-02,tomasz,-13.6,transport,BP,2484.18
+2026-11-03,tomasz,-14.12,transport,TFL,2470.06
+2026-11-03,tomasz,-29.99,subscriptions,PUREGYM,2440.07
+2026-11-04,tomasz,-8.75,health,BOOTS PHARMACY,2431.32
+2026-11-05,tomasz,-4.56,groceries,TESCO,2426.76
+2026-11-05,tomasz,-27.47,misc,PAYPAL,2399.29
+2026-11-05,tomasz,-42.0,utilities,YORKSHIRE WATER,2357.29
+2026-11-06,tomasz,-7.29,groceries,LIDL,2350.0
 2025-11-07,zofia,-61.48,eating_out,JUST EAT,1468.78
 2025-11-08,zofia,-19.56,eating_out,LOCAL PUB,1449.22
 2025-11-09,zofia,-15.0,phone,GIFFGAFF,1434.22
@@ -1959,625 +1948,637 @@ date,member_id,amount,category,merchant,balance
 2026-11-04,zofia,-19.65,leisure,CINEWORLD,1425.48
 2026-11-05,zofia,-9.24,transport,UBER,1416.24
 2026-11-05,zofia,-16.24,groceries,LIDL,1400.0
-2025-11-07,grace,-5.6,groceries,ALDI,605.1
-2025-11-07,grace,-21.27,leisure,STEAM,583.83
-2025-11-08,grace,-2.09,groceries,CO-OP,581.74
-2025-11-08,grace,-3.22,eating_out,JUST EAT,578.52
-2025-11-08,grace,-6.23,transport,UBER,572.29
-2025-11-09,grace,-2.78,groceries,LIDL,569.51
-2025-11-09,grace,-10.0,phone,LEBARA MOBILE,559.51
-2025-11-10,grace,-1.25,eating_out,NANDOS,558.26
-2025-11-11,grace,-2.04,eating_out,NANDOS,556.22
-2025-11-11,grace,-2.74,groceries,SAINSBURYS,553.48
-2025-11-11,grace,-3.87,misc,PAYPAL,549.61
-2025-11-11,grace,-4.54,shopping,AMAZON,545.07
-2025-11-11,grace,-10.05,leisure,STEAM,535.02
-2025-11-12,grace,-3.17,shopping,BOOTS,531.85
-2025-11-12,grace,-6.27,eating_out,DELIVEROO,525.58
-2025-11-12,grace,-9.61,transport,NORTHERN RAIL,515.97
-2025-11-12,grace,-10.24,leisure,GARDEN CENTRE,505.73
-2025-11-13,grace,-3.67,transport,SHELL,502.06
-2025-11-13,grace,-6.47,leisure,CINEWORLD,495.59
-2025-11-15,grace,-4.26,shopping,ARGOS,491.33
-2025-11-15,grace,-4.28,groceries,LIDL,487.05
-2025-11-15,grace,-114.75,utilities,EDF ENERGY,372.3
-2025-11-16,grace,-12.94,transport,BP,359.36
-2025-11-17,grace,-4.26,groceries,SAINSBURYS,355.1
-2025-11-17,grace,-8.83,transport,FIRST BUS,346.27
-2025-11-19,grace,-8.55,transport,TFL,337.72
-2025-11-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,313.72
-2025-11-20,grace,-24.02,leisure,CINEWORLD,289.7
-2025-11-21,grace,-3.01,groceries,CO-OP,286.69
-2025-11-21,grace,-3.23,eating_out,PRET,283.46
-2025-11-21,grace,-5.77,leisure,WATERSTONES,277.69
-2025-11-21,grace,-32.62,shopping,PRIMARK,245.07
-2025-11-22,grace,-2.28,eating_out,DELIVEROO,242.79
-2025-11-22,grace,-9.4,leisure,BET365,233.39
-2025-11-23,grace,-3.02,eating_out,NANDOS,230.37
-2025-11-23,grace,-39.56,leisure,GARDEN CENTRE,190.81
-2025-11-24,grace,-13.67,leisure,GARDEN CENTRE,177.14
-2025-11-26,grace,-4.14,transport,TFL,173.0
-2025-11-26,grace,-5.72,groceries,ALDI,167.28
-2025-11-26,grace,-9.58,health,DENTAL CARE,157.7
-2025-11-27,grace,-11.37,transport,NORTHERN RAIL,146.33
-2025-11-28,grace,791.46,income,DWP STATE PENSION,937.79
-2025-11-29,grace,-1.06,eating_out,JUST EAT,936.73
-2025-11-29,grace,-2.76,transport,SHELL,933.97
-2025-11-29,grace,-17.16,groceries,SAINSBURYS,916.81
-2025-11-30,grace,-4.6,transport,BP,912.21
-2025-11-30,grace,-8.93,groceries,TESCO,903.28
-2025-11-30,grace,-16.62,leisure,GARDEN CENTRE,886.66
-2025-12-01,grace,-3.46,groceries,LIDL,883.2
-2025-12-01,grace,-45.0,housing,CITY COUNCIL TAX,838.2
-2025-12-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,418.2
-2025-12-02,grace,128.0,income,DWP PENSION CREDIT,546.2
-2025-12-02,grace,-8.72,transport,UBER,537.48
-2025-12-02,grace,-9.83,groceries,ALDI,527.65
-2025-12-02,grace,-11.4,eating_out,GREGGS,516.25
-2025-12-03,grace,-6.74,groceries,LIDL,509.51
-2025-12-03,grace,-7.79,transport,NORTHERN RAIL,501.72
-2025-12-03,grace,-12.65,leisure,STEAM,489.07
-2025-12-05,grace,-30.0,utilities,SEVERN TRENT WATER,459.07
-2025-12-06,grace,-19.67,shopping,BOOTS,439.4
-2025-12-07,grace,-12.95,groceries,TESCO,426.45
-2025-12-08,grace,-2.81,groceries,TESCO,423.64
-2025-12-09,grace,-6.21,groceries,ALDI,417.43
-2025-12-09,grace,-10.0,phone,LEBARA MOBILE,407.43
-2025-12-12,grace,-7.11,transport,UBER,400.32
-2025-12-13,grace,-11.38,transport,SHELL,388.94
-2025-12-14,grace,-8.21,transport,FIRST BUS,380.73
-2025-12-14,grace,-13.07,shopping,B&M,367.66
-2025-12-15,grace,-3.16,eating_out,NANDOS,364.5
-2025-12-15,grace,-5.76,shopping,B&M,358.74
-2025-12-15,grace,-6.53,transport,NORTHERN RAIL,352.21
-2025-12-15,grace,-136.0,utilities,EDF ENERGY,216.21
-2025-12-16,grace,-3.16,eating_out,NANDOS,213.05
-2025-12-16,grace,-3.91,groceries,LIDL,209.14
-2025-12-17,grace,-5.87,groceries,SAINSBURYS,203.27
-2025-12-18,grace,-3.67,groceries,TESCO,199.6
-2025-12-18,grace,-7.66,transport,NORTHERN RAIL,191.94
-2025-12-19,grace,-5.38,groceries,CO-OP,186.56
-2025-12-19,grace,-7.04,misc,CHARITY SHOP,179.52
-2025-12-20,grace,-9.16,groceries,CO-OP,170.36
-2025-12-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,146.36
-2025-12-21,grace,-14.85,leisure,BET365,131.51
-2025-12-22,grace,-5.94,misc,TIMPSON,125.57
-2025-12-22,grace,-9.58,groceries,ALDI,115.99
-2025-12-24,grace,-5.36,eating_out,GREGGS,110.63
-2025-12-25,grace,-3.74,groceries,SAINSBURYS,106.89
-2025-12-26,grace,791.46,income,DWP STATE PENSION,898.35
-2025-12-27,grace,-5.17,eating_out,JUST EAT,893.18
-2025-12-27,grace,-13.34,leisure,WATERSTONES,879.84
-2025-12-28,grace,-7.12,transport,FIRST BUS,872.72
-2025-12-29,grace,-3.22,eating_out,DELIVEROO,869.5
-2025-12-30,grace,-6.05,groceries,SAINSBURYS,863.45
-2025-12-31,grace,-13.29,transport,SHELL,850.16
-2025-12-31,grace,-44.28,shopping,ARGOS,805.88
-2026-01-01,grace,-5.54,shopping,ARGOS,800.34
-2026-01-01,grace,-45.0,housing,CITY COUNCIL TAX,755.34
-2026-01-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,335.34
-2026-01-02,grace,128.0,income,DWP PENSION CREDIT,463.34
-2026-01-02,grace,-9.42,shopping,VINTED,453.92
-2026-01-02,grace,-11.18,groceries,CO-OP,442.74
-2026-01-04,grace,-4.4,shopping,PRIMARK,438.34
-2026-01-05,grace,-14.22,misc,TIMPSON,424.12
-2026-01-05,grace,-30.0,utilities,SEVERN TRENT WATER,394.12
-2026-01-06,grace,-6.0,shopping,AMAZON,388.12
-2026-01-06,grace,-8.18,misc,CHARITY SHOP,379.94
-2026-01-06,grace,-11.33,transport,SHELL,368.61
-2026-01-07,grace,-6.4,leisure,CINEWORLD,362.21
-2026-01-08,grace,-14.67,eating_out,JUST EAT,347.54
-2026-01-09,grace,-6.08,misc,PAYPAL,341.46
-2026-01-09,grace,-8.08,transport,UBER,333.38
-2026-01-09,grace,-10.0,phone,LEBARA MOBILE,323.38
-2026-01-10,grace,-0.78,eating_out,DELIVEROO,322.6
-2026-01-10,grace,-9.19,groceries,SAINSBURYS,313.41
-2026-01-11,grace,-3.2,groceries,CO-OP,310.21
-2026-01-11,grace,-3.41,leisure,WATERSTONES,306.8
-2026-01-11,grace,-3.68,eating_out,LOCAL PUB,303.12
-2026-01-11,grace,-19.8,shopping,VINTED,283.32
-2026-01-12,grace,-4.05,eating_out,LOCAL PUB,279.27
-2026-01-13,grace,-1.78,eating_out,DELIVEROO,277.49
-2026-01-13,grace,-11.66,shopping,VINTED,265.83
-2026-01-14,grace,-1.45,eating_out,LOCAL PUB,264.38
-2026-01-14,grace,-12.16,shopping,VINTED,252.22
-2026-01-15,grace,-1.47,groceries,ALDI,250.75
-2026-01-15,grace,-144.5,utilities,EDF ENERGY,106.25
-2026-01-16,grace,-4.78,groceries,SAINSBURYS,101.47
-2026-01-17,grace,-8.33,groceries,TESCO,93.14
-2026-01-18,grace,-7.18,groceries,LIDL,85.96
-2026-01-18,grace,-10.88,eating_out,DELIVEROO,75.08
-2026-01-19,grace,-0.85,eating_out,NANDOS,74.23
-2026-01-19,grace,-10.92,shopping,PRIMARK,63.31
-2026-01-20,grace,-4.52,groceries,TESCO,58.79
-2026-01-20,grace,-9.28,misc,PAYPAL,49.51
-2026-01-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,25.51
-2026-01-21,grace,-2.25,eating_out,GREGGS,23.26
-2026-01-22,grace,-9.73,transport,FIRST BUS,13.53
-2026-01-23,grace,791.46,income,DWP STATE PENSION,804.99
-2026-01-23,grace,-4.13,groceries,LIDL,800.86
-2026-01-24,grace,-0.91,eating_out,DELIVEROO,799.95
-2026-01-24,grace,-2.86,shopping,PRIMARK,797.09
-2026-01-24,grace,-4.51,groceries,TESCO,792.58
-2026-01-25,grace,-5.4,transport,BP,787.18
-2026-01-25,grace,-5.44,groceries,LIDL,781.74
-2026-01-25,grace,-14.34,misc,TIMPSON,767.4
-2026-01-26,grace,-6.64,groceries,LIDL,760.76
-2026-01-26,grace,-23.36,leisure,STEAM,737.4
-2026-01-27,grace,-6.16,transport,UBER,731.24
-2026-01-28,grace,-3.7,eating_out,PRET,727.54
-2026-01-30,grace,-4.88,leisure,BET365,722.66
-2026-01-30,grace,-15.99,health,BOOTS PHARMACY,706.67
-2026-01-31,grace,-4.55,groceries,LIDL,702.12
-2026-02-01,grace,-3.02,leisure,WATERSTONES,699.1
-2026-02-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,279.1
-2026-02-02,grace,128.0,income,DWP PENSION CREDIT,407.1
-2026-02-02,grace,-7.28,transport,FIRST BUS,399.82
-2026-02-02,grace,-8.31,misc,TIMPSON,391.51
-2026-02-03,grace,-2.09,eating_out,LOCAL PUB,389.42
-2026-02-03,grace,-6.77,transport,NORTHERN RAIL,382.65
-2026-02-05,grace,-30.0,utilities,SEVERN TRENT WATER,352.65
-2026-02-06,grace,-3.41,groceries,SAINSBURYS,349.24
-2026-02-06,grace,-5.1,eating_out,JUST EAT,344.14
-2026-02-06,grace,-15.2,leisure,CINEWORLD,328.94
-2026-02-07,grace,-5.18,groceries,TESCO,323.76
-2026-02-07,grace,-6.08,health,DENTAL CARE,317.68
-2026-02-07,grace,-8.1,transport,UBER,309.58
-2026-02-08,grace,-1.7,shopping,BOOTS,307.88
-2026-02-08,grace,-5.73,groceries,TESCO,302.15
-2026-02-08,grace,-14.31,leisure,GARDEN CENTRE,287.84
-2026-02-09,grace,-10.0,phone,LEBARA MOBILE,277.84
-2026-02-10,grace,-3.07,eating_out,NANDOS,274.77
-2026-02-10,grace,-3.92,transport,UBER,270.85
-2026-02-10,grace,-7.64,groceries,ALDI,263.21
-2026-02-11,grace,-6.26,groceries,LIDL,256.95
-2026-02-12,grace,-4.42,eating_out,PRET,252.53
-2026-02-13,grace,-11.84,groceries,CO-OP,240.69
-2026-02-15,grace,-4.83,eating_out,DELIVEROO,235.86
-2026-02-15,grace,-127.5,utilities,EDF ENERGY,108.36
-2026-02-16,grace,-5.55,transport,UBER,102.81
-2026-02-16,grace,-6.69,groceries,ALDI,96.12
-2026-02-16,grace,-16.39,misc,TIMPSON,79.73
-2026-02-18,grace,-2.29,shopping,BOOTS,77.44
-2026-02-19,grace,-2.86,groceries,SAINSBURYS,74.58
-2026-02-20,grace,791.46,income,DWP STATE PENSION,866.04
-2026-02-20,grace,-4.77,transport,BP,861.27
-2026-02-20,grace,-10.04,eating_out,GREGGS,851.23
-2026-02-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,827.23
-2026-02-21,grace,-2.54,groceries,SAINSBURYS,824.69
-2026-02-22,grace,-2.94,eating_out,JUST EAT,821.75
-2026-02-22,grace,-6.08,groceries,SAINSBURYS,815.67
-2026-02-24,grace,-11.98,groceries,SAINSBURYS,803.69
-2026-02-24,grace,-15.6,leisure,WATERSTONES,788.09
-2026-02-25,grace,-7.04,eating_out,GREGGS,781.05
-2026-02-26,grace,-2.99,eating_out,JUST EAT,778.06
-2026-02-26,grace,-3.57,groceries,LIDL,774.49
-2026-02-27,grace,-15.84,transport,NORTHERN RAIL,758.65
-2026-02-27,grace,-23.45,leisure,WATERSTONES,735.2
-2026-02-28,grace,-5.24,leisure,WATERSTONES,729.96
-2026-03-01,grace,-12.22,transport,FIRST BUS,717.74
-2026-03-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,297.74
-2026-03-02,grace,128.0,income,DWP PENSION CREDIT,425.74
-2026-03-02,grace,-5.32,groceries,SAINSBURYS,420.42
-2026-03-02,grace,-8.7,transport,TFL,411.72
-2026-03-03,grace,-11.0,shopping,VINTED,400.72
-2026-03-04,grace,-5.28,groceries,LIDL,395.44
-2026-03-05,grace,-30.0,utilities,SEVERN TRENT WATER,365.44
-2026-03-06,grace,31.0,refund,AMAZON REFUND,396.44
-2026-03-06,grace,-5.46,groceries,CO-OP,390.98
-2026-03-06,grace,-13.35,transport,TFL,377.63
-2026-03-06,grace,-23.53,leisure,CINEWORLD,354.1
-2026-03-07,grace,-5.64,misc,CHARITY SHOP,348.46
-2026-03-07,grace,-27.04,leisure,WATERSTONES,321.42
-2026-03-08,grace,-14.4,misc,TIMPSON,307.02
-2026-03-09,grace,-10.0,phone,LEBARA MOBILE,297.02
-2026-03-10,grace,-7.02,transport,FIRST BUS,290.0
-2026-03-10,grace,-7.87,groceries,ALDI,282.13
-2026-03-11,grace,-10.17,leisure,WATERSTONES,271.96
-2026-03-12,grace,-6.15,groceries,SAINSBURYS,265.81
-2026-03-12,grace,-7.62,eating_out,GREGGS,258.19
-2026-03-14,grace,-6.53,groceries,ALDI,251.66
-2026-03-14,grace,-13.1,leisure,STEAM,238.56
-2026-03-15,grace,-3.15,groceries,ALDI,235.41
-2026-03-15,grace,-106.25,utilities,EDF ENERGY,129.16
-2026-03-16,grace,-10.77,transport,TFL,118.39
-2026-03-20,grace,791.46,income,DWP STATE PENSION,909.85
-2026-03-20,grace,-6.51,transport,TFL,903.34
-2026-03-20,grace,-8.3,groceries,TESCO,895.04
-2026-03-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,871.04
-2026-03-21,grace,-2.45,eating_out,LOCAL PUB,868.59
-2026-03-22,grace,-1.77,groceries,ALDI,866.82
-2026-03-23,grace,-13.99,misc,PAYPAL,852.83
-2026-03-25,grace,-8.69,health,SUPERDRUG,844.14
-2026-03-26,grace,-1.76,eating_out,GREGGS,842.38
-2026-03-26,grace,-10.7,groceries,CO-OP,831.68
-2026-03-26,grace,-31.21,leisure,WATERSTONES,800.47
-2026-03-28,grace,-2.84,groceries,SAINSBURYS,797.63
-2026-03-28,grace,-6.45,eating_out,JUST EAT,791.18
-2026-03-28,grace,-6.83,transport,TFL,784.35
-2026-03-28,grace,-28.13,leisure,STEAM,756.22
-2026-03-29,grace,-2.19,eating_out,DELIVEROO,754.03
-2026-03-29,grace,-10.68,groceries,LIDL,743.35
-2026-03-30,grace,-9.64,transport,TFL,733.71
-2026-03-31,grace,-5.55,eating_out,JUST EAT,728.16
-2026-03-31,grace,-8.13,shopping,VINTED,720.03
-2026-04-01,grace,-4.14,groceries,TESCO,715.89
-2026-04-01,grace,-45.0,housing,CITY COUNCIL TAX,670.89
-2026-04-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,250.89
-2026-04-02,grace,128.0,income,DWP PENSION CREDIT,378.89
-2026-04-02,grace,-4.42,transport,TFL,374.47
-2026-04-02,grace,-5.43,groceries,SAINSBURYS,369.04
-2026-04-02,grace,-30.31,leisure,WATERSTONES,338.73
-2026-04-05,grace,-4.01,groceries,TESCO,334.72
-2026-04-05,grace,-10.0,transport,TFL,324.72
-2026-04-05,grace,-30.0,utilities,SEVERN TRENT WATER,294.72
-2026-04-06,grace,-4.35,groceries,ALDI,290.37
-2026-04-07,grace,-3.07,groceries,TESCO,287.3
-2026-04-07,grace,-4.31,transport,TFL,282.99
-2026-04-09,grace,-10.0,phone,LEBARA MOBILE,272.99
-2026-04-09,grace,-20.55,leisure,WATERSTONES,252.44
-2026-04-09,grace,-27.31,transport,SHELL,225.13
-2026-04-11,grace,-3.2,groceries,SAINSBURYS,221.93
-2026-04-11,grace,-3.62,eating_out,GREGGS,218.31
-2026-04-11,grace,-4.8,leisure,STEAM,213.51
-2026-04-11,grace,-12.24,shopping,VINTED,201.27
-2026-04-12,grace,-2.54,groceries,SAINSBURYS,198.73
-2026-04-12,grace,-13.23,transport,UBER,185.5
-2026-04-15,grace,-3.81,groceries,ALDI,181.69
-2026-04-15,grace,-85.0,utilities,EDF ENERGY,96.69
-2026-04-17,grace,791.46,income,DWP STATE PENSION,888.15
-2026-04-17,grace,-2.25,groceries,SAINSBURYS,885.9
-2026-04-17,grace,-23.66,misc,PAYPAL,862.24
-2026-04-18,grace,-5.53,groceries,TESCO,856.71
-2026-04-19,grace,-3.21,groceries,LIDL,853.5
-2026-04-19,grace,-3.47,eating_out,GREGGS,850.03
-2026-04-19,grace,-5.3,transport,BP,844.73
-2026-04-19,grace,-18.68,shopping,VINTED,826.05
-2026-04-20,grace,-5.65,transport,NORTHERN RAIL,820.4
-2026-04-20,grace,-22.57,leisure,CINEWORLD,797.83
-2026-04-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,773.83
-2026-04-21,grace,-3.37,groceries,ALDI,770.46
-2026-04-21,grace,-5.95,shopping,VINTED,764.51
-2026-04-23,grace,-11.22,transport,SHELL,753.29
-2026-04-23,grace,-12.16,shopping,PRIMARK,741.13
-2026-04-26,grace,-2.4,eating_out,NANDOS,738.73
-2026-04-26,grace,-6.35,shopping,BOOTS,732.38
-2026-04-26,grace,-12.33,groceries,TESCO,720.05
-2026-04-27,grace,-7.3,transport,UBER,712.75
-2026-04-27,grace,-8.56,groceries,TESCO,704.19
-2026-04-28,grace,-7.72,groceries,TESCO,696.47
-2026-04-29,grace,-5.81,eating_out,GREGGS,690.66
-2026-04-30,grace,-26.47,shopping,VINTED,664.19
-2026-05-01,grace,128.0,income,DWP PENSION CREDIT,792.19
-2026-05-01,grace,-45.0,housing,CITY COUNCIL TAX,747.19
-2026-05-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,327.19
-2026-05-02,grace,-1.05,eating_out,LOCAL PUB,326.14
-2026-05-02,grace,-5.72,groceries,ALDI,320.42
-2026-05-04,grace,-8.75,groceries,ALDI,311.67
-2026-05-05,grace,-30.0,utilities,SEVERN TRENT WATER,281.67
-2026-05-06,grace,-4.18,eating_out,JUST EAT,277.49
-2026-05-06,grace,-6.39,shopping,BOOTS,271.1
-2026-05-07,grace,-13.33,health,DENTAL CARE,257.77
-2026-05-09,grace,-2.05,eating_out,LOCAL PUB,255.72
-2026-05-09,grace,-5.91,groceries,SAINSBURYS,249.81
-2026-05-09,grace,-7.81,leisure,CINEWORLD,242.0
-2026-05-09,grace,-10.0,phone,LEBARA MOBILE,232.0
-2026-05-10,grace,-2.67,groceries,CO-OP,229.33
-2026-05-10,grace,-3.92,health,SUPERDRUG,225.41
-2026-05-10,grace,-6.07,eating_out,PRET,219.34
-2026-05-10,grace,-8.76,transport,BP,210.58
-2026-05-10,grace,-15.59,shopping,PRIMARK,194.99
-2026-05-11,grace,-8.6,groceries,CO-OP,186.39
-2026-05-13,grace,-6.23,misc,CHARITY SHOP,180.16
-2026-05-13,grace,-12.45,groceries,LIDL,167.71
-2026-05-13,grace,-14.26,transport,NORTHERN RAIL,153.45
-2026-05-14,grace,-2.35,eating_out,JUST EAT,151.1
-2026-05-14,grace,-2.98,groceries,SAINSBURYS,148.12
-2026-05-14,grace,-5.37,shopping,PRIMARK,142.75
-2026-05-15,grace,791.46,income,DWP STATE PENSION,934.21
-2026-05-15,grace,-63.75,utilities,EDF ENERGY,870.46
-2026-05-16,grace,-4.79,transport,UBER,865.67
-2026-05-16,grace,-5.9,groceries,LIDL,859.77
-2026-05-16,grace,-7.59,leisure,GARDEN CENTRE,852.18
-2026-05-17,grace,-4.36,transport,NORTHERN RAIL,847.82
-2026-05-17,grace,-13.07,groceries,SAINSBURYS,834.75
-2026-05-17,grace,-19.38,shopping,AMAZON,815.37
-2026-05-18,grace,-5.28,transport,UBER,810.09
-2026-05-18,grace,-8.73,leisure,GARDEN CENTRE,801.36
-2026-05-18,grace,-21.86,shopping,B&M,779.5
-2026-05-19,grace,-6.99,shopping,PRIMARK,772.51
-2026-05-20,grace,-3.07,shopping,B&M,769.44
-2026-05-20,grace,-3.86,eating_out,DELIVEROO,765.58
-2026-05-20,grace,-6.64,transport,NORTHERN RAIL,758.94
-2026-05-20,grace,-12.14,groceries,TESCO,746.8
-2026-05-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,722.8
-2026-05-22,grace,-4.36,groceries,SAINSBURYS,718.44
-2026-05-23,grace,-1.69,eating_out,JUST EAT,716.75
-2026-05-23,grace,-6.17,groceries,SAINSBURYS,710.58
-2026-05-23,grace,-7.24,leisure,BET365,703.34
-2026-05-24,grace,-0.91,eating_out,PRET,702.43
-2026-05-24,grace,-7.76,groceries,TESCO,694.67
-2026-05-26,grace,-1.31,groceries,TESCO,693.36
-2026-05-28,grace,-1.82,groceries,TESCO,691.54
-2026-05-28,grace,-4.53,eating_out,NANDOS,687.01
-2026-05-29,grace,-2.05,eating_out,PRET,684.96
-2026-05-29,grace,-2.15,groceries,ALDI,682.81
-2026-05-29,grace,-5.3,transport,UBER,677.51
-2026-05-30,grace,-5.39,shopping,B&M,672.12
-2026-05-30,grace,-8.33,groceries,ALDI,663.79
-2026-05-31,grace,-4.21,shopping,VINTED,659.58
-2026-06-01,grace,-3.11,transport,NORTHERN RAIL,656.47
-2026-06-01,grace,-45.0,housing,CITY COUNCIL TAX,611.47
-2026-06-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,191.47
-2026-06-02,grace,128.0,income,DWP PENSION CREDIT,319.47
-2026-06-02,grace,-2.35,groceries,ALDI,317.12
-2026-06-02,grace,-10.22,leisure,STEAM,306.9
-2026-06-05,grace,-6.28,transport,FIRST BUS,300.62
-2026-06-05,grace,-8.97,misc,CHARITY SHOP,291.65
-2026-06-05,grace,-12.32,groceries,CO-OP,279.33
-2026-06-05,grace,-30.0,utilities,SEVERN TRENT WATER,249.33
-2026-06-06,grace,-9.9,misc,POST OFFICE,239.43
-2026-06-07,grace,-9.41,groceries,ALDI,230.02
-2026-06-07,grace,-10.52,misc,PAYPAL,219.5
-2026-06-08,grace,-2.67,health,SUPERDRUG,216.83
-2026-06-08,grace,-5.05,shopping,VINTED,211.78
-2026-06-08,grace,-6.84,eating_out,LOCAL PUB,204.94
-2026-06-09,grace,-2.62,shopping,PRIMARK,202.32
-2026-06-09,grace,-6.95,misc,CHARITY SHOP,195.37
-2026-06-09,grace,-9.08,eating_out,DELIVEROO,186.29
-2026-06-09,grace,-10.0,phone,LEBARA MOBILE,176.29
-2026-06-11,grace,-5.17,groceries,TESCO,171.12
-2026-06-12,grace,791.46,income,DWP STATE PENSION,962.58
-2026-06-12,grace,-6.74,groceries,LIDL,955.84
-2026-06-12,grace,-12.54,shopping,BOOTS,943.3
-2026-06-13,grace,-4.68,leisure,WATERSTONES,938.62
-2026-06-13,grace,-4.74,groceries,TESCO,933.88
-2026-06-14,grace,-0.94,eating_out,PRET,932.94
-2026-06-15,grace,-11.4,groceries,CO-OP,921.54
-2026-06-15,grace,-51.0,utilities,EDF ENERGY,870.54
-2026-06-18,grace,-4.52,leisure,WATERSTONES,866.02
-2026-06-18,grace,-7.21,transport,TFL,858.81
-2026-06-18,grace,-18.91,misc,TIMPSON,839.9
-2026-06-19,grace,-7.66,leisure,GARDEN CENTRE,832.24
-2026-06-20,grace,-6.61,leisure,STEAM,825.63
-2026-06-20,grace,-11.65,groceries,TESCO,813.98
-2026-06-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,789.98
-2026-06-21,grace,-4.0,eating_out,LOCAL PUB,785.98
-2026-06-21,grace,-12.66,groceries,LIDL,773.32
-2026-06-22,grace,-4.62,leisure,STEAM,768.7
-2026-06-24,grace,-4.58,groceries,LIDL,764.12
-2026-06-24,grace,-6.59,eating_out,JUST EAT,757.53
-2026-06-24,grace,-8.18,transport,SHELL,749.35
-2026-06-25,grace,-13.95,transport,NORTHERN RAIL,735.4
-2026-06-26,grace,-2.21,groceries,TESCO,733.19
-2026-06-27,grace,-3.6,groceries,TESCO,729.59
-2026-06-27,grace,-19.8,misc,POST OFFICE,709.79
-2026-06-28,grace,-2.57,groceries,SAINSBURYS,707.22
-2026-06-28,grace,-12.99,shopping,VINTED,694.23
-2026-06-28,grace,-33.17,leisure,CINEWORLD,661.06
-2026-06-30,grace,-10.01,transport,FIRST BUS,651.05
-2026-07-01,grace,-7.45,groceries,CO-OP,643.6
-2026-07-01,grace,-8.81,shopping,B&M,634.79
-2026-07-01,grace,-16.26,leisure,WATERSTONES,618.53
-2026-07-01,grace,-45.0,housing,CITY COUNCIL TAX,573.53
-2026-07-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,153.53
-2026-07-02,grace,128.0,income,DWP PENSION CREDIT,281.53
-2026-07-02,grace,-15.42,misc,TIMPSON,266.11
-2026-07-03,grace,-6.34,transport,FIRST BUS,259.77
-2026-07-04,grace,-1.79,groceries,SAINSBURYS,257.98
-2026-07-05,grace,-13.37,leisure,CINEWORLD,244.61
-2026-07-05,grace,-30.0,utilities,SEVERN TRENT WATER,214.61
-2026-07-06,grace,-8.49,transport,SHELL,206.12
-2026-07-07,grace,-5.0,transport,NORTHERN RAIL,201.12
-2026-07-07,grace,-9.65,groceries,CO-OP,191.47
-2026-07-09,grace,-5.11,eating_out,GREGGS,186.36
-2026-07-09,grace,-10.0,phone,LEBARA MOBILE,176.36
-2026-07-10,grace,791.46,income,DWP STATE PENSION,967.82
-2026-07-10,grace,-13.27,transport,TFL,954.55
-2026-07-11,grace,-6.37,eating_out,DELIVEROO,948.18
-2026-07-11,grace,-7.39,transport,BP,940.79
-2026-07-12,grace,-9.16,transport,UBER,931.63
-2026-07-12,grace,-66.9,shopping,AMAZON,864.73
-2026-07-14,grace,-3.63,groceries,ALDI,861.1
-2026-07-14,grace,-10.0,health,DENTAL CARE,851.1
-2026-07-14,grace,-16.53,transport,BP,834.57
-2026-07-15,grace,-2.12,groceries,ALDI,832.45
-2026-07-15,grace,-46.75,utilities,EDF ENERGY,785.7
-2026-07-17,grace,-9.74,leisure,GARDEN CENTRE,775.96
-2026-07-17,grace,-11.35,transport,SHELL,764.61
-2026-07-18,grace,-3.46,eating_out,PRET,761.15
-2026-07-18,grace,-5.96,leisure,WATERSTONES,755.19
-2026-07-19,grace,-2.06,groceries,ALDI,753.13
-2026-07-19,grace,-8.91,eating_out,LOCAL PUB,744.22
-2026-07-19,grace,-11.13,transport,UBER,733.09
-2026-07-19,grace,-20.15,leisure,WATERSTONES,712.94
-2026-07-20,grace,-3.9,groceries,TESCO,709.04
-2026-07-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,685.04
-2026-07-21,grace,-12.55,leisure,WATERSTONES,672.49
-2026-07-22,grace,-3.4,groceries,CO-OP,669.09
-2026-07-23,grace,-4.84,transport,SHELL,664.25
-2026-07-24,grace,-6.81,transport,UBER,657.44
-2026-07-25,grace,-2.83,eating_out,JUST EAT,654.61
-2026-07-27,grace,-4.27,groceries,SAINSBURYS,650.34
-2026-07-27,grace,-6.84,transport,UBER,643.5
-2026-07-28,grace,-3.22,eating_out,PRET,640.28
-2026-07-28,grace,-3.35,groceries,LIDL,636.93
-2026-07-28,grace,-10.91,transport,FIRST BUS,626.02
-2026-07-29,grace,-1.89,groceries,ALDI,624.13
-2026-07-29,grace,-3.88,eating_out,LOCAL PUB,620.25
-2026-07-30,grace,-5.17,transport,SHELL,615.08
-2026-07-30,grace,-18.28,leisure,CINEWORLD,596.8
-2026-07-31,grace,128.0,income,DWP PENSION CREDIT,724.8
-2026-08-01,grace,-4.4,groceries,SAINSBURYS,720.4
-2026-08-01,grace,-45.0,housing,CITY COUNCIL TAX,675.4
-2026-08-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,255.4
-2026-08-02,grace,-5.96,eating_out,LOCAL PUB,249.44
-2026-08-03,grace,-3.34,groceries,LIDL,246.1
-2026-08-03,grace,-11.69,leisure,CINEWORLD,234.41
-2026-08-04,grace,-4.0,groceries,CO-OP,230.41
-2026-08-04,grace,-4.22,leisure,STEAM,226.19
-2026-08-04,grace,-4.37,shopping,B&M,221.82
-2026-08-05,grace,-4.37,eating_out,NANDOS,217.45
-2026-08-05,grace,-30.0,utilities,SEVERN TRENT WATER,187.45
-2026-08-06,grace,-2.7,groceries,ALDI,184.75
-2026-08-06,grace,-3.2,shopping,B&M,181.55
-2026-08-06,grace,-59.61,leisure,WATERSTONES,121.94
-2026-08-07,grace,791.46,income,DWP STATE PENSION,913.4
-2026-08-07,grace,-2.99,groceries,CO-OP,910.41
-2026-08-07,grace,-10.44,eating_out,NANDOS,899.97
-2026-08-07,grace,-13.53,transport,TFL,886.44
-2026-08-08,grace,-11.42,groceries,LIDL,875.02
-2026-08-09,grace,-1.14,eating_out,JUST EAT,873.88
-2026-08-09,grace,-10.0,phone,LEBARA MOBILE,863.88
-2026-08-11,grace,54.81,refund,AMAZON REFUND,918.69
-2026-08-11,grace,-1.99,shopping,BOOTS,916.7
-2026-08-11,grace,-12.51,transport,UBER,904.19
-2026-08-12,grace,-3.06,transport,BP,901.13
-2026-08-13,grace,-15.83,health,BOOTS PHARMACY,885.3
-2026-08-14,grace,-5.33,transport,SHELL,879.97
-2026-08-15,grace,-4.04,eating_out,GREGGS,875.93
-2026-08-15,grace,-7.31,groceries,LIDL,868.62
-2026-08-15,grace,-46.75,utilities,EDF ENERGY,821.87
-2026-08-16,grace,-7.96,eating_out,NANDOS,813.91
-2026-08-17,grace,-2.94,groceries,TESCO,810.97
-2026-08-17,grace,-2.94,eating_out,NANDOS,808.03
-2026-08-17,grace,-3.46,transport,FIRST BUS,804.57
-2026-08-17,grace,-6.14,health,DENTAL CARE,798.43
-2026-08-20,grace,-4.97,groceries,TESCO,793.46
-2026-08-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,769.46
-2026-08-21,grace,-4.91,transport,UBER,764.55
-2026-08-21,grace,-41.85,misc,TIMPSON,722.7
-2026-08-22,grace,-4.32,eating_out,NANDOS,718.38
-2026-08-22,grace,-15.8,leisure,WATERSTONES,702.58
-2026-08-23,grace,-11.26,leisure,GARDEN CENTRE,691.32
-2026-08-26,grace,-3.37,leisure,STEAM,687.95
-2026-08-26,grace,-15.18,transport,FIRST BUS,672.77
-2026-08-26,grace,-33.26,shopping,PRIMARK,639.51
-2026-08-27,grace,-1.9,groceries,LIDL,637.61
-2026-08-27,grace,-2.85,eating_out,PRET,634.76
-2026-08-27,grace,-4.77,shopping,VINTED,629.99
-2026-08-27,grace,-5.14,transport,BP,624.85
-2026-08-27,grace,-13.33,misc,POST OFFICE,611.52
-2026-08-28,grace,-3.32,transport,SHELL,608.2
-2026-08-28,grace,-4.31,eating_out,GREGGS,603.89
-2026-08-29,grace,-5.49,groceries,ALDI,598.4
-2026-08-29,grace,-5.69,eating_out,GREGGS,592.71
-2026-08-30,grace,-11.27,misc,POST OFFICE,581.44
-2026-08-30,grace,-21.45,leisure,STEAM,559.99
-2026-08-31,grace,-3.0,transport,FIRST BUS,556.99
-2026-08-31,grace,-4.43,groceries,TESCO,552.56
-2026-09-01,grace,-4.07,groceries,LIDL,548.49
-2026-09-01,grace,-12.39,transport,SHELL,536.1
-2026-09-01,grace,-45.0,housing,CITY COUNCIL TAX,491.1
-2026-09-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,71.1
-2026-09-02,grace,128.0,income,DWP PENSION CREDIT,199.1
-2026-09-02,grace,-11.59,transport,FIRST BUS,187.51
-2026-09-03,grace,-4.02,groceries,LIDL,183.49
-2026-09-04,grace,791.46,income,DWP STATE PENSION,974.95
-2026-09-04,grace,-4.43,groceries,CO-OP,970.52
-2026-09-05,grace,-3.59,groceries,ALDI,966.93
-2026-09-05,grace,-4.97,misc,POST OFFICE,961.96
-2026-09-05,grace,-30.0,utilities,SEVERN TRENT WATER,931.96
-2026-09-06,grace,-4.0,groceries,TESCO,927.96
-2026-09-06,grace,-7.29,misc,TIMPSON,920.67
-2026-09-06,grace,-9.93,transport,BP,910.74
-2026-09-06,grace,-14.0,shopping,ARGOS,896.74
-2026-09-06,grace,-20.01,leisure,BET365,876.73
-2026-09-07,grace,-3.45,groceries,LIDL,873.28
-2026-09-07,grace,-8.89,misc,PAYPAL,864.39
-2026-09-07,grace,-10.9,transport,SHELL,853.49
-2026-09-08,grace,-3.52,groceries,CO-OP,849.97
-2026-09-08,grace,-12.46,transport,FIRST BUS,837.51
-2026-09-09,grace,-5.49,transport,TFL,832.02
-2026-09-09,grace,-10.0,phone,LEBARA MOBILE,822.02
-2026-09-10,grace,-42.22,misc,CHARITY SHOP,779.8
-2026-09-11,grace,-5.31,groceries,ALDI,774.49
-2026-09-11,grace,-5.75,eating_out,GREGGS,768.74
-2026-09-12,grace,-5.09,shopping,VINTED,763.65
-2026-09-12,grace,-5.93,eating_out,NANDOS,757.72
-2026-09-13,grace,-2.75,groceries,ALDI,754.97
-2026-09-13,grace,-3.69,eating_out,GREGGS,751.28
-2026-09-14,grace,-9.17,transport,UBER,742.11
-2026-09-15,grace,-59.5,utilities,EDF ENERGY,682.61
-2026-09-17,grace,-2.48,eating_out,PRET,680.13
-2026-09-17,grace,-3.55,groceries,TESCO,676.58
-2026-09-18,grace,-9.73,transport,NORTHERN RAIL,666.85
-2026-09-19,grace,-3.67,groceries,CO-OP,663.18
-2026-09-19,grace,-28.59,health,SUPERDRUG,634.59
-2026-09-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,610.59
-2026-09-23,grace,-5.49,groceries,ALDI,605.1
-2026-09-23,grace,-10.39,shopping,VINTED,594.71
-2026-09-24,grace,-4.07,eating_out,JUST EAT,590.64
-2026-09-24,grace,-5.43,transport,NORTHERN RAIL,585.21
-2026-09-24,grace,-6.48,groceries,LIDL,578.73
-2026-09-25,grace,-4.95,groceries,TESCO,573.78
-2026-09-25,grace,-17.01,shopping,VINTED,556.77
-2026-09-26,grace,-17.05,leisure,WATERSTONES,539.72
-2026-09-27,grace,-8.4,eating_out,DELIVEROO,531.32
-2026-09-27,grace,-10.59,health,BOOTS PHARMACY,520.73
-2026-09-28,grace,-7.78,transport,TFL,512.95
-2026-09-28,grace,-12.6,leisure,STEAM,500.35
-2026-09-28,grace,-43.55,misc,TIMPSON,456.8
-2026-09-29,grace,-6.34,transport,UBER,450.46
-2026-10-01,grace,-8.11,groceries,SAINSBURYS,442.35
-2026-10-01,grace,-19.21,leisure,CINEWORLD,423.14
-2026-10-01,grace,-45.0,housing,CITY COUNCIL TAX,378.14
-2026-10-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,-41.86
-2026-10-02,grace,791.46,income,DWP STATE PENSION,749.6
-2026-10-02,grace,128.0,income,DWP PENSION CREDIT,877.6
-2026-10-03,grace,-5.89,groceries,LIDL,871.71
-2026-10-03,grace,-8.02,leisure,CINEWORLD,863.69
-2026-10-03,grace,-23.25,transport,BP,840.44
-2026-10-04,grace,-7.31,transport,UBER,833.13
-2026-10-05,grace,-2.61,transport,SHELL,830.52
-2026-10-05,grace,-3.77,groceries,ALDI,826.75
-2026-10-05,grace,-10.14,shopping,BOOTS,816.61
-2026-10-05,grace,-30.0,utilities,SEVERN TRENT WATER,786.61
-2026-10-06,grace,-3.14,misc,CHARITY SHOP,783.47
-2026-10-07,grace,-4.51,groceries,LIDL,778.96
-2026-10-07,grace,-7.01,transport,SHELL,771.95
-2026-10-09,grace,-7.73,groceries,ALDI,764.22
-2026-10-09,grace,-10.0,phone,LEBARA MOBILE,754.22
-2026-10-09,grace,-22.39,transport,TFL,731.83
-2026-10-10,grace,-2.76,eating_out,JUST EAT,729.07
-2026-10-10,grace,-2.99,groceries,CO-OP,726.08
-2026-10-11,grace,-2.28,groceries,CO-OP,723.8
-2026-10-11,grace,-6.4,eating_out,PRET,717.4
-2026-10-11,grace,-16.48,transport,FIRST BUS,700.92
-2026-10-12,grace,-3.71,groceries,LIDL,697.21
-2026-10-13,grace,-2.31,groceries,SAINSBURYS,694.9
-2026-10-14,grace,-24.53,shopping,ARGOS,670.37
-2026-10-15,grace,-1.4,eating_out,JUST EAT,668.97
-2026-10-15,grace,-85.0,utilities,EDF ENERGY,583.97
-2026-10-17,grace,-4.62,groceries,SAINSBURYS,579.35
-2026-10-18,grace,-6.17,groceries,TESCO,573.18
-2026-10-19,grace,-1.89,groceries,SAINSBURYS,571.29
-2026-10-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,547.29
-2026-10-21,grace,-4.02,eating_out,GREGGS,543.27
-2026-10-21,grace,-5.51,transport,NORTHERN RAIL,537.76
-2026-10-21,grace,-6.82,groceries,SAINSBURYS,530.94
-2026-10-21,grace,-20.57,misc,PAYPAL,510.37
-2026-10-22,grace,-2.37,shopping,ARGOS,508.0
-2026-10-23,grace,-6.39,shopping,AMAZON,501.61
-2026-10-24,grace,-7.51,groceries,ALDI,494.1
-2026-10-24,grace,-10.17,transport,NORTHERN RAIL,483.93
-2026-10-26,grace,-1.05,shopping,VINTED,482.88
-2026-10-26,grace,-4.92,eating_out,JUST EAT,477.96
-2026-10-26,grace,-18.31,misc,PAYPAL,459.65
-2026-10-27,grace,-12.39,transport,SHELL,447.26
-2026-10-28,grace,-3.84,transport,UBER,443.42
-2026-10-28,grace,-5.11,groceries,LIDL,438.31
-2026-10-29,grace,-7.67,groceries,ALDI,430.64
-2026-10-29,grace,-12.79,shopping,BOOTS,417.85
-2026-10-30,grace,791.46,income,DWP STATE PENSION,1209.31
-2026-10-31,grace,-7.88,leisure,BET365,1201.43
-2026-10-31,grace,-16.13,groceries,ALDI,1185.3
-2026-11-01,grace,-45.0,housing,CITY COUNCIL TAX,1140.3
-2026-11-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,720.3
-2026-11-02,grace,128.0,income,DWP PENSION CREDIT,848.3
-2026-11-05,grace,-2.06,eating_out,LOCAL PUB,846.24
-2026-11-05,grace,-6.24,groceries,CO-OP,840.0
-2026-11-05,grace,-30.0,utilities,SEVERN TRENT WATER,810.0
+2025-11-07,grace,-5.04,groceries,ALDI,1456.86
+2025-11-07,grace,-19.14,leisure,STEAM,1437.72
+2025-11-08,grace,-1.88,groceries,CO-OP,1435.84
+2025-11-08,grace,-2.9,eating_out,JUST EAT,1432.94
+2025-11-08,grace,-5.6,transport,UBER,1427.34
+2025-11-09,grace,-2.5,groceries,LIDL,1424.84
+2025-11-09,grace,-10.0,phone,LEBARA MOBILE,1414.84
+2025-11-10,grace,-1.12,eating_out,NANDOS,1413.72
+2025-11-11,grace,-1.84,eating_out,NANDOS,1411.88
+2025-11-11,grace,-2.47,groceries,SAINSBURYS,1409.41
+2025-11-11,grace,-3.49,misc,PAYPAL,1405.92
+2025-11-11,grace,-4.08,shopping,AMAZON,1401.84
+2025-11-11,grace,-9.04,leisure,STEAM,1392.8
+2025-11-12,grace,-2.86,shopping,BOOTS,1389.94
+2025-11-12,grace,-5.64,eating_out,DELIVEROO,1384.3
+2025-11-12,grace,-8.65,transport,NORTHERN RAIL,1375.65
+2025-11-12,grace,-9.21,leisure,GARDEN CENTRE,1366.44
+2025-11-13,grace,-3.31,transport,SHELL,1363.13
+2025-11-13,grace,-5.82,leisure,CINEWORLD,1357.31
+2025-11-15,grace,-3.83,shopping,ARGOS,1353.48
+2025-11-15,grace,-3.86,groceries,LIDL,1349.62
+2025-11-15,grace,-114.75,utilities,EDF ENERGY,1234.87
+2025-11-16,grace,-11.65,transport,BP,1223.22
+2025-11-17,grace,-3.83,groceries,SAINSBURYS,1219.39
+2025-11-17,grace,-7.95,transport,FIRST BUS,1211.44
+2025-11-19,grace,-7.69,transport,TFL,1203.75
+2025-11-20,grace,-21.62,leisure,CINEWORLD,1182.13
+2025-11-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1158.13
+2025-11-21,grace,-2.71,groceries,CO-OP,1155.42
+2025-11-21,grace,-2.9,eating_out,PRET,1152.52
+2025-11-21,grace,-5.19,leisure,WATERSTONES,1147.33
+2025-11-21,grace,-29.35,shopping,PRIMARK,1117.98
+2025-11-22,grace,-2.05,eating_out,DELIVEROO,1115.93
+2025-11-22,grace,-8.46,leisure,BET365,1107.47
+2025-11-23,grace,-2.72,eating_out,NANDOS,1104.75
+2025-11-23,grace,-35.6,leisure,GARDEN CENTRE,1069.15
+2025-11-24,grace,-12.31,leisure,GARDEN CENTRE,1056.84
+2025-11-26,grace,-3.72,transport,TFL,1053.12
+2025-11-26,grace,-5.15,groceries,ALDI,1047.97
+2025-11-26,grace,-8.62,health,DENTAL CARE,1039.35
+2025-11-27,grace,-10.23,transport,NORTHERN RAIL,1029.12
+2025-11-28,grace,791.46,income,DWP STATE PENSION,1820.58
+2025-11-29,grace,-0.95,eating_out,JUST EAT,1819.63
+2025-11-29,grace,-2.48,transport,SHELL,1817.15
+2025-11-29,grace,-15.44,groceries,SAINSBURYS,1801.71
+2025-11-30,grace,-4.14,transport,BP,1797.57
+2025-11-30,grace,-8.04,groceries,TESCO,1789.53
+2025-11-30,grace,-14.96,leisure,GARDEN CENTRE,1774.57
+2025-12-01,grace,-3.11,groceries,LIDL,1771.46
+2025-12-01,grace,-45.0,housing,CITY COUNCIL TAX,1726.46
+2025-12-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,1306.46
+2025-12-02,grace,128.0,income,DWP PENSION CREDIT,1434.46
+2025-12-02,grace,-7.84,transport,UBER,1426.62
+2025-12-02,grace,-8.85,groceries,ALDI,1417.77
+2025-12-02,grace,-10.26,eating_out,GREGGS,1407.51
+2025-12-03,grace,-6.06,groceries,LIDL,1401.45
+2025-12-03,grace,-7.01,transport,NORTHERN RAIL,1394.44
+2025-12-03,grace,-11.38,leisure,STEAM,1383.06
+2025-12-03,grace,-50.0,savings,TRANSFER TO SAVINGS,1333.06
+2025-12-05,grace,-30.0,utilities,SEVERN TRENT WATER,1303.06
+2025-12-06,grace,-17.71,shopping,BOOTS,1285.35
+2025-12-07,grace,-11.65,groceries,TESCO,1273.7
+2025-12-08,grace,-2.53,groceries,TESCO,1271.17
+2025-12-09,grace,-5.59,groceries,ALDI,1265.58
+2025-12-09,grace,-10.0,phone,LEBARA MOBILE,1255.58
+2025-12-12,grace,-6.4,transport,UBER,1249.18
+2025-12-13,grace,-10.24,transport,SHELL,1238.94
+2025-12-14,grace,-7.39,transport,FIRST BUS,1231.55
+2025-12-14,grace,-11.76,shopping,B&M,1219.79
+2025-12-15,grace,-2.84,eating_out,NANDOS,1216.95
+2025-12-15,grace,-5.18,shopping,B&M,1211.77
+2025-12-15,grace,-5.87,transport,NORTHERN RAIL,1205.9
+2025-12-15,grace,-136.0,utilities,EDF ENERGY,1069.9
+2025-12-16,grace,-2.84,eating_out,NANDOS,1067.06
+2025-12-16,grace,-3.52,groceries,LIDL,1063.54
+2025-12-17,grace,-5.28,groceries,SAINSBURYS,1058.26
+2025-12-18,grace,-3.31,groceries,TESCO,1054.95
+2025-12-18,grace,-6.89,transport,NORTHERN RAIL,1048.06
+2025-12-19,grace,-4.84,groceries,CO-OP,1043.22
+2025-12-19,grace,-6.33,misc,CHARITY SHOP,1036.89
+2025-12-20,grace,-8.25,groceries,CO-OP,1028.64
+2025-12-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1004.64
+2025-12-21,grace,-13.37,leisure,BET365,991.27
+2025-12-22,grace,-5.35,misc,TIMPSON,985.92
+2025-12-22,grace,-8.62,groceries,ALDI,977.3
+2025-12-24,grace,-4.82,eating_out,GREGGS,972.48
+2025-12-25,grace,-3.37,groceries,SAINSBURYS,969.11
+2025-12-26,grace,791.46,income,DWP STATE PENSION,1760.57
+2025-12-27,grace,-4.65,eating_out,JUST EAT,1755.92
+2025-12-27,grace,-12.0,leisure,WATERSTONES,1743.92
+2025-12-28,grace,-6.41,transport,FIRST BUS,1737.51
+2025-12-29,grace,-2.9,eating_out,DELIVEROO,1734.61
+2025-12-30,grace,-5.45,groceries,SAINSBURYS,1729.16
+2025-12-31,grace,-11.96,transport,SHELL,1717.2
+2025-12-31,grace,-39.86,shopping,ARGOS,1677.34
+2026-01-01,grace,-4.98,shopping,ARGOS,1672.36
+2026-01-01,grace,-45.0,housing,CITY COUNCIL TAX,1627.36
+2026-01-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,1207.36
+2026-01-02,grace,128.0,income,DWP PENSION CREDIT,1335.36
+2026-01-02,grace,-8.47,shopping,VINTED,1326.89
+2026-01-02,grace,-10.06,groceries,CO-OP,1316.83
+2026-01-03,grace,-50.0,savings,TRANSFER TO SAVINGS,1266.83
+2026-01-04,grace,-3.96,shopping,PRIMARK,1262.87
+2026-01-05,grace,-12.8,misc,TIMPSON,1250.07
+2026-01-05,grace,-30.0,utilities,SEVERN TRENT WATER,1220.07
+2026-01-06,grace,-5.4,shopping,AMAZON,1214.67
+2026-01-06,grace,-7.37,misc,CHARITY SHOP,1207.3
+2026-01-06,grace,-10.19,transport,SHELL,1197.11
+2026-01-07,grace,-5.76,leisure,CINEWORLD,1191.35
+2026-01-08,grace,-13.2,eating_out,JUST EAT,1178.15
+2026-01-09,grace,-5.47,misc,PAYPAL,1172.68
+2026-01-09,grace,-7.27,transport,UBER,1165.41
+2026-01-09,grace,-10.0,phone,LEBARA MOBILE,1155.41
+2026-01-10,grace,-0.71,eating_out,DELIVEROO,1154.7
+2026-01-10,grace,-8.27,groceries,SAINSBURYS,1146.43
+2026-01-11,grace,-2.88,groceries,CO-OP,1143.55
+2026-01-11,grace,-3.07,leisure,WATERSTONES,1140.48
+2026-01-11,grace,-3.31,eating_out,LOCAL PUB,1137.17
+2026-01-11,grace,-17.82,shopping,VINTED,1119.35
+2026-01-12,grace,-3.64,eating_out,LOCAL PUB,1115.71
+2026-01-13,grace,-1.61,eating_out,DELIVEROO,1114.1
+2026-01-13,grace,-10.49,shopping,VINTED,1103.61
+2026-01-14,grace,-1.31,eating_out,LOCAL PUB,1102.3
+2026-01-14,grace,-10.95,shopping,VINTED,1091.35
+2026-01-15,grace,-1.32,groceries,ALDI,1090.03
+2026-01-15,grace,-144.5,utilities,EDF ENERGY,945.53
+2026-01-16,grace,-4.3,groceries,SAINSBURYS,941.23
+2026-01-17,grace,-7.49,groceries,TESCO,933.74
+2026-01-18,grace,-6.46,groceries,LIDL,927.28
+2026-01-18,grace,-9.79,eating_out,DELIVEROO,917.49
+2026-01-19,grace,-0.76,eating_out,NANDOS,916.73
+2026-01-19,grace,-9.83,shopping,PRIMARK,906.9
+2026-01-20,grace,-4.07,groceries,TESCO,902.83
+2026-01-20,grace,-8.35,misc,PAYPAL,894.48
+2026-01-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,870.48
+2026-01-21,grace,-2.02,eating_out,GREGGS,868.46
+2026-01-22,grace,-8.76,transport,FIRST BUS,859.7
+2026-01-23,grace,791.46,income,DWP STATE PENSION,1651.16
+2026-01-23,grace,-3.72,groceries,LIDL,1647.44
+2026-01-24,grace,-0.82,eating_out,DELIVEROO,1646.62
+2026-01-24,grace,-2.58,shopping,PRIMARK,1644.04
+2026-01-24,grace,-4.06,groceries,TESCO,1639.98
+2026-01-25,grace,-4.86,transport,BP,1635.12
+2026-01-25,grace,-4.89,groceries,LIDL,1630.23
+2026-01-25,grace,-12.9,misc,TIMPSON,1617.33
+2026-01-26,grace,-5.97,groceries,LIDL,1611.36
+2026-01-26,grace,-21.03,leisure,STEAM,1590.33
+2026-01-27,grace,-5.54,transport,UBER,1584.79
+2026-01-28,grace,-3.33,eating_out,PRET,1581.46
+2026-01-30,grace,-4.39,leisure,BET365,1577.07
+2026-01-30,grace,-14.39,health,BOOTS PHARMACY,1562.68
+2026-01-31,grace,-4.1,groceries,LIDL,1558.58
+2026-02-01,grace,-2.72,leisure,WATERSTONES,1555.86
+2026-02-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,1135.86
+2026-02-02,grace,128.0,income,DWP PENSION CREDIT,1263.86
+2026-02-02,grace,-6.55,transport,FIRST BUS,1257.31
+2026-02-02,grace,-7.48,misc,TIMPSON,1249.83
+2026-02-03,grace,-1.89,eating_out,LOCAL PUB,1247.94
+2026-02-03,grace,-6.09,transport,NORTHERN RAIL,1241.85
+2026-02-03,grace,-50.0,savings,TRANSFER TO SAVINGS,1191.85
+2026-02-05,grace,-30.0,utilities,SEVERN TRENT WATER,1161.85
+2026-02-06,grace,-3.07,groceries,SAINSBURYS,1158.78
+2026-02-06,grace,-4.59,eating_out,JUST EAT,1154.19
+2026-02-06,grace,-13.68,leisure,CINEWORLD,1140.51
+2026-02-07,grace,-4.66,groceries,TESCO,1135.85
+2026-02-07,grace,-5.47,health,DENTAL CARE,1130.38
+2026-02-07,grace,-7.29,transport,UBER,1123.09
+2026-02-08,grace,-1.53,shopping,BOOTS,1121.56
+2026-02-08,grace,-5.15,groceries,TESCO,1116.41
+2026-02-08,grace,-12.88,leisure,GARDEN CENTRE,1103.53
+2026-02-09,grace,-10.0,phone,LEBARA MOBILE,1093.53
+2026-02-10,grace,-2.76,eating_out,NANDOS,1090.77
+2026-02-10,grace,-3.53,transport,UBER,1087.24
+2026-02-10,grace,-6.87,groceries,ALDI,1080.37
+2026-02-11,grace,-5.64,groceries,LIDL,1074.73
+2026-02-12,grace,-3.97,eating_out,PRET,1070.76
+2026-02-13,grace,-10.66,groceries,CO-OP,1060.1
+2026-02-15,grace,-4.35,eating_out,DELIVEROO,1055.75
+2026-02-15,grace,-127.5,utilities,EDF ENERGY,928.25
+2026-02-16,grace,-5.0,transport,UBER,923.25
+2026-02-16,grace,-6.02,groceries,ALDI,917.23
+2026-02-16,grace,-14.75,misc,TIMPSON,902.48
+2026-02-18,grace,-2.06,shopping,BOOTS,900.42
+2026-02-19,grace,-2.58,groceries,SAINSBURYS,897.84
+2026-02-20,grace,791.46,income,DWP STATE PENSION,1689.3
+2026-02-20,grace,-4.29,transport,BP,1685.01
+2026-02-20,grace,-9.03,eating_out,GREGGS,1675.98
+2026-02-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1651.98
+2026-02-21,grace,-2.28,groceries,SAINSBURYS,1649.7
+2026-02-22,grace,-2.65,eating_out,JUST EAT,1647.05
+2026-02-22,grace,-5.47,groceries,SAINSBURYS,1641.58
+2026-02-24,grace,-10.79,groceries,SAINSBURYS,1630.79
+2026-02-24,grace,-14.04,leisure,WATERSTONES,1616.75
+2026-02-25,grace,-6.34,eating_out,GREGGS,1610.41
+2026-02-26,grace,-2.69,eating_out,JUST EAT,1607.72
+2026-02-26,grace,-3.21,groceries,LIDL,1604.51
+2026-02-27,grace,-14.25,transport,NORTHERN RAIL,1590.26
+2026-02-27,grace,-21.1,leisure,WATERSTONES,1569.16
+2026-02-28,grace,-4.72,leisure,WATERSTONES,1564.44
+2026-03-01,grace,-10.99,transport,FIRST BUS,1553.45
+2026-03-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,1133.45
+2026-03-02,grace,128.0,income,DWP PENSION CREDIT,1261.45
+2026-03-02,grace,-4.78,groceries,SAINSBURYS,1256.67
+2026-03-02,grace,-7.83,transport,TFL,1248.84
+2026-03-03,grace,-9.9,shopping,VINTED,1238.94
+2026-03-03,grace,-50.0,savings,TRANSFER TO SAVINGS,1188.94
+2026-03-04,grace,-4.75,groceries,LIDL,1184.19
+2026-03-05,grace,-30.0,utilities,SEVERN TRENT WATER,1154.19
+2026-03-06,grace,31.0,refund,AMAZON REFUND,1185.19
+2026-03-06,grace,-4.92,groceries,CO-OP,1180.27
+2026-03-06,grace,-12.02,transport,TFL,1168.25
+2026-03-06,grace,-21.18,leisure,CINEWORLD,1147.07
+2026-03-07,grace,-5.08,misc,CHARITY SHOP,1141.99
+2026-03-07,grace,-24.34,leisure,WATERSTONES,1117.65
+2026-03-08,grace,-12.96,misc,TIMPSON,1104.69
+2026-03-09,grace,-10.0,phone,LEBARA MOBILE,1094.69
+2026-03-10,grace,-6.32,transport,FIRST BUS,1088.37
+2026-03-10,grace,-7.08,groceries,ALDI,1081.29
+2026-03-11,grace,-9.15,leisure,WATERSTONES,1072.14
+2026-03-12,grace,-5.54,groceries,SAINSBURYS,1066.6
+2026-03-12,grace,-6.86,eating_out,GREGGS,1059.74
+2026-03-14,grace,-5.88,groceries,ALDI,1053.86
+2026-03-14,grace,-11.79,leisure,STEAM,1042.07
+2026-03-15,grace,-2.84,groceries,ALDI,1039.23
+2026-03-15,grace,-106.25,utilities,EDF ENERGY,932.98
+2026-03-16,grace,-9.69,transport,TFL,923.29
+2026-03-20,grace,791.46,income,DWP STATE PENSION,1714.75
+2026-03-20,grace,-5.86,transport,TFL,1708.89
+2026-03-20,grace,-7.47,groceries,TESCO,1701.42
+2026-03-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1677.42
+2026-03-21,grace,-2.21,eating_out,LOCAL PUB,1675.21
+2026-03-22,grace,-1.59,groceries,ALDI,1673.62
+2026-03-23,grace,-12.59,misc,PAYPAL,1661.03
+2026-03-25,grace,-7.82,health,SUPERDRUG,1653.21
+2026-03-26,grace,-1.59,eating_out,GREGGS,1651.62
+2026-03-26,grace,-9.63,groceries,CO-OP,1641.99
+2026-03-26,grace,-28.08,leisure,WATERSTONES,1613.91
+2026-03-28,grace,-2.56,groceries,SAINSBURYS,1611.35
+2026-03-28,grace,-5.81,eating_out,JUST EAT,1605.54
+2026-03-28,grace,-6.15,transport,TFL,1599.39
+2026-03-28,grace,-25.32,leisure,STEAM,1574.07
+2026-03-29,grace,-1.97,eating_out,DELIVEROO,1572.1
+2026-03-29,grace,-9.61,groceries,LIDL,1562.49
+2026-03-30,grace,-8.67,transport,TFL,1553.82
+2026-03-31,grace,-5.0,eating_out,JUST EAT,1548.82
+2026-03-31,grace,-7.32,shopping,VINTED,1541.5
+2026-04-01,grace,-3.72,groceries,TESCO,1537.78
+2026-04-01,grace,-45.0,housing,CITY COUNCIL TAX,1492.78
+2026-04-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,1072.78
+2026-04-02,grace,128.0,income,DWP PENSION CREDIT,1200.78
+2026-04-02,grace,-3.98,transport,TFL,1196.8
+2026-04-02,grace,-4.89,groceries,SAINSBURYS,1191.91
+2026-04-02,grace,-27.28,leisure,WATERSTONES,1164.63
+2026-04-03,grace,-50.0,savings,TRANSFER TO SAVINGS,1114.63
+2026-04-05,grace,-3.61,groceries,TESCO,1111.02
+2026-04-05,grace,-9.0,transport,TFL,1102.02
+2026-04-05,grace,-30.0,utilities,SEVERN TRENT WATER,1072.02
+2026-04-06,grace,-3.91,groceries,ALDI,1068.11
+2026-04-07,grace,-2.77,groceries,TESCO,1065.34
+2026-04-07,grace,-3.88,transport,TFL,1061.46
+2026-04-09,grace,-10.0,phone,LEBARA MOBILE,1051.46
+2026-04-09,grace,-18.49,leisure,WATERSTONES,1032.97
+2026-04-09,grace,-24.58,transport,SHELL,1008.39
+2026-04-11,grace,-2.88,groceries,SAINSBURYS,1005.51
+2026-04-11,grace,-3.26,eating_out,GREGGS,1002.25
+2026-04-11,grace,-4.32,leisure,STEAM,997.93
+2026-04-11,grace,-11.01,shopping,VINTED,986.92
+2026-04-12,grace,-2.29,groceries,SAINSBURYS,984.63
+2026-04-12,grace,-11.91,transport,UBER,972.72
+2026-04-15,grace,-3.43,groceries,ALDI,969.29
+2026-04-15,grace,-85.0,utilities,EDF ENERGY,884.29
+2026-04-17,grace,791.46,income,DWP STATE PENSION,1675.75
+2026-04-17,grace,-2.03,groceries,SAINSBURYS,1673.72
+2026-04-17,grace,-21.29,misc,PAYPAL,1652.43
+2026-04-18,grace,-4.98,groceries,TESCO,1647.45
+2026-04-19,grace,-2.89,groceries,LIDL,1644.56
+2026-04-19,grace,-3.12,eating_out,GREGGS,1641.44
+2026-04-19,grace,-4.77,transport,BP,1636.67
+2026-04-19,grace,-16.81,shopping,VINTED,1619.86
+2026-04-20,grace,-5.09,transport,NORTHERN RAIL,1614.77
+2026-04-20,grace,-20.31,leisure,CINEWORLD,1594.46
+2026-04-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1570.46
+2026-04-21,grace,-3.03,groceries,ALDI,1567.43
+2026-04-21,grace,-5.35,shopping,VINTED,1562.08
+2026-04-23,grace,-10.09,transport,SHELL,1551.99
+2026-04-23,grace,-10.95,shopping,PRIMARK,1541.04
+2026-04-26,grace,-2.16,eating_out,NANDOS,1538.88
+2026-04-26,grace,-5.72,shopping,BOOTS,1533.16
+2026-04-26,grace,-11.1,groceries,TESCO,1522.06
+2026-04-27,grace,-6.57,transport,UBER,1515.49
+2026-04-27,grace,-7.71,groceries,TESCO,1507.78
+2026-04-28,grace,-6.95,groceries,TESCO,1500.83
+2026-04-29,grace,-5.23,eating_out,GREGGS,1495.6
+2026-04-30,grace,-23.82,shopping,VINTED,1471.78
+2026-05-01,grace,128.0,income,DWP PENSION CREDIT,1599.78
+2026-05-01,grace,-45.0,housing,CITY COUNCIL TAX,1554.78
+2026-05-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,1134.78
+2026-05-02,grace,-0.95,eating_out,LOCAL PUB,1133.83
+2026-05-02,grace,-5.15,groceries,ALDI,1128.68
+2026-05-03,grace,-50.0,savings,TRANSFER TO SAVINGS,1078.68
+2026-05-04,grace,-7.87,groceries,ALDI,1070.81
+2026-05-05,grace,-30.0,utilities,SEVERN TRENT WATER,1040.81
+2026-05-06,grace,-3.76,eating_out,JUST EAT,1037.05
+2026-05-06,grace,-5.75,shopping,BOOTS,1031.3
+2026-05-07,grace,-12.0,health,DENTAL CARE,1019.3
+2026-05-09,grace,-1.85,eating_out,LOCAL PUB,1017.45
+2026-05-09,grace,-5.32,groceries,SAINSBURYS,1012.13
+2026-05-09,grace,-7.03,leisure,CINEWORLD,1005.1
+2026-05-09,grace,-10.0,phone,LEBARA MOBILE,995.1
+2026-05-10,grace,-2.4,groceries,CO-OP,992.7
+2026-05-10,grace,-3.53,health,SUPERDRUG,989.17
+2026-05-10,grace,-5.46,eating_out,PRET,983.71
+2026-05-10,grace,-7.88,transport,BP,975.83
+2026-05-10,grace,-14.03,shopping,PRIMARK,961.8
+2026-05-11,grace,-7.74,groceries,CO-OP,954.06
+2026-05-13,grace,-5.61,misc,CHARITY SHOP,948.45
+2026-05-13,grace,-11.2,groceries,LIDL,937.25
+2026-05-13,grace,-12.84,transport,NORTHERN RAIL,924.41
+2026-05-14,grace,-2.12,eating_out,JUST EAT,922.29
+2026-05-14,grace,-2.68,groceries,SAINSBURYS,919.61
+2026-05-14,grace,-4.84,shopping,PRIMARK,914.77
+2026-05-15,grace,791.46,income,DWP STATE PENSION,1706.23
+2026-05-15,grace,-63.75,utilities,EDF ENERGY,1642.48
+2026-05-16,grace,-4.31,transport,UBER,1638.17
+2026-05-16,grace,-5.31,groceries,LIDL,1632.86
+2026-05-16,grace,-6.83,leisure,GARDEN CENTRE,1626.03
+2026-05-17,grace,-3.92,transport,NORTHERN RAIL,1622.11
+2026-05-17,grace,-11.76,groceries,SAINSBURYS,1610.35
+2026-05-17,grace,-17.44,shopping,AMAZON,1592.91
+2026-05-18,grace,-4.76,transport,UBER,1588.15
+2026-05-18,grace,-7.86,leisure,GARDEN CENTRE,1580.29
+2026-05-18,grace,-19.67,shopping,B&M,1560.62
+2026-05-19,grace,-6.29,shopping,PRIMARK,1554.33
+2026-05-20,grace,-2.76,shopping,B&M,1551.57
+2026-05-20,grace,-3.47,eating_out,DELIVEROO,1548.1
+2026-05-20,grace,-5.98,transport,NORTHERN RAIL,1542.12
+2026-05-20,grace,-10.93,groceries,TESCO,1531.19
+2026-05-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1507.19
+2026-05-22,grace,-3.93,groceries,SAINSBURYS,1503.26
+2026-05-23,grace,-1.52,eating_out,JUST EAT,1501.74
+2026-05-23,grace,-5.56,groceries,SAINSBURYS,1496.18
+2026-05-23,grace,-6.52,leisure,BET365,1489.66
+2026-05-24,grace,-0.82,eating_out,PRET,1488.84
+2026-05-24,grace,-6.99,groceries,TESCO,1481.85
+2026-05-26,grace,-1.18,groceries,TESCO,1480.67
+2026-05-28,grace,-1.64,groceries,TESCO,1479.03
+2026-05-28,grace,-4.07,eating_out,NANDOS,1474.96
+2026-05-29,grace,-1.85,eating_out,PRET,1473.11
+2026-05-29,grace,-1.94,groceries,ALDI,1471.17
+2026-05-29,grace,-4.77,transport,UBER,1466.4
+2026-05-30,grace,-4.85,shopping,B&M,1461.55
+2026-05-30,grace,-7.5,groceries,ALDI,1454.05
+2026-05-31,grace,-3.79,shopping,VINTED,1450.26
+2026-06-01,grace,-2.8,transport,NORTHERN RAIL,1447.46
+2026-06-01,grace,-45.0,housing,CITY COUNCIL TAX,1402.46
+2026-06-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,982.46
+2026-06-02,grace,128.0,income,DWP PENSION CREDIT,1110.46
+2026-06-02,grace,-2.11,groceries,ALDI,1108.35
+2026-06-02,grace,-9.2,leisure,STEAM,1099.15
+2026-06-03,grace,-50.0,savings,TRANSFER TO SAVINGS,1049.15
+2026-06-05,grace,-5.65,transport,FIRST BUS,1043.5
+2026-06-05,grace,-8.07,misc,CHARITY SHOP,1035.43
+2026-06-05,grace,-11.09,groceries,CO-OP,1024.34
+2026-06-05,grace,-30.0,utilities,SEVERN TRENT WATER,994.34
+2026-06-06,grace,-8.91,misc,POST OFFICE,985.43
+2026-06-07,grace,-8.47,groceries,ALDI,976.96
+2026-06-07,grace,-9.47,misc,PAYPAL,967.49
+2026-06-08,grace,-2.4,health,SUPERDRUG,965.09
+2026-06-08,grace,-4.54,shopping,VINTED,960.55
+2026-06-08,grace,-6.15,eating_out,LOCAL PUB,954.4
+2026-06-09,grace,-2.36,shopping,PRIMARK,952.04
+2026-06-09,grace,-6.26,misc,CHARITY SHOP,945.78
+2026-06-09,grace,-8.17,eating_out,DELIVEROO,937.61
+2026-06-09,grace,-10.0,phone,LEBARA MOBILE,927.61
+2026-06-11,grace,-4.65,groceries,TESCO,922.96
+2026-06-12,grace,791.46,income,DWP STATE PENSION,1714.42
+2026-06-12,grace,-6.07,groceries,LIDL,1708.35
+2026-06-12,grace,-11.28,shopping,BOOTS,1697.07
+2026-06-13,grace,-4.21,leisure,WATERSTONES,1692.86
+2026-06-13,grace,-4.26,groceries,TESCO,1688.6
+2026-06-14,grace,-0.84,eating_out,PRET,1687.76
+2026-06-15,grace,-10.26,groceries,CO-OP,1677.5
+2026-06-15,grace,-51.0,utilities,EDF ENERGY,1626.5
+2026-06-18,grace,-4.07,leisure,WATERSTONES,1622.43
+2026-06-18,grace,-6.49,transport,TFL,1615.94
+2026-06-18,grace,-17.02,misc,TIMPSON,1598.92
+2026-06-19,grace,-6.9,leisure,GARDEN CENTRE,1592.02
+2026-06-20,grace,-5.95,leisure,STEAM,1586.07
+2026-06-20,grace,-10.48,groceries,TESCO,1575.59
+2026-06-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1551.59
+2026-06-21,grace,-3.6,eating_out,LOCAL PUB,1547.99
+2026-06-21,grace,-11.4,groceries,LIDL,1536.59
+2026-06-22,grace,-4.16,leisure,STEAM,1532.43
+2026-06-24,grace,-4.13,groceries,LIDL,1528.3
+2026-06-24,grace,-5.93,eating_out,JUST EAT,1522.37
+2026-06-24,grace,-7.36,transport,SHELL,1515.01
+2026-06-25,grace,-12.55,transport,NORTHERN RAIL,1502.46
+2026-06-26,grace,-1.99,groceries,TESCO,1500.47
+2026-06-27,grace,-3.24,groceries,TESCO,1497.23
+2026-06-27,grace,-17.82,misc,POST OFFICE,1479.41
+2026-06-28,grace,-2.31,groceries,SAINSBURYS,1477.1
+2026-06-28,grace,-11.69,shopping,VINTED,1465.41
+2026-06-28,grace,-29.85,leisure,CINEWORLD,1435.56
+2026-06-30,grace,-9.01,transport,FIRST BUS,1426.55
+2026-07-01,grace,-6.7,groceries,CO-OP,1419.85
+2026-07-01,grace,-7.93,shopping,B&M,1411.92
+2026-07-01,grace,-14.63,leisure,WATERSTONES,1397.29
+2026-07-01,grace,-45.0,housing,CITY COUNCIL TAX,1352.29
+2026-07-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,932.29
+2026-07-02,grace,128.0,income,DWP PENSION CREDIT,1060.29
+2026-07-02,grace,-13.87,misc,TIMPSON,1046.42
+2026-07-03,grace,-5.7,transport,FIRST BUS,1040.72
+2026-07-03,grace,-50.0,savings,TRANSFER TO SAVINGS,990.72
+2026-07-04,grace,-1.61,groceries,SAINSBURYS,989.11
+2026-07-05,grace,-12.03,leisure,CINEWORLD,977.08
+2026-07-05,grace,-30.0,utilities,SEVERN TRENT WATER,947.08
+2026-07-06,grace,-7.65,transport,SHELL,939.43
+2026-07-07,grace,-4.5,transport,NORTHERN RAIL,934.93
+2026-07-07,grace,-8.69,groceries,CO-OP,926.24
+2026-07-09,grace,-4.6,eating_out,GREGGS,921.64
+2026-07-09,grace,-10.0,phone,LEBARA MOBILE,911.64
+2026-07-10,grace,791.46,income,DWP STATE PENSION,1703.1
+2026-07-10,grace,-11.94,transport,TFL,1691.16
+2026-07-11,grace,-5.73,eating_out,DELIVEROO,1685.43
+2026-07-11,grace,-6.65,transport,BP,1678.78
+2026-07-12,grace,-8.24,transport,UBER,1670.54
+2026-07-12,grace,-60.21,shopping,AMAZON,1610.33
+2026-07-14,grace,-3.27,groceries,ALDI,1607.06
+2026-07-14,grace,-9.0,health,DENTAL CARE,1598.06
+2026-07-14,grace,-14.87,transport,BP,1583.19
+2026-07-15,grace,-1.91,groceries,ALDI,1581.28
+2026-07-15,grace,-46.75,utilities,EDF ENERGY,1534.53
+2026-07-17,grace,-8.77,leisure,GARDEN CENTRE,1525.76
+2026-07-17,grace,-10.21,transport,SHELL,1515.55
+2026-07-18,grace,-3.11,eating_out,PRET,1512.44
+2026-07-18,grace,-5.36,leisure,WATERSTONES,1507.08
+2026-07-19,grace,-1.85,groceries,ALDI,1505.23
+2026-07-19,grace,-8.01,eating_out,LOCAL PUB,1497.22
+2026-07-19,grace,-10.02,transport,UBER,1487.2
+2026-07-19,grace,-18.13,leisure,WATERSTONES,1469.07
+2026-07-20,grace,-3.51,groceries,TESCO,1465.56
+2026-07-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1441.56
+2026-07-21,grace,-11.29,leisure,WATERSTONES,1430.27
+2026-07-22,grace,-3.06,groceries,CO-OP,1427.21
+2026-07-23,grace,-4.36,transport,SHELL,1422.85
+2026-07-24,grace,-6.13,transport,UBER,1416.72
+2026-07-25,grace,-2.55,eating_out,JUST EAT,1414.17
+2026-07-27,grace,-3.84,groceries,SAINSBURYS,1410.33
+2026-07-27,grace,-6.16,transport,UBER,1404.17
+2026-07-28,grace,-2.89,eating_out,PRET,1401.28
+2026-07-28,grace,-3.01,groceries,LIDL,1398.27
+2026-07-28,grace,-9.82,transport,FIRST BUS,1388.45
+2026-07-29,grace,-1.7,groceries,ALDI,1386.75
+2026-07-29,grace,-3.49,eating_out,LOCAL PUB,1383.26
+2026-07-30,grace,-4.66,transport,SHELL,1378.6
+2026-07-30,grace,-16.45,leisure,CINEWORLD,1362.15
+2026-07-31,grace,128.0,income,DWP PENSION CREDIT,1490.15
+2026-08-01,grace,-3.96,groceries,SAINSBURYS,1486.19
+2026-08-01,grace,-45.0,housing,CITY COUNCIL TAX,1441.19
+2026-08-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,1021.19
+2026-08-02,grace,-5.37,eating_out,LOCAL PUB,1015.82
+2026-08-03,grace,-3.01,groceries,LIDL,1012.81
+2026-08-03,grace,-10.52,leisure,CINEWORLD,1002.29
+2026-08-03,grace,-50.0,savings,TRANSFER TO SAVINGS,952.29
+2026-08-04,grace,-3.6,groceries,CO-OP,948.69
+2026-08-04,grace,-3.8,leisure,STEAM,944.89
+2026-08-04,grace,-3.93,shopping,B&M,940.96
+2026-08-05,grace,-3.93,eating_out,NANDOS,937.03
+2026-08-05,grace,-30.0,utilities,SEVERN TRENT WATER,907.03
+2026-08-06,grace,-2.43,groceries,ALDI,904.6
+2026-08-06,grace,-2.88,shopping,B&M,901.72
+2026-08-06,grace,-53.65,leisure,WATERSTONES,848.07
+2026-08-07,grace,791.46,income,DWP STATE PENSION,1639.53
+2026-08-07,grace,-2.69,groceries,CO-OP,1636.84
+2026-08-07,grace,-9.39,eating_out,NANDOS,1627.45
+2026-08-07,grace,-12.18,transport,TFL,1615.27
+2026-08-08,grace,-10.28,groceries,LIDL,1604.99
+2026-08-09,grace,-1.02,eating_out,JUST EAT,1603.97
+2026-08-09,grace,-10.0,phone,LEBARA MOBILE,1593.97
+2026-08-11,grace,54.81,refund,AMAZON REFUND,1648.78
+2026-08-11,grace,-1.79,shopping,BOOTS,1646.99
+2026-08-11,grace,-11.26,transport,UBER,1635.73
+2026-08-12,grace,-2.75,transport,BP,1632.98
+2026-08-13,grace,-14.25,health,BOOTS PHARMACY,1618.73
+2026-08-14,grace,-4.8,transport,SHELL,1613.93
+2026-08-15,grace,-3.63,eating_out,GREGGS,1610.3
+2026-08-15,grace,-6.58,groceries,LIDL,1603.72
+2026-08-15,grace,-46.75,utilities,EDF ENERGY,1556.97
+2026-08-16,grace,-7.17,eating_out,NANDOS,1549.8
+2026-08-17,grace,-2.65,groceries,TESCO,1547.15
+2026-08-17,grace,-2.65,eating_out,NANDOS,1544.5
+2026-08-17,grace,-3.11,transport,FIRST BUS,1541.39
+2026-08-17,grace,-5.52,health,DENTAL CARE,1535.87
+2026-08-20,grace,-4.47,groceries,TESCO,1531.4
+2026-08-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1507.4
+2026-08-21,grace,-4.42,transport,UBER,1502.98
+2026-08-21,grace,-37.66,misc,TIMPSON,1465.32
+2026-08-22,grace,-3.89,eating_out,NANDOS,1461.43
+2026-08-22,grace,-14.22,leisure,WATERSTONES,1447.21
+2026-08-23,grace,-10.14,leisure,GARDEN CENTRE,1437.07
+2026-08-26,grace,-3.04,leisure,STEAM,1434.03
+2026-08-26,grace,-13.66,transport,FIRST BUS,1420.37
+2026-08-26,grace,-29.93,shopping,PRIMARK,1390.44
+2026-08-27,grace,-1.71,groceries,LIDL,1388.73
+2026-08-27,grace,-2.56,eating_out,PRET,1386.17
+2026-08-27,grace,-4.29,shopping,VINTED,1381.88
+2026-08-27,grace,-4.63,transport,BP,1377.25
+2026-08-27,grace,-12.0,misc,POST OFFICE,1365.25
+2026-08-28,grace,-2.99,transport,SHELL,1362.26
+2026-08-28,grace,-3.88,eating_out,GREGGS,1358.38
+2026-08-29,grace,-4.94,groceries,ALDI,1353.44
+2026-08-29,grace,-5.12,eating_out,GREGGS,1348.32
+2026-08-30,grace,-10.14,misc,POST OFFICE,1338.18
+2026-08-30,grace,-19.31,leisure,STEAM,1318.87
+2026-08-31,grace,-2.7,transport,FIRST BUS,1316.17
+2026-08-31,grace,-3.99,groceries,TESCO,1312.18
+2026-09-01,grace,-3.66,groceries,LIDL,1308.52
+2026-09-01,grace,-11.15,transport,SHELL,1297.37
+2026-09-01,grace,-45.0,housing,CITY COUNCIL TAX,1252.37
+2026-09-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,832.37
+2026-09-02,grace,128.0,income,DWP PENSION CREDIT,960.37
+2026-09-02,grace,-10.43,transport,FIRST BUS,949.94
+2026-09-03,grace,-3.61,groceries,LIDL,946.33
+2026-09-03,grace,-50.0,savings,TRANSFER TO SAVINGS,896.33
+2026-09-04,grace,791.46,income,DWP STATE PENSION,1687.79
+2026-09-04,grace,-3.99,groceries,CO-OP,1683.8
+2026-09-05,grace,-3.23,groceries,ALDI,1680.57
+2026-09-05,grace,-4.48,misc,POST OFFICE,1676.09
+2026-09-05,grace,-30.0,utilities,SEVERN TRENT WATER,1646.09
+2026-09-06,grace,-3.6,groceries,TESCO,1642.49
+2026-09-06,grace,-6.56,misc,TIMPSON,1635.93
+2026-09-06,grace,-8.94,transport,BP,1626.99
+2026-09-06,grace,-12.6,shopping,ARGOS,1614.39
+2026-09-06,grace,-18.01,leisure,BET365,1596.38
+2026-09-07,grace,-3.1,groceries,LIDL,1593.28
+2026-09-07,grace,-8.0,misc,PAYPAL,1585.28
+2026-09-07,grace,-9.81,transport,SHELL,1575.47
+2026-09-08,grace,-3.16,groceries,CO-OP,1572.31
+2026-09-08,grace,-11.22,transport,FIRST BUS,1561.09
+2026-09-09,grace,-4.94,transport,TFL,1556.15
+2026-09-09,grace,-10.0,phone,LEBARA MOBILE,1546.15
+2026-09-10,grace,-37.99,misc,CHARITY SHOP,1508.16
+2026-09-11,grace,-4.78,groceries,ALDI,1503.38
+2026-09-11,grace,-5.18,eating_out,GREGGS,1498.2
+2026-09-12,grace,-4.58,shopping,VINTED,1493.62
+2026-09-12,grace,-5.33,eating_out,NANDOS,1488.29
+2026-09-13,grace,-2.47,groceries,ALDI,1485.82
+2026-09-13,grace,-3.32,eating_out,GREGGS,1482.5
+2026-09-14,grace,-8.25,transport,UBER,1474.25
+2026-09-15,grace,-59.5,utilities,EDF ENERGY,1414.75
+2026-09-17,grace,-2.23,eating_out,PRET,1412.52
+2026-09-17,grace,-3.2,groceries,TESCO,1409.32
+2026-09-18,grace,-8.76,transport,NORTHERN RAIL,1400.56
+2026-09-19,grace,-3.3,groceries,CO-OP,1397.26
+2026-09-19,grace,-25.73,health,SUPERDRUG,1371.53
+2026-09-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1347.53
+2026-09-23,grace,-4.94,groceries,ALDI,1342.59
+2026-09-23,grace,-9.35,shopping,VINTED,1333.24
+2026-09-24,grace,-3.67,eating_out,JUST EAT,1329.57
+2026-09-24,grace,-4.89,transport,NORTHERN RAIL,1324.68
+2026-09-24,grace,-5.83,groceries,LIDL,1318.85
+2026-09-25,grace,-4.45,groceries,TESCO,1314.4
+2026-09-25,grace,-15.31,shopping,VINTED,1299.09
+2026-09-26,grace,-15.34,leisure,WATERSTONES,1283.75
+2026-09-27,grace,-7.56,eating_out,DELIVEROO,1276.19
+2026-09-27,grace,-9.53,health,BOOTS PHARMACY,1266.66
+2026-09-28,grace,-7.0,transport,TFL,1259.66
+2026-09-28,grace,-11.34,leisure,STEAM,1248.32
+2026-09-28,grace,-39.19,misc,TIMPSON,1209.13
+2026-09-29,grace,-5.7,transport,UBER,1203.43
+2026-10-01,grace,-7.3,groceries,SAINSBURYS,1196.13
+2026-10-01,grace,-17.29,leisure,CINEWORLD,1178.84
+2026-10-01,grace,-45.0,housing,CITY COUNCIL TAX,1133.84
+2026-10-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,713.84
+2026-10-02,grace,791.46,income,DWP STATE PENSION,1505.3
+2026-10-02,grace,128.0,income,DWP PENSION CREDIT,1633.3
+2026-10-03,grace,-5.3,groceries,LIDL,1628.0
+2026-10-03,grace,-7.22,leisure,CINEWORLD,1620.78
+2026-10-03,grace,-20.92,transport,BP,1599.86
+2026-10-03,grace,-50.0,savings,TRANSFER TO SAVINGS,1549.86
+2026-10-04,grace,-6.58,transport,UBER,1543.28
+2026-10-05,grace,-2.35,transport,SHELL,1540.93
+2026-10-05,grace,-3.39,groceries,ALDI,1537.54
+2026-10-05,grace,-9.13,shopping,BOOTS,1528.41
+2026-10-05,grace,-30.0,utilities,SEVERN TRENT WATER,1498.41
+2026-10-06,grace,-2.83,misc,CHARITY SHOP,1495.58
+2026-10-07,grace,-4.06,groceries,LIDL,1491.52
+2026-10-07,grace,-6.31,transport,SHELL,1485.21
+2026-10-09,grace,-6.96,groceries,ALDI,1478.25
+2026-10-09,grace,-10.0,phone,LEBARA MOBILE,1468.25
+2026-10-09,grace,-20.15,transport,TFL,1448.1
+2026-10-10,grace,-2.48,eating_out,JUST EAT,1445.62
+2026-10-10,grace,-2.69,groceries,CO-OP,1442.93
+2026-10-11,grace,-2.05,groceries,CO-OP,1440.88
+2026-10-11,grace,-5.76,eating_out,PRET,1435.12
+2026-10-11,grace,-14.83,transport,FIRST BUS,1420.29
+2026-10-12,grace,-3.34,groceries,LIDL,1416.95
+2026-10-13,grace,-2.08,groceries,SAINSBURYS,1414.87
+2026-10-14,grace,-22.07,shopping,ARGOS,1392.8
+2026-10-15,grace,-1.26,eating_out,JUST EAT,1391.54
+2026-10-15,grace,-85.0,utilities,EDF ENERGY,1306.54
+2026-10-17,grace,-4.16,groceries,SAINSBURYS,1302.38
+2026-10-18,grace,-5.55,groceries,TESCO,1296.83
+2026-10-19,grace,-1.7,groceries,SAINSBURYS,1295.13
+2026-10-20,grace,-24.0,insurance,GOLDEN LEAVES FUNERAL PLAN,1271.13
+2026-10-21,grace,-3.62,eating_out,GREGGS,1267.51
+2026-10-21,grace,-4.96,transport,NORTHERN RAIL,1262.55
+2026-10-21,grace,-6.14,groceries,SAINSBURYS,1256.41
+2026-10-21,grace,-18.51,misc,PAYPAL,1237.9
+2026-10-22,grace,-2.13,shopping,ARGOS,1235.77
+2026-10-23,grace,-5.75,shopping,AMAZON,1230.02
+2026-10-24,grace,-6.76,groceries,ALDI,1223.26
+2026-10-24,grace,-9.16,transport,NORTHERN RAIL,1214.1
+2026-10-26,grace,-0.95,shopping,VINTED,1213.15
+2026-10-26,grace,-4.43,eating_out,JUST EAT,1208.72
+2026-10-26,grace,-16.48,misc,PAYPAL,1192.24
+2026-10-27,grace,-11.15,transport,SHELL,1181.09
+2026-10-28,grace,-3.46,transport,UBER,1177.63
+2026-10-28,grace,-4.6,groceries,LIDL,1173.03
+2026-10-29,grace,-6.9,groceries,ALDI,1166.13
+2026-10-29,grace,-11.51,shopping,BOOTS,1154.62
+2026-10-30,grace,791.46,income,DWP STATE PENSION,1946.08
+2026-10-31,grace,-7.09,leisure,BET365,1938.99
+2026-10-31,grace,-14.52,groceries,ALDI,1924.47
+2026-11-01,grace,-45.0,housing,CITY COUNCIL TAX,1879.47
+2026-11-01,grace,-420.0,housing,HARBOUR HOUSING ASSOC,1459.47
+2026-11-02,grace,128.0,income,DWP PENSION CREDIT,1587.47
+2026-11-03,grace,-50.0,savings,TRANSFER TO SAVINGS,1537.47
+2026-11-05,grace,-1.85,eating_out,LOCAL PUB,1535.62
+2026-11-05,grace,-5.62,groceries,CO-OP,1530.0
+2026-11-05,grace,-30.0,utilities,SEVERN TRENT WATER,1500.0
 2025-11-07,daniel,695.12,income,SWIFTDROP COURIER PAYOUT,1479.96
 2025-11-07,daniel,-20.86,misc,TIMPSON,1459.1
 2025-11-07,daniel,-76.1,fuel,TEXACO,1383.0
@@ -3357,650 +3358,650 @@ date,member_id,amount,category,merchant,balance
 2026-11-06,daniel,531.21,income,SWIFTDROP COURIER PAYOUT,1205.11
 2026-11-06,daniel,-10.16,eating_out,NANDOS,1194.95
 2026-11-06,daniel,-44.95,fuel,ESSO,1150.0
-2025-11-08,ada,-9.53,health,SUPERDRUG,-40.05
-2025-11-08,ada,-22.06,leisure,CINEWORLD,-62.11
-2025-11-09,ada,-12.0,phone,SMARTY MOBILE,-74.11
-2025-11-09,ada,-33.48,eating_out,GREGGS,-107.59
-2025-11-11,ada,-5.73,transport,FIRST BUS,-113.32
-2025-11-11,ada,-9.5,leisure,CINEWORLD,-122.82
-2025-11-12,ada,-9.5,eating_out,NANDOS,-132.32
-2025-11-13,ada,-5.37,eating_out,GREGGS,-137.69
-2025-11-14,ada,-22.24,misc,POST OFFICE,-159.93
-2025-11-15,ada,-3.08,groceries,TESCO,-163.01
-2025-11-15,ada,-3.2,transport,UBER,-166.21
-2025-11-15,ada,-11.51,eating_out,DELIVEROO,-177.72
-2025-11-16,ada,-11.25,shopping,B&M,-188.97
-2025-11-16,ada,-12.15,misc,TIMPSON,-201.12
-2025-11-16,ada,-19.23,groceries,TESCO,-220.35
-2025-11-17,ada,-2.54,transport,TFL,-222.89
-2025-11-17,ada,-6.35,groceries,LIDL,-229.24
-2025-11-17,ada,-27.0,debt,CLEARPAY,-256.24
-2025-11-18,ada,-29.5,shopping,ARGOS,-285.74
-2025-11-19,ada,-6.38,groceries,LIDL,-292.12
-2025-11-19,ada,-6.5,eating_out,JUST EAT,-298.62
-2025-11-21,ada,-10.19,groceries,SAINSBURYS,-308.81
-2025-11-21,ada,-19.79,leisure,BET365,-328.6
-2025-11-22,ada,-2.43,transport,BP,-331.03
-2025-11-22,ada,-4.81,groceries,SAINSBURYS,-335.84
-2025-11-22,ada,-7.58,eating_out,NANDOS,-343.42
-2025-11-23,ada,-3.95,transport,TFL,-347.37
-2025-11-23,ada,-7.07,groceries,CO-OP,-354.44
-2025-11-23,ada,-10.46,eating_out,JUST EAT,-364.9
-2025-11-24,ada,-29.62,shopping,AMAZON,-394.52
-2025-11-26,ada,-7.23,groceries,CO-OP,-401.75
-2025-11-27,ada,-5.15,shopping,BOOTS,-406.9
-2025-11-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,808.53
-2025-11-28,ada,-1.73,transport,NORTHERN RAIL,806.8
-2025-11-28,ada,-5.02,groceries,ALDI,801.78
-2025-11-28,ada,-6.74,leisure,WATERSTONES,795.04
-2025-11-30,ada,-5.78,eating_out,DELIVEROO,789.26
-2025-11-30,ada,-7.38,shopping,PRIMARK,781.88
-2025-12-01,ada,-2.99,transport,NORTHERN RAIL,778.89
-2025-12-01,ada,-27.0,debt,CLEARPAY,751.89
-2025-12-01,ada,-89.0,transport,METRO TRAVEL PASS,662.89
-2025-12-02,ada,-200.0,family,D OKAFOR BOARD,462.89
-2025-12-03,ada,-20.66,misc,CHARITY SHOP,442.23
-2025-12-03,ada,-290.0,savings,TRANSFER TO SAVINGS,152.23
-2025-12-04,ada,-2.53,groceries,CO-OP,149.7
-2025-12-04,ada,-4.52,transport,UBER,145.18
-2025-12-05,ada,-8.86,groceries,TESCO,136.32
-2025-12-06,ada,-5.87,leisure,WATERSTONES,130.45
-2025-12-06,ada,-8.0,groceries,SAINSBURYS,122.45
-2025-12-06,ada,-14.71,eating_out,DELIVEROO,107.74
-2025-12-06,ada,-73.64,shopping,BOOTS,34.1
-2025-12-07,ada,-20.88,groceries,CO-OP,13.22
-2025-12-08,ada,-84.78,leisure,BET365,-71.56
-2025-12-09,ada,-12.0,phone,SMARTY MOBILE,-83.56
-2025-12-10,ada,-12.4,eating_out,PRET,-95.96
-2025-12-10,ada,-47.71,misc,POST OFFICE,-143.67
-2025-12-12,ada,-1.03,transport,BP,-144.7
-2025-12-12,ada,-8.33,eating_out,PRET,-153.03
-2025-12-13,ada,-7.39,groceries,ALDI,-160.42
-2025-12-14,ada,-9.69,eating_out,PRET,-170.11
-2025-12-14,ada,-10.78,groceries,ALDI,-180.89
-2025-12-15,ada,-3.54,transport,UBER,-184.43
-2025-12-15,ada,-24.17,misc,POST OFFICE,-208.6
-2025-12-15,ada,-27.0,debt,CLEARPAY,-235.6
-2025-12-16,ada,42.71,refund,AMAZON REFUND,-192.89
-2025-12-16,ada,-3.84,eating_out,GREGGS,-196.73
-2025-12-17,ada,-7.96,groceries,SAINSBURYS,-204.69
-2025-12-18,ada,-14.0,eating_out,JUST EAT,-218.69
-2025-12-19,ada,-2.85,groceries,CO-OP,-221.54
-2025-12-20,ada,-10.34,shopping,PRIMARK,-231.88
-2025-12-21,ada,-3.05,groceries,SAINSBURYS,-234.93
-2025-12-22,ada,-3.79,transport,UBER,-238.72
-2025-12-23,ada,-2.51,transport,FIRST BUS,-241.23
-2025-12-23,ada,-5.77,groceries,TESCO,-247.0
-2025-12-23,ada,-12.15,shopping,AMAZON,-259.15
-2025-12-25,ada,-2.11,transport,BP,-261.26
-2025-12-25,ada,-12.27,groceries,SAINSBURYS,-273.53
-2025-12-26,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,941.9
-2025-12-26,ada,-4.15,transport,SHELL,937.75
-2025-12-26,ada,-5.04,eating_out,PRET,932.71
-2025-12-26,ada,-8.75,groceries,SAINSBURYS,923.96
-2025-12-27,ada,-13.07,groceries,CO-OP,910.89
-2025-12-27,ada,-29.73,shopping,AMAZON,881.16
-2025-12-28,ada,-7.63,groceries,CO-OP,873.53
-2025-12-29,ada,-9.0,groceries,SAINSBURYS,864.53
-2025-12-29,ada,-27.0,debt,CLEARPAY,837.53
-2025-12-30,ada,-2.26,transport,BP,835.27
-2025-12-30,ada,-4.64,groceries,CO-OP,830.63
-2025-12-31,ada,-10.1,eating_out,JUST EAT,820.53
-2025-12-31,ada,-13.56,misc,PAYPAL,806.97
-2026-01-01,ada,-89.0,transport,METRO TRAVEL PASS,717.97
-2026-01-02,ada,-4.51,transport,FIRST BUS,713.46
-2026-01-02,ada,-22.55,leisure,WATERSTONES,690.91
-2026-01-02,ada,-200.0,family,D OKAFOR BOARD,490.91
-2026-01-03,ada,-3.64,groceries,TESCO,487.27
-2026-01-03,ada,-3.64,eating_out,GREGGS,483.63
-2026-01-03,ada,-290.0,savings,TRANSFER TO SAVINGS,193.63
-2026-01-05,ada,-3.24,groceries,LIDL,190.39
-2026-01-06,ada,-7.2,groceries,ALDI,183.19
-2026-01-07,ada,-5.92,groceries,TESCO,177.27
-2026-01-08,ada,-51.33,misc,TIMPSON,125.94
-2026-01-09,ada,-4.2,groceries,TESCO,121.74
-2026-01-09,ada,-4.57,transport,FIRST BUS,117.17
-2026-01-09,ada,-12.0,phone,SMARTY MOBILE,105.17
-2026-01-10,ada,-14.97,groceries,ALDI,90.2
-2026-01-11,ada,-5.15,groceries,SAINSBURYS,85.05
-2026-01-11,ada,-6.1,transport,SHELL,78.95
-2026-01-11,ada,-11.86,leisure,STEAM,67.09
-2026-01-12,ada,-10.18,groceries,CO-OP,56.91
-2026-01-12,ada,-27.0,debt,CLEARPAY,29.91
-2026-01-13,ada,-4.81,groceries,SAINSBURYS,25.1
-2026-01-13,ada,-7.11,transport,UBER,17.99
-2026-01-14,ada,-10.13,transport,FIRST BUS,7.86
-2026-01-15,ada,-8.07,transport,TFL,-0.21
-2026-01-15,ada,-12.81,groceries,LIDL,-13.02
-2026-01-15,ada,-22.06,shopping,PRIMARK,-35.08
-2026-01-16,ada,-3.71,shopping,PRIMARK,-38.79
-2026-01-16,ada,-6.49,groceries,ALDI,-45.28
-2026-01-17,ada,-8.23,groceries,LIDL,-53.51
-2026-01-18,ada,-3.39,transport,UBER,-56.9
-2026-01-18,ada,-6.28,shopping,AMAZON,-63.18
-2026-01-18,ada,-16.56,eating_out,JUST EAT,-79.74
-2026-01-20,ada,-8.31,eating_out,PRET,-88.05
-2026-01-21,ada,-3.81,eating_out,LOCAL PUB,-91.86
-2026-01-21,ada,-14.02,groceries,TESCO,-105.88
-2026-01-22,ada,-7.51,groceries,LIDL,-113.39
-2026-01-22,ada,-54.31,leisure,STEAM,-167.7
-2026-01-23,ada,-2.48,eating_out,DELIVEROO,-170.18
-2026-01-23,ada,-3.97,transport,FIRST BUS,-174.15
-2026-01-23,ada,-4.3,groceries,ALDI,-178.45
-2026-01-24,ada,-7.44,eating_out,JUST EAT,-185.89
-2026-01-24,ada,-10.78,leisure,BET365,-196.67
-2026-01-25,ada,-8.03,shopping,VINTED,-204.7
-2026-01-25,ada,-9.77,groceries,CO-OP,-214.47
-2026-01-26,ada,-6.55,groceries,ALDI,-221.02
-2026-01-26,ada,-27.0,debt,CLEARPAY,-248.02
-2026-01-27,ada,-3.29,transport,BP,-251.31
-2026-01-27,ada,-12.98,groceries,LIDL,-264.29
-2026-01-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,951.14
-2026-01-28,ada,-8.17,shopping,PRIMARK,942.97
-2026-01-29,ada,28.88,refund,AMAZON REFUND,971.85
-2026-01-30,ada,-3.73,transport,FIRST BUS,968.12
-2026-01-30,ada,-6.49,groceries,LIDL,961.63
-2026-01-31,ada,-2.01,transport,SHELL,959.62
-2026-01-31,ada,-9.33,groceries,ALDI,950.29
-2026-01-31,ada,-98.35,shopping,ARGOS,851.94
-2026-02-01,ada,-1.73,groceries,CO-OP,850.21
-2026-02-01,ada,-15.2,eating_out,GREGGS,835.01
-2026-02-01,ada,-18.64,leisure,BET365,816.37
-2026-02-01,ada,-89.0,transport,METRO TRAVEL PASS,727.37
-2026-02-02,ada,-200.0,family,D OKAFOR BOARD,527.37
-2026-02-03,ada,-2.33,eating_out,NANDOS,525.04
-2026-02-03,ada,-2.72,transport,NORTHERN RAIL,522.32
-2026-02-03,ada,-7.22,groceries,SAINSBURYS,515.1
-2026-02-03,ada,-290.0,savings,TRANSFER TO SAVINGS,225.1
-2026-02-04,ada,-3.57,groceries,CO-OP,221.53
-2026-02-04,ada,-21.89,leisure,STEAM,199.64
-2026-02-05,ada,-3.21,shopping,BOOTS,196.43
-2026-02-05,ada,-11.15,leisure,BET365,185.28
-2026-02-07,ada,-4.65,eating_out,PRET,180.63
-2026-02-07,ada,-5.94,misc,CHARITY SHOP,174.69
-2026-02-08,ada,-2.14,groceries,LIDL,172.55
-2026-02-08,ada,-3.55,transport,UBER,169.0
-2026-02-08,ada,-3.89,leisure,GARDEN CENTRE,165.11
-2026-02-08,ada,-14.27,eating_out,LOCAL PUB,150.84
-2026-02-09,ada,-4.91,transport,UBER,145.93
-2026-02-09,ada,-12.0,phone,SMARTY MOBILE,133.93
-2026-02-09,ada,-27.0,debt,CLEARPAY,106.93
-2026-02-10,ada,-7.71,groceries,CO-OP,99.22
-2026-02-11,ada,-8.25,transport,FIRST BUS,90.97
-2026-02-11,ada,-8.77,groceries,CO-OP,82.2
-2026-02-13,ada,-1.69,groceries,ALDI,80.51
-2026-02-14,ada,-10.78,eating_out,JUST EAT,69.73
-2026-02-14,ada,-16.75,groceries,CO-OP,52.98
-2026-02-15,ada,-4.57,eating_out,GREGGS,48.41
-2026-02-16,ada,-5.81,eating_out,LOCAL PUB,42.6
-2026-02-16,ada,-6.62,transport,NORTHERN RAIL,35.98
-2026-02-17,ada,-9.9,groceries,ALDI,26.08
-2026-02-18,ada,-3.89,transport,UBER,22.19
-2026-02-19,ada,-2.35,transport,TFL,19.84
-2026-02-19,ada,-2.37,groceries,TESCO,17.47
-2026-02-19,ada,-4.62,eating_out,LOCAL PUB,12.85
-2026-02-20,ada,-2.64,groceries,LIDL,10.21
-2026-02-20,ada,-2.75,transport,FIRST BUS,7.46
-2026-02-20,ada,-5.71,eating_out,JUST EAT,1.75
-2026-02-20,ada,-28.98,leisure,BET365,-27.23
-2026-02-20,ada,-83.9,misc,POST OFFICE,-111.13
-2026-02-21,ada,-5.63,groceries,TESCO,-116.76
-2026-02-21,ada,-6.93,shopping,B&M,-123.69
-2026-02-22,ada,-4.42,eating_out,JUST EAT,-128.11
-2026-02-22,ada,-23.32,shopping,AMAZON,-151.43
-2026-02-23,ada,-7.7,eating_out,DELIVEROO,-159.13
-2026-02-23,ada,-27.0,debt,CLEARPAY,-186.13
-2026-02-24,ada,-2.72,groceries,SAINSBURYS,-188.85
-2026-02-24,ada,-12.33,leisure,STEAM,-201.18
-2026-02-25,ada,-5.66,eating_out,LOCAL PUB,-206.84
-2026-02-26,ada,-3.8,transport,BP,-210.64
-2026-02-27,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1004.79
-2026-02-27,ada,-6.13,groceries,TESCO,998.66
-2026-02-27,ada,-6.47,eating_out,JUST EAT,992.19
-2026-02-27,ada,-24.24,shopping,B&M,967.95
-2026-02-28,ada,-2.66,eating_out,NANDOS,965.29
-2026-02-28,ada,-16.62,groceries,SAINSBURYS,948.67
-2026-03-01,ada,-4.02,transport,UBER,944.65
-2026-03-01,ada,-8.5,groceries,ALDI,936.15
-2026-03-01,ada,-89.0,transport,METRO TRAVEL PASS,847.15
-2026-03-02,ada,-3.96,groceries,SAINSBURYS,843.19
-2026-03-02,ada,-200.0,family,D OKAFOR BOARD,643.19
-2026-03-03,ada,-3.59,transport,NORTHERN RAIL,639.6
-2026-03-03,ada,-290.0,savings,TRANSFER TO SAVINGS,349.6
-2026-03-04,ada,-3.87,groceries,TESCO,345.73
-2026-03-04,ada,-3.89,eating_out,PRET,341.84
-2026-03-05,ada,-2.8,transport,UBER,339.04
-2026-03-06,ada,-2.48,transport,NORTHERN RAIL,336.56
-2026-03-06,ada,-8.57,groceries,TESCO,327.99
-2026-03-07,ada,-3.64,groceries,CO-OP,324.35
-2026-03-09,ada,-9.58,groceries,CO-OP,314.77
-2026-03-09,ada,-12.0,phone,SMARTY MOBILE,302.77
-2026-03-09,ada,-27.0,debt,CLEARPAY,275.77
-2026-03-09,ada,-28.68,leisure,GARDEN CENTRE,247.09
-2026-03-10,ada,-2.33,eating_out,PRET,244.76
-2026-03-10,ada,-2.84,transport,UBER,241.92
-2026-03-10,ada,-4.24,groceries,LIDL,237.68
-2026-03-10,ada,-24.75,shopping,VINTED,212.93
-2026-03-12,ada,-1.9,transport,FIRST BUS,211.03
-2026-03-12,ada,-20.9,leisure,WATERSTONES,190.13
-2026-03-14,ada,-2.84,groceries,CO-OP,187.29
-2026-03-14,ada,-10.5,leisure,BET365,176.79
-2026-03-14,ada,-33.18,shopping,VINTED,143.61
-2026-03-15,ada,-14.31,eating_out,JUST EAT,129.3
-2026-03-15,ada,-43.03,misc,CHARITY SHOP,86.27
-2026-03-17,ada,-2.22,transport,UBER,84.05
-2026-03-17,ada,-9.45,groceries,TESCO,74.6
-2026-03-18,ada,-6.79,transport,NORTHERN RAIL,67.81
-2026-03-19,ada,-58.2,leisure,BET365,9.61
-2026-03-20,ada,-3.08,groceries,CO-OP,6.53
-2026-03-20,ada,-5.27,eating_out,NANDOS,1.26
-2026-03-20,ada,-10.06,leisure,BET365,-8.8
-2026-03-21,ada,-7.59,eating_out,GREGGS,-16.39
-2026-03-21,ada,-14.77,groceries,LIDL,-31.16
-2026-03-22,ada,-7.71,groceries,CO-OP,-38.87
-2026-03-22,ada,-8.33,transport,BP,-47.2
-2026-03-22,ada,-9.46,eating_out,NANDOS,-56.66
-2026-03-22,ada,-10.46,shopping,PRIMARK,-67.12
-2026-03-23,ada,-3.42,shopping,VINTED,-70.54
-2026-03-23,ada,-4.85,transport,UBER,-75.39
-2026-03-23,ada,-4.88,groceries,ALDI,-80.27
-2026-03-23,ada,-27.0,debt,CLEARPAY,-107.27
-2026-03-24,ada,-2.42,transport,FIRST BUS,-109.69
-2026-03-24,ada,-15.46,eating_out,LOCAL PUB,-125.15
-2026-03-27,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1090.28
-2026-03-29,ada,-3.68,groceries,TESCO,1086.6
-2026-03-29,ada,-9.06,misc,POST OFFICE,1077.54
-2026-03-29,ada,-9.45,eating_out,DELIVEROO,1068.09
-2026-03-29,ada,-17.26,shopping,AMAZON,1050.83
-2026-03-31,ada,-10.17,leisure,BET365,1040.66
-2026-04-01,ada,-4.37,eating_out,GREGGS,1036.29
-2026-04-01,ada,-89.0,transport,METRO TRAVEL PASS,947.29
-2026-04-02,ada,-200.0,family,D OKAFOR BOARD,747.29
-2026-04-03,ada,-7.27,transport,FIRST BUS,740.02
-2026-04-03,ada,-290.0,savings,TRANSFER TO SAVINGS,450.02
-2026-04-04,ada,23.07,refund,AMAZON REFUND,473.09
-2026-04-04,ada,-2.79,eating_out,LOCAL PUB,470.3
-2026-04-04,ada,-3.43,transport,BP,466.87
-2026-04-04,ada,-4.26,groceries,ALDI,462.61
-2026-04-05,ada,-9.03,eating_out,LOCAL PUB,453.58
-2026-04-05,ada,-16.19,groceries,TESCO,437.39
-2026-04-06,ada,-27.0,debt,CLEARPAY,410.39
-2026-04-07,ada,-16.33,shopping,PRIMARK,394.06
-2026-04-08,ada,-7.74,groceries,ALDI,386.32
-2026-04-08,ada,-8.99,eating_out,NANDOS,377.33
-2026-04-09,ada,-4.17,transport,NORTHERN RAIL,373.16
-2026-04-09,ada,-12.0,phone,SMARTY MOBILE,361.16
-2026-04-09,ada,-166.67,misc,POST OFFICE,194.49
-2026-04-10,ada,-3.29,groceries,LIDL,191.2
-2026-04-10,ada,-28.9,misc,PAYPAL,162.3
-2026-04-11,ada,-12.64,eating_out,DELIVEROO,149.66
-2026-04-11,ada,-14.09,health,BOOTS PHARMACY,135.57
-2026-04-12,ada,-4.3,groceries,CO-OP,131.27
-2026-04-12,ada,-8.01,transport,SHELL,123.26
-2026-04-13,ada,-6.0,groceries,SAINSBURYS,117.26
-2026-04-15,ada,-5.92,transport,NORTHERN RAIL,111.34
-2026-04-15,ada,-7.0,groceries,TESCO,104.34
-2026-04-15,ada,-12.61,eating_out,PRET,91.73
-2026-04-15,ada,-31.25,misc,CHARITY SHOP,60.48
-2026-04-17,ada,-3.2,transport,FIRST BUS,57.28
-2026-04-17,ada,-8.25,groceries,SAINSBURYS,49.03
-2026-04-18,ada,-10.97,groceries,TESCO,38.06
-2026-04-18,ada,-15.48,misc,CHARITY SHOP,22.58
-2026-04-18,ada,-17.59,eating_out,GREGGS,4.99
-2026-04-20,ada,-27.0,debt,CLEARPAY,-22.01
-2026-04-21,ada,-1.58,transport,BP,-23.59
-2026-04-22,ada,-2.68,transport,TFL,-26.27
-2026-04-22,ada,-3.46,eating_out,DELIVEROO,-29.73
-2026-04-22,ada,-8.5,shopping,ARGOS,-38.23
-2026-04-23,ada,-4.06,transport,NORTHERN RAIL,-42.29
-2026-04-23,ada,-12.66,groceries,SAINSBURYS,-54.95
-2026-04-24,ada,-5.33,eating_out,NANDOS,-60.28
-2026-04-24,ada,-6.13,groceries,ALDI,-66.41
-2026-04-24,ada,-20.45,leisure,WATERSTONES,-86.86
-2026-04-25,ada,-6.36,groceries,TESCO,-93.22
-2026-04-25,ada,-18.09,leisure,GARDEN CENTRE,-111.31
-2026-04-26,ada,-12.03,groceries,CO-OP,-123.34
-2026-04-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1092.09
-2026-04-28,ada,-4.73,transport,SHELL,1087.36
-2026-04-29,ada,-5.32,groceries,ALDI,1082.04
-2026-04-29,ada,-35.14,leisure,BET365,1046.9
-2026-04-30,ada,-7.23,groceries,LIDL,1039.67
-2026-05-01,ada,-4.14,eating_out,GREGGS,1035.53
-2026-05-01,ada,-4.73,transport,TFL,1030.8
-2026-05-01,ada,-74.07,shopping,BOOTS,956.73
-2026-05-01,ada,-89.0,transport,METRO TRAVEL PASS,867.73
-2026-05-02,ada,-6.99,groceries,LIDL,860.74
-2026-05-02,ada,-9.53,shopping,AMAZON,851.21
-2026-05-02,ada,-200.0,family,D OKAFOR BOARD,651.21
-2026-05-03,ada,-2.53,eating_out,GREGGS,648.68
-2026-05-03,ada,-7.47,transport,NORTHERN RAIL,641.21
-2026-05-03,ada,-290.0,savings,TRANSFER TO SAVINGS,351.21
-2026-05-04,ada,-3.5,transport,NORTHERN RAIL,347.71
-2026-05-04,ada,-8.53,eating_out,NANDOS,339.18
-2026-05-04,ada,-27.0,debt,CLEARPAY,312.18
-2026-05-05,ada,-5.79,groceries,ALDI,306.39
-2026-05-05,ada,-11.45,misc,TIMPSON,294.94
-2026-05-06,ada,-5.55,leisure,WATERSTONES,289.39
-2026-05-07,ada,-3.0,groceries,LIDL,286.39
-2026-05-07,ada,-6.71,transport,FIRST BUS,279.68
-2026-05-07,ada,-8.39,leisure,BET365,271.29
-2026-05-08,ada,-13.01,groceries,SAINSBURYS,258.28
-2026-05-09,ada,-4.66,misc,CHARITY SHOP,253.62
-2026-05-09,ada,-10.21,eating_out,PRET,243.41
-2026-05-09,ada,-12.0,phone,SMARTY MOBILE,231.41
-2026-05-09,ada,-41.18,leisure,GARDEN CENTRE,190.23
-2026-05-10,ada,-6.34,misc,POST OFFICE,183.89
-2026-05-10,ada,-7.89,groceries,SAINSBURYS,176.0
-2026-05-11,ada,-2.42,transport,NORTHERN RAIL,173.58
-2026-05-11,ada,-8.39,groceries,SAINSBURYS,165.19
-2026-05-11,ada,-23.81,misc,POST OFFICE,141.38
-2026-05-12,ada,-9.4,groceries,LIDL,131.98
-2026-05-12,ada,-12.36,transport,BP,119.62
-2026-05-13,ada,-3.95,transport,NORTHERN RAIL,115.67
-2026-05-13,ada,-41.4,eating_out,NANDOS,74.27
-2026-05-14,ada,-16.66,groceries,CO-OP,57.61
-2026-05-14,ada,-22.45,leisure,GARDEN CENTRE,35.16
-2026-05-16,ada,-5.23,eating_out,PRET,29.93
-2026-05-16,ada,-8.63,misc,TIMPSON,21.3
-2026-05-17,ada,-11.86,leisure,WATERSTONES,9.44
-2026-05-17,ada,-14.78,groceries,CO-OP,-5.34
-2026-05-17,ada,-15.14,shopping,PRIMARK,-20.48
-2026-05-18,ada,-4.06,transport,TFL,-24.54
-2026-05-18,ada,-16.71,eating_out,PRET,-41.25
-2026-05-18,ada,-27.0,debt,CLEARPAY,-68.25
-2026-05-19,ada,-14.76,groceries,SAINSBURYS,-83.01
-2026-05-20,ada,-5.7,groceries,SAINSBURYS,-88.71
-2026-05-21,ada,-9.7,groceries,TESCO,-98.41
-2026-05-22,ada,-7.5,groceries,CO-OP,-105.91
-2026-05-23,ada,-7.12,shopping,VINTED,-113.03
-2026-05-24,ada,-10.03,leisure,STEAM,-123.06
-2026-05-24,ada,-13.89,misc,CHARITY SHOP,-136.95
-2026-05-26,ada,-7.41,groceries,TESCO,-144.36
-2026-05-27,ada,-6.04,transport,SHELL,-150.4
-2026-05-27,ada,-9.56,leisure,WATERSTONES,-159.96
-2026-05-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1055.47
-2026-05-28,ada,-7.01,shopping,BOOTS,1048.46
-2026-05-29,ada,-14.27,groceries,TESCO,1034.19
-2026-05-30,ada,-1.9,transport,FIRST BUS,1032.29
-2026-05-30,ada,-7.16,eating_out,JUST EAT,1025.13
-2026-05-30,ada,-12.95,shopping,VINTED,1012.18
-2026-05-30,ada,-15.35,health,SUPERDRUG,996.83
-2026-05-31,ada,-7.73,eating_out,GREGGS,989.1
-2026-05-31,ada,-12.83,groceries,SAINSBURYS,976.27
-2026-06-01,ada,-13.72,leisure,WATERSTONES,962.55
-2026-06-01,ada,-19.32,misc,POST OFFICE,943.23
-2026-06-01,ada,-27.0,debt,CLEARPAY,916.23
-2026-06-01,ada,-89.0,transport,METRO TRAVEL PASS,827.23
-2026-06-02,ada,-5.85,groceries,TESCO,821.38
-2026-06-02,ada,-200.0,family,D OKAFOR BOARD,621.38
-2026-06-03,ada,-5.94,groceries,TESCO,615.44
-2026-06-03,ada,-290.0,savings,TRANSFER TO SAVINGS,325.44
-2026-06-04,ada,-1.59,groceries,TESCO,323.85
-2026-06-05,ada,-15.82,groceries,SAINSBURYS,308.03
-2026-06-05,ada,-36.14,misc,POST OFFICE,271.89
-2026-06-07,ada,-4.42,transport,BP,267.47
-2026-06-07,ada,-4.55,groceries,CO-OP,262.92
-2026-06-07,ada,-4.85,eating_out,JUST EAT,258.07
-2026-06-08,ada,-6.76,eating_out,PRET,251.31
-2026-06-08,ada,-7.53,groceries,CO-OP,243.78
-2026-06-09,ada,-12.0,phone,SMARTY MOBILE,231.78
-2026-06-12,ada,-6.04,transport,BP,225.74
-2026-06-12,ada,-9.94,misc,TIMPSON,215.8
-2026-06-13,ada,-5.39,groceries,TESCO,210.41
-2026-06-13,ada,-8.59,eating_out,JUST EAT,201.82
-2026-06-13,ada,-15.05,misc,PAYPAL,186.77
-2026-06-13,ada,-17.88,leisure,BET365,168.89
-2026-06-13,ada,-25.78,shopping,ARGOS,143.11
-2026-06-15,ada,-27.0,debt,CLEARPAY,116.11
-2026-06-17,ada,-17.89,leisure,GARDEN CENTRE,98.22
-2026-06-17,ada,-18.36,groceries,SAINSBURYS,79.86
-2026-06-18,ada,-5.5,groceries,CO-OP,74.36
-2026-06-18,ada,-17.83,leisure,WATERSTONES,56.53
-2026-06-19,ada,-2.59,transport,TFL,53.94
-2026-06-19,ada,-20.25,groceries,LIDL,33.69
-2026-06-20,ada,15.33,refund,AMAZON REFUND,49.02
-2026-06-20,ada,-11.21,eating_out,LOCAL PUB,37.81
-2026-06-20,ada,-12.15,groceries,LIDL,25.66
-2026-06-20,ada,-57.79,leisure,WATERSTONES,-32.13
-2026-06-21,ada,-2.3,groceries,TESCO,-34.43
-2026-06-21,ada,-4.9,eating_out,DELIVEROO,-39.33
-2026-06-22,ada,-20.86,eating_out,LOCAL PUB,-60.19
-2026-06-23,ada,-11.04,shopping,B&M,-71.23
-2026-06-24,ada,-35.43,misc,PAYPAL,-106.66
-2026-06-26,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1108.77
-2026-06-27,ada,-1.47,eating_out,LOCAL PUB,1107.3
-2026-06-27,ada,-5.44,shopping,BOOTS,1101.86
-2026-06-27,ada,-6.36,groceries,CO-OP,1095.5
-2026-06-28,ada,-4.85,eating_out,DELIVEROO,1090.65
-2026-06-28,ada,-14.43,groceries,CO-OP,1076.22
-2026-06-28,ada,-31.04,leisure,CINEWORLD,1045.18
-2026-06-29,ada,-2.68,transport,NORTHERN RAIL,1042.5
-2026-06-29,ada,-2.98,groceries,CO-OP,1039.52
-2026-06-29,ada,-27.0,debt,CLEARPAY,1012.52
-2026-06-30,ada,-14.88,eating_out,LOCAL PUB,997.64
-2026-07-01,ada,-8.77,groceries,CO-OP,988.87
-2026-07-01,ada,-89.0,transport,METRO TRAVEL PASS,899.87
-2026-07-02,ada,-6.11,groceries,TESCO,893.76
-2026-07-02,ada,-9.32,leisure,STEAM,884.44
-2026-07-02,ada,-19.87,transport,UBER,864.57
-2026-07-02,ada,-200.0,family,D OKAFOR BOARD,664.57
-2026-07-03,ada,-2.24,transport,UBER,662.33
-2026-07-03,ada,-5.21,groceries,SAINSBURYS,657.12
-2026-07-03,ada,-54.93,leisure,BET365,602.19
-2026-07-03,ada,-290.0,savings,TRANSFER TO SAVINGS,312.19
-2026-07-05,ada,-3.19,groceries,ALDI,309.0
-2026-07-06,ada,-3.26,transport,BP,305.74
-2026-07-06,ada,-4.87,groceries,LIDL,300.87
-2026-07-07,ada,-4.77,eating_out,PRET,296.1
-2026-07-07,ada,-9.69,groceries,LIDL,286.41
-2026-07-08,ada,-3.9,groceries,TESCO,282.51
-2026-07-08,ada,-23.38,misc,PAYPAL,259.13
-2026-07-09,ada,-4.83,eating_out,NANDOS,254.3
-2026-07-09,ada,-5.52,transport,BP,248.78
-2026-07-09,ada,-9.14,groceries,ALDI,239.64
-2026-07-09,ada,-12.0,phone,SMARTY MOBILE,227.64
-2026-07-09,ada,-12.81,misc,PAYPAL,214.83
-2026-07-10,ada,-2.9,transport,NORTHERN RAIL,211.93
-2026-07-11,ada,-5.63,groceries,SAINSBURYS,206.3
-2026-07-11,ada,-10.84,eating_out,NANDOS,195.46
-2026-07-11,ada,-15.84,shopping,ARGOS,179.62
-2026-07-12,ada,-2.28,groceries,LIDL,177.34
-2026-07-12,ada,-3.17,transport,NORTHERN RAIL,174.17
-2026-07-12,ada,-31.0,leisure,CINEWORLD,143.17
-2026-07-13,ada,-7.08,leisure,WATERSTONES,136.09
-2026-07-13,ada,-14.35,groceries,LIDL,121.74
-2026-07-13,ada,-27.0,debt,CLEARPAY,94.74
-2026-07-14,ada,-3.66,transport,UBER,91.08
-2026-07-14,ada,-5.8,groceries,CO-OP,85.28
-2026-07-16,ada,-12.36,groceries,ALDI,72.92
-2026-07-17,ada,-3.21,transport,NORTHERN RAIL,69.71
-2026-07-18,ada,-11.17,eating_out,LOCAL PUB,58.54
-2026-07-19,ada,-6.17,groceries,CO-OP,52.37
-2026-07-19,ada,-11.86,leisure,WATERSTONES,40.51
-2026-07-19,ada,-18.7,shopping,ARGOS,21.81
-2026-07-20,ada,-8.31,groceries,ALDI,13.5
-2026-07-24,ada,-6.58,health,DENTAL CARE,6.92
-2026-07-25,ada,-20.9,shopping,B&M,-13.98
-2026-07-26,ada,-3.61,groceries,SAINSBURYS,-17.59
-2026-07-26,ada,-4.38,transport,SHELL,-21.97
-2026-07-26,ada,-6.28,eating_out,DELIVEROO,-28.25
-2026-07-26,ada,-33.81,shopping,VINTED,-62.06
-2026-07-27,ada,-27.0,debt,CLEARPAY,-89.06
-2026-07-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1126.37
-2026-07-28,ada,-3.26,transport,FIRST BUS,1123.11
-2026-07-28,ada,-3.77,misc,CHARITY SHOP,1119.34
-2026-07-28,ada,-5.94,groceries,ALDI,1113.4
-2026-07-29,ada,-5.46,groceries,TESCO,1107.94
-2026-07-30,ada,-49.58,shopping,BOOTS,1058.36
-2026-07-31,ada,-5.06,groceries,TESCO,1053.3
-2026-07-31,ada,-26.38,shopping,AMAZON,1026.92
-2026-08-01,ada,58.92,refund,AMAZON REFUND,1085.84
-2026-08-01,ada,-4.01,groceries,ALDI,1081.83
-2026-08-01,ada,-14.46,eating_out,PRET,1067.37
-2026-08-01,ada,-17.25,transport,TFL,1050.12
-2026-08-01,ada,-89.0,transport,METRO TRAVEL PASS,961.12
-2026-08-02,ada,-200.0,family,D OKAFOR BOARD,761.12
-2026-08-03,ada,-13.71,misc,CHARITY SHOP,747.41
-2026-08-03,ada,-290.0,savings,TRANSFER TO SAVINGS,457.41
-2026-08-06,ada,-9.96,groceries,LIDL,447.45
-2026-08-07,ada,-8.07,groceries,SAINSBURYS,439.38
-2026-08-07,ada,-77.02,shopping,VINTED,362.36
-2026-08-08,ada,-8.06,groceries,SAINSBURYS,354.3
-2026-08-08,ada,-9.27,leisure,GARDEN CENTRE,345.03
-2026-08-08,ada,-15.11,shopping,AMAZON,329.92
-2026-08-09,ada,-12.0,phone,SMARTY MOBILE,317.92
-2026-08-09,ada,-53.65,leisure,WATERSTONES,264.27
-2026-08-10,ada,-27.0,debt,CLEARPAY,237.27
-2026-08-11,ada,-4.39,groceries,CO-OP,232.88
-2026-08-12,ada,-65.25,leisure,GARDEN CENTRE,167.63
-2026-08-13,ada,-9.33,groceries,CO-OP,158.3
-2026-08-13,ada,-14.38,shopping,PRIMARK,143.92
-2026-08-14,ada,-3.16,transport,FIRST BUS,140.76
-2026-08-15,ada,-3.88,transport,FIRST BUS,136.88
-2026-08-15,ada,-15.6,eating_out,DELIVEROO,121.28
-2026-08-15,ada,-45.01,leisure,BET365,76.27
-2026-08-16,ada,-8.61,groceries,LIDL,67.66
-2026-08-16,ada,-12.74,leisure,WATERSTONES,54.92
-2026-08-16,ada,-16.5,eating_out,LOCAL PUB,38.42
-2026-08-18,ada,-3.37,transport,FIRST BUS,35.05
-2026-08-18,ada,-7.65,groceries,SAINSBURYS,27.4
-2026-08-18,ada,-18.88,misc,POST OFFICE,8.52
-2026-08-19,ada,-5.4,transport,SHELL,3.12
-2026-08-20,ada,-12.74,groceries,LIDL,-9.62
-2026-08-20,ada,-15.7,leisure,STEAM,-25.32
-2026-08-21,ada,-7.06,transport,BP,-32.38
-2026-08-21,ada,-21.82,misc,POST OFFICE,-54.2
-2026-08-21,ada,-30.67,eating_out,DELIVEROO,-84.87
-2026-08-22,ada,-2.56,transport,FIRST BUS,-87.43
-2026-08-23,ada,-14.28,shopping,AMAZON,-101.71
-2026-08-24,ada,-27.0,debt,CLEARPAY,-128.71
-2026-08-25,ada,-3.77,transport,UBER,-132.48
-2026-08-25,ada,-7.7,groceries,TESCO,-140.18
-2026-08-25,ada,-28.17,leisure,CINEWORLD,-168.35
-2026-08-26,ada,-5.65,groceries,LIDL,-174.0
-2026-08-26,ada,-5.7,leisure,GARDEN CENTRE,-179.7
-2026-08-27,ada,-11.54,leisure,BET365,-191.24
-2026-08-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1024.19
-2026-08-28,ada,-8.35,groceries,ALDI,1015.84
-2026-08-29,ada,-12.34,shopping,B&M,1003.5
-2026-08-29,ada,-18.43,groceries,ALDI,985.07
-2026-08-30,ada,-3.08,groceries,ALDI,981.99
-2026-08-30,ada,-4.7,transport,SHELL,977.29
-2026-08-30,ada,-7.77,eating_out,PRET,969.52
-2026-08-31,ada,-13.95,shopping,B&M,955.57
-2026-08-31,ada,-33.61,groceries,CO-OP,921.96
-2026-09-01,ada,-89.0,transport,METRO TRAVEL PASS,832.96
-2026-09-02,ada,-2.35,leisure,CINEWORLD,830.61
-2026-09-02,ada,-2.59,eating_out,PRET,828.02
-2026-09-02,ada,-5.31,groceries,TESCO,822.71
-2026-09-02,ada,-6.49,transport,BP,816.22
-2026-09-02,ada,-12.41,health,DENTAL CARE,803.81
-2026-09-02,ada,-200.0,family,D OKAFOR BOARD,603.81
-2026-09-03,ada,-25.6,leisure,STEAM,578.21
-2026-09-03,ada,-290.0,savings,TRANSFER TO SAVINGS,288.21
-2026-09-05,ada,-11.57,groceries,CO-OP,276.64
-2026-09-05,ada,-17.2,eating_out,GREGGS,259.44
-2026-09-05,ada,-25.84,leisure,STEAM,233.6
-2026-09-06,ada,-2.24,eating_out,JUST EAT,231.36
-2026-09-06,ada,-6.23,transport,TFL,225.13
-2026-09-07,ada,-27.0,debt,CLEARPAY,198.13
-2026-09-07,ada,-34.63,shopping,BOOTS,163.5
-2026-09-09,ada,-3.9,transport,FIRST BUS,159.6
-2026-09-09,ada,-4.02,shopping,ARGOS,155.58
-2026-09-09,ada,-12.0,phone,SMARTY MOBILE,143.58
-2026-09-09,ada,-12.35,eating_out,JUST EAT,131.23
-2026-09-09,ada,-14.16,misc,PAYPAL,117.07
-2026-09-10,ada,-7.26,transport,FIRST BUS,109.81
-2026-09-10,ada,-11.84,eating_out,GREGGS,97.97
-2026-09-11,ada,-7.28,groceries,SAINSBURYS,90.69
-2026-09-12,ada,-2.44,groceries,SAINSBURYS,88.25
-2026-09-12,ada,-4.49,transport,TFL,83.76
-2026-09-12,ada,-18.95,leisure,CINEWORLD,64.81
-2026-09-14,ada,-10.43,groceries,LIDL,54.38
-2026-09-15,ada,-4.4,transport,FIRST BUS,49.98
-2026-09-15,ada,-9.57,groceries,CO-OP,40.41
-2026-09-16,ada,-3.15,transport,FIRST BUS,37.26
-2026-09-16,ada,-8.64,eating_out,LOCAL PUB,28.62
-2026-09-17,ada,-3.46,eating_out,PRET,25.16
-2026-09-17,ada,-27.06,leisure,BET365,-1.9
-2026-09-18,ada,-4.83,groceries,SAINSBURYS,-6.73
-2026-09-18,ada,-37.45,leisure,BET365,-44.18
-2026-09-19,ada,-3.26,transport,FIRST BUS,-47.44
-2026-09-19,ada,-4.57,eating_out,DELIVEROO,-52.01
-2026-09-20,ada,-9.8,groceries,ALDI,-61.81
-2026-09-21,ada,-3.49,eating_out,GREGGS,-65.3
-2026-09-21,ada,-6.19,health,SUPERDRUG,-71.49
-2026-09-21,ada,-27.0,debt,CLEARPAY,-98.49
-2026-09-24,ada,-4.82,eating_out,PRET,-103.31
-2026-09-25,ada,-9.83,groceries,SAINSBURYS,-113.14
-2026-09-25,ada,-37.8,misc,TIMPSON,-150.94
-2026-09-26,ada,-14.05,leisure,WATERSTONES,-164.99
-2026-09-27,ada,-4.28,transport,UBER,-169.27
-2026-09-27,ada,-15.29,leisure,CINEWORLD,-184.56
-2026-09-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1030.87
-2026-09-28,ada,-5.65,groceries,LIDL,1025.22
-2026-09-28,ada,-9.04,health,SUPERDRUG,1016.18
-2026-09-29,ada,-2.22,eating_out,DELIVEROO,1013.96
-2026-09-29,ada,-7.54,groceries,TESCO,1006.42
-2026-09-30,ada,-2.35,eating_out,NANDOS,1004.07
-2026-09-30,ada,-9.58,groceries,CO-OP,994.49
-2026-10-01,ada,-2.6,misc,POST OFFICE,991.89
-2026-10-01,ada,-26.84,shopping,B&M,965.05
-2026-10-01,ada,-89.0,transport,METRO TRAVEL PASS,876.05
-2026-10-02,ada,-200.0,family,D OKAFOR BOARD,676.05
-2026-10-03,ada,-6.93,eating_out,LOCAL PUB,669.12
-2026-10-03,ada,-290.0,savings,TRANSFER TO SAVINGS,379.12
-2026-10-04,ada,-2.72,shopping,VINTED,376.4
-2026-10-04,ada,-6.68,groceries,TESCO,369.72
-2026-10-05,ada,-5.96,groceries,CO-OP,363.76
-2026-10-05,ada,-6.15,transport,TFL,357.61
-2026-10-05,ada,-10.2,eating_out,PRET,347.41
-2026-10-05,ada,-27.0,debt,CLEARPAY,320.41
-2026-10-09,ada,-12.0,phone,SMARTY MOBILE,308.41
-2026-10-10,ada,-5.25,groceries,ALDI,303.16
-2026-10-11,ada,-1.75,shopping,PRIMARK,301.41
-2026-10-11,ada,-3.58,eating_out,JUST EAT,297.83
-2026-10-13,ada,-10.34,groceries,LIDL,287.49
-2026-10-13,ada,-13.61,misc,TIMPSON,273.88
-2026-10-14,ada,-3.55,transport,BP,270.33
-2026-10-14,ada,-4.65,eating_out,DELIVEROO,265.68
-2026-10-14,ada,-7.41,groceries,CO-OP,258.27
-2026-10-15,ada,-2.94,transport,BP,255.33
-2026-10-15,ada,-16.45,misc,POST OFFICE,238.88
-2026-10-16,ada,-3.21,shopping,AMAZON,235.67
-2026-10-16,ada,-4.09,transport,SHELL,231.58
-2026-10-17,ada,-7.69,eating_out,DELIVEROO,223.89
-2026-10-17,ada,-7.96,groceries,SAINSBURYS,215.93
-2026-10-17,ada,-18.06,shopping,AMAZON,197.87
-2026-10-18,ada,-7.48,transport,UBER,190.39
-2026-10-18,ada,-14.77,groceries,LIDL,175.62
-2026-10-19,ada,-27.0,debt,CLEARPAY,148.62
-2026-10-20,ada,-12.27,shopping,VINTED,136.35
-2026-10-21,ada,-7.97,leisure,WATERSTONES,128.38
-2026-10-22,ada,-3.35,groceries,ALDI,125.03
-2026-10-24,ada,-6.2,groceries,LIDL,118.83
-2026-10-24,ada,-12.15,shopping,VINTED,106.68
-2026-10-25,ada,-3.06,groceries,ALDI,103.62
-2026-10-25,ada,-14.4,shopping,PRIMARK,89.22
-2026-10-26,ada,-4.91,groceries,LIDL,84.31
-2026-10-26,ada,-6.65,eating_out,NANDOS,77.66
-2026-10-26,ada,-16.52,shopping,BOOTS,61.14
-2026-10-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1276.57
-2026-10-30,ada,-7.61,transport,TFL,1268.96
-2026-10-31,ada,-1.72,eating_out,LOCAL PUB,1267.24
-2026-10-31,ada,-5.79,shopping,BOOTS,1261.45
-2026-10-31,ada,-6.0,groceries,ALDI,1255.45
-2026-11-01,ada,-12.6,groceries,TESCO,1242.85
-2026-11-01,ada,-89.0,transport,METRO TRAVEL PASS,1153.85
-2026-11-02,ada,-4.39,transport,BP,1149.46
-2026-11-02,ada,-12.76,groceries,ALDI,1136.7
-2026-11-02,ada,-27.0,debt,CLEARPAY,1109.7
-2026-11-02,ada,-200.0,family,D OKAFOR BOARD,909.7
-2026-11-03,ada,-1.21,transport,FIRST BUS,908.49
-2026-11-03,ada,-4.44,shopping,BOOTS,904.05
-2026-11-03,ada,-5.98,groceries,ALDI,898.07
-2026-11-03,ada,-290.0,savings,TRANSFER TO SAVINGS,608.07
-2026-11-05,ada,-7.25,groceries,SAINSBURYS,600.82
-2026-11-05,ada,-11.0,leisure,CINEWORLD,589.82
-2026-11-05,ada,-12.81,eating_out,NANDOS,577.01
-2026-11-06,ada,-7.01,shopping,ARGOS,570.0
+2025-11-08,ada,-9.53,health,SUPERDRUG,539.95
+2025-11-08,ada,-22.06,leisure,CINEWORLD,517.89
+2025-11-09,ada,-12.0,phone,SMARTY MOBILE,505.89
+2025-11-09,ada,-33.48,eating_out,GREGGS,472.41
+2025-11-11,ada,-5.73,transport,FIRST BUS,466.68
+2025-11-11,ada,-9.5,leisure,CINEWORLD,457.18
+2025-11-12,ada,-9.5,eating_out,NANDOS,447.68
+2025-11-13,ada,-5.37,eating_out,GREGGS,442.31
+2025-11-14,ada,-22.24,misc,POST OFFICE,420.07
+2025-11-15,ada,-3.08,groceries,TESCO,416.99
+2025-11-15,ada,-3.2,transport,UBER,413.79
+2025-11-15,ada,-11.51,eating_out,DELIVEROO,402.28
+2025-11-16,ada,-11.25,shopping,B&M,391.03
+2025-11-16,ada,-12.15,misc,TIMPSON,378.88
+2025-11-16,ada,-19.23,groceries,TESCO,359.65
+2025-11-17,ada,-2.54,transport,TFL,357.11
+2025-11-17,ada,-6.35,groceries,LIDL,350.76
+2025-11-17,ada,-27.0,debt,CLEARPAY,323.76
+2025-11-18,ada,-29.5,shopping,ARGOS,294.26
+2025-11-19,ada,-6.38,groceries,LIDL,287.88
+2025-11-19,ada,-6.5,eating_out,JUST EAT,281.38
+2025-11-21,ada,-10.19,groceries,SAINSBURYS,271.19
+2025-11-21,ada,-19.79,leisure,BET365,251.4
+2025-11-22,ada,-2.43,transport,BP,248.97
+2025-11-22,ada,-4.81,groceries,SAINSBURYS,244.16
+2025-11-22,ada,-7.58,eating_out,NANDOS,236.58
+2025-11-23,ada,-3.95,transport,TFL,232.63
+2025-11-23,ada,-7.07,groceries,CO-OP,225.56
+2025-11-23,ada,-10.46,eating_out,JUST EAT,215.1
+2025-11-24,ada,-29.62,shopping,AMAZON,185.48
+2025-11-26,ada,-7.23,groceries,CO-OP,178.25
+2025-11-27,ada,-5.15,shopping,BOOTS,173.1
+2025-11-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1388.53
+2025-11-28,ada,-1.73,transport,NORTHERN RAIL,1386.8
+2025-11-28,ada,-5.02,groceries,ALDI,1381.78
+2025-11-28,ada,-6.74,leisure,WATERSTONES,1375.04
+2025-11-30,ada,-5.78,eating_out,DELIVEROO,1369.26
+2025-11-30,ada,-7.38,shopping,PRIMARK,1361.88
+2025-12-01,ada,-2.99,transport,NORTHERN RAIL,1358.89
+2025-12-01,ada,-27.0,debt,CLEARPAY,1331.89
+2025-12-01,ada,-89.0,transport,METRO TRAVEL PASS,1242.89
+2025-12-02,ada,-200.0,family,D OKAFOR BOARD,1042.89
+2025-12-03,ada,-20.66,misc,CHARITY SHOP,1022.23
+2025-12-03,ada,-290.0,savings,TRANSFER TO SAVINGS,732.23
+2025-12-04,ada,-2.53,groceries,CO-OP,729.7
+2025-12-04,ada,-4.52,transport,UBER,725.18
+2025-12-05,ada,-8.86,groceries,TESCO,716.32
+2025-12-06,ada,-5.87,leisure,WATERSTONES,710.45
+2025-12-06,ada,-8.0,groceries,SAINSBURYS,702.45
+2025-12-06,ada,-14.71,eating_out,DELIVEROO,687.74
+2025-12-06,ada,-73.64,shopping,BOOTS,614.1
+2025-12-07,ada,-20.88,groceries,CO-OP,593.22
+2025-12-08,ada,-84.78,leisure,BET365,508.44
+2025-12-09,ada,-12.0,phone,SMARTY MOBILE,496.44
+2025-12-10,ada,-12.4,eating_out,PRET,484.04
+2025-12-10,ada,-47.71,misc,POST OFFICE,436.33
+2025-12-12,ada,-1.03,transport,BP,435.3
+2025-12-12,ada,-8.33,eating_out,PRET,426.97
+2025-12-13,ada,-7.39,groceries,ALDI,419.58
+2025-12-14,ada,-9.69,eating_out,PRET,409.89
+2025-12-14,ada,-10.78,groceries,ALDI,399.11
+2025-12-15,ada,-3.54,transport,UBER,395.57
+2025-12-15,ada,-24.17,misc,POST OFFICE,371.4
+2025-12-15,ada,-27.0,debt,CLEARPAY,344.4
+2025-12-16,ada,42.71,refund,AMAZON REFUND,387.11
+2025-12-16,ada,-3.84,eating_out,GREGGS,383.27
+2025-12-17,ada,-7.96,groceries,SAINSBURYS,375.31
+2025-12-18,ada,-14.0,eating_out,JUST EAT,361.31
+2025-12-19,ada,-2.85,groceries,CO-OP,358.46
+2025-12-20,ada,-10.34,shopping,PRIMARK,348.12
+2025-12-21,ada,-3.05,groceries,SAINSBURYS,345.07
+2025-12-22,ada,-3.79,transport,UBER,341.28
+2025-12-23,ada,-2.51,transport,FIRST BUS,338.77
+2025-12-23,ada,-5.77,groceries,TESCO,333.0
+2025-12-23,ada,-12.15,shopping,AMAZON,320.85
+2025-12-25,ada,-2.11,transport,BP,318.74
+2025-12-25,ada,-12.27,groceries,SAINSBURYS,306.47
+2025-12-26,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1521.9
+2025-12-26,ada,-4.15,transport,SHELL,1517.75
+2025-12-26,ada,-5.04,eating_out,PRET,1512.71
+2025-12-26,ada,-8.75,groceries,SAINSBURYS,1503.96
+2025-12-27,ada,-13.07,groceries,CO-OP,1490.89
+2025-12-27,ada,-29.73,shopping,AMAZON,1461.16
+2025-12-28,ada,-7.63,groceries,CO-OP,1453.53
+2025-12-29,ada,-9.0,groceries,SAINSBURYS,1444.53
+2025-12-29,ada,-27.0,debt,CLEARPAY,1417.53
+2025-12-30,ada,-2.26,transport,BP,1415.27
+2025-12-30,ada,-4.64,groceries,CO-OP,1410.63
+2025-12-31,ada,-10.1,eating_out,JUST EAT,1400.53
+2025-12-31,ada,-13.56,misc,PAYPAL,1386.97
+2026-01-01,ada,-89.0,transport,METRO TRAVEL PASS,1297.97
+2026-01-02,ada,-4.51,transport,FIRST BUS,1293.46
+2026-01-02,ada,-22.55,leisure,WATERSTONES,1270.91
+2026-01-02,ada,-200.0,family,D OKAFOR BOARD,1070.91
+2026-01-03,ada,-3.64,groceries,TESCO,1067.27
+2026-01-03,ada,-3.64,eating_out,GREGGS,1063.63
+2026-01-03,ada,-290.0,savings,TRANSFER TO SAVINGS,773.63
+2026-01-05,ada,-3.24,groceries,LIDL,770.39
+2026-01-06,ada,-7.2,groceries,ALDI,763.19
+2026-01-07,ada,-5.92,groceries,TESCO,757.27
+2026-01-08,ada,-51.33,misc,TIMPSON,705.94
+2026-01-09,ada,-4.2,groceries,TESCO,701.74
+2026-01-09,ada,-4.57,transport,FIRST BUS,697.17
+2026-01-09,ada,-12.0,phone,SMARTY MOBILE,685.17
+2026-01-10,ada,-14.97,groceries,ALDI,670.2
+2026-01-11,ada,-5.15,groceries,SAINSBURYS,665.05
+2026-01-11,ada,-6.1,transport,SHELL,658.95
+2026-01-11,ada,-11.86,leisure,STEAM,647.09
+2026-01-12,ada,-10.18,groceries,CO-OP,636.91
+2026-01-12,ada,-27.0,debt,CLEARPAY,609.91
+2026-01-13,ada,-4.81,groceries,SAINSBURYS,605.1
+2026-01-13,ada,-7.11,transport,UBER,597.99
+2026-01-14,ada,-10.13,transport,FIRST BUS,587.86
+2026-01-15,ada,-8.07,transport,TFL,579.79
+2026-01-15,ada,-12.81,groceries,LIDL,566.98
+2026-01-15,ada,-22.06,shopping,PRIMARK,544.92
+2026-01-16,ada,-3.71,shopping,PRIMARK,541.21
+2026-01-16,ada,-6.49,groceries,ALDI,534.72
+2026-01-17,ada,-8.23,groceries,LIDL,526.49
+2026-01-18,ada,-3.39,transport,UBER,523.1
+2026-01-18,ada,-6.28,shopping,AMAZON,516.82
+2026-01-18,ada,-16.56,eating_out,JUST EAT,500.26
+2026-01-20,ada,-8.31,eating_out,PRET,491.95
+2026-01-21,ada,-3.81,eating_out,LOCAL PUB,488.14
+2026-01-21,ada,-14.02,groceries,TESCO,474.12
+2026-01-22,ada,-7.51,groceries,LIDL,466.61
+2026-01-22,ada,-54.31,leisure,STEAM,412.3
+2026-01-23,ada,-2.48,eating_out,DELIVEROO,409.82
+2026-01-23,ada,-3.97,transport,FIRST BUS,405.85
+2026-01-23,ada,-4.3,groceries,ALDI,401.55
+2026-01-24,ada,-7.44,eating_out,JUST EAT,394.11
+2026-01-24,ada,-10.78,leisure,BET365,383.33
+2026-01-25,ada,-8.03,shopping,VINTED,375.3
+2026-01-25,ada,-9.77,groceries,CO-OP,365.53
+2026-01-26,ada,-6.55,groceries,ALDI,358.98
+2026-01-26,ada,-27.0,debt,CLEARPAY,331.98
+2026-01-27,ada,-3.29,transport,BP,328.69
+2026-01-27,ada,-12.98,groceries,LIDL,315.71
+2026-01-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1531.14
+2026-01-28,ada,-8.17,shopping,PRIMARK,1522.97
+2026-01-29,ada,28.88,refund,AMAZON REFUND,1551.85
+2026-01-30,ada,-3.73,transport,FIRST BUS,1548.12
+2026-01-30,ada,-6.49,groceries,LIDL,1541.63
+2026-01-31,ada,-2.01,transport,SHELL,1539.62
+2026-01-31,ada,-9.33,groceries,ALDI,1530.29
+2026-01-31,ada,-98.35,shopping,ARGOS,1431.94
+2026-02-01,ada,-1.73,groceries,CO-OP,1430.21
+2026-02-01,ada,-15.2,eating_out,GREGGS,1415.01
+2026-02-01,ada,-18.64,leisure,BET365,1396.37
+2026-02-01,ada,-89.0,transport,METRO TRAVEL PASS,1307.37
+2026-02-02,ada,-200.0,family,D OKAFOR BOARD,1107.37
+2026-02-03,ada,-2.33,eating_out,NANDOS,1105.04
+2026-02-03,ada,-2.72,transport,NORTHERN RAIL,1102.32
+2026-02-03,ada,-7.22,groceries,SAINSBURYS,1095.1
+2026-02-03,ada,-290.0,savings,TRANSFER TO SAVINGS,805.1
+2026-02-04,ada,-3.57,groceries,CO-OP,801.53
+2026-02-04,ada,-21.89,leisure,STEAM,779.64
+2026-02-05,ada,-3.21,shopping,BOOTS,776.43
+2026-02-05,ada,-11.15,leisure,BET365,765.28
+2026-02-07,ada,-4.65,eating_out,PRET,760.63
+2026-02-07,ada,-5.94,misc,CHARITY SHOP,754.69
+2026-02-08,ada,-2.14,groceries,LIDL,752.55
+2026-02-08,ada,-3.55,transport,UBER,749.0
+2026-02-08,ada,-3.89,leisure,GARDEN CENTRE,745.11
+2026-02-08,ada,-14.27,eating_out,LOCAL PUB,730.84
+2026-02-09,ada,-4.91,transport,UBER,725.93
+2026-02-09,ada,-12.0,phone,SMARTY MOBILE,713.93
+2026-02-09,ada,-27.0,debt,CLEARPAY,686.93
+2026-02-10,ada,-7.71,groceries,CO-OP,679.22
+2026-02-11,ada,-8.25,transport,FIRST BUS,670.97
+2026-02-11,ada,-8.77,groceries,CO-OP,662.2
+2026-02-13,ada,-1.69,groceries,ALDI,660.51
+2026-02-14,ada,-10.78,eating_out,JUST EAT,649.73
+2026-02-14,ada,-16.75,groceries,CO-OP,632.98
+2026-02-15,ada,-4.57,eating_out,GREGGS,628.41
+2026-02-16,ada,-5.81,eating_out,LOCAL PUB,622.6
+2026-02-16,ada,-6.62,transport,NORTHERN RAIL,615.98
+2026-02-17,ada,-9.9,groceries,ALDI,606.08
+2026-02-18,ada,-3.89,transport,UBER,602.19
+2026-02-19,ada,-2.35,transport,TFL,599.84
+2026-02-19,ada,-2.37,groceries,TESCO,597.47
+2026-02-19,ada,-4.62,eating_out,LOCAL PUB,592.85
+2026-02-20,ada,-2.64,groceries,LIDL,590.21
+2026-02-20,ada,-2.75,transport,FIRST BUS,587.46
+2026-02-20,ada,-5.71,eating_out,JUST EAT,581.75
+2026-02-20,ada,-28.98,leisure,BET365,552.77
+2026-02-20,ada,-83.9,misc,POST OFFICE,468.87
+2026-02-21,ada,-5.63,groceries,TESCO,463.24
+2026-02-21,ada,-6.93,shopping,B&M,456.31
+2026-02-22,ada,-4.42,eating_out,JUST EAT,451.89
+2026-02-22,ada,-23.32,shopping,AMAZON,428.57
+2026-02-23,ada,-7.7,eating_out,DELIVEROO,420.87
+2026-02-23,ada,-27.0,debt,CLEARPAY,393.87
+2026-02-24,ada,-2.72,groceries,SAINSBURYS,391.15
+2026-02-24,ada,-12.33,leisure,STEAM,378.82
+2026-02-25,ada,-5.66,eating_out,LOCAL PUB,373.16
+2026-02-26,ada,-3.8,transport,BP,369.36
+2026-02-27,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1584.79
+2026-02-27,ada,-6.13,groceries,TESCO,1578.66
+2026-02-27,ada,-6.47,eating_out,JUST EAT,1572.19
+2026-02-27,ada,-24.24,shopping,B&M,1547.95
+2026-02-28,ada,-2.66,eating_out,NANDOS,1545.29
+2026-02-28,ada,-16.62,groceries,SAINSBURYS,1528.67
+2026-03-01,ada,-4.02,transport,UBER,1524.65
+2026-03-01,ada,-8.5,groceries,ALDI,1516.15
+2026-03-01,ada,-89.0,transport,METRO TRAVEL PASS,1427.15
+2026-03-02,ada,-3.96,groceries,SAINSBURYS,1423.19
+2026-03-02,ada,-200.0,family,D OKAFOR BOARD,1223.19
+2026-03-03,ada,-3.59,transport,NORTHERN RAIL,1219.6
+2026-03-03,ada,-290.0,savings,TRANSFER TO SAVINGS,929.6
+2026-03-04,ada,-3.87,groceries,TESCO,925.73
+2026-03-04,ada,-3.89,eating_out,PRET,921.84
+2026-03-05,ada,-2.8,transport,UBER,919.04
+2026-03-06,ada,-2.48,transport,NORTHERN RAIL,916.56
+2026-03-06,ada,-8.57,groceries,TESCO,907.99
+2026-03-07,ada,-3.64,groceries,CO-OP,904.35
+2026-03-09,ada,-9.58,groceries,CO-OP,894.77
+2026-03-09,ada,-12.0,phone,SMARTY MOBILE,882.77
+2026-03-09,ada,-27.0,debt,CLEARPAY,855.77
+2026-03-09,ada,-28.68,leisure,GARDEN CENTRE,827.09
+2026-03-10,ada,-2.33,eating_out,PRET,824.76
+2026-03-10,ada,-2.84,transport,UBER,821.92
+2026-03-10,ada,-4.24,groceries,LIDL,817.68
+2026-03-10,ada,-24.75,shopping,VINTED,792.93
+2026-03-12,ada,-1.9,transport,FIRST BUS,791.03
+2026-03-12,ada,-20.9,leisure,WATERSTONES,770.13
+2026-03-14,ada,-2.84,groceries,CO-OP,767.29
+2026-03-14,ada,-10.5,leisure,BET365,756.79
+2026-03-14,ada,-33.18,shopping,VINTED,723.61
+2026-03-15,ada,-14.31,eating_out,JUST EAT,709.3
+2026-03-15,ada,-43.03,misc,CHARITY SHOP,666.27
+2026-03-17,ada,-2.22,transport,UBER,664.05
+2026-03-17,ada,-9.45,groceries,TESCO,654.6
+2026-03-18,ada,-6.79,transport,NORTHERN RAIL,647.81
+2026-03-19,ada,-58.2,leisure,BET365,589.61
+2026-03-20,ada,-3.08,groceries,CO-OP,586.53
+2026-03-20,ada,-5.27,eating_out,NANDOS,581.26
+2026-03-20,ada,-10.06,leisure,BET365,571.2
+2026-03-21,ada,-7.59,eating_out,GREGGS,563.61
+2026-03-21,ada,-14.77,groceries,LIDL,548.84
+2026-03-22,ada,-7.71,groceries,CO-OP,541.13
+2026-03-22,ada,-8.33,transport,BP,532.8
+2026-03-22,ada,-9.46,eating_out,NANDOS,523.34
+2026-03-22,ada,-10.46,shopping,PRIMARK,512.88
+2026-03-23,ada,-3.42,shopping,VINTED,509.46
+2026-03-23,ada,-4.85,transport,UBER,504.61
+2026-03-23,ada,-4.88,groceries,ALDI,499.73
+2026-03-23,ada,-27.0,debt,CLEARPAY,472.73
+2026-03-24,ada,-2.42,transport,FIRST BUS,470.31
+2026-03-24,ada,-15.46,eating_out,LOCAL PUB,454.85
+2026-03-27,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1670.28
+2026-03-29,ada,-3.68,groceries,TESCO,1666.6
+2026-03-29,ada,-9.06,misc,POST OFFICE,1657.54
+2026-03-29,ada,-9.45,eating_out,DELIVEROO,1648.09
+2026-03-29,ada,-17.26,shopping,AMAZON,1630.83
+2026-03-31,ada,-10.17,leisure,BET365,1620.66
+2026-04-01,ada,-4.37,eating_out,GREGGS,1616.29
+2026-04-01,ada,-89.0,transport,METRO TRAVEL PASS,1527.29
+2026-04-02,ada,-200.0,family,D OKAFOR BOARD,1327.29
+2026-04-03,ada,-7.27,transport,FIRST BUS,1320.02
+2026-04-03,ada,-290.0,savings,TRANSFER TO SAVINGS,1030.02
+2026-04-04,ada,23.07,refund,AMAZON REFUND,1053.09
+2026-04-04,ada,-2.79,eating_out,LOCAL PUB,1050.3
+2026-04-04,ada,-3.43,transport,BP,1046.87
+2026-04-04,ada,-4.26,groceries,ALDI,1042.61
+2026-04-05,ada,-9.03,eating_out,LOCAL PUB,1033.58
+2026-04-05,ada,-16.19,groceries,TESCO,1017.39
+2026-04-06,ada,-27.0,debt,CLEARPAY,990.39
+2026-04-07,ada,-16.33,shopping,PRIMARK,974.06
+2026-04-08,ada,-7.74,groceries,ALDI,966.32
+2026-04-08,ada,-8.99,eating_out,NANDOS,957.33
+2026-04-09,ada,-4.17,transport,NORTHERN RAIL,953.16
+2026-04-09,ada,-12.0,phone,SMARTY MOBILE,941.16
+2026-04-09,ada,-166.67,misc,POST OFFICE,774.49
+2026-04-10,ada,-3.29,groceries,LIDL,771.2
+2026-04-10,ada,-28.9,misc,PAYPAL,742.3
+2026-04-11,ada,-12.64,eating_out,DELIVEROO,729.66
+2026-04-11,ada,-14.09,health,BOOTS PHARMACY,715.57
+2026-04-12,ada,-4.3,groceries,CO-OP,711.27
+2026-04-12,ada,-8.01,transport,SHELL,703.26
+2026-04-13,ada,-6.0,groceries,SAINSBURYS,697.26
+2026-04-15,ada,-5.92,transport,NORTHERN RAIL,691.34
+2026-04-15,ada,-7.0,groceries,TESCO,684.34
+2026-04-15,ada,-12.61,eating_out,PRET,671.73
+2026-04-15,ada,-31.25,misc,CHARITY SHOP,640.48
+2026-04-17,ada,-3.2,transport,FIRST BUS,637.28
+2026-04-17,ada,-8.25,groceries,SAINSBURYS,629.03
+2026-04-18,ada,-10.97,groceries,TESCO,618.06
+2026-04-18,ada,-15.48,misc,CHARITY SHOP,602.58
+2026-04-18,ada,-17.59,eating_out,GREGGS,584.99
+2026-04-20,ada,-27.0,debt,CLEARPAY,557.99
+2026-04-21,ada,-1.58,transport,BP,556.41
+2026-04-22,ada,-2.68,transport,TFL,553.73
+2026-04-22,ada,-3.46,eating_out,DELIVEROO,550.27
+2026-04-22,ada,-8.5,shopping,ARGOS,541.77
+2026-04-23,ada,-4.06,transport,NORTHERN RAIL,537.71
+2026-04-23,ada,-12.66,groceries,SAINSBURYS,525.05
+2026-04-24,ada,-5.33,eating_out,NANDOS,519.72
+2026-04-24,ada,-6.13,groceries,ALDI,513.59
+2026-04-24,ada,-20.45,leisure,WATERSTONES,493.14
+2026-04-25,ada,-6.36,groceries,TESCO,486.78
+2026-04-25,ada,-18.09,leisure,GARDEN CENTRE,468.69
+2026-04-26,ada,-12.03,groceries,CO-OP,456.66
+2026-04-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1672.09
+2026-04-28,ada,-4.73,transport,SHELL,1667.36
+2026-04-29,ada,-5.32,groceries,ALDI,1662.04
+2026-04-29,ada,-35.14,leisure,BET365,1626.9
+2026-04-30,ada,-7.23,groceries,LIDL,1619.67
+2026-05-01,ada,-4.14,eating_out,GREGGS,1615.53
+2026-05-01,ada,-4.73,transport,TFL,1610.8
+2026-05-01,ada,-74.07,shopping,BOOTS,1536.73
+2026-05-01,ada,-89.0,transport,METRO TRAVEL PASS,1447.73
+2026-05-02,ada,-6.99,groceries,LIDL,1440.74
+2026-05-02,ada,-9.53,shopping,AMAZON,1431.21
+2026-05-02,ada,-200.0,family,D OKAFOR BOARD,1231.21
+2026-05-03,ada,-2.53,eating_out,GREGGS,1228.68
+2026-05-03,ada,-7.47,transport,NORTHERN RAIL,1221.21
+2026-05-03,ada,-290.0,savings,TRANSFER TO SAVINGS,931.21
+2026-05-04,ada,-3.5,transport,NORTHERN RAIL,927.71
+2026-05-04,ada,-8.53,eating_out,NANDOS,919.18
+2026-05-04,ada,-27.0,debt,CLEARPAY,892.18
+2026-05-05,ada,-5.79,groceries,ALDI,886.39
+2026-05-05,ada,-11.45,misc,TIMPSON,874.94
+2026-05-06,ada,-5.55,leisure,WATERSTONES,869.39
+2026-05-07,ada,-3.0,groceries,LIDL,866.39
+2026-05-07,ada,-6.71,transport,FIRST BUS,859.68
+2026-05-07,ada,-8.39,leisure,BET365,851.29
+2026-05-08,ada,-13.01,groceries,SAINSBURYS,838.28
+2026-05-09,ada,-4.66,misc,CHARITY SHOP,833.62
+2026-05-09,ada,-10.21,eating_out,PRET,823.41
+2026-05-09,ada,-12.0,phone,SMARTY MOBILE,811.41
+2026-05-09,ada,-41.18,leisure,GARDEN CENTRE,770.23
+2026-05-10,ada,-6.34,misc,POST OFFICE,763.89
+2026-05-10,ada,-7.89,groceries,SAINSBURYS,756.0
+2026-05-11,ada,-2.42,transport,NORTHERN RAIL,753.58
+2026-05-11,ada,-8.39,groceries,SAINSBURYS,745.19
+2026-05-11,ada,-23.81,misc,POST OFFICE,721.38
+2026-05-12,ada,-9.4,groceries,LIDL,711.98
+2026-05-12,ada,-12.36,transport,BP,699.62
+2026-05-13,ada,-3.95,transport,NORTHERN RAIL,695.67
+2026-05-13,ada,-41.4,eating_out,NANDOS,654.27
+2026-05-14,ada,-16.66,groceries,CO-OP,637.61
+2026-05-14,ada,-22.45,leisure,GARDEN CENTRE,615.16
+2026-05-16,ada,-5.23,eating_out,PRET,609.93
+2026-05-16,ada,-8.63,misc,TIMPSON,601.3
+2026-05-17,ada,-11.86,leisure,WATERSTONES,589.44
+2026-05-17,ada,-14.78,groceries,CO-OP,574.66
+2026-05-17,ada,-15.14,shopping,PRIMARK,559.52
+2026-05-18,ada,-4.06,transport,TFL,555.46
+2026-05-18,ada,-16.71,eating_out,PRET,538.75
+2026-05-18,ada,-27.0,debt,CLEARPAY,511.75
+2026-05-19,ada,-14.76,groceries,SAINSBURYS,496.99
+2026-05-20,ada,-5.7,groceries,SAINSBURYS,491.29
+2026-05-21,ada,-9.7,groceries,TESCO,481.59
+2026-05-22,ada,-7.5,groceries,CO-OP,474.09
+2026-05-23,ada,-7.12,shopping,VINTED,466.97
+2026-05-24,ada,-10.03,leisure,STEAM,456.94
+2026-05-24,ada,-13.89,misc,CHARITY SHOP,443.05
+2026-05-26,ada,-7.41,groceries,TESCO,435.64
+2026-05-27,ada,-6.04,transport,SHELL,429.6
+2026-05-27,ada,-9.56,leisure,WATERSTONES,420.04
+2026-05-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1635.47
+2026-05-28,ada,-7.01,shopping,BOOTS,1628.46
+2026-05-29,ada,-14.27,groceries,TESCO,1614.19
+2026-05-30,ada,-1.9,transport,FIRST BUS,1612.29
+2026-05-30,ada,-7.16,eating_out,JUST EAT,1605.13
+2026-05-30,ada,-12.95,shopping,VINTED,1592.18
+2026-05-30,ada,-15.35,health,SUPERDRUG,1576.83
+2026-05-31,ada,-7.73,eating_out,GREGGS,1569.1
+2026-05-31,ada,-12.83,groceries,SAINSBURYS,1556.27
+2026-06-01,ada,-13.72,leisure,WATERSTONES,1542.55
+2026-06-01,ada,-19.32,misc,POST OFFICE,1523.23
+2026-06-01,ada,-27.0,debt,CLEARPAY,1496.23
+2026-06-01,ada,-89.0,transport,METRO TRAVEL PASS,1407.23
+2026-06-02,ada,-5.85,groceries,TESCO,1401.38
+2026-06-02,ada,-200.0,family,D OKAFOR BOARD,1201.38
+2026-06-03,ada,-5.94,groceries,TESCO,1195.44
+2026-06-03,ada,-290.0,savings,TRANSFER TO SAVINGS,905.44
+2026-06-04,ada,-1.59,groceries,TESCO,903.85
+2026-06-05,ada,-15.82,groceries,SAINSBURYS,888.03
+2026-06-05,ada,-36.14,misc,POST OFFICE,851.89
+2026-06-07,ada,-4.42,transport,BP,847.47
+2026-06-07,ada,-4.55,groceries,CO-OP,842.92
+2026-06-07,ada,-4.85,eating_out,JUST EAT,838.07
+2026-06-08,ada,-6.76,eating_out,PRET,831.31
+2026-06-08,ada,-7.53,groceries,CO-OP,823.78
+2026-06-09,ada,-12.0,phone,SMARTY MOBILE,811.78
+2026-06-12,ada,-6.04,transport,BP,805.74
+2026-06-12,ada,-9.94,misc,TIMPSON,795.8
+2026-06-13,ada,-5.39,groceries,TESCO,790.41
+2026-06-13,ada,-8.59,eating_out,JUST EAT,781.82
+2026-06-13,ada,-15.05,misc,PAYPAL,766.77
+2026-06-13,ada,-17.88,leisure,BET365,748.89
+2026-06-13,ada,-25.78,shopping,ARGOS,723.11
+2026-06-15,ada,-27.0,debt,CLEARPAY,696.11
+2026-06-17,ada,-17.89,leisure,GARDEN CENTRE,678.22
+2026-06-17,ada,-18.36,groceries,SAINSBURYS,659.86
+2026-06-18,ada,-5.5,groceries,CO-OP,654.36
+2026-06-18,ada,-17.83,leisure,WATERSTONES,636.53
+2026-06-19,ada,-2.59,transport,TFL,633.94
+2026-06-19,ada,-20.25,groceries,LIDL,613.69
+2026-06-20,ada,15.33,refund,AMAZON REFUND,629.02
+2026-06-20,ada,-11.21,eating_out,LOCAL PUB,617.81
+2026-06-20,ada,-12.15,groceries,LIDL,605.66
+2026-06-20,ada,-57.79,leisure,WATERSTONES,547.87
+2026-06-21,ada,-2.3,groceries,TESCO,545.57
+2026-06-21,ada,-4.9,eating_out,DELIVEROO,540.67
+2026-06-22,ada,-20.86,eating_out,LOCAL PUB,519.81
+2026-06-23,ada,-11.04,shopping,B&M,508.77
+2026-06-24,ada,-35.43,misc,PAYPAL,473.34
+2026-06-26,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1688.77
+2026-06-27,ada,-1.47,eating_out,LOCAL PUB,1687.3
+2026-06-27,ada,-5.44,shopping,BOOTS,1681.86
+2026-06-27,ada,-6.36,groceries,CO-OP,1675.5
+2026-06-28,ada,-4.85,eating_out,DELIVEROO,1670.65
+2026-06-28,ada,-14.43,groceries,CO-OP,1656.22
+2026-06-28,ada,-31.04,leisure,CINEWORLD,1625.18
+2026-06-29,ada,-2.68,transport,NORTHERN RAIL,1622.5
+2026-06-29,ada,-2.98,groceries,CO-OP,1619.52
+2026-06-29,ada,-27.0,debt,CLEARPAY,1592.52
+2026-06-30,ada,-14.88,eating_out,LOCAL PUB,1577.64
+2026-07-01,ada,-8.77,groceries,CO-OP,1568.87
+2026-07-01,ada,-89.0,transport,METRO TRAVEL PASS,1479.87
+2026-07-02,ada,-6.11,groceries,TESCO,1473.76
+2026-07-02,ada,-9.32,leisure,STEAM,1464.44
+2026-07-02,ada,-19.87,transport,UBER,1444.57
+2026-07-02,ada,-200.0,family,D OKAFOR BOARD,1244.57
+2026-07-03,ada,-2.24,transport,UBER,1242.33
+2026-07-03,ada,-5.21,groceries,SAINSBURYS,1237.12
+2026-07-03,ada,-54.93,leisure,BET365,1182.19
+2026-07-03,ada,-290.0,savings,TRANSFER TO SAVINGS,892.19
+2026-07-05,ada,-3.19,groceries,ALDI,889.0
+2026-07-06,ada,-3.26,transport,BP,885.74
+2026-07-06,ada,-4.87,groceries,LIDL,880.87
+2026-07-07,ada,-4.77,eating_out,PRET,876.1
+2026-07-07,ada,-9.69,groceries,LIDL,866.41
+2026-07-08,ada,-3.9,groceries,TESCO,862.51
+2026-07-08,ada,-23.38,misc,PAYPAL,839.13
+2026-07-09,ada,-4.83,eating_out,NANDOS,834.3
+2026-07-09,ada,-5.52,transport,BP,828.78
+2026-07-09,ada,-9.14,groceries,ALDI,819.64
+2026-07-09,ada,-12.0,phone,SMARTY MOBILE,807.64
+2026-07-09,ada,-12.81,misc,PAYPAL,794.83
+2026-07-10,ada,-2.9,transport,NORTHERN RAIL,791.93
+2026-07-11,ada,-5.63,groceries,SAINSBURYS,786.3
+2026-07-11,ada,-10.84,eating_out,NANDOS,775.46
+2026-07-11,ada,-15.84,shopping,ARGOS,759.62
+2026-07-12,ada,-2.28,groceries,LIDL,757.34
+2026-07-12,ada,-3.17,transport,NORTHERN RAIL,754.17
+2026-07-12,ada,-31.0,leisure,CINEWORLD,723.17
+2026-07-13,ada,-7.08,leisure,WATERSTONES,716.09
+2026-07-13,ada,-14.35,groceries,LIDL,701.74
+2026-07-13,ada,-27.0,debt,CLEARPAY,674.74
+2026-07-14,ada,-3.66,transport,UBER,671.08
+2026-07-14,ada,-5.8,groceries,CO-OP,665.28
+2026-07-16,ada,-12.36,groceries,ALDI,652.92
+2026-07-17,ada,-3.21,transport,NORTHERN RAIL,649.71
+2026-07-18,ada,-11.17,eating_out,LOCAL PUB,638.54
+2026-07-19,ada,-6.17,groceries,CO-OP,632.37
+2026-07-19,ada,-11.86,leisure,WATERSTONES,620.51
+2026-07-19,ada,-18.7,shopping,ARGOS,601.81
+2026-07-20,ada,-8.31,groceries,ALDI,593.5
+2026-07-24,ada,-6.58,health,DENTAL CARE,586.92
+2026-07-25,ada,-20.9,shopping,B&M,566.02
+2026-07-26,ada,-3.61,groceries,SAINSBURYS,562.41
+2026-07-26,ada,-4.38,transport,SHELL,558.03
+2026-07-26,ada,-6.28,eating_out,DELIVEROO,551.75
+2026-07-26,ada,-33.81,shopping,VINTED,517.94
+2026-07-27,ada,-27.0,debt,CLEARPAY,490.94
+2026-07-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1706.37
+2026-07-28,ada,-3.26,transport,FIRST BUS,1703.11
+2026-07-28,ada,-3.77,misc,CHARITY SHOP,1699.34
+2026-07-28,ada,-5.94,groceries,ALDI,1693.4
+2026-07-29,ada,-5.46,groceries,TESCO,1687.94
+2026-07-30,ada,-49.58,shopping,BOOTS,1638.36
+2026-07-31,ada,-5.06,groceries,TESCO,1633.3
+2026-07-31,ada,-26.38,shopping,AMAZON,1606.92
+2026-08-01,ada,58.92,refund,AMAZON REFUND,1665.84
+2026-08-01,ada,-4.01,groceries,ALDI,1661.83
+2026-08-01,ada,-14.46,eating_out,PRET,1647.37
+2026-08-01,ada,-17.25,transport,TFL,1630.12
+2026-08-01,ada,-89.0,transport,METRO TRAVEL PASS,1541.12
+2026-08-02,ada,-200.0,family,D OKAFOR BOARD,1341.12
+2026-08-03,ada,-13.71,misc,CHARITY SHOP,1327.41
+2026-08-03,ada,-290.0,savings,TRANSFER TO SAVINGS,1037.41
+2026-08-06,ada,-9.96,groceries,LIDL,1027.45
+2026-08-07,ada,-8.07,groceries,SAINSBURYS,1019.38
+2026-08-07,ada,-77.02,shopping,VINTED,942.36
+2026-08-08,ada,-8.06,groceries,SAINSBURYS,934.3
+2026-08-08,ada,-9.27,leisure,GARDEN CENTRE,925.03
+2026-08-08,ada,-15.11,shopping,AMAZON,909.92
+2026-08-09,ada,-12.0,phone,SMARTY MOBILE,897.92
+2026-08-09,ada,-53.65,leisure,WATERSTONES,844.27
+2026-08-10,ada,-27.0,debt,CLEARPAY,817.27
+2026-08-11,ada,-4.39,groceries,CO-OP,812.88
+2026-08-12,ada,-65.25,leisure,GARDEN CENTRE,747.63
+2026-08-13,ada,-9.33,groceries,CO-OP,738.3
+2026-08-13,ada,-14.38,shopping,PRIMARK,723.92
+2026-08-14,ada,-3.16,transport,FIRST BUS,720.76
+2026-08-15,ada,-3.88,transport,FIRST BUS,716.88
+2026-08-15,ada,-15.6,eating_out,DELIVEROO,701.28
+2026-08-15,ada,-45.01,leisure,BET365,656.27
+2026-08-16,ada,-8.61,groceries,LIDL,647.66
+2026-08-16,ada,-12.74,leisure,WATERSTONES,634.92
+2026-08-16,ada,-16.5,eating_out,LOCAL PUB,618.42
+2026-08-18,ada,-3.37,transport,FIRST BUS,615.05
+2026-08-18,ada,-7.65,groceries,SAINSBURYS,607.4
+2026-08-18,ada,-18.88,misc,POST OFFICE,588.52
+2026-08-19,ada,-5.4,transport,SHELL,583.12
+2026-08-20,ada,-12.74,groceries,LIDL,570.38
+2026-08-20,ada,-15.7,leisure,STEAM,554.68
+2026-08-21,ada,-7.06,transport,BP,547.62
+2026-08-21,ada,-21.82,misc,POST OFFICE,525.8
+2026-08-21,ada,-30.67,eating_out,DELIVEROO,495.13
+2026-08-22,ada,-2.56,transport,FIRST BUS,492.57
+2026-08-23,ada,-14.28,shopping,AMAZON,478.29
+2026-08-24,ada,-27.0,debt,CLEARPAY,451.29
+2026-08-25,ada,-3.77,transport,UBER,447.52
+2026-08-25,ada,-7.7,groceries,TESCO,439.82
+2026-08-25,ada,-28.17,leisure,CINEWORLD,411.65
+2026-08-26,ada,-5.65,groceries,LIDL,406.0
+2026-08-26,ada,-5.7,leisure,GARDEN CENTRE,400.3
+2026-08-27,ada,-11.54,leisure,BET365,388.76
+2026-08-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1604.19
+2026-08-28,ada,-8.35,groceries,ALDI,1595.84
+2026-08-29,ada,-12.34,shopping,B&M,1583.5
+2026-08-29,ada,-18.43,groceries,ALDI,1565.07
+2026-08-30,ada,-3.08,groceries,ALDI,1561.99
+2026-08-30,ada,-4.7,transport,SHELL,1557.29
+2026-08-30,ada,-7.77,eating_out,PRET,1549.52
+2026-08-31,ada,-13.95,shopping,B&M,1535.57
+2026-08-31,ada,-33.61,groceries,CO-OP,1501.96
+2026-09-01,ada,-89.0,transport,METRO TRAVEL PASS,1412.96
+2026-09-02,ada,-2.35,leisure,CINEWORLD,1410.61
+2026-09-02,ada,-2.59,eating_out,PRET,1408.02
+2026-09-02,ada,-5.31,groceries,TESCO,1402.71
+2026-09-02,ada,-6.49,transport,BP,1396.22
+2026-09-02,ada,-12.41,health,DENTAL CARE,1383.81
+2026-09-02,ada,-200.0,family,D OKAFOR BOARD,1183.81
+2026-09-03,ada,-25.6,leisure,STEAM,1158.21
+2026-09-03,ada,-290.0,savings,TRANSFER TO SAVINGS,868.21
+2026-09-05,ada,-11.57,groceries,CO-OP,856.64
+2026-09-05,ada,-17.2,eating_out,GREGGS,839.44
+2026-09-05,ada,-25.84,leisure,STEAM,813.6
+2026-09-06,ada,-2.24,eating_out,JUST EAT,811.36
+2026-09-06,ada,-6.23,transport,TFL,805.13
+2026-09-07,ada,-27.0,debt,CLEARPAY,778.13
+2026-09-07,ada,-34.63,shopping,BOOTS,743.5
+2026-09-09,ada,-3.9,transport,FIRST BUS,739.6
+2026-09-09,ada,-4.02,shopping,ARGOS,735.58
+2026-09-09,ada,-12.0,phone,SMARTY MOBILE,723.58
+2026-09-09,ada,-12.35,eating_out,JUST EAT,711.23
+2026-09-09,ada,-14.16,misc,PAYPAL,697.07
+2026-09-10,ada,-7.26,transport,FIRST BUS,689.81
+2026-09-10,ada,-11.84,eating_out,GREGGS,677.97
+2026-09-11,ada,-7.28,groceries,SAINSBURYS,670.69
+2026-09-12,ada,-2.44,groceries,SAINSBURYS,668.25
+2026-09-12,ada,-4.49,transport,TFL,663.76
+2026-09-12,ada,-18.95,leisure,CINEWORLD,644.81
+2026-09-14,ada,-10.43,groceries,LIDL,634.38
+2026-09-15,ada,-4.4,transport,FIRST BUS,629.98
+2026-09-15,ada,-9.57,groceries,CO-OP,620.41
+2026-09-16,ada,-3.15,transport,FIRST BUS,617.26
+2026-09-16,ada,-8.64,eating_out,LOCAL PUB,608.62
+2026-09-17,ada,-3.46,eating_out,PRET,605.16
+2026-09-17,ada,-27.06,leisure,BET365,578.1
+2026-09-18,ada,-4.83,groceries,SAINSBURYS,573.27
+2026-09-18,ada,-37.45,leisure,BET365,535.82
+2026-09-19,ada,-3.26,transport,FIRST BUS,532.56
+2026-09-19,ada,-4.57,eating_out,DELIVEROO,527.99
+2026-09-20,ada,-9.8,groceries,ALDI,518.19
+2026-09-21,ada,-3.49,eating_out,GREGGS,514.7
+2026-09-21,ada,-6.19,health,SUPERDRUG,508.51
+2026-09-21,ada,-27.0,debt,CLEARPAY,481.51
+2026-09-24,ada,-4.82,eating_out,PRET,476.69
+2026-09-25,ada,-9.83,groceries,SAINSBURYS,466.86
+2026-09-25,ada,-37.8,misc,TIMPSON,429.06
+2026-09-26,ada,-14.05,leisure,WATERSTONES,415.01
+2026-09-27,ada,-4.28,transport,UBER,410.73
+2026-09-27,ada,-15.29,leisure,CINEWORLD,395.44
+2026-09-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1610.87
+2026-09-28,ada,-5.65,groceries,LIDL,1605.22
+2026-09-28,ada,-9.04,health,SUPERDRUG,1596.18
+2026-09-29,ada,-2.22,eating_out,DELIVEROO,1593.96
+2026-09-29,ada,-7.54,groceries,TESCO,1586.42
+2026-09-30,ada,-2.35,eating_out,NANDOS,1584.07
+2026-09-30,ada,-9.58,groceries,CO-OP,1574.49
+2026-10-01,ada,-2.6,misc,POST OFFICE,1571.89
+2026-10-01,ada,-26.84,shopping,B&M,1545.05
+2026-10-01,ada,-89.0,transport,METRO TRAVEL PASS,1456.05
+2026-10-02,ada,-200.0,family,D OKAFOR BOARD,1256.05
+2026-10-03,ada,-6.93,eating_out,LOCAL PUB,1249.12
+2026-10-03,ada,-290.0,savings,TRANSFER TO SAVINGS,959.12
+2026-10-04,ada,-2.72,shopping,VINTED,956.4
+2026-10-04,ada,-6.68,groceries,TESCO,949.72
+2026-10-05,ada,-5.96,groceries,CO-OP,943.76
+2026-10-05,ada,-6.15,transport,TFL,937.61
+2026-10-05,ada,-10.2,eating_out,PRET,927.41
+2026-10-05,ada,-27.0,debt,CLEARPAY,900.41
+2026-10-09,ada,-12.0,phone,SMARTY MOBILE,888.41
+2026-10-10,ada,-5.25,groceries,ALDI,883.16
+2026-10-11,ada,-1.75,shopping,PRIMARK,881.41
+2026-10-11,ada,-3.58,eating_out,JUST EAT,877.83
+2026-10-13,ada,-10.34,groceries,LIDL,867.49
+2026-10-13,ada,-13.61,misc,TIMPSON,853.88
+2026-10-14,ada,-3.55,transport,BP,850.33
+2026-10-14,ada,-4.65,eating_out,DELIVEROO,845.68
+2026-10-14,ada,-7.41,groceries,CO-OP,838.27
+2026-10-15,ada,-2.94,transport,BP,835.33
+2026-10-15,ada,-16.45,misc,POST OFFICE,818.88
+2026-10-16,ada,-3.21,shopping,AMAZON,815.67
+2026-10-16,ada,-4.09,transport,SHELL,811.58
+2026-10-17,ada,-7.69,eating_out,DELIVEROO,803.89
+2026-10-17,ada,-7.96,groceries,SAINSBURYS,795.93
+2026-10-17,ada,-18.06,shopping,AMAZON,777.87
+2026-10-18,ada,-7.48,transport,UBER,770.39
+2026-10-18,ada,-14.77,groceries,LIDL,755.62
+2026-10-19,ada,-27.0,debt,CLEARPAY,728.62
+2026-10-20,ada,-12.27,shopping,VINTED,716.35
+2026-10-21,ada,-7.97,leisure,WATERSTONES,708.38
+2026-10-22,ada,-3.35,groceries,ALDI,705.03
+2026-10-24,ada,-6.2,groceries,LIDL,698.83
+2026-10-24,ada,-12.15,shopping,VINTED,686.68
+2026-10-25,ada,-3.06,groceries,ALDI,683.62
+2026-10-25,ada,-14.4,shopping,PRIMARK,669.22
+2026-10-26,ada,-4.91,groceries,LIDL,664.31
+2026-10-26,ada,-6.65,eating_out,NANDOS,657.66
+2026-10-26,ada,-16.52,shopping,BOOTS,641.14
+2026-10-28,ada,1215.43,income,SPARKWELL ELECTRICAL SALARY,1856.57
+2026-10-30,ada,-7.61,transport,TFL,1848.96
+2026-10-31,ada,-1.72,eating_out,LOCAL PUB,1847.24
+2026-10-31,ada,-5.79,shopping,BOOTS,1841.45
+2026-10-31,ada,-6.0,groceries,ALDI,1835.45
+2026-11-01,ada,-12.6,groceries,TESCO,1822.85
+2026-11-01,ada,-89.0,transport,METRO TRAVEL PASS,1733.85
+2026-11-02,ada,-4.39,transport,BP,1729.46
+2026-11-02,ada,-12.76,groceries,ALDI,1716.7
+2026-11-02,ada,-27.0,debt,CLEARPAY,1689.7
+2026-11-02,ada,-200.0,family,D OKAFOR BOARD,1489.7
+2026-11-03,ada,-1.21,transport,FIRST BUS,1488.49
+2026-11-03,ada,-4.44,shopping,BOOTS,1484.05
+2026-11-03,ada,-5.98,groceries,ALDI,1478.07
+2026-11-03,ada,-290.0,savings,TRANSFER TO SAVINGS,1188.07
+2026-11-05,ada,-7.25,groceries,SAINSBURYS,1180.82
+2026-11-05,ada,-11.0,leisure,CINEWORLD,1169.82
+2026-11-05,ada,-12.81,eating_out,NANDOS,1157.01
+2026-11-06,ada,-7.01,shopping,ARGOS,1150.0
