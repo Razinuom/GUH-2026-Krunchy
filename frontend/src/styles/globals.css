@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* surfaces and text */
+  --bg: #F6F8F7; --surface: #FFFFFF; --sunk: #EFF3F1;
+  --ink: #10201A; --muted: #5A6A63; --line: #E2E8E4;
+
+  /* brand */
+  --accent: #0E7A5C; --accent-soft: #DDF3EA; --on-accent: #FFFFFF;
+  --gold: #D39A1E;
+
+  /* one colour per generation */
+  --gen1: #E39A0E;   /* grandparent: marigold */
+  --gen2: #2F6FE4;   /* parent: blue */
+  --gen3: #8A55E8;   /* young adult: violet */
+
+  /* risk only */
+  --good: #13865B; --warn: #B45309; --critical: #C2281D;
+  --good-soft: #E1F5EB; --warn-soft: #FDF0DB; --critical-soft: #FDE6E3;
+
+  /* page header fill (--p-*) and its label colour (--k-*) */
+  --p-family: #FFEFD0;   --k-family: #8F5B00;
+  --p-forecast: #E2ECFF; --k-forecast: #1C4DAE;
+  --p-tm: #EEE5FF;       --k-tm: #6236BE;
+  --p-coach: #FFE4DC;    --k-coach: #A93A22;
+  --p-claims: #D9F3E6;   --k-claims: #0B6B50;
+  --p-about: #ECEFEA;    --k-about: #45524C;
+
+  --shadow: 0 18px 40px -22px rgba(16, 32, 26, .35);
+  --sel: var(--gen2);
+  color-scheme: light;
+}
+
+html.night {
+  --bg: #0E1613; --surface: #16211D; --sunk: #1F2C27;
+  --ink: #EEF4F1; --muted: #9DB1A9; --line: #2A3A33;
+  --accent: #3FC596; --accent-soft: #163A2D; --on-accent: #0E1613;
+  --gold: #EDB94D;
+  --gen1: #F2B23A; --gen2: #6E9CFF; --gen3: #AA8BFF;
+  --good: #4FD19A; --warn: #F5A84B; --critical: #FF7B6E;
+  --good-soft: #153A2B; --warn-soft: #3D2B11; --critical-soft: #46201C;
+  --p-family: #33270F;   --k-family: #F5C463;
+  --p-forecast: #15244A; --k-forecast: #93B4FF;
+  --p-tm: #271D47;       --k-tm: #C6ADFF;
+  --p-coach: #3F1F18;    --k-coach: #FF9F84;
+  --p-claims: #113528;   --k-claims: #72DDB2;
+  --p-about: #1F2925;    --k-about: #BAC7C1;
+  --shadow: 0 18px 40px -20px rgba(0, 0, 0, .7);
+  color-scheme: dark;
+}
+
+html.large { font-size: 112.5%; }   /* "Larger Text" button */
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  font-size: .9375rem;
+  line-height: 1.55;
+  transition: background-color .3s, color .3s;
+  -webkit-font-smoothing: antialiased;
+}
+
+main[data-gen="1"] { --sel: var(--gen1); }
+main[data-gen="2"] { --sel: var(--gen2); }
+main[data-gen="3"] { --sel: var(--gen3); }
+
+.num { font-variant-numeric: tabular-nums; }
+
+:focus-visible {
+  outline: 2.5px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 10px;
+}
+
+a { color: var(--accent); }
+
+/* range sliders follow the --range colour */
+input[type="range"].range {
+  -webkit-appearance: none; appearance: none;
+  width: 100%; height: 6px; border-radius: 999px;
+  background: linear-gradient(to right, var(--range) 0 var(--fill, 50%), var(--sunk) var(--fill, 50%) 100%);
+  outline-offset: 6px;
+}
+input[type="range"].range::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 22px; height: 22px; border-radius: 50%;
+  background: var(--surface); border: 3px solid var(--range); cursor: pointer;
+}
+input[type="range"].range::-moz-range-thumb {
+  width: 16px; height: 16px; border-radius: 50%;
+  background: var(--surface); border: 3px solid var(--range); cursor: pointer;
+}
+
+/* home circles drift */
+@keyframes drift-a { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(5px, -6px); } }
+@keyframes drift-b { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-6px, 4px); } }
+@keyframes drift-c { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(4px, 6px); } }
+.drift-a { animation: drift-a 7s ease-in-out infinite; }
+.drift-b { animation: drift-b 8s ease-in-out infinite; }
+.drift-c { animation: drift-c 9s ease-in-out infinite; }
+
+/* voice waveform */
+@keyframes wave { 0%, 100% { height: 6px; } 50% { height: 22px; } }
+.wave span { display: block; width: 4px; height: 6px; border-radius: 4px; background: var(--k-coach); }
+.wave.on span { animation: wave .9s ease-in-out infinite; }
+.wave.on span:nth-child(2) { animation-delay: .15s; }
+.wave.on span:nth-child(3) { animation-delay: .3s; }
+.wave.on span:nth-child(4) { animation-delay: .45s; }
+.wave.on span:nth-child(5) { animation-delay: .6s; }
+
+/* small horizontal scrollers hide their bar */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
