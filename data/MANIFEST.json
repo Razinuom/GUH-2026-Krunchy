@@ -1,0 +1,485 @@
+[
+  {
+    "name": "boe_bank_rate",
+    "url": "https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp",
+    "path": "clean/boe_bank_rate_changes.csv",
+    "fetched_utc": "2026-11-07T12:48:37+00:00",
+    "note": "259 rate changes since 1975-01-20"
+  },
+  {
+    "name": "uk_hpi_full",
+    "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-2026-08.csv",
+    "path": "raw/hpi/UK-HPI-full-file-2026-08.csv",
+    "fetched_utc": "2026-11-07T12:48:40+00:00",
+    "note": "OGL; ~35MB, all local authorities"
+  },
+  {
+    "name": "hpi_regions",
+    "url": "https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-2026-08.csv",
+    "path": "clean/hpi_regions_monthly.csv",
+    "fetched_utc": "2026-11-07T12:48:41+00:00",
+    "note": "regional subset; latest 2026-08-01"
+  },
+  {
+    "name": "ashe_table6_age",
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/agegroupashetable6/2026provisional/ashetable62026provisional.zip",
+    "path": "raw/ons/ashe_table6_age__2026provisional.zip",
+    "fetched_utc": "2026-11-07T12:50:38+00:00",
+    "note": "ASHE earnings by age group -> income growth assumptions; edition 2026provisional"
+  },
+  {
+    "name": "ashe_table3_region_occupation",
+    "url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/regionbyoccupation2digitsocashetable3/2026provisional/ashetable32026provisional.zip",
+    "path": "raw/ons/ashe_table3_region_occupation__2026provisional.zip",
+    "fetched_utc": "2026-11-07T12:50:46+00:00",
+    "note": "ASHE earnings by region x occupation (courier/apprentice personas); edition 2026provisional"
+  },
+  {
+    "name": "national_life_tables_uk",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/nationallifetablesunitedkingdomreferencetables/current/nltuk198020223.xlsx",
+    "path": "raw/ons/national_life_tables_uk__current.xlsx",
+    "fetched_utc": "2026-11-07T12:50:54+00:00",
+    "note": "Life expectancy by age/sex -> retirement planning horizon; edition current"
+  },
+  {
+    "name": "was_total_wealth",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/totalwealthwealthingreatbritain/july2006tojune2016andapril2014tomarch2022/totalwealthtables.xlsx",
+    "path": "raw/ons/was_total_wealth__july2006tojune2016andapril2014tomarch2022.xlsx",
+    "fetched_utc": "2026-11-07T12:51:02+00:00",
+    "note": "Wealth and Assets Survey; lost accredited status in 2025, present as indicative; edition july2006tojune2016andapril2014tomarch2022"
+  },
+  {
+    "name": "was_financial_wealth",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/financialwealthwealthingreatbritain/july2006tojune2016andapril2014tomarch2022/financialwealthtables.xlsx",
+    "path": "raw/ons/was_financial_wealth__july2006tojune2016andapril2014tomarch2022.xlsx",
+    "fetched_utc": "2026-11-07T12:51:10+00:00",
+    "note": "WAS indicative; edition july2006tojune2016andapril2014tomarch2022"
+  },
+  {
+    "name": "was_property_wealth",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/propertywealthwealthingreatbritain/july2006tojune2016andapril2014tomarch2022/propertywealthtables.xlsx",
+    "path": "raw/ons/was_property_wealth__july2006tojune2016andapril2014tomarch2022.xlsx",
+    "fetched_utc": "2026-11-07T12:51:17+00:00",
+    "note": "WAS indicative; edition july2006tojune2016andapril2014tomarch2022"
+  },
+  {
+    "name": "was_pension_wealth",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/pensionwealthwealthingreatbritain/july2006tojune2016andapril2014tomarch2022/pensionwealthtables.xlsx",
+    "path": "raw/ons/was_pension_wealth__july2006tojune2016andapril2014tomarch2022.xlsx",
+    "fetched_utc": "2026-11-07T12:51:25+00:00",
+    "note": "WAS indicative; edition july2006tojune2016andapril2014tomarch2022"
+  },
+  {
+    "name": "was_household_debt",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/householddebtwealthingreatbritain/july2010tojune2016andapril2014tomarch2022/householddebttables.xlsx",
+    "path": "raw/ons/was_household_debt__july2010tojune2016andapril2014tomarch2022.xlsx",
+    "fetched_utc": "2026-11-07T12:51:33+00:00",
+    "note": "WAS indicative; arrears / problem debt; edition july2010tojune2016andapril2014tomarch2022"
+  },
+  {
+    "name": "was_individual_wealth",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/individualwealthwealthingreatbritain/current/individualwealthingbfinal.xlsx",
+    "path": "raw/ons/was_individual_wealth__current.xlsx",
+    "fetched_utc": "2026-11-07T12:51:41+00:00",
+    "note": "WAS indicative; wealth by age of individual; edition current"
+  },
+  {
+    "name": "lcf_wb1_detailed_expenditure",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/familyspendingworkbook1detailedexpenditureandtrends/fye2025/workbook1detailedexpenditureandtrends.xlsx",
+    "path": "raw/ons/lcf_wb1_detailed_expenditure__fye2025.xlsx",
+    "fetched_utc": "2026-11-07T12:51:49+00:00",
+    "note": "Living Costs and Food Survey -> calibrate synthetic transactions; edition fye2025"
+  },
+  {
+    "name": "lcf_wb2_by_income",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/familyspendingworkbook2expenditurebyincome/fye2025/workbook2expenditurebyincome.xlsx",
+    "path": "raw/ons/lcf_wb2_by_income__fye2025.xlsx",
+    "fetched_utc": "2026-11-07T12:51:57+00:00",
+    "note": "LCF by income decile; edition fye2025"
+  },
+  {
+    "name": "lcf_wb3_by_region",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/familyspendingworkbook3expenditurebyregion/fye2025/workbook3expenditurebyregion.xlsx",
+    "path": "raw/ons/lcf_wb3_by_region__fye2025.xlsx",
+    "fetched_utc": "2026-11-07T12:52:05+00:00",
+    "note": "LCF by region; edition fye2025"
+  },
+  {
+    "name": "lcf_wb4_by_household",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/familyspendingworkbook4expenditurebyhouseholdcharacteristic/fye2025/workbook4expenditurebyhouseholdcharacteristics.xlsx",
+    "path": "raw/ons/lcf_wb4_by_household__fye2025.xlsx",
+    "fetched_utc": "2026-11-07T12:52:13+00:00",
+    "note": "LCF by household type / age of reference person; edition fye2025"
+  },
+  {
+    "name": "cpi_annual_rate",
+    "url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7g7/mm23",
+    "path": "raw/ons/cpi_annual_rate_d7g7.csv",
+    "fetched_utc": "2026-11-07T12:52:15+00:00",
+    "note": "CPI 12-month rate, %"
+  },
+  {
+    "name": "cpi_index",
+    "url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7bt/mm23",
+    "path": "raw/ons/cpi_index_d7bt.csv",
+    "fetched_utc": "2026-11-07T12:52:18+00:00",
+    "note": "CPI index 2015=100"
+  },
+  {
+    "name": "cpih_annual_rate",
+    "url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/l55o/mm23",
+    "path": "raw/ons/cpih_annual_rate_l55o.csv",
+    "fetched_utc": "2026-11-07T12:52:20+00:00",
+    "note": "CPIH 12-month rate, %"
+  },
+  {
+    "name": "awe_total_pay_growth",
+    "url": "https://www.ons.gov.uk/generator?format=csv&uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kac3/lms",
+    "path": "raw/ons/awe_total_pay_growth_kac3.csv",
+    "fetched_utc": "2026-11-07T12:52:23+00:00",
+    "note": "Average weekly earnings, total pay, 3m avg y/y %"
+  },
+  {
+    "name": "household_saving_ratio",
+    "url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/grossdomesticproductgdp/timeseries/nrjs/ukea",
+    "path": "raw/ons/household_saving_ratio_nrjs.csv",
+    "fetched_utc": "2026-11-07T12:52:26+00:00",
+    "note": "Households' saving ratio, %"
+  },
+  {
+    "name": "yf_^FTAS_1d",
+    "url": "yfinance:^FTAS",
+    "path": "clean/markets/FTAS_1d.csv",
+    "fetched_utc": "2026-11-07T12:52:26+00:00",
+    "note": "FTSE All-Share; 1980-02-11..2026-11-06"
+  },
+  {
+    "name": "yf_^FTAS_1mo",
+    "url": "yfinance:^FTAS",
+    "path": "clean/markets/FTAS_1mo.csv",
+    "fetched_utc": "2026-11-07T12:52:27+00:00",
+    "note": "FTSE All-Share; 1985-01-01..2026-11-01"
+  },
+  {
+    "name": "yf_^FTSE_1d",
+    "url": "yfinance:^FTSE",
+    "path": "clean/markets/FTSE_1d.csv",
+    "fetched_utc": "2026-11-07T12:52:27+00:00",
+    "note": "FTSE 100; 1984-01-03..2026-11-06"
+  },
+  {
+    "name": "yf_^FTSE_1mo",
+    "url": "yfinance:^FTSE",
+    "path": "clean/markets/FTSE_1mo.csv",
+    "fetched_utc": "2026-11-07T12:52:27+00:00",
+    "note": "FTSE 100; 1985-01-01..2026-11-01"
+  },
+  {
+    "name": "yf_VWRL.L_1d",
+    "url": "yfinance:VWRL.L",
+    "path": "clean/markets/VWRL.L_1d.csv",
+    "fetched_utc": "2026-11-07T12:52:27+00:00",
+    "note": "Vanguard FTSE All-World (GBP); 2012-05-22..2026-11-06"
+  },
+  {
+    "name": "yf_VWRL.L_1mo",
+    "url": "yfinance:VWRL.L",
+    "path": "clean/markets/VWRL.L_1mo.csv",
+    "fetched_utc": "2026-11-07T12:52:27+00:00",
+    "note": "Vanguard FTSE All-World (GBP); 2012-05-01..2026-11-01"
+  },
+  {
+    "name": "yf_URTH_1d",
+    "url": "yfinance:URTH",
+    "path": "clean/markets/URTH_1d.csv",
+    "fetched_utc": "2026-11-07T12:52:28+00:00",
+    "note": "iShares MSCI World (USD); 2012-01-12..2026-11-06"
+  },
+  {
+    "name": "yf_URTH_1mo",
+    "url": "yfinance:URTH",
+    "path": "clean/markets/URTH_1mo.csv",
+    "fetched_utc": "2026-11-07T12:52:28+00:00",
+    "note": "iShares MSCI World (USD); 2012-01-01..2026-11-01"
+  },
+  {
+    "name": "yf_GBPUSD=X_1d",
+    "url": "yfinance:GBPUSD=X",
+    "path": "clean/markets/GBPUSDX_1d.csv",
+    "fetched_utc": "2026-11-07T12:52:28+00:00",
+    "note": "GBP/USD; 2003-12-01..2026-11-06"
+  },
+  {
+    "name": "yf_GBPUSD=X_1mo",
+    "url": "yfinance:GBPUSD=X",
+    "path": "clean/markets/GBPUSDX_1mo.csv",
+    "fetched_utc": "2026-11-07T12:52:28+00:00",
+    "note": "GBP/USD; 2003-12-01..2026-11-01"
+  },
+  {
+    "name": "jst_macrohistory",
+    "url": "https://www.macrohistory.net/app/download/9834512469/JSTdatasetR6.xlsx",
+    "path": "raw/markets/JSTdatasetR6.dta",
+    "fetched_utc": "2026-11-07T12:52:29+00:00",
+    "note": "Jorda-Schularick-Taylor; CC BY-NC-SA; long-run equity/bond/housing returns, 18 countries"
+  },
+  {
+    "name": "kb_govuk_lifetime-isa",
+    "url": "https://www.gov.uk/lifetime-isa",
+    "path": "kb/govuk/lifetime-isa.md",
+    "fetched_utc": "2026-11-07T12:53:08+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_junior-individual-savings-accounts",
+    "url": "https://www.gov.uk/junior-individual-savings-accounts",
+    "path": "kb/govuk/junior-individual-savings-accounts.md",
+    "fetched_utc": "2026-11-07T12:53:09+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_individual-savings-accounts",
+    "url": "https://www.gov.uk/individual-savings-accounts",
+    "path": "kb/govuk/individual-savings-accounts.md",
+    "fetched_utc": "2026-11-07T12:53:09+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_inheritance-tax",
+    "url": "https://www.gov.uk/inheritance-tax",
+    "path": "kb/govuk/inheritance-tax.md",
+    "fetched_utc": "2026-11-07T12:53:09+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_inheritance-tax__gifts",
+    "url": "https://www.gov.uk/inheritance-tax/gifts",
+    "path": "kb/govuk/inheritance-tax__gifts.md",
+    "fetched_utc": "2026-11-07T12:53:10+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_inheritance-tax__passing-on-home",
+    "url": "https://www.gov.uk/inheritance-tax/passing-on-home",
+    "path": "kb/govuk/inheritance-tax__passing-on-home.md",
+    "fetched_utc": "2026-11-07T12:53:10+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_inheritance-tax__rates",
+    "url": "https://www.gov.uk/inheritance-tax/rates",
+    "path": "kb/govuk/inheritance-tax__rates.md",
+    "fetched_utc": "2026-11-07T12:53:11+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_inheritance-tax__thresholds",
+    "url": "https://www.gov.uk/inheritance-tax/thresholds",
+    "path": "kb/govuk/inheritance-tax__thresholds.md",
+    "fetched_utc": "2026-11-07T12:53:11+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_child-trust-funds",
+    "url": "https://www.gov.uk/child-trust-funds",
+    "path": "kb/govuk/child-trust-funds.md",
+    "fetched_utc": "2026-11-07T12:53:11+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_apply-for-tax-free-childcare",
+    "url": "https://www.gov.uk/apply-for-tax-free-childcare",
+    "path": "kb/govuk/apply-for-tax-free-childcare.md",
+    "fetched_utc": "2026-11-07T12:53:12+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_get-help-savings-low-income",
+    "url": "https://www.gov.uk/get-help-savings-low-income",
+    "path": "kb/govuk/get-help-savings-low-income.md",
+    "fetched_utc": "2026-11-07T12:53:12+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_apply-tax-free-interest-on-savings",
+    "url": "https://www.gov.uk/apply-tax-free-interest-on-savings",
+    "path": "kb/govuk/apply-tax-free-interest-on-savings.md",
+    "fetched_utc": "2026-11-07T12:53:13+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_new-state-pension",
+    "url": "https://www.gov.uk/new-state-pension",
+    "path": "kb/govuk/new-state-pension.md",
+    "fetched_utc": "2026-11-07T12:53:13+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_pension-credit",
+    "url": "https://www.gov.uk/pension-credit",
+    "path": "kb/govuk/pension-credit.md",
+    "fetched_utc": "2026-11-07T12:53:14+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_plan-retirement-income",
+    "url": "https://www.gov.uk/plan-retirement-income",
+    "path": "kb/govuk/plan-retirement-income.md",
+    "fetched_utc": "2026-11-07T12:53:14+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_workplace-pensions",
+    "url": "https://www.gov.uk/workplace-pensions",
+    "path": "kb/govuk/workplace-pensions.md",
+    "fetched_utc": "2026-11-07T12:53:15+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_tax-on-your-private-pension",
+    "url": "https://www.gov.uk/tax-on-your-private-pension",
+    "path": "kb/govuk/tax-on-your-private-pension.md",
+    "fetched_utc": "2026-11-07T12:53:15+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_budgeting-help-benefits",
+    "url": "https://www.gov.uk/budgeting-help-benefits",
+    "path": "kb/govuk/budgeting-help-benefits.md",
+    "fetched_utc": "2026-11-07T12:53:16+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_universal-credit",
+    "url": "https://www.gov.uk/universal-credit",
+    "path": "kb/govuk/universal-credit.md",
+    "fetched_utc": "2026-11-07T12:53:16+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_report-suspicious-emails-websites-phishing",
+    "url": "https://www.gov.uk/report-suspicious-emails-websites-phishing",
+    "path": "kb/govuk/report-suspicious-emails-websites-phishing.md",
+    "fetched_utc": "2026-11-07T12:53:16+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_options-for-paying-off-your-debts",
+    "url": "https://www.gov.uk/options-for-paying-off-your-debts",
+    "path": "kb/govuk/options-for-paying-off-your-debts.md",
+    "fetched_utc": "2026-11-07T12:53:17+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_power-of-attorney",
+    "url": "https://www.gov.uk/power-of-attorney",
+    "path": "kb/govuk/power-of-attorney.md",
+    "fetched_utc": "2026-11-07T12:53:18+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_find-pension-contact-details",
+    "url": "https://www.gov.uk/find-pension-contact-details",
+    "path": "kb/govuk/find-pension-contact-details.md",
+    "fetched_utc": "2026-11-07T12:53:18+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_check-state-pension",
+    "url": "https://www.gov.uk/check-state-pension",
+    "path": "kb/govuk/check-state-pension.md",
+    "fetched_utc": "2026-11-07T12:53:18+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_first-homes-scheme",
+    "url": "https://www.gov.uk/first-homes-scheme",
+    "path": "kb/govuk/first-homes-scheme.md",
+    "fetched_utc": "2026-11-07T12:53:19+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_affordable-home-ownership-schemes",
+    "url": "https://www.gov.uk/affordable-home-ownership-schemes",
+    "path": "kb/govuk/affordable-home-ownership-schemes.md",
+    "fetched_utc": "2026-11-07T12:53:19+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_govuk_income-tax-rates",
+    "url": "https://www.gov.uk/income-tax-rates",
+    "path": "kb/govuk/income-tax-rates.md",
+    "fetched_utc": "2026-11-07T12:53:20+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_fca_scamsmart",
+    "url": "https://www.fca.org.uk/scamsmart",
+    "path": "kb/fca/scamsmart.md",
+    "fetched_utc": "2026-11-07T12:53:20+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_fca_scamsmart-how-avoid-investment-scams",
+    "url": "https://www.fca.org.uk/scamsmart/how-avoid-investment-scams",
+    "path": "kb/fca/scamsmart-how-avoid-investment-scams.md",
+    "fetched_utc": "2026-11-07T12:53:21+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_fca_consumers-protect-yourself-scams",
+    "url": "https://www.fca.org.uk/consumers/protect-yourself-scams",
+    "path": "kb/fca/consumers-protect-yourself-scams.md",
+    "fetched_utc": "2026-11-07T12:53:22+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_fca_consumers-avoid-scams-unauthorised-firms",
+    "url": "https://www.fca.org.uk/consumers/avoid-scams-unauthorised-firms",
+    "path": "kb/fca/consumers-avoid-scams-unauthorised-firms.md",
+    "fetched_utc": "2026-11-07T12:53:22+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_fca_consumers-pension-scams",
+    "url": "https://www.fca.org.uk/consumers/pension-scams",
+    "path": "kb/fca/consumers-pension-scams.md",
+    "fetched_utc": "2026-11-07T12:53:23+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_fca_consumers-cryptoassets",
+    "url": "https://www.fca.org.uk/consumers/cryptoassets",
+    "path": "kb/fca/consumers-cryptoassets.md",
+    "fetched_utc": "2026-11-07T12:53:23+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_fca_consumers-loan-fee-fraud",
+    "url": "https://www.fca.org.uk/consumers/loan-fee-fraud",
+    "path": "kb/fca/consumers-loan-fee-fraud.md",
+    "fetched_utc": "2026-11-07T12:53:24+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_fca_consumers-recovery-room-scams",
+    "url": "https://www.fca.org.uk/consumers/recovery-room-scams",
+    "path": "kb/fca/consumers-recovery-room-scams.md",
+    "fetched_utc": "2026-11-07T12:53:25+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_fca_firms-financial-services-register",
+    "url": "https://www.fca.org.uk/firms/financial-services-register",
+    "path": "kb/fca/firms-financial-services-register.md",
+    "fetched_utc": "2026-11-07T12:53:25+00:00",
+    "note": ""
+  },
+  {
+    "name": "kb_citizensadvice_consumer-scams-check-if-something-might-be-a-scam",
+    "url": "https://www.citizensadvice.org.uk/consumer/scams/check-if-something-might-be-a-scam/",
+    "path": "kb/citizensadvice/consumer-scams-check-if-something-might-be-a-scam.md",
+    "fetched_utc": "2026-11-07T12:53:27+00:00",
+    "note": ""
+  }
+]
