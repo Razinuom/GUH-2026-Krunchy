@@ -77,3 +77,49 @@ class MemberSummary(BaseModel):
     family: str
     age: int
     role: str
+
+
+class TimeMachineRequest(BaseModel):
+    family_id: str = Field(..., examples=["nowak"])
+    gift: float = Field(..., ge=0, examples=[8000])
+    timing: Literal["now", "10y", "inheritance"] = "now"
+    monthly_saving: float = Field(0, ge=0, examples=[250])
+    region: str = "England"
+    deposit_pct: Literal[5, 10] = 10
+
+
+class FamilyMember(BaseModel):
+    id: str
+    name: str
+    age: int
+
+
+class YearBand(BaseModel):
+    p10: float
+    p50: float
+    p90: float
+
+
+class DepositTarget(BaseModel):
+    region: str
+    pct: int
+    amount: float
+    ftb_price: float
+    as_of: str
+
+
+class TimeMachineResponse(BaseModel):
+    family_id: str
+    grandparent: FamilyMember
+    young_adult: FamilyMember
+    gift: float
+    timing: Literal["now", "10y", "inheritance"]
+    monthly_saving: float
+    years: list[int]
+    genz_band: list[YearBand]
+    p_deposit_by_target: float
+    p_parent_floor_safe: float
+    deposit_target: DepositTarget
+    safety_floor: float
+    assumptions: dict[str, Any]
+    sources: list[Source]
