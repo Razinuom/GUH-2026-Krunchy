@@ -1,0 +1,171 @@
+{
+  "lcf": {
+    "employee_ft": {
+      "weekly_per_person": {
+        "groceries": 33.81,
+        "shopping": 25.81,
+        "health": 4.41,
+        "transport": 44.89,
+        "phone": 9.33,
+        "leisure": 34.67,
+        "eating_out": 21.93,
+        "misc": 20.89
+      },
+      "persons_per_household": 2.7,
+      "housing_fuel_power_weekly_household": 136.2
+    },
+    "employee_pt": {
+      "weekly_per_person": {
+        "groceries": 31.0,
+        "shopping": 21.4,
+        "health": 4.41,
+        "transport": 31.52,
+        "phone": 8.04,
+        "leisure": 31.52,
+        "eating_out": 18.0,
+        "misc": 16.74
+      },
+      "persons_per_household": 2.7,
+      "housing_fuel_power_weekly_household": 123.4
+    },
+    "self_employed": {
+      "weekly_per_person": {
+        "groceries": 36.26,
+        "shopping": 24.7,
+        "health": 4.41,
+        "transport": 51.22,
+        "phone": 9.07,
+        "leisure": 32.3,
+        "eating_out": 23.48,
+        "misc": 21.59
+      },
+      "persons_per_household": 2.7,
+      "housing_fuel_power_weekly_household": 132.3
+    },
+    "retired": {
+      "weekly_per_person": {
+        "groceries": 45.56,
+        "shopping": 28.38,
+        "health": 7.44,
+        "transport": 40.31,
+        "phone": 11.62,
+        "leisure": 45.37,
+        "eating_out": 22.19,
+        "misc": 28.31
+      },
+      "persons_per_household": 1.6,
+      "housing_fuel_power_weekly_household": 75.8
+    },
+    "all": {
+      "weekly_per_person": {
+        "groceries": 36.95,
+        "shopping": 25.48,
+        "health": 5.17,
+        "transport": 41.91,
+        "phone": 9.74,
+        "leisure": 35.7,
+        "eating_out": 21.39,
+        "misc": 21.65
+      },
+      "persons_per_household": 2.3,
+      "housing_fuel_power_weekly_household": 118.4
+    }
+  },
+  "lcf_source": "ONS Family Spending FYE2025, Workbook 4 Table A17 (lcf_wb4_by_household__fye2025.xlsx)",
+  "ashe": {
+    "source": "ashe_table6_age__2026provisional.zip::PROV - Age Group Table 6.7a   Annual pay - Gross 2026.xlsx (Full-Time)",
+    "bands": {
+      "18-21": {
+        "p50": 24577.7,
+        "p10": 15368.8,
+        "p20": 18864.6,
+        "p25": 20193.7,
+        "p30": 21131.9,
+        "p40": 23223.2,
+        "p60": 26000.0,
+        "p70": 27600.3,
+        "p75": 28526.7,
+        "p80": 29637.4,
+        "p90": 34361.7
+      },
+      "22-29": {
+        "p50": 33677.6,
+        "p10": 23849.8,
+        "p20": 26499.8,
+        "p25": 27589.0,
+        "p30": 28679.6,
+        "p40": 31031.8,
+        "p60": 36842.2,
+        "p70": 40444.5,
+        "p75": 42839.0,
+        "p80": 45603.7,
+        "p90": 54877.0
+      },
+      "30-39": {
+        "p50": 42593.0,
+        "p10": 26459.8,
+        "p20": 30427.8,
+        "p25": 32301.8,
+        "p30": 34205.3,
+        "p40": 38283.6,
+        "p60": 47491.3,
+        "p70": 53280.9,
+        "p75": 57201.2,
+        "p80": 62334.4,
+        "p90": 79869.7
+      },
+      "40-49": {
+        "p50": 46280.4,
+        "p10": 26649.5,
+        "p20": 31086.9,
+        "p25": 33303.6,
+        "p30": 35631.9,
+        "p40": 40684.1,
+        "p60": 51817.6,
+        "p70": 59141.4,
+        "p75": 64325.6,
+        "p80": 70927.1,
+        "p90": 94240.4
+      },
+      "50-59": {
+        "p50": 43860.0,
+        "p10": 26054.0,
+        "p20": 29960.6,
+        "p25": 31812.4,
+        "p30": 33836.4,
+        "p40": 38644.8,
+        "p60": 49868.2,
+        "p70": 56953.6,
+        "p75": 62074.2,
+        "p80": 68631.0,
+        "p90": 92756.7
+      },
+      "60+": {
+        "p50": 38059.5,
+        "p10": 24651.7,
+        "p20": 27640.9,
+        "p25": 29203.1,
+        "p30": 30684.1,
+        "p40": 34029.7,
+        "p60": 43185.2,
+        "p70": 49794.7,
+        "p75": 53558.4,
+        "p80": 59074.4,
+        "p90": 79916.0
+      }
+    }
+  },
+  "state_pension": {
+    "weekly": 241.3,
+    "source": "https://www.gov.uk/new-state-pension"
+  },
+  "tax": {
+    "personal_allowance": 12570,
+    "basic_limit": 50270,
+    "basic_rate": 0.2,
+    "higher_rate": 0.4,
+    "ni_main": 0.08,
+    "ni_upper": 0.02,
+    "source": "https://www.gov.uk/income-tax-rates"
+  }
+}
