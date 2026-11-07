@@ -9,6 +9,7 @@ numpy
 fastapi
 uvicorn
 pydantic
+httpx
+python-dotenv
 # tests
 pytest
-httpx

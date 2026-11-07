@@ -4,3 +4,6 @@ backend/__pycache__
 backend/heirloom/__pycache__
 backend/tests/__pycache__
 guh
+.env
+data/voice/
+backend/voice/__pycache__

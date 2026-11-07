@@ -2,43 +2,27 @@
 from __future__ import annotations
 
 from contextlib import asynccontextmanager
-from datetime import date, timedelta
-from functools import lru_cache
+from datetime import timedelta
 
-import pandas as pd
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.heirloom import forecast as fc
-from backend.heirloom import synth
+from backend.heirloom import service, synth
 from backend.heirloom.personas import personas
 from backend.heirloom.schemas import ForecastRequest, ForecastResponse, MemberSummary
+from backend.voice.router import router as voice_router
+
 
 @asynccontextmanager
 async def lifespan(_app):
-    _tx_for(synth.default_as_of())  # generate / load the transaction feed once at startup
+    service.tx_for(synth.default_as_of())  # generate / load the transaction feed once at startup
     yield
 
 
-app = FastAPI(title="Heirloom API", version="0.1.0", lifespan=lifespan,
+app = FastAPI(title="Heirloom API", version="0.2.0", lifespan=lifespan,
               description="Guidance, not regulated financial advice.")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
-
-
-def load_transactions(as_of: date) -> pd.DataFrame:
-    """Transaction feed. Today: synthetic CSV. Swap in a NatWest Bank of APIs adapter here
-    (same columns: date, member_id, amount, category, merchant, balance)."""
-    return synth.ensure(as_of)
-
-
-@lru_cache(maxsize=1)
-def _tx_for(as_of: date) -> pd.DataFrame:
-    return load_transactions(as_of)
-
-
-@lru_cache(maxsize=64)
-def _forecast_cached(member_id: str, as_of: date, horizon: int, seed: int) -> dict:
-    return fc.forecast(member_id, _tx_for(as_of), as_of, horizon=horizon, seed=seed)
+app.include_router(voice_router)
 
 
 @app.get("/health")
@@ -58,4 +42,4 @@ def forecast(req: ForecastRequest) -> dict:
     member_id = req.member_id.strip().lower()
     if member_id not in personas():
         raise HTTPException(404, f"Unknown member_id '{req.member_id}'. Try GET /members.")
-    return _forecast_cached(member_id, synth.default_as_of(), req.horizon_days, req.seed)
+    return service.forecast_now(member_id, req.horizon_days, req.seed)

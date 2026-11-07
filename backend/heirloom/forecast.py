@@ -351,12 +351,14 @@ def benchmark_for(member_id: str) -> dict[str, float]:
     return {c: v * hh for c, v in lcf[status]["weekly_per_person"].items()}
 
 
-def forecast(member_id: str, tx: pd.DataFrame, as_of: date, horizon: int = 90, n: int = N_PATHS, seed: int = 7) -> dict:
+def forecast(member_id: str, tx: pd.DataFrame, as_of: date, horizon: int = 90, n: int = N_PATHS, seed: int = 7,
+             extra_changes: list[dict] | None = None) -> dict:
+    """extra_changes: hypothetical one-off payments (same shape as scheduled_changes) for what-if questions."""
     tx = tx[tx.member_id == member_id]
     if tx.empty:
         raise KeyError(member_id)
     profile = build_profile(member_id, tx, as_of, horizon)
-    changes = scheduled_changes(member_id, as_of)
+    changes = scheduled_changes(member_id, as_of) + list(extra_changes or [])
     comps = simulate(profile, horizon, n, seed, changes)
     total = sum(c["arr"] for c in comps.values())
     s = _summarise(profile.start_balance, total)

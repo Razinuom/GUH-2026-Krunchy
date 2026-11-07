@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heirloom Voice Test</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1c2430; --muted:#5d6b7c; --line:#e3e7ec; --accent:#1f6feb;
+          --ok:#1a7f37; --watch:#b76e00; --high:#c62828; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:16px; border-bottom:1px solid var(--line); background:var(--card); display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+  h1 { font-size:18px; margin:0 12px 0 0; }
+  select, button { font:inherit; padding:8px 14px; border-radius:8px; border:1px solid var(--line); background:#fff; }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  button.stop { background:var(--high); color:#fff; border-color:var(--high); }
+  button:disabled { opacity:.5; }
+  #status { color:var(--muted); font-size:14px; }
+  .dot { display:inline-block; width:10px; height:10px; border-radius:50%; background:#bbb; margin-right:6px; vertical-align:middle; }
+  .dot.listening { background:var(--ok); } .dot.speaking { background:var(--accent); animation:pulse 1s infinite; }
+  @keyframes pulse { 50% { opacity:.35; } }
+  main { display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:16px; max-width:1200px; margin:0 auto; }
+  @media (max-width:800px) { main { grid-template-columns:1fr; } }
+  section { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; min-height:360px; }
+  h2 { font-size:15px; margin:0 0 4px; } .sub { color:var(--muted); font-size:13px; margin:0 0 12px; }
+  #transcript, #events { display:flex; flex-direction:column; gap:8px; max-height:65vh; overflow:auto; }
+  .msg { padding:8px 12px; border-radius:10px; max-width:90%; white-space:pre-wrap; }
+  .msg.user { background:#eaf1ff; align-self:flex-end; } .msg.ai { background:#f1f3f5; align-self:flex-start; }
+  .msg.sys { color:var(--muted); font-size:13px; align-self:center; background:none; }
+  .ev { border:1px solid var(--line); border-radius:10px; padding:10px 12px; }
+  .ev .top { display:flex; justify-content:space-between; gap:8px; font-size:13px; color:var(--muted); }
+  .ev .type { font-weight:600; color:var(--ink); }
+  .badge { font-size:12px; padding:2px 8px; border-radius:999px; color:#fff; }
+  .badge.ok { background:var(--ok); } .badge.watch { background:var(--watch); } .badge.high { background:var(--high); }
+  .ev p { margin:6px 0 0; } .ev ul { margin:6px 0 0; padding-left:18px; }
+  .hint { font-size:13px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Heirloom voice test</h1>
+  <label>Speaking as
+    <select id="member"></select>
+  </label>
+  <button id="start" class="primary">Start voice call</button>
+  <button id="stop" class="stop" disabled>End call</button>
+  <span id="status"><span class="dot" id="dot"></span><span id="statusText">Not connected</span></span>
+</header>
+<main>
+  <section>
+    <h2>Conversation</h2>
+    <p class="sub">Talk in English, Polish, Malay or Mandarin. Allow microphone access when the browser asks.</p>
+    <div id="transcript"><div class="msg sys">Try (Polish): "Czy starczy mi pieniędzy do końca stycznia?"</div></div>
+  </section>
+  <section>
+    <h2>Dashboard events (English)</h2>
+    <p class="sub">What the dashboard receives while the agent calls our tools.</p>
+    <div id="events"></div>
+  </section>
+</main>
+
+<script type="module">
+import { Conversation } from "https://cdn.jsdelivr.net/npm/@elevenlabs/client@1.29.0/+esm";
+
+const $ = id => document.getElementById(id);
+let conversation = null, events = null;
+
+function say(text, cls) {
+  const d = document.createElement("div");
+  d.className = "msg " + cls; d.textContent = text;
+  $("transcript").appendChild(d); d.scrollIntoView({ block: "end" });
+}
+function setStatus(text, mode) {
+  $("statusText").textContent = text;
+  $("dot").className = "dot " + (mode || "");
+}
+const gbp = x => (x < 0 ? "-£" : "£") + Math.abs(Math.round(x)).toLocaleString("en-GB");
+
+function renderEvent(ev) {
+  const d = ev.data || {}, box = document.createElement("div");
+  box.className = "ev";
+  const lang = d.spoken_language ? ` · asked in ${d.spoken_language.name}` : "";
+  let body = "";
+  if (ev.type === "forecast") {
+    const f = d.forecast;
+    body = `<p><span class="badge ${f.risk_band}">${f.risk_band}</span>
+      ${d.member_name}: ${Math.round(f.overdraft_probability * 100)}% chance of going overdrawn in 90 days ·
+      lowest ${gbp(f.lowest_point.p50)} on ${f.lowest_point.date}</p>
+      <ul>${f.reasons.map(r => `<li>${r.feature}: ${r.detail}</li>`).join("")}</ul>`;
+  } else if (ev.type === "what_if") {
+    body = `<p>${d.summary_en}</p>`;
+  } else if (ev.type === "rules_lookup") {
+    body = `<p>Looked up: “${d.query_en}”</p><ul>${d.sources.map(s => `<li><a href="${s.url}" target="_blank" rel="noopener">${s.title}</a> (${s.section})</li>`).join("")}</ul>`;
+  } else if (ev.type === "escalation") {
+    body = `<p>Handoff (${d.reason}) for ${d.member_name}</p><ul>${d.contacts.map(c => `<li><b>${c.name}</b> ${c.phone}: ${c.what}</li>`).join("")}</ul>`;
+  } else {
+    body = `<p>${d.member_name || d.summary || ""}</p>`;
+  }
+  box.innerHTML = `<div class="top"><span class="type">${ev.type}${lang}</span><span>${new Date(ev.ts * 1000).toLocaleTimeString()}</span></div>${body}`;
+  $("events").prepend(box);
+}
+
+function listen(familyId) {
+  if (events) events.close();
+  events = new EventSource(`/voice/events?family_id=${familyId}`);
+  for (const t of ["forecast", "what_if", "rules_lookup", "escalation", "session_started", "call_ended"])
+    events.addEventListener(t, e => renderEvent(JSON.parse(e.data)));
+}
+
+const members = await (await fetch("/members")).json();
+for (const m of members) {
+  const o = document.createElement("option");
+  o.value = m.id; o.textContent = `${m.name} (${m.age}, ${m.family})`; o.dataset.family = m.family;
+  $("member").appendChild(o);
+}
+$("member").onchange = () => listen($("member").selectedOptions[0].dataset.family);
+listen(members[0].family);
+
+$("start").onclick = async () => {
+  $("start").disabled = true;
+  setStatus("Connecting…");
+  try {
+    await navigator.mediaDevices.getUserMedia({ audio: true });
+    const r = await fetch(`/voice/session?member_id=${$("member").value}`);
+    const s = await r.json();
+    if (!r.ok) throw new Error(s.detail || r.statusText);
+    conversation = await Conversation.startSession({
+      signedUrl: s.signed_url,
+      connectionType: "websocket",
+      dynamicVariables: s.dynamic_variables,
+      onConnect: () => { setStatus("Connected", "listening"); $("stop").disabled = false; say("Call started", "sys"); },
+      onDisconnect: () => { setStatus("Not connected"); $("start").disabled = false; $("stop").disabled = true; say("Call ended", "sys"); },
+      onModeChange: ({ mode }) => setStatus(mode === "speaking" ? "Agent speaking" : "Listening", mode),
+      onMessage: m => say(m.message, (m.source || m.role) === "user" ? "user" : "ai"),
+      onError: e => say("Error: " + (e?.message || e), "sys"),
+    });
+  } catch (err) {
+    say("Could not start: " + err.message, "sys");
+    setStatus("Not connected");
+    $("start").disabled = false;
+  }
+};
+$("stop").onclick = async () => { if (conversation) await conversation.endSession(); };
+</script>
+</body>
+</html>
