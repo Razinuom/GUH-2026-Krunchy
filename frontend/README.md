@@ -22,33 +22,47 @@ npm run dev
 If you see `npm.ps1 cannot be loaded because running scripts is disabled`, use `npm.cmd install` and `npm.cmd run dev`,
 or allow scripts for your user once: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`.
 
-To set the backend URL or demo date for one session:
+To set the backend URL for one session:
 
 ```powershell
 $env:VITE_API_URL = "http://localhost:8000"
-$env:VITE_DEMO_TODAY = "live"
 npm run dev
 ```
 
-## Backend
+## Backend (required)
 
-`src/lib/api.ts` calls the FastAPI endpoints from the build brief (`/forecast`, `/timemachine`, `/claimcheck`, `/ask`, `/escalate`).
-Set the URL with `VITE_API_URL` (default `http://localhost:8000`, see `.env.example`).
+Every number on the site comes from the FastAPI backend: start it first from the repo root.
 
-If a call fails or takes longer than 2 seconds, the page uses the local simulation in `src/lib/simulate.ts`,
-so the demo works with no backend and no Wi-Fi. Each page notes whether it is showing live or offline results.
+```bash
+uvicorn backend.main:app --port 8000      # set VITE_API_URL if you use another port
+```
 
-## Demo date
+`src/lib/api.ts` calls `/families`, `/forecast`, `/hardship`, `/timemachine`, `/claimcheck`, `/escalate` and the
+`/voice/*` endpoints. The demo date is pinned on the server (`HEIRLOOM_AS_OF=2026-11-07` in `.env`), so on stage
+Tomasz shows 14% (Watch) and Daniel 88% (High Risk).
 
-Forecasts are pinned to 7 November 2026 so the numbers stay fixed on stage (Tomasz: 14%, Watch; Daniel: 42%, High Risk).
-Override with `VITE_DEMO_TODAY=2026-12-01`, or `VITE_DEMO_TODAY=live` for the real date.
+## Offline snapshot
+
+If the backend can't be reached, pages show `src/data/snapshot.json`: real backend output, labelled
+"Offline snapshot" on screen. Nothing is simulated or invented in the browser. It covers the family, every forecast
+and early-warning result, the default Time Machine scenarios and the Claim Check examples; anything else shows a
+clear "needs the backend" message. The voice coach always needs the backend and internet.
+
+After changing personas or models, refresh it (a backend test fails if it is out of date):
+
+```bash
+python scripts/export_frontend_snapshot.py
+```
 
 ## Where things live
 
 | Path | What |
 |---|---|
+| `src/lib/api.ts` | All backend calls, with the offline-snapshot fallback |
+| `src/lib/types.ts` | Response types matching `backend/heirloom/schemas.py` and `backend/hardship` |
+| `src/lib/hooks.ts` | Data hooks (forecast, early warning, Time Machine) |
+| `src/data/snapshot.json` | Saved backend results for offline mode (generated, don't edit) |
+| `src/state/HeirloomContext.tsx` | Families (from `GET /families`), selected person, theme, text size, Time Machine controls |
+| `src/pages/VoiceCoach.tsx` | Live ElevenLabs agent (`@elevenlabs/client`) plus the English dashboard fed by `/voice/events` |
 | `src/components/ui/dock.tsx` | Top-bar dock (framer-motion magnification) |
 | `src/components/charts/BandChart.tsx` | Every chart (bands, median, £0, goal, floor) |
-| `src/lib/families.ts` | The two demo families and their cash-flow inputs |
-| `src/lib/coach.ts` | Voice Coach questions and English / Polish answers |
-| `src/state/HeirloomContext.tsx` | Family, person, theme, text size, Time Machine state |

@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
-import { GEN_LABEL, GEN_VAR, type Member } from "@/lib/families";
-import { addDays, money, shortDate, TODAY } from "@/lib/format";
-import type { ForecastResult } from "@/lib/simulate";
+import { GEN_LABEL, GEN_VAR, LANGUAGE_NAME, type Member } from "@/lib/families";
+import { money, parseDate, shortDate } from "@/lib/format";
+import type { ForecastResult } from "@/lib/types";
 import { RiskPill } from "./RiskPill";
 
 export function Avatar({ member, size = 64 }: { member: Member; size?: number }) {
@@ -16,8 +16,9 @@ export function Avatar({ member, size = 64 }: { member: Member; size?: number })
   );
 }
 
-export function PersonCard({ member, forecast, onSelect }: { member: Member; forecast?: ForecastResult; onSelect: () => void }) {
+export function PersonCard({ member, forecast, onSelect }: { member: Member; forecast?: ForecastResult | null; onSelect: () => void }) {
   const color = GEN_VAR[member.gen];
+  const otherLanguages = member.languages.filter((l) => l !== "en").map((l) => LANGUAGE_NAME[l] ?? l);
   return (
     <button
       onClick={onSelect}
@@ -35,17 +36,20 @@ export function PersonCard({ member, forecast, onSelect }: { member: Member; for
         </h2>
         <p className="mt-0.5 text-muted">
           {member.role}
-          {member.speaksPolish && " · speaks Polish"}
+          {otherLanguages.length > 0 && ` · speaks ${otherLanguages.join(", ")}`}
         </p>
       </div>
       {forecast ? (
         <>
           <p>
-            Lowest point <strong className="num">{money(forecast.lowest_point.p50)}</strong> around{" "}
-            {shortDate(addDays(TODAY, forecast.lowest_point.day))}
+            Balance today <strong className="num">{money(forecast.start_balance)}</strong>
+            <br />
+            Lowest point <strong className="num">{money(forecast.lowest_point.p50)}</strong> around {shortDate(parseDate(forecast.lowest_point.date))}
           </p>
-          <RiskPill p={forecast.overdraft_probability} long />
+          <RiskPill level={forecast.risk_band} p={forecast.overdraft_probability} long />
         </>
+      ) : forecast === null ? (
+        <p className="text-muted">Forecast unavailable (backend offline)</p>
       ) : (
         <p className="text-muted">Loading forecast…</p>
       )}

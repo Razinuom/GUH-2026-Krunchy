@@ -56,7 +56,7 @@ def test_detects_tomasz_salary_and_rent_from_transactions(tx):
     flows = {f.merchant: f for f in fc.detect_recurring(tx[tx.member_id == "tomasz"], AS_OF)}
     assert flows["NORTHGATE LOGISTICS SALARY"].cadence == "monthly"
     assert flows["NORTHGATE LOGISTICS SALARY"].amount > 2000
-    assert flows["GREENWAY LETTINGS RENT"].amount == pytest.approx(-1295)
+    assert flows["GREENWAY LETTINGS RENT"].amount == pytest.approx(-1525)  # after September's rent rise
     assert "TESCO" not in flows
 
 
@@ -91,12 +91,12 @@ def test_risk_ordering_matches_demo_script(results):
     assert p["daniel"] > p["tomasz"] > p["halina"]
     assert 0.05 <= p["tomasz"] <= 0.30 and results["tomasz"]["risk_band"] == "watch"
     assert results["daniel"]["risk_band"] == "high"
-    assert results["halina"]["risk_band"] == "ok"
+    assert results["halina"]["risk_band"] == "low"
 
 
 def test_reasons_explain_tomasz(results):
     reasons = {r["feature"]: r for r in results["tomasz"]["reasons"]}
-    assert "Rent increase" in reasons and reasons["Rent increase"]["impact"] > 0
+    assert "Car insurance renewal" in reasons and reasons["Car insurance renewal"]["impact"] > 0
     total = sum(r["impact"] for r in results["tomasz"]["reasons"])
     assert total <= results["tomasz"]["overdraft_probability"] + 1e-6
 

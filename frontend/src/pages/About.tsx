@@ -5,12 +5,12 @@ const TOOLS = [
   {
     title: "Next 90 Days",
     color: "var(--gen2)",
-    text: "Every payday, bill and everyday spend is simulated 800 times to give a likely range, the lowest point and the chance of going below £0.",
+    text: "Every payday, bill and everyday spend is simulated 2,000 times to give a likely range, the lowest point and the chance of going below £0, with the drivers behind it.",
   },
   {
     title: "Early Warning",
     color: "var(--critical)",
-    text: "A hardship model scores the overdraft risk and shows the reasons behind it (SHAP values), so no warning arrives without an explanation.",
+    text: "A LightGBM hardship model reads 12 months of spending patterns, scores the risk of going overdrawn and shows the reasons behind it (SHAP values), so no warning arrives without an explanation.",
   },
   {
     title: "Time Machine",
@@ -20,30 +20,30 @@ const TOOLS = [
   {
     title: "Voice Coach",
     color: "#D9532F",
-    text: "An ElevenLabs voice agent answers in the language the family speaks, calling the same forecast and Time Machine tools the dashboard uses.",
+    text: "An ElevenLabs voice agent answers in English, Polish, Malay or Mandarin, calling the same forecast, what-if and official-guidance tools the dashboard uses.",
   },
   {
     title: "Claim Check",
     color: "var(--accent)",
-    text: "Paste a money claim from social media. It is checked against GOV.UK, MoneyHelper and the FCA register, and rated with sources.",
+    text: "Paste a money claim from social media. It is checked for the FCA's scam warning signs, any firm it names is looked up in the FCA's published warnings, and its figures are checked live against GOV.UK, MoneyHelper and the FCA (Firecrawl). Every rating quotes its sources.",
   },
 ];
 
 const DATA = [
   ["Transactions", "Synthetic families calibrated to the ONS Living Costs and Food Survey, ready for the NatWest Account and Transaction API"],
   ["House prices", "HM Land Registry UK House Price Index (regional first-time-buyer prices)"],
-  ["Inflation and rates", "ONS CPI and CPIH, Bank of England Bank Rate"],
-  ["Earnings", "ONS Annual Survey of Hours and Earnings, Average Weekly Earnings"],
-  ["Life expectancy", "ONS National Life Tables (planning horizon)"],
-  ["Market returns", "Jordà-Schularick-Taylor long-run UK returns, FTSE All-Share"],
-  ["Rules", "GOV.UK, MoneyHelper, FCA and Citizens Advice pages, saved to disk"],
+  ["Earnings", "ONS Annual Survey of Hours and Earnings (salaries by age), with 2026/27 income tax and National Insurance"],
+  ["Pensions", "GOV.UK full new State Pension rate"],
+  ["Life expectancy", "ONS National Life Tables (inheritance timing in the Time Machine)"],
+  ["Market returns and inflation", "Jordà-Schularick-Taylor long-run UK share, bond and house-price returns, 1870-2020, in today's money"],
+  ["Rules", "GOV.UK, MoneyHelper and FCA pages searched live with Firecrawl (cached), plus GOV.UK, FCA and Citizens Advice pages saved to disk"],
 ];
 
 const GUARDRAILS = [
   "Guidance and scenarios, never regulated financial advice or stock tips.",
   "Every figure has a source or a visible assumption.",
   "Talk to a Person is always one tap away: MoneyHelper, StepChange and Citizens Advice.",
-  "Voice is opt-in, and each family member consents to sharing their data.",
+  "Voice is opt-in: the microphone only turns on when you start a call.",
   "Risk is never shown by colour alone; it always has a text label.",
 ];
 

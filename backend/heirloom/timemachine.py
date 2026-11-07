@@ -29,8 +29,17 @@ N_PATHS = 5000
 BLOCK = 5  # years per bootstrap block, so a historical boom/bust stays together
 
 FAMILIES = {
-    "nowak": {"grandparent": "halina", "young_adult": "zofia"},
-    "okafor": {"grandparent": "grace", "young_adult": "ada"},
+    # region / deposit_pct: the young adult's default house-deposit goal (HM Land Registry UK HPI region)
+    # target_years: the deposit question is "by which year?" (Zofia at 28, Ada at 29)
+    # controls: the website's starting scenario and slider ranges (gift capped well inside the grandparent's savings)
+    "nowak": {"name": "Nowak Family", "grandparent": "halina", "young_adult": "zofia",
+              "region": "West Midlands Region", "deposit_pct": 10, "target_years": 6,
+              "controls": {"gift": 8000, "timing": "now", "monthly_saving": 200, "lisa": False,
+                           "gift_max": 20000, "monthly_max": 800}},
+    "okafor": {"name": "Okafor Family", "grandparent": "grace", "young_adult": "ada",
+               "region": "North West", "deposit_pct": 5, "target_years": 10,
+               "controls": {"gift": 0, "timing": "now", "monthly_saving": 60, "lisa": True,
+                            "gift_max": 2000, "monthly_max": 400}},
 }
 
 # Asset mix: young adult's Lifetime ISA (growth-focused) vs. the grandparent's own, capital-preserving savings.
@@ -97,6 +106,12 @@ def deposit_target(region: str, pct: int = 10) -> dict:
             "ftb_price": float(row.FTBPrice), "as_of": row.Date}
 
 
+def life_expectancy(age: int) -> float:
+    """Remaining years of life (curtate + 0.5) from the ONS period life table above."""
+    lx0 = FEMALE_LX[age]
+    return 0.5 + sum(FEMALE_LX[a] / lx0 for a in FEMALE_LX if a > age)
+
+
 def survival_curve(age: int, years: int) -> np.ndarray:
     """P(still alive) at the end of each of the next `years` years, from the ONS period life table."""
     lx0 = FEMALE_LX[age]
@@ -123,12 +138,13 @@ def annual_net_cashflow(p: Persona) -> float:
 
     bills = 0.0
     for b in p.bills:
+        amount = b.changed[1] if b.changed else b.amount  # today's amount if the bill changed in the past
         if b.months is not None:
-            bills += b.amount * len(b.months)
+            bills += amount * len(b.months)
         elif b.every_days is not None:
-            bills += b.amount * 365 / b.every_days
+            bills += amount * 365 / b.every_days
         else:
-            bills += b.amount * 12
+            bills += amount * 12
 
     lcf = calibration.load()["lcf"][p.status]["weekly_per_person"]
     spend = sum(lcf[c] * p.category_scale.get(c, 1.0) for c in VARIABLE_FROM_LCF if c in lcf)
@@ -142,12 +158,13 @@ def annual_outgoings(p: Persona) -> float:
     """Bills plus everyday spending only (no income) -- the base for the safety-floor assumption."""
     bills = 0.0
     for b in p.bills:
+        amount = b.changed[1] if b.changed else b.amount  # today's amount if the bill changed in the past
         if b.months is not None:
-            bills += b.amount * len(b.months)
+            bills += amount * len(b.months)
         elif b.every_days is not None:
-            bills += b.amount * 365 / b.every_days
+            bills += amount * 365 / b.every_days
         else:
-            bills += b.amount * 12
+            bills += amount * 12
     lcf = calibration.load()["lcf"][p.status]["weekly_per_person"]
     spend = sum(lcf[c] * p.category_scale.get(c, 1.0) for c in VARIABLE_FROM_LCF if c in lcf)
     spend = spend * p.household_size * p.spend_scale * 52
@@ -163,13 +180,18 @@ def _bootstrap_year_idx(n_hist: int, horizon: int, n: int, rng: np.random.Genera
     return idx
 
 
-def simulate(family_id: str, gift: float, timing: str, monthly_saving: float, region: str = "England",
-             deposit_pct: int = 10, horizon: int = HORIZON_YEARS, n: int = N_PATHS, seed: int = 11) -> dict:
+def simulate(family_id: str, gift: float, timing: str, monthly_saving: float, region: str | None = None,
+             deposit_pct: int | None = None, horizon: int = HORIZON_YEARS, n: int = N_PATHS, seed: int = 11,
+             lisa: bool = True, _with_baseline: bool = True) -> dict:
     if family_id not in FAMILIES:
         raise KeyError(family_id)
+    fam = FAMILIES[family_id]
+    region = region or fam["region"]
+    deposit_pct = deposit_pct or fam["deposit_pct"]
+    target_years = fam["target_years"]
     ps = personas()
-    gp = ps[FAMILIES[family_id]["grandparent"]]
-    ya = ps[FAMILIES[family_id]["young_adult"]]
+    gp = ps[fam["grandparent"]]
+    ya = ps[fam["young_adult"]]
     as_of = default_as_of()
 
     rng = np.random.default_rng(seed)
@@ -182,7 +204,7 @@ def simulate(family_id: str, gift: float, timing: str, monthly_saving: float, re
     # -------- grandparent's own balance: the gift leaves it immediately ("now"/"10y") or never ("inheritance")
     gp_net = annual_net_cashflow(gp)
     gp_bal = np.empty((n, horizon + 1))
-    gp_bal[:, 0] = gp.current_balance
+    gp_bal[:, 0] = gp.current_balance + gp.savings_balance  # current account + savings pot
     for t in range(1, horizon + 1):
         outflow = gift if (timing == "now" and t == 1) or (timing == "10y" and t == 10) else 0.0
         gp_bal[:, t] = (gp_bal[:, t - 1] + gp_net - outflow) * (1 + gp_r[:, t - 1])
@@ -192,6 +214,7 @@ def simulate(family_id: str, gift: float, timing: str, monthly_saving: float, re
     # -------- young adult's deposit pot
     annual_contrib = monthly_saving * 12
     pot = np.zeros((n, horizon + 1))
+    pot[:, 0] = ya.savings_balance  # what the young adult has already saved
     death_idx = None
     bequest_value = None
     if timing == "inheritance":
@@ -211,7 +234,7 @@ def simulate(family_id: str, gift: float, timing: str, monthly_saving: float, re
 
     for t in range(1, horizon + 1):
         age_t = ya.age + t - 1
-        bonus = min(annual_contrib, LISA_ANNUAL_CAP) * LISA_BONUS_RATE if age_t < LISA_MAX_AGE else 0.0
+        bonus = min(annual_contrib, LISA_ANNUAL_CAP) * LISA_BONUS_RATE if lisa and age_t < LISA_MAX_AGE else 0.0
         inflow = np.full(n, annual_contrib + bonus)
         if timing == "now" and t == 1:
             inflow = inflow + gift
@@ -223,47 +246,75 @@ def simulate(family_id: str, gift: float, timing: str, monthly_saving: float, re
 
     target0 = deposit_target(region, deposit_pct)
     target_path = target0["amount"] * np.cumprod(1 + house, axis=1)  # the target itself moves with real house prices
-    reached = (pot[:, 1:] >= target_path).any(axis=1)
-    p_deposit = float(np.mean(reached))
+    hit = pot[:, 1:] >= target_path
+    p_deposit = float(np.mean(hit[:, :target_years].any(axis=1)))   # by the target year
+    p_deposit_horizon = float(np.mean(hit.any(axis=1)))             # at any point in the horizon
 
-    q = np.percentile(pot, [10, 50, 90], axis=0)
+    def band(arr: np.ndarray) -> list[dict]:
+        q = np.percentile(arr, [10, 25, 50, 75, 90], axis=0)
+        return [{"p10": round(float(q[0, t]), 2), "p25": round(float(q[1, t]), 2), "p50": round(float(q[2, t]), 2),
+                 "p75": round(float(q[3, t]), 2), "p90": round(float(q[4, t]), 2)} for t in range(arr.shape[1])]
+
     years = [as_of.year + t for t in range(horizon + 1)]
-    genz_band = [{"p10": round(float(q[0, t]), 2), "p50": round(float(q[1, t]), 2), "p90": round(float(q[2, t]), 2)}
-                 for t in range(horizon + 1)]
+    genz_band = band(pot)
+    giver_band = band(gp_bal)
+    deposit_goal = [round(target0["amount"], 2)] + [round(float(v), 2) for v in np.median(target_path, axis=0)]
+    baseline = None
+    if _with_baseline:
+        base = simulate(family_id, 0.0, timing, monthly_saving, region, deposit_pct, horizon, n, seed, lisa,
+                        _with_baseline=False)
+        baseline = {"p_deposit_by_target": base["p_deposit_by_target"],
+                    "p_parent_floor_safe": base["p_parent_floor_safe"]}
 
-    estate_now = gp.current_balance + gift
+    estate_now = gp.current_balance + gp.savings_balance  # the gift comes out of this, so it's already included
     iht = {
         "nil_rate_band": IHT_NIL_RATE_BAND,
         "rate": IHT_RATE,
         "taper_relief": [{"years_before_death": y, "rate": r} for y, r in IHT_TAPER],
         "seven_year_rule": "No Inheritance Tax on a lifetime gift if the giver lives 7+ years after giving it, "
                             "unless it's part of a trust.",
-        "estate_plus_gift_now": round(estate_now, 2),
+        "estate_now": round(estate_now, 2),
         "exceeds_nil_rate_band": estate_now > IHT_NIL_RATE_BAND,
         "likely_tax_due": round(max(0.0, estate_now - IHT_NIL_RATE_BAND) * IHT_RATE, 2),
     }
 
     return {
         "family_id": family_id,
-        "grandparent": {"id": gp.id, "name": gp.name, "age": gp.age},
-        "young_adult": {"id": ya.id, "name": ya.name, "age": ya.age},
+        "grandparent": {"id": gp.id, "name": gp.name, "first_name": gp.first_name, "age": gp.age},
+        "young_adult": {"id": ya.id, "name": ya.name, "first_name": ya.first_name, "age": ya.age},
         "gift": gift,
         "timing": timing,
         "monthly_saving": monthly_saving,
+        "lisa": lisa,
         "years": years,
         "genz_band": genz_band,
+        "giver_band": giver_band,
+        "deposit_goal": deposit_goal,
+        "target_year": as_of.year + target_years,
         "p_deposit_by_target": round(p_deposit, 3),
+        "p_deposit_within_horizon": round(p_deposit_horizon, 3),
         "p_parent_floor_safe": round(p_floor_safe, 3),
+        "baseline": baseline,
         "deposit_target": target0,
         "safety_floor": round(floor, 2),
+        "inheritance_expected_years": round(life_expectancy(gp.age)),
+        "starting_savings": {"grandparent": round(gp.current_balance + gp.savings_balance, 2),
+                             "young_adult": round(ya.savings_balance, 2)},
         "assumptions": {
             "method": f"Monte Carlo, {n} paths over {horizon} years, block-bootstrapped in {BLOCK}-year blocks "
                       f"from real (CPI-deflated) UK returns, {int(rets.year.min())}-{int(rets.year.max())} "
                       "(Jorda-Schularick-Taylor Macrohistory dataset). All figures are in today's money.",
             "young_adult_asset_mix": YOUNG_MIX,
             "grandparent_asset_mix": GRANDPARENT_MIX,
-            "lifetime_isa_bonus": f"25% government bonus on contributions up to £{LISA_ANNUAL_CAP:,.0f}/year, "
-                                  f"until age {LISA_MAX_AGE} (gov.uk/lifetime-isa)",
+            "lifetime_isa_bonus": (f"25% government bonus on contributions up to £{LISA_ANNUAL_CAP:,.0f}/year, "
+                                   f"until age {LISA_MAX_AGE} (gov.uk/lifetime-isa)") if lisa
+                                  else "Not used: savings go into an ordinary savings account (no bonus)",
+            "starting_savings": f"{gp.first_name} starts with £{gp.current_balance + gp.savings_balance:,.0f} "
+                                f"(current account and savings); {ya.first_name} starts with "
+                                f"£{ya.savings_balance:,.0f} already saved",
+            "deposit_goal": f"{deposit_pct}% of the average first-time-buyer price in {target0['region'].removesuffix(' Region')} "
+                            f"(HM Land Registry UK HPI, {target0['as_of']}), moving with real UK house prices; "
+                            f"target year {as_of.year + target_years}",
             "grandparent_annual_net_cashflow": round(gp_net, 2),
             "safety_floor_method": f"{SAFETY_FLOOR_MONTHS:.0f} months of the grandparent's bills and everyday "
                                    "spending (assumption, not a cited guideline)",

@@ -1,26 +1,25 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
-import { FAMILIES, parentOf, type Family, type FamilyId, type Member, type Timing } from "@/lib/families";
+import { getFamilies, snapshot } from "@/lib/api";
+import { parentOf, toFamily, type Family, type FamilyId, type Member, type Timing } from "@/lib/families";
+import type { DataSource } from "@/lib/types";
 
 export type TMState = { gift: number; timing: Timing; monthly: number; lisa: boolean };
 
-type HeirloomState = {
+type HeirloomContextValue = {
+  families: Family[];
+  familiesSource: DataSource;
   family: FamilyId;
+  familyData: Family;
   memberId: string;
+  member: Member;
   night: boolean;
   large: boolean;
   tm: TMState;
-  lang: "en" | "pl";
-};
-
-type HeirloomContextValue = HeirloomState & {
-  familyData: Family;
-  member: Member;
   setFamily: (f: FamilyId) => void;
   setMemberId: (id: string) => void;
   toggleNight: () => void;
   toggleLarge: () => void;
   setTm: (patch: Partial<TMState>) => void;
-  setLang: (l: "en" | "pl") => void;
   helpOpen: boolean;
   openHelp: () => void;
   setHelpOpen: (open: boolean) => void;
@@ -36,14 +35,33 @@ function readTheme() {
   }
 }
 
+function tmDefaults(f: Family): TMState {
+  const c = f.tm.controls;
+  return { gift: c.gift, timing: c.timing, monthly: c.monthly_saving, lisa: c.lisa };
+}
+
+// The saved snapshot (real backend output) gives the first render something real to show;
+// it is replaced by GET /families as soon as the backend answers.
+const INITIAL = snapshot.families.map(toFamily);
+
 export function HeirloomProvider({ children }: { children: ReactNode }) {
-  const [family, setFamilyState] = useState<FamilyId>("nowak");
-  const [memberId, setMemberIdState] = useState(parentOf(FAMILIES.nowak).id);
+  const [families, setFamilies] = useState<Family[]>(INITIAL);
+  const [familiesSource, setFamiliesSource] = useState<DataSource>("snapshot");
+  const [family, setFamilyState] = useState<FamilyId>(INITIAL[0].id);
+  const [memberId, setMemberIdState] = useState(parentOf(INITIAL[0]).id);
   const [night, setNight] = useState(readTheme);
   const [large, setLarge] = useState(false);
-  const [tm, setTmState] = useState<TMState>(FAMILIES.nowak.tm.defaults);
-  const [lang, setLang] = useState<"en" | "pl">("en");
+  const [tm, setTmState] = useState<TMState>(tmDefaults(INITIAL[0]));
   const [helpOpen, setHelpOpen] = useState(false);
+
+  useEffect(() => {
+    getFamilies()
+      .then((r) => {
+        setFamilies(r.families.map(toFamily));
+        setFamiliesSource(r.source);
+      })
+      .catch(() => setFamiliesSource("snapshot"));
+  }, []);
 
   useEffect(() => {
     document.documentElement.classList.toggle("night", night);
@@ -58,33 +76,43 @@ export function HeirloomProvider({ children }: { children: ReactNode }) {
     document.documentElement.classList.toggle("large", large);
   }, [large]);
 
-  const setFamily = useCallback((f: FamilyId) => {
-    setFamilyState(f);
-    setMemberIdState(parentOf(FAMILIES[f]).id);
-    setTmState(FAMILIES[f].tm.defaults);
-    setLang("en");
-  }, []);
+  const byId = useCallback((id: FamilyId) => families.find((f) => f.id === id) ?? families[0], [families]);
 
-  const setMemberId = useCallback((id: string) => {
-    setMemberIdState(id);
-    const m = Object.values(FAMILIES).flatMap((f) => f.members).find((x) => x.id === id);
-    if (!m?.speaksPolish) setLang("en");
-  }, []);
+  const setFamily = useCallback(
+    (f: FamilyId) => {
+      const fam = byId(f);
+      setFamilyState(fam.id);
+      setMemberIdState(parentOf(fam).id);
+      setTmState(tmDefaults(fam));
+    },
+    [byId],
+  );
+
+  const setMemberId = useCallback(
+    (id: string) => {
+      const fam = families.find((f) => f.members.some((m) => m.id === id));
+      if (fam && fam.id !== family) {
+        setFamilyState(fam.id);
+        setTmState(tmDefaults(fam));
+      }
+      setMemberIdState(id);
+    },
+    [families, family],
+  );
 
   const value = useMemo<HeirloomContextValue>(() => {
-    const familyData = FAMILIES[family];
+    const familyData = byId(family);
     const member = familyData.members.find((m) => m.id === memberId) ?? parentOf(familyData);
     return {
-      family, memberId: member.id, night, large, tm, lang, familyData, member,
+      families, familiesSource, family: familyData.id, familyData, memberId: member.id, member, night, large, tm,
       setFamily, setMemberId,
       toggleNight: () => setNight((n) => !n),
       toggleLarge: () => setLarge((l) => !l),
       setTm: (patch) => setTmState((s) => ({ ...s, ...patch })),
-      setLang,
       helpOpen, setHelpOpen,
       openHelp: () => setHelpOpen(true),
     };
-  }, [family, memberId, night, large, tm, lang, helpOpen, setFamily, setMemberId]);
+  }, [families, familiesSource, family, memberId, night, large, tm, helpOpen, byId, setFamily, setMemberId]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

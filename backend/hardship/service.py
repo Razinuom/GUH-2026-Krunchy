@@ -21,10 +21,13 @@ from .features import FEATURE_NAMES, FEATURES, compute_features, explain_value
 
 MODEL_DIR = Path(__file__).resolve().parent / "model"
 REPO = Path(__file__).resolve().parents[2]
-TX_PATH = Path(os.environ.get("HEIRLOOM_TX_PATH", REPO / "data" / "synthetic" / "transactions.csv"))
-MEMBERS_PATH = Path(os.environ.get("HEIRLOOM_MEMBERS_PATH", REPO / "data" / "synthetic" / "members.json"))
+# By default the model scores the shared Heirloom personas (backend.heirloom, via adapter.py), so
+# /hardship, /forecast, /timemachine and the voice coach all describe the same family.
+# Set both variables to score a different feed (e.g. an exported NatWest Bank of APIs history).
+TX_PATH = os.environ.get("HEIRLOOM_TX_PATH")
+MEMBERS_PATH = os.environ.get("HEIRLOOM_MEMBERS_PATH")
 HORIZONS = (30, 60, 90)
-BANDS = [(0.35, "high"), (0.10, "watch"), (0.0, "low")]
+BANDS = [(0.30, "high"), (0.10, "watch"), (0.0, "low")]  # same cut-offs as the 90-day forecast
 
 DISCLAIMER = ("Guidance, not regulated financial advice. Scores come from a model trained on "
               "synthetic households calibrated to ONS spending data.")
@@ -81,14 +84,19 @@ def model_report() -> dict:
     return json.loads(p.read_text()) if p.exists() else {}
 
 
-@lru_cache(maxsize=1)
+@lru_cache(maxsize=4)
+def _data_for(as_of):
+    if TX_PATH and MEMBERS_PATH:
+        tx = pd.read_csv(TX_PATH, parse_dates=["date"])
+        members = json.loads(Path(MEMBERS_PATH).read_text())
+        return tx, members
+    from . import adapter
+    return adapter.load(as_of)
+
+
 def _data():
-    if not TX_PATH.exists() or not MEMBERS_PATH.exists():
-        from .personas import write
-        write()
-    tx = pd.read_csv(TX_PATH, parse_dates=["date"])
-    members = json.loads(MEMBERS_PATH.read_text())
-    return tx, members
+    from backend.heirloom.synth import default_as_of
+    return _data_for(default_as_of())
 
 
 def members() -> dict:
@@ -141,7 +149,7 @@ def score_features(feats: dict[str, float], top_k: int = 5) -> dict:
         reasons.append(r)
 
     return {
-        "risk_score": int(round(p90 * 100)),
+        "risk_score": int(round(round(p90, 3) * 100)),  # from the same rounded value as overdraft_probability
         "band": band(p90),
         "overdraft_probability": round(p90, 3),
         "overdraft_probability_by_horizon": {f"{h}d": round(probs[h], 3) for h in HORIZONS},

@@ -1,6 +1,8 @@
 import { pct } from "@/lib/format";
-import { RISK_LABEL, riskLevel, type RiskLevel } from "@/lib/simulate";
+import type { RiskLevel } from "@/lib/types";
 import { cn } from "@/lib/utils";
+
+export const RISK_LABEL: Record<RiskLevel, string> = { low: "Low Risk", watch: "Watch", high: "High Risk" };
 
 export const RISK_STYLE: Record<RiskLevel, { fg: string; bg: string }> = {
   low: { fg: "var(--good)", bg: "var(--good-soft)" },
@@ -8,8 +10,8 @@ export const RISK_STYLE: Record<RiskLevel, { fg: string; bg: string }> = {
   high: { fg: "var(--critical)", bg: "var(--critical-soft)" },
 };
 
-export function RiskPill({ p, long, className }: { p: number; long?: boolean; className?: string }) {
-  const level = riskLevel(p);
+/** `level` is the backend's risk band (same cut-offs for the forecast and the hardship model). */
+export function RiskPill({ level, p, long, className }: { level: RiskLevel; p: number; long?: boolean; className?: string }) {
   const s = RISK_STYLE[level];
   return (
     <span

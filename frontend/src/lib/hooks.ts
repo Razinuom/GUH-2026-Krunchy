@@ -1,38 +1,60 @@
 import { useEffect, useState } from "react";
-import { getForecast, getTimeMachine, type TimeMachineRequest } from "./api";
-import { simulateForecast, simulateTimeMachine, type ForecastResult, type TimeMachineResult } from "./simulate";
+import { getForecast, getHardship, getTimeMachine } from "./api";
+import type { ForecastResult, HardshipResult, TimeMachineRequest, TimeMachineResult } from "./types";
+
+export type Loadable<T> = { data: T | null; loading: boolean; error: string | null };
 
 const forecastCache = new Map<string, ForecastResult>();
+const hardshipCache = new Map<string, HardshipResult>();
 
-/** Shows the local simulation straight away, then swaps in the backend result if it arrives. */
-export function useForecast(memberId: string) {
-  const [data, setData] = useState<ForecastResult>(() => forecastCache.get(memberId) ?? simulateForecast(memberId));
+const OFFLINE_MSG = "The Heirloom backend is not reachable and there is no saved result for this view. Start it with: uvicorn backend.main:app --port 8000";
+
+function useCached<T>(key: string, cache: Map<string, T>, load: () => Promise<T | null>): Loadable<T> {
+  const [state, setState] = useState<Loadable<T>>(() => ({ data: cache.get(key) ?? null, loading: !cache.has(key), error: null }));
   useEffect(() => {
     let live = true;
-    const cached = forecastCache.get(memberId) ?? simulateForecast(memberId);
-    setData(cached);
-    getForecast(memberId).then((r) => {
-      forecastCache.set(memberId, r);
-      if (live) setData(r);
-    });
+    const cached = cache.get(key);
+    setState({ data: cached ?? null, loading: !cached, error: null });
+    load()
+      .then((r) => {
+        if (!live) return;
+        if (r) {
+          cache.set(key, r);
+          setState({ data: r, loading: false, error: null });
+        } else setState({ data: cached ?? null, loading: false, error: cached ? null : OFFLINE_MSG });
+      })
+      .catch((e: Error) => live && setState({ data: cached ?? null, loading: false, error: e.message }));
     return () => {
       live = false;
     };
-  }, [memberId]);
-  return data;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [key]);
+  return state;
 }
 
+export function useForecast(memberId: string) {
+  return useCached(memberId, forecastCache, () => getForecast(memberId));
+}
+
+export function useHardship(memberId: string) {
+  return useCached(memberId, hardshipCache, () => getHardship(memberId));
+}
+
+/** Forecasts for several members at once (Family page). */
 export function useForecasts(ids: string[]) {
   const key = ids.join(",");
-  const [data, setData] = useState<Record<string, ForecastResult>>({});
+  const [data, setData] = useState<Record<string, ForecastResult | null>>({});
   useEffect(() => {
     let live = true;
-    const local = Object.fromEntries(ids.map((id) => [id, forecastCache.get(id) ?? simulateForecast(id)]));
-    setData(local);
-    Promise.all(ids.map((id) => getForecast(id))).then((rs) => {
-      rs.forEach((r) => forecastCache.set(r.member_id, r));
-      if (live) setData(Object.fromEntries(rs.map((r) => [r.member_id, r])));
-    });
+    setData(Object.fromEntries(ids.map((id) => [id, forecastCache.get(id) ?? null])));
+    ids.forEach((id) =>
+      getForecast(id)
+        .then((r) => {
+          if (r) forecastCache.set(id, r);
+          if (live) setData((d) => ({ ...d, [id]: r }));
+        })
+        .catch(() => live && setData((d) => ({ ...d, [id]: null }))),
+    );
     return () => {
       live = false;
     };
@@ -41,15 +63,29 @@ export function useForecasts(ids: string[]) {
   return data;
 }
 
+/**
+ * Time Machine: debounced while sliders move. Keeps showing the previous result until the new one
+ * arrives (`updating`), and reports when a scenario has no live or saved result (`unavailable`).
+ */
 export function useTimeMachine(req: TimeMachineRequest) {
-  const [data, setData] = useState<TimeMachineResult>(() => simulateTimeMachine(req));
   const key = JSON.stringify(req);
+  const [state, setState] = useState<{ data: TimeMachineResult | null; updating: boolean; unavailable: boolean; error: string | null }>({
+    data: null,
+    updating: true,
+    unavailable: false,
+    error: null,
+  });
   useEffect(() => {
     let live = true;
-    setData(simulateTimeMachine(req));
-    // debounce backend calls while a slider is dragged
+    setState((s) => ({ ...s, updating: true }));
     const t = setTimeout(() => {
-      getTimeMachine(req).then((r) => live && setData(r));
+      getTimeMachine(req)
+        .then((r) => {
+          if (!live) return;
+          if (r) setState({ data: r, updating: false, unavailable: false, error: null });
+          else setState((s) => ({ ...s, updating: false, unavailable: true }));
+        })
+        .catch((e: Error) => live && setState((s) => ({ ...s, updating: false, error: e.message })));
     }, 250);
     return () => {
       live = false;
@@ -57,5 +93,5 @@ export function useTimeMachine(req: TimeMachineRequest) {
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key]);
-  return data;
+  return state;
 }

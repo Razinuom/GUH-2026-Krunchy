@@ -94,18 +94,24 @@ def _persona_rows(p: Persona, start: date, end: date, rng: np.random.Generator) 
                 d += timedelta(days=7)
 
     # ---- bills
+    as_of = end + timedelta(days=1)
     for b in p.bills:
         if b.every_days:
             d = start + timedelta(days=int(rng.integers(0, b.every_days)))
             while d <= end:
-                add(d, -b.amount, b.category, b.merchant)
+                add(d, -b.amount_on(d, as_of), b.category, b.merchant)
                 d += timedelta(days=b.every_days)
             continue
         for y, m in _months(start, end):
             if b.months and m not in b.months:
                 continue
-            amt = b.amount * (ENERGY_SEASON[m] if b.seasonal_energy else 1.0)
-            add(date(y, m, min(b.day, calendar.monthrange(y, m)[1])), -amt, b.category, b.merchant)
+            d = date(y, m, min(b.day, calendar.monthrange(y, m)[1]))
+            amt = b.amount_on(d, as_of) * (ENERGY_SEASON[m] if b.seasonal_energy else 1.0)
+            add(d, -amt, b.category, b.merchant)
+
+    # ---- unexpected one-off costs in the history (category "one_off")
+    for days_before, amount, merchant in p.past_one_offs:
+        add(as_of - timedelta(days=days_before), -amount, "one_off", merchant)
 
     # ---- everyday spending, calibrated to LCF per-person weekly means
     lcf = cal["lcf"][p.status]["weekly_per_person"]
@@ -161,13 +167,20 @@ def write(as_of: date | None = None, seed: int = 42, path: Path = OUT) -> pd.Dat
 
 
 def ensure(as_of: date | None = None, path: Path = OUT) -> pd.DataFrame:
-    """Load the synthetic CSV, regenerating it if missing or stale (so the demo always ends 'yesterday')."""
+    """The shared transaction feed for `as_of`, always generated from the current personas (deterministic,
+    ~20 ms), so editing a persona can never leave a stale CSV behind. The CSV on disk is a copy for
+    inspection and is only rewritten when its contents change."""
     as_of = as_of or default_as_of()
-    if path.exists():
-        df = pd.read_csv(path, parse_dates=["date"])
-        if len(df) and df.date.max().date() == as_of - timedelta(days=1):
-            return df
-    return write(as_of, path=path)
+    df = generate(as_of)
+    text = df.to_csv(index=False, date_format="%Y-%m-%d")
+    try:
+        current = path.read_text() if path.exists() else None
+    except OSError:
+        current = None
+    if current != text:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text)
+    return df
 
 
 if __name__ == "__main__":

@@ -19,7 +19,7 @@ from .personas import personas, scheduled_changes
 N_PATHS = 2000
 BLOCK = 7                 # block bootstrap length (days) - keeps the weekly rhythm
 VARIABLE_WINDOW = 180     # days of everyday spending to resample from
-RISK_BANDS = ((0.10, "ok"), (0.30, "watch"), (1.01, "high"))
+RISK_BANDS = ((0.10, "low"), (0.30, "watch"), (1.01, "high"))  # same cut-offs as backend.hardship
 SPEND_CATEGORIES = {"groceries", "eating_out", "transport", "shopping", "leisure", "health", "misc", "fuel"}
 CATEGORY_LABEL = {"groceries": "Groceries", "eating_out": "Eating out & takeaways", "transport": "Travel",
                   "shopping": "Shopping", "leisure": "Leisure & entertainment", "health": "Health",
@@ -145,7 +145,8 @@ def build_profile(member_id: str, tx: pd.DataFrame, as_of: date, horizon: int) -
     flows = detect_recurring(tx, as_of)
     recurring_keys = {(f.merchant, f.sign) for f in flows}
     is_rec = [(m, int(np.sign(a))) in recurring_keys for m, a in zip(tx.merchant, tx.amount)]
-    var = tx[~np.array(is_rec)]
+    # one-off shocks (a car repair) are not resampled: a single event would land in about half the paths
+    var = tx[~np.array(is_rec) & (tx.category != "one_off").to_numpy()]
 
     end = as_of - timedelta(days=1)
     win_start = end - timedelta(days=VARIABLE_WINDOW - 1)
@@ -397,7 +398,8 @@ def forecast(member_id: str, tx: pd.DataFrame, as_of: date, horizon: int = 90, n
                      for c in changes if c["kind"] == "one_off" and (c["date"] - as_of).days < 14],
         "assumptions": {
             "method": f"Monte Carlo, {n} simulated paths; recurring payments projected from history, "
-                      f"everyday spending resampled in {BLOCK}-day blocks from the last {VARIABLE_WINDOW} days",
+                      f"everyday spending resampled in {BLOCK}-day blocks from the last {VARIABLE_WINDOW} days "
+                      "(one-off costs such as repairs are excluded)",
             "overdraft_definition": "Balance below £0 on any day in the horizon (arranged overdraft not counted)",
             "reasons_method": "Shapley attribution over the simulator: drivers are switched off in every "
                               "combination and the chance of going overdrawn is re-measured on the same "
@@ -408,6 +410,7 @@ def forecast(member_id: str, tx: pd.DataFrame, as_of: date, horizon: int = 90, n
                                   for c in changes],
             "seasonal_adjustment": {k: round(v, 2) for k, v in profile.seasonal.items()},
             "history_days": profile.history_days,
+            "paths": n,
             "seed": seed,
             "disclaimer": DISCLAIMER,
         },

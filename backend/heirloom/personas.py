@@ -22,6 +22,13 @@ class Bill:
     every_days: int | None = None   # e.g. 14 for fortnightly BNPL
     months: tuple[int, ...] | None = None  # e.g. council tax Apr-Jan
     seasonal_energy: bool = False
+    # (days before as_of, new amount): the bill changed amount in the past, e.g. a rent rise
+    changed: tuple[int, float] | None = None
+
+    def amount_on(self, d: date, as_of: date) -> float:
+        if self.changed and d >= as_of - timedelta(days=self.changed[0]):
+            return self.changed[1]
+        return self.amount
 
 
 @dataclass
@@ -51,6 +58,15 @@ class Persona:
     bills: list[Bill]
     category_scale: dict[str, float] = field(default_factory=dict)
     extra_weekly: dict[str, float] = field(default_factory=dict)  # e.g. courier fuel
+    savings_balance: float = 0.0   # savings pot outside the current account (Time Machine draws gifts from it)
+    # unexpected one-off costs in the history: (days before as_of, amount, merchant)
+    past_one_offs: list[tuple[int, float, str]] = field(default_factory=list)
+    generation: int = 2            # 1 grandparent, 2 parent, 3 young adult
+    languages: tuple[str, ...] = ("en",)
+
+    @property
+    def first_name(self) -> str:
+        return self.name.split()[0]
 
 
 def _phone(p_household: float, scale: float = 1.0) -> float:
@@ -68,10 +84,11 @@ def personas() -> dict[str, Persona]:
                        Bill("OCTOPUS ENERGY", "utilities", 96, 15, seasonal_energy=True),
                        Bill("YORKSHIRE WATER", "utilities", 38, 5),
                        Bill("TV LICENSING", "subscriptions", 14.95, 1),
-                       Bill("EE MOBILE", "phone", 18, 9)]),
-        Persona("tomasz", "Tomasz Nowak", "nowak", 46, "Warehouse supervisor, renting", "employee_ft", 1.3, 0.65, 2450,
+                       Bill("EE MOBILE", "phone", 18, 9)],
+                savings_balance=62000, generation=1, languages=("pl", "en")),
+        Persona("tomasz", "Tomasz Nowak", "nowak", 46, "Warehouse supervisor, renting", "employee_ft", 1.3, 0.65, 2350,
                 incomes=[Income("salary", "NORTHGATE LOGISTICS SALARY", ashe_percentile="p40", day=28)],
-                bills=[Bill("GREENWAY LETTINGS RENT", "housing", 1295, 1),
+                bills=[Bill("GREENWAY LETTINGS RENT", "housing", 1295, 1, changed=(68, 1525)),
                        Bill("CITY COUNCIL TAX", "housing", 165, 1, months=ct_months),
                        Bill("OCTOPUS ENERGY", "utilities", 112, 15, seasonal_energy=True),
                        Bill("YORKSHIRE WATER", "utilities", 42, 5),
@@ -79,7 +96,9 @@ def personas() -> dict[str, Persona]:
                        Bill("VIRGIN MEDIA", "subscriptions", 32, 18),
                        Bill("NETFLIX", "subscriptions", 12.99, 22),
                        Bill("PUREGYM", "subscriptions", 29.99, 3),
-                       Bill("VODAFONE", "phone", _phone(1.3), 9)]),
+                       Bill("VODAFONE", "phone", _phone(1.3), 9)],
+                savings_balance=1800, generation=2, languages=("pl", "en"),
+                past_one_offs=[(41, 680.0, "AUTOFIX GARAGE CAR REPAIR")]),
         Persona("zofia", "Zofia Nowak", "nowak", 22, "Junior marketing assistant, flatshare", "employee_ft", 1.0, 1.0, 1400,
                 incomes=[Income("salary", "BRIGHTLANE MEDIA SALARY", ashe_percentile="p30", day=25)],
                 bills=[Bill("S PATEL ROOM RENT", "housing", 895, 1),
@@ -88,8 +107,9 @@ def personas() -> dict[str, Persona]:
                        Bill("GIFFGAFF", "phone", 15, 9),
                        Bill("SPOTIFY", "subscriptions", 11.99, 14),
                        Bill("KLARNA", "debt", 38, every_days=14)],
-                category_scale={"eating_out": 1.8, "leisure": 1.15, "shopping": 1.0, "transport": 0.6}),
-        Persona("grace", "Grace Okafor", "okafor", 68, "Retired care assistant, social housing", "retired", 1.0, 0.4, 810,
+                category_scale={"eating_out": 1.8, "leisure": 1.15, "shopping": 1.0, "transport": 0.6},
+                savings_balance=3200, generation=3, languages=("en", "pl")),
+        Persona("grace", "Grace Okafor", "okafor", 68, "Retired care assistant, social housing", "retired", 1.0, 0.36, 1500,
                 incomes=[Income("state_pension", "DWP STATE PENSION", state_pension_share=0.82),
                          Income("monthly", "DWP PENSION CREDIT", amount=128, day=2)],
                 bills=[Bill("HARBOUR HOUSING ASSOC", "housing", 420, 1),
@@ -97,7 +117,8 @@ def personas() -> dict[str, Persona]:
                        Bill("EDF ENERGY", "utilities", 85, 15, seasonal_energy=True),
                        Bill("SEVERN TRENT WATER", "utilities", 30, 5),
                        Bill("LEBARA MOBILE", "phone", 10, 9),
-                       Bill("GOLDEN LEAVES FUNERAL PLAN", "insurance", 24, 20)]),
+                       Bill("GOLDEN LEAVES FUNERAL PLAN", "insurance", 24, 20)],
+                savings_balance=3800, generation=1),
         Persona("daniel", "Daniel Okafor", "okafor", 44, "Self-employed courier, variable income", "self_employed", 1.5, 0.5, 1150,
                 incomes=[Income("gig_weekly", "SWIFTDROP COURIER PAYOUT", amount=700, sigma=0.38, miss_prob=0.06),
                          Income("monthly", "A OKAFOR BOARD", amount=200, day=2)],
@@ -110,14 +131,14 @@ def personas() -> dict[str, Persona]:
                        Bill("COURIERCOVER VAN INSURANCE", "insurance", 96, 10),
                        Bill("THREE MOBILE", "phone", 30, 9)],
                 category_scale={"transport": 0.2},
-                extra_weekly={"fuel": 105}),
-        Persona("ada", "Ada Okafor", "okafor", 19, "Electrical apprentice, lives with dad", "employee_ft", 1.0, 0.75, 570,
+                extra_weekly={"fuel": 105}, savings_balance=0, generation=2),
+        Persona("ada", "Ada Okafor", "okafor", 19, "Electrical apprentice, lives with dad", "employee_ft", 1.0, 0.75, 1150,
                 incomes=[Income("salary", "SPARKWELL ELECTRICAL SALARY", ashe_percentile="p10", day=28)],
                 bills=[Bill("D OKAFOR BOARD", "family", 200, 2),
                        Bill("METRO TRAVEL PASS", "transport", 89, 1),
                        Bill("SMARTY MOBILE", "phone", 12, 9),
                        Bill("CLEARPAY", "debt", 27, every_days=14)],
-                category_scale={"transport": 0.25})]
+                category_scale={"transport": 0.25}, savings_balance=300, generation=3)]
     return {p.id: p for p in ps}
 
 
@@ -149,10 +170,8 @@ def scheduled_changes(member_id: str, as_of: date) -> list[dict]:
     kind=one_off: a single payment on `date`.
     """
     if member_id == "tomasz":
+        # (his rent already rose from £1,295 to £1,525 in September: that's in the transaction history)
         return [
-            {"kind": "amount_change", "merchant": "GREENWAY LETTINGS RENT", "new_amount": -1525.0,
-             "from_date": _next_month_day(as_of, 1), "feature": "Rent increase",
-             "detail": "Rent rises from £1,295 to £1,525 a month"},
             {"kind": "one_off", "date": as_of + timedelta(days=40), "amount": -742.0,
              "feature": "Car insurance renewal", "detail": "Annual car insurance due"},
         ]

@@ -45,7 +45,8 @@ def test_band_is_ordered_and_sized(family_id, timing):
         assert band["p10"] <= band["p50"] <= band["p90"]
     assert 0 <= r["p_deposit_by_target"] <= 1
     assert 0 <= r["p_parent_floor_safe"] <= 1
-    assert r["genz_band"][0] == {"p10": 0.0, "p50": 0.0, "p90": 0.0}  # nothing received before year 0
+    start = r["starting_savings"]["young_adult"]  # year 0 = what the young adult has already saved
+    assert r["genz_band"][0] == {"p10": start, "p25": start, "p50": start, "p75": start, "p90": start}
 
 
 def test_same_seed_same_answer():

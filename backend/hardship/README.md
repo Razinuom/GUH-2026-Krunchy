@@ -7,10 +7,18 @@ Risk score that a member's current account goes below £0 in the next 30/60/90 d
 ```bash
 pip install -r requirements.txt
 python -m backend.hardship.train      # ~70s; already trained, models are in model/
-python -m backend.hardship.personas   # regenerates data/synthetic/ (already committed)
 uvicorn backend.main:app --reload
 pytest tests/test_hardship.py
 ```
+
+## Data: the shared Heirloom personas
+
+`/hardship` scores the same six personas and transaction feed as `/forecast`, `/timemachine` and the voice coach
+(`backend/heirloom`), via `adapter.py`, which maps our categories to this model's (e.g. Klarna/Clearpay -> `bnpl`,
+phone -> `communication`, savings -> `savings_transfer`, council tax -> `council_tax`). Balances come from the same feed,
+so every page shows one consistent family. Set `HEIRLOOM_TX_PATH` and `HEIRLOOM_MEMBERS_PATH` to score a different
+feed instead. `python -m backend.hardship.personas` still builds the model's original standalone households, now into
+`data/synthetic/hardship_personas/` (reference only, never served).
 
 ## API
 
@@ -20,7 +28,7 @@ pytest tests/test_hardship.py
 {
   "member_id": "tomasz", "name": "Tomasz Nowak", "balance": 2461.98, "as_of": "2026-11-06",
   "risk_score": 15,                        // 0-100 = P(overdrawn within 90 days) x 100
-  "band": "watch",                         // low <10 | watch 10-35 | high >=35
+  "band": "watch",                         // low <10 | watch 10-30 | high >=30 (same cut-offs as /forecast)
   "overdraft_probability": 0.152,          // drop-in for /forecast's overdraft_probability
   "overdraft_probability_by_horizon": {"30d": 0.02, "60d": 0.069, "90d": 0.152},
   "baseline_probability": 0.178,           // average household; reason impacts add up to the gap
@@ -43,16 +51,18 @@ pytest tests/test_hardship.py
 
 From Python (e.g. inside `/forecast`): `from backend.hardship.service import assess_member`.
 
-## Demo personas (data/synthetic)
+## Demo personas (shared with the forecast, demo date 2026-11-07)
 
-| Member | Score | Band | Story |
-|---|---|---|---|
-| halina | 0 | low | Owns her flat, savings buffer |
-| tomasz | 15 | watch | Fixed-rate mortgage ended, +£210/month, thin buffer |
-| zofia | 24 | watch | Graduate renting, buy now pay later at 10% of income |
-| grace | 7 | low | Pension + Pension Credit, essentials take 68% of income |
-| daniel | 94 | high | Courier, volatile and falling income, briefly overdrawn: Guardian escalates (StepChange, MoneyHelper) |
-| ada | 2 | low | Apprentice at home, saving into a LISA |
+The forecast and this model agree on every band (enforced by `backend/tests/test_integration.py`).
+
+| Member | Score | Band | 90-day forecast | Story |
+|---|---|---|---|---|
+| halina | 0 | low | 0% low | Homeowner, two pensions, £62k savings |
+| tomasz | 13 | watch | 14% watch | Rent up £230 in September, car repair in October, car insurance due in December |
+| zofia | 8 | low | 8% low | Graduate in a flatshare, Klarna, high eating-out spend |
+| grace | 6 | low | 0% low | State Pension + Pension Credit, social housing |
+| daniel | 34 | high | 88% high | Courier with variable income, van finance and a January tax bill: Guardian escalates |
+| ada | 2 | low | 0% low | Apprentice at home, saving monthly |
 
 ## How it works
 
