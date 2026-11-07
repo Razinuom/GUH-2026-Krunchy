@@ -1,9 +1,6 @@
 data/raw/hpi/
-.pytest_cache
-backend/__pycache__
-backend/heirloom/__pycache__
-backend/tests/__pycache__
+__pycache__/
+.pytest_cache/
 guh
 .env
 data/voice/
-backend/voice/__pycache__

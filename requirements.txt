@@ -6,6 +6,8 @@ beautifulsoup4
 yfinance
 # backend
 numpy
+scikit-learn
+lightgbm
 fastapi
 uvicorn
 pydantic

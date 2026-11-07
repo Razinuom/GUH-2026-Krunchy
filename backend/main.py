@@ -7,6 +7,7 @@ from datetime import timedelta
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+from backend.hardship.api import router as hardship_router
 from backend.heirloom import service, synth
 from backend.heirloom.personas import personas
 from backend.heirloom.schemas import ForecastRequest, ForecastResponse, MemberSummary
@@ -22,6 +23,7 @@ async def lifespan(_app):
 app = FastAPI(title="Heirloom API", version="0.2.0", lifespan=lifespan,
               description="Guidance, not regulated financial advice.")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.include_router(hardship_router)
 app.include_router(voice_router)
 
 
