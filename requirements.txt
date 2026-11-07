@@ -1,12 +1,16 @@
+# data fetch (scripts/fetch_open_data.py)
 requests
 pandas
 openpyxl
 beautifulsoup4
 yfinance
+# backend
 numpy
 scikit-learn
 lightgbm
 fastapi
 uvicorn
+pydantic
+# tests
 pytest
 httpx
