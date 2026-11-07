@@ -1,5 +1,14 @@
+# data fetch (scripts/fetch_open_data.py)
 requests
 pandas
-openyxl
-beautifulsoup4 
+openpyxl
+beautifulsoup4
 yfinance
+# backend
+numpy
+fastapi
+uvicorn
+pydantic
+# tests
+pytest
+httpx
