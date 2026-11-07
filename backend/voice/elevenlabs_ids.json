@@ -1,0 +1,9 @@
+{
+  "tools": {
+    "get_cash_forecast": "tool_3601m6v6zzfyfs9vvmr3t8cakanh",
+    "what_if_payment": "tool_8701m6v6zzmvfgvvkr9t4r8h1gw1",
+    "lookup_money_rules": "tool_0201m6v6zzscey3ssqsy2epzjpp3",
+    "talk_to_a_person": "tool_7601m6v6zzy5esyt4t66ec0ak1eb"
+  },
+  "agent_id": "agent_1701m6v7002kfnwve1wmz56sg42q"
+}

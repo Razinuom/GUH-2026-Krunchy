@@ -5,7 +5,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 from backend import main
-from backend.heirloom import calibration, forecast as fc, synth
+from backend.heirloom import calibration, forecast as fc, service, synth
 from backend.heirloom.personas import personas
 
 AS_OF = date(2026, 11, 7)
@@ -111,13 +111,11 @@ def test_removing_a_scheduled_bill_lowers_risk(tx, monkeypatch):
 @pytest.fixture()
 def client(tx, monkeypatch):
     monkeypatch.setenv("HEIRLOOM_AS_OF", AS_OF.isoformat())
-    monkeypatch.setattr(main, "load_transactions", lambda as_of: tx)
-    main._tx_for.cache_clear()
-    main._forecast_cached.cache_clear()
+    monkeypatch.setattr(service, "load_transactions", lambda as_of: tx)
+    service.clear_caches()
     with TestClient(main.app) as c:
         yield c
-    main._tx_for.cache_clear()
-    main._forecast_cached.cache_clear()
+    service.clear_caches()
 
 
 def test_api_contract(client):

@@ -2,3 +2,5 @@ data/raw/hpi/
 __pycache__/
 .pytest_cache/
 guh
+.env
+data/voice/
